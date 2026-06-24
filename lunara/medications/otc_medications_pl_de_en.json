@@ -1,13 +1,328 @@
-﻿{
+{
   "version": "1.0.0",
   "updatedAt": "2026-06-24",
-  "languageSupport": ["pl", "de", "en"],
+  "languageSupport": [
+    "pl",
+    "de",
+    "en"
+  ],
   "source": "vitree-content-hub",
   "contentType": "public_educational_content",
   "disclaimer": {
-    "pl": "Treści mają charakter edukacyjny i organizacyjny. Nie zastępują lekarza, położnej, farmaceuty, prawnika ani urzędu.",
-    "de": "Die Inhalte dienen nur der Bildung und Organisation. Sie ersetzen keine Ärztin, keinen Arzt, keine Hebamme, keine Apotheke, keine Rechtsberatung und keine Behörde.",
-    "en": "This content is educational and organizational only. It does not replace a doctor, midwife, pharmacist, legal advisor or official authority."
+    "pl": "Niniejsze treści mają charakter wyłącznie edukacyjny i ogólnoinformacyjny w ramach aplikacji LUNARA. Nie stanowią porady medycznej, diagnozy ani rekomendacji terapeutycznej i nie mogą być podstawą decyzji o stosowaniu jakiegokolwiek leku w czasie ciąży. Przed zastosowaniem jakiegokolwiek leku, w tym leku dostępnego bez recepty, należy zawsze przeczytać ulotkę dołączoną do opakowania oraz skonsultować się z lekarzem, położną lub farmaceutą. Bezpieczeństwo stosowania leku zależy od indywidualnego stanu zdrowia, tygodnia ciąży i innych czynników, które może ocenić wyłącznie pracownik medyczny.",
+    "de": "Diese Inhalte dienen ausschließlich allgemeinen Bildungszwecken innerhalb der LUNARA-App. Sie stellen keine medizinische Beratung, Diagnose oder Behandlungsempfehlung dar und dürfen nicht als Grundlage für die Entscheidung über die Anwendung eines Arzneimittels in der Schwangerschaft verwendet werden. Lesen Sie vor der Anwendung jedes Arzneimittels, einschließlich frei verkäuflicher Produkte, stets die Packungsbeilage und konsultieren Sie Ihren Arzt, Ihre Hebamme oder Ihre Apotheke. Die Sicherheit eines Arzneimittels hängt vom individuellen Gesundheitszustand, dem Schwangerschaftsalter und weiteren Faktoren ab, die nur eine medizinische Fachperson beurteilen kann.",
+    "en": "This content is provided for general educational purposes only within the LUNARA app. It does not constitute medical advice, diagnosis, or treatment recommendations, and must not be used to decide whether or how to use any medication during pregnancy. Always read the official patient information leaflet and consult your doctor, midwife, or pharmacist before using any medication, including over-the-counter products, during pregnancy. Medication safety can depend on individual health conditions, gestational age, and other factors that only a healthcare professional can assess."
   },
-  "items": []
+  "items": [
+    {
+      "id": "paracetamol_oral_pain_fever",
+      "countryCodes": [
+        "PL",
+        "DE"
+      ],
+      "brandNames": [
+        "Apap",
+        "Panadol",
+        "Efferalgan",
+        "Paracetamol-ratiopharm",
+        "Ben-u-ron"
+      ],
+      "activeIngredientPl": "Paracetamol (acetaminofen)",
+      "activeIngredientDe": "Paracetamol (Acetaminophen)",
+      "activeIngredientEn": "Paracetamol (acetaminophen)",
+      "category": "pain_fever_paracetamol",
+      "pregnancySafetyLevel": "cautious_preferred",
+      "weekRule": "no_specific_week_restriction_consult_professional",
+      "safetyMessagePl": "Paracetamol jest często uznawany za lek przeciwbólowy i przeciwgorączkowy pierwszego wyboru w ciąży, gdy zastosowanie leku jest konieczne, jednak zawsze zgodnie z ulotką oraz po konsultacji z lekarzem, położną lub farmaceutą. Lek powinien być stosowany w najniższej skutecznej dawce i przez najkrótszy możliwy czas. Ta aplikacja nie podaje dawkowania – szczegóły dawkowania znajdują się w ulotce leku.",
+      "safetyMessageDe": "Paracetamol gilt häufig als Schmerz- und Fiebermittel der ersten Wahl in der Schwangerschaft, wenn eine Anwendung notwendig ist – jedoch stets gemäß Packungsbeilage und nach Rücksprache mit Arzt, Hebamme oder Apotheke. Es sollte in der niedrigsten wirksamen Dosis und so kurz wie möglich angewendet werden. Diese App enthält keine Dosierungsangaben – Einzelheiten zur Dosierung finden Sie in der Packungsbeilage.",
+      "safetyMessageEn": "Paracetamol is commonly considered a first-choice option for pain or fever in pregnancy when medication is needed, but only as described in the leaflet and after checking with your doctor, midwife, or pharmacist. It should be used at the lowest effective amount for the shortest time necessary. This app does not provide dosing information — see the package leaflet for dosing details.",
+      "redFlagMessagePl": "Natychmiast skontaktuj się z lekarzem, położną lub pogotowiem, jeśli wystąpi: krwawienie z dróg rodnych, silny ból brzucha, wysoka gorączka, regularne skurcze macicy, zmniejszone lub nieobecne ruchy dziecka, silny lub utrzymujący się ból głowy, zaburzenia widzenia (np. mroczki, błyski przed oczami), objawy wysokiego ciśnienia krwi (np. silny ból głowy z obrzękami) lub objawy reakcji alergicznej (wysypka, obrzęk twarzy lub gardła, trudności w oddychaniu). Nie czekaj, czy objawy ustąpią samoistnie.",
+      "redFlagMessageDe": "Suchen Sie sofort ärztliche Hilfe auf (Arzt, Hebamme oder Notruf), wenn Folgendes auftritt: vaginale Blutungen, starke Bauchschmerzen, hohes Fieber, regelmäßige Wehen oder Kontraktionen, verringerte oder fehlende Kindsbewegungen, starke oder anhaltende Kopfschmerzen, Sehstörungen (z. B. Augenflimmern, verschwommenes Sehen), Anzeichen von hohem Blutdruck (z. B. starke Kopfschmerzen mit Schwellungen) oder Anzeichen einer allergischen Reaktion (Hautausschlag, Schwellung von Gesicht oder Rachen, Atembeschwerden). Warten Sie nicht ab, ob die Symptome von selbst verschwinden.",
+      "redFlagMessageEn": "Seek immediate medical attention (call your doctor, midwife, or emergency services) if you experience: vaginal bleeding, severe abdominal pain, high fever, regular contractions, reduced or absent baby movements, severe or persistent headache, vision problems (e.g. blurred vision, flashing lights), signs of high blood pressure (e.g. severe headache with swelling), or signs of an allergic reaction (rash, swelling of the face or throat, difficulty breathing). Do not wait to see if symptoms improve on their own.",
+      "notesPl": "Dostępny pod różnymi nazwami handlowymi w Polsce i Niemczech. Zawsze sprawdzaj skład innych przyjmowanych leków, aby uniknąć podwójnego dawkowania paracetamolu (np. w lekach na przeziębienie).",
+      "notesDe": "Unter verschiedenen Handelsnamen in Polen und Deutschland erhältlich. Prüfen Sie immer die Inhaltsstoffe weiterer eingenommener Arzneimittel, um eine doppelte Einnahme von Paracetamol zu vermeiden (z. B. in Grippemitteln).",
+      "notesEn": "Sold under various brand names in Poland and Germany. Always check the ingredients of other medicines you take to avoid accidentally doubling up on paracetamol (e.g. in cold and flu products)."
+    },
+    {
+      "id": "ibuprofen_nsaid_pain_fever",
+      "countryCodes": [
+        "PL",
+        "DE"
+      ],
+      "brandNames": [
+        "Ibuprom",
+        "Ibum",
+        "Nurofen",
+        "Ibuflam",
+        "Ibuprofen-ratiopharm"
+      ],
+      "activeIngredientPl": "Ibuprofen",
+      "activeIngredientDe": "Ibuprofen",
+      "activeIngredientEn": "Ibuprofen",
+      "category": "nsaid_pain_fever",
+      "pregnancySafetyLevel": "avoid_self_use",
+      "weekRule": "avoid_from_week_20_unless_doctor_advises",
+      "safetyMessagePl": "Ibuprofen i inne NLPZ nie są zalecane do samodzielnego stosowania w ciąży. Szczególnie należy ich unikać od około 20. tygodnia ciąży, chyba że lekarz wyraźnie zaleci inaczej. O każdym zastosowaniu w ciąży decyduje lekarz, położna lub farmaceut.",
+      "safetyMessageDe": "Ibuprofen und andere NSAR werden in der Schwangerschaft nicht zur eigenständigen Anwendung empfohlen. Insbesondere ab etwa der 20. Schwangerschaftswoche sollten sie vermieden werden, sofern nicht ausdrücklich vom Arzt angeordnet. Über jede Anwendung in der Schwangerschaft entscheidet Arzt, Hebamme oder Apotheke.",
+      "safetyMessageEn": "Ibuprofen and other NSAIDs are not recommended for self-use in pregnancy. They should especially be avoided from around week 20 of pregnancy onward, unless a doctor specifically advises otherwise. Any use during pregnancy should be decided by your doctor, midwife, or pharmacist.",
+      "redFlagMessagePl": "Natychmiast skontaktuj się z lekarzem, położną lub pogotowiem, jeśli wystąpi: krwawienie z dróg rodnych, silny ból brzucha, wysoka gorączka, regularne skurcze macicy, zmniejszone lub nieobecne ruchy dziecka, silny lub utrzymujący się ból głowy, zaburzenia widzenia (np. mroczki, błyski przed oczami), objawy wysokiego ciśnienia krwi (np. silny ból głowy z obrzękami) lub objawy reakcji alergicznej (wysypka, obrzęk twarzy lub gardła, trudności w oddychaniu). Nie czekaj, czy objawy ustąpią samoistnie.",
+      "redFlagMessageDe": "Suchen Sie sofort ärztliche Hilfe auf (Arzt, Hebamme oder Notruf), wenn Folgendes auftritt: vaginale Blutungen, starke Bauchschmerzen, hohes Fieber, regelmäßige Wehen oder Kontraktionen, verringerte oder fehlende Kindsbewegungen, starke oder anhaltende Kopfschmerzen, Sehstörungen (z. B. Augenflimmern, verschwommenes Sehen), Anzeichen von hohem Blutdruck (z. B. starke Kopfschmerzen mit Schwellungen) oder Anzeichen einer allergischen Reaktion (Hautausschlag, Schwellung von Gesicht oder Rachen, Atembeschwerden). Warten Sie nicht ab, ob die Symptome von selbst verschwinden.",
+      "redFlagMessageEn": "Seek immediate medical attention (call your doctor, midwife, or emergency services) if you experience: vaginal bleeding, severe abdominal pain, high fever, regular contractions, reduced or absent baby movements, severe or persistent headache, vision problems (e.g. blurred vision, flashing lights), signs of high blood pressure (e.g. severe headache with swelling), or signs of an allergic reaction (rash, swelling of the face or throat, difficulty breathing). Do not wait to see if symptoms improve on their own.",
+      "notesPl": "NLPZ obecne w wielu lekach przeciwbólowych i przeciwgorączkowych dostępnych bez recepty – sprawdzaj skład przed użyciem jakiegokolwiek preparatu.",
+      "notesDe": "NSAR sind in vielen frei verkäuflichen Schmerz- und Fiebermitteln enthalten – prüfen Sie vor der Anwendung stets die Inhaltsstoffe jedes Präparats.",
+      "notesEn": "NSAIDs are present in many over-the-counter pain and fever products — check the active ingredients of any product before use."
+    },
+    {
+      "id": "diclofenac_nsaid_pain_fever",
+      "countryCodes": [
+        "PL",
+        "DE"
+      ],
+      "brandNames": [
+        "Voltaren",
+        "Diclofenac-ratiopharm"
+      ],
+      "activeIngredientPl": "Diklofenak",
+      "activeIngredientDe": "Diclofenac",
+      "activeIngredientEn": "Diclofenac",
+      "category": "nsaid_pain_fever",
+      "pregnancySafetyLevel": "avoid_self_use",
+      "weekRule": "not_for_self_use_any_trimester",
+      "safetyMessagePl": "Diklofenak to NLPZ, którego nie należy stosować samodzielnie w ciąży, niezależnie od trymestru. Decyzję o zastosowaniu może podjąć wyłącznie lekarz, biorąc pod uwagę indywidualną sytuację zdrowotną.",
+      "safetyMessageDe": "Diclofenac ist ein NSAR, das in der Schwangerschaft nicht eigenständig angewendet werden sollte, unabhängig vom Trimester. Über eine Anwendung kann ausschließlich ein Arzt unter Berücksichtigung der individuellen Gesundheitssituation entscheiden.",
+      "safetyMessageEn": "Diclofenac is an NSAID that should not be used on a self-care basis at any stage of pregnancy. Any decision to use it can only be made by a doctor, taking individual health circumstances into account.",
+      "redFlagMessagePl": "Natychmiast skontaktuj się z lekarzem, położną lub pogotowiem, jeśli wystąpi: krwawienie z dróg rodnych, silny ból brzucha, wysoka gorączka, regularne skurcze macicy, zmniejszone lub nieobecne ruchy dziecka, silny lub utrzymujący się ból głowy, zaburzenia widzenia (np. mroczki, błyski przed oczami), objawy wysokiego ciśnienia krwi (np. silny ból głowy z obrzękami) lub objawy reakcji alergicznej (wysypka, obrzęk twarzy lub gardła, trudności w oddychaniu). Nie czekaj, czy objawy ustąpią samoistnie.",
+      "redFlagMessageDe": "Suchen Sie sofort ärztliche Hilfe auf (Arzt, Hebamme oder Notruf), wenn Folgendes auftritt: vaginale Blutungen, starke Bauchschmerzen, hohes Fieber, regelmäßige Wehen oder Kontraktionen, verringerte oder fehlende Kindsbewegungen, starke oder anhaltende Kopfschmerzen, Sehstörungen (z. B. Augenflimmern, verschwommenes Sehen), Anzeichen von hohem Blutdruck (z. B. starke Kopfschmerzen mit Schwellungen) oder Anzeichen einer allergischen Reaktion (Hautausschlag, Schwellung von Gesicht oder Rachen, Atembeschwerden). Warten Sie nicht ab, ob die Symptome von selbst verschwinden.",
+      "redFlagMessageEn": "Seek immediate medical attention (call your doctor, midwife, or emergency services) if you experience: vaginal bleeding, severe abdominal pain, high fever, regular contractions, reduced or absent baby movements, severe or persistent headache, vision problems (e.g. blurred vision, flashing lights), signs of high blood pressure (e.g. severe headache with swelling), or signs of an allergic reaction (rash, swelling of the face or throat, difficulty breathing). Do not wait to see if symptoms improve on their own.",
+      "notesPl": "Dostępny w postaci tabletek, czopków, żeli i plastrów – nawet formy stosowane na skórę wymagają konsultacji z lekarzem lub farmaceutą w ciąży.",
+      "notesDe": "Erhältlich als Tabletten, Zäpfchen, Gele und Pflaster – auch äußerlich angewendete Formen sollten in der Schwangerschaft mit Arzt oder Apotheke besprochen werden.",
+      "notesEn": "Available as tablets, suppositories, gels, and patches — even topical forms should be discussed with a doctor or pharmacist during pregnancy."
+    },
+    {
+      "id": "naproxen_nsaid_pain_fever",
+      "countryCodes": [
+        "PL",
+        "DE"
+      ],
+      "brandNames": [
+        "Naproxen"
+      ],
+      "activeIngredientPl": "Naproksen",
+      "activeIngredientDe": "Naproxen",
+      "activeIngredientEn": "Naproxen",
+      "category": "nsaid_pain_fever",
+      "pregnancySafetyLevel": "avoid_self_use",
+      "weekRule": "not_for_self_use_any_trimester",
+      "safetyMessagePl": "Naproksen jest NLPZ i nie powinien być stosowany samodzielnie w czasie ciąży. Wszelkie zastosowanie wymaga oceny lekarza.",
+      "safetyMessageDe": "Naproxen ist ein NSAR und sollte in der Schwangerschaft nicht eigenständig angewendet werden. Jede Anwendung erfordert eine ärztliche Einschätzung.",
+      "safetyMessageEn": "Naproxen is an NSAID and should not be used on a self-care basis during pregnancy. Any use requires assessment by a doctor.",
+      "redFlagMessagePl": "Natychmiast skontaktuj się z lekarzem, położną lub pogotowiem, jeśli wystąpi: krwawienie z dróg rodnych, silny ból brzucha, wysoka gorączka, regularne skurcze macicy, zmniejszone lub nieobecne ruchy dziecka, silny lub utrzymujący się ból głowy, zaburzenia widzenia (np. mroczki, błyski przed oczami), objawy wysokiego ciśnienia krwi (np. silny ból głowy z obrzękami) lub objawy reakcji alergicznej (wysypka, obrzęk twarzy lub gardła, trudności w oddychaniu). Nie czekaj, czy objawy ustąpią samoistnie.",
+      "redFlagMessageDe": "Suchen Sie sofort ärztliche Hilfe auf (Arzt, Hebamme oder Notruf), wenn Folgendes auftritt: vaginale Blutungen, starke Bauchschmerzen, hohes Fieber, regelmäßige Wehen oder Kontraktionen, verringerte oder fehlende Kindsbewegungen, starke oder anhaltende Kopfschmerzen, Sehstörungen (z. B. Augenflimmern, verschwommenes Sehen), Anzeichen von hohem Blutdruck (z. B. starke Kopfschmerzen mit Schwellungen) oder Anzeichen einer allergischen Reaktion (Hautausschlag, Schwellung von Gesicht oder Rachen, Atembeschwerden). Warten Sie nicht ab, ob die Symptome von selbst verschwinden.",
+      "redFlagMessageEn": "Seek immediate medical attention (call your doctor, midwife, or emergency services) if you experience: vaginal bleeding, severe abdominal pain, high fever, regular contractions, reduced or absent baby movements, severe or persistent headache, vision problems (e.g. blurred vision, flashing lights), signs of high blood pressure (e.g. severe headache with swelling), or signs of an allergic reaction (rash, swelling of the face or throat, difficulty breathing). Do not wait to see if symptoms improve on their own.",
+      "notesPl": "Sprzedawany pod nazwą odpowiadającą substancji aktywnej; sprawdzaj ulotkę i pytaj farmaceutę w razie wątpliwości.",
+      "notesDe": "Wird unter dem Namen des Wirkstoffs verkauft; lesen Sie die Packungsbeilage und fragen Sie im Zweifel in der Apotheke nach.",
+      "notesEn": "Sold under a name matching the active ingredient; check the leaflet and ask your pharmacist if unsure."
+    },
+    {
+      "id": "ketoprofen_nsaid_pain_fever",
+      "countryCodes": [
+        "PL"
+      ],
+      "brandNames": [
+        "Ketonal"
+      ],
+      "activeIngredientPl": "Ketoprofen",
+      "activeIngredientDe": "Ketoprofen",
+      "activeIngredientEn": "Ketoprofen",
+      "category": "nsaid_pain_fever",
+      "pregnancySafetyLevel": "avoid_self_use",
+      "weekRule": "not_for_self_use_any_trimester",
+      "safetyMessagePl": "Ketoprofen to NLPZ nieprzeznaczony do samodzielnego stosowania w ciąży. O ewentualnym zastosowaniu decyduje lekarz.",
+      "safetyMessageDe": "Ketoprofen ist ein NSAR und nicht für die eigenständige Anwendung in der Schwangerschaft vorgesehen. Über eine mögliche Anwendung entscheidet ein Arzt.",
+      "safetyMessageEn": "Ketoprofen is an NSAID not intended for self-use during pregnancy. Any potential use should be decided by a doctor.",
+      "redFlagMessagePl": "Natychmiast skontaktuj się z lekarzem, położną lub pogotowiem, jeśli wystąpi: krwawienie z dróg rodnych, silny ból brzucha, wysoka gorączka, regularne skurcze macicy, zmniejszone lub nieobecne ruchy dziecka, silny lub utrzymujący się ból głowy, zaburzenia widzenia (np. mroczki, błyski przed oczami), objawy wysokiego ciśnienia krwi (np. silny ból głowy z obrzękami) lub objawy reakcji alergicznej (wysypka, obrzęk twarzy lub gardła, trudności w oddychaniu). Nie czekaj, czy objawy ustąpią samoistnie.",
+      "redFlagMessageDe": "Suchen Sie sofort ärztliche Hilfe auf (Arzt, Hebamme oder Notruf), wenn Folgendes auftritt: vaginale Blutungen, starke Bauchschmerzen, hohes Fieber, regelmäßige Wehen oder Kontraktionen, verringerte oder fehlende Kindsbewegungen, starke oder anhaltende Kopfschmerzen, Sehstörungen (z. B. Augenflimmern, verschwommenes Sehen), Anzeichen von hohem Blutdruck (z. B. starke Kopfschmerzen mit Schwellungen) oder Anzeichen einer allergischen Reaktion (Hautausschlag, Schwellung von Gesicht oder Rachen, Atembeschwerden). Warten Sie nicht ab, ob die Symptome von selbst verschwinden.",
+      "redFlagMessageEn": "Seek immediate medical attention (call your doctor, midwife, or emergency services) if you experience: vaginal bleeding, severe abdominal pain, high fever, regular contractions, reduced or absent baby movements, severe or persistent headache, vision problems (e.g. blurred vision, flashing lights), signs of high blood pressure (e.g. severe headache with swelling), or signs of an allergic reaction (rash, swelling of the face or throat, difficulty breathing). Do not wait to see if symptoms improve on their own.",
+      "notesPl": "Dostępny w różnych postaciach (kapsułki, żel); forma zewnętrzna również wymaga konsultacji w ciąży.",
+      "notesDe": "In verschiedenen Darreichungsformen erhältlich (Kapseln, Gel); auch die äußerliche Anwendung erfordert in der Schwangerschaft eine Rücksprache.",
+      "notesEn": "Available in different forms (capsules, gel); topical forms also require a check-in with a healthcare professional during pregnancy."
+    },
+    {
+      "id": "aspirin_asa_salicylate",
+      "countryCodes": [
+        "PL",
+        "DE"
+      ],
+      "brandNames": [
+        "Polopiryna",
+        "Aspirin",
+        "ASS"
+      ],
+      "activeIngredientPl": "Kwas acetylosalicylowy (aspiryna)",
+      "activeIngredientDe": "Acetylsalicylsäure (ASS)",
+      "activeIngredientEn": "Acetylsalicylic acid (aspirin)",
+      "category": "salicylate_pain_fever",
+      "pregnancySafetyLevel": "ask_professional",
+      "weekRule": "self_use_not_recommended_any_trimester",
+      "safetyMessagePl": "Aspiryna (kwas acetylosalicylowy) w standardowych dawkach przeciwbólowych nie jest rekomendowana do samodzielnego stosowania w ciąży. Aspiryna w niskiej dawce bywa przepisywana przez lekarza w niektórych wskazaniach związanych z ciążą, ale taką terapię może rozpocząć wyłącznie lekarz – nigdy nie zaczynaj jej sama na podstawie tej aplikacji.",
+      "safetyMessageDe": "ASS (Acetylsalicylsäure) wird in der Schwangerschaft in schmerzlindernden Standarddosen nicht zur eigenständigen Anwendung empfohlen. Niedrig dosierte ASS wird in bestimmten schwangerschaftsbezogenen Fällen vom Arzt verordnet – eine solche Therapie darf jedoch ausschließlich von einem Arzt begonnen werden und nicht eigenständig aufgrund dieser App.",
+      "safetyMessageEn": "Aspirin (acetylsalicylic acid) at standard pain-relief doses is not recommended for self-use in pregnancy. Low-dose aspirin is sometimes prescribed by a doctor for specific pregnancy-related reasons, but this kind of treatment must only be started by a doctor — never begin it yourself based on this app.",
+      "redFlagMessagePl": "Natychmiast skontaktuj się z lekarzem, położną lub pogotowiem, jeśli wystąpi: krwawienie z dróg rodnych, silny ból brzucha, wysoka gorączka, regularne skurcze macicy, zmniejszone lub nieobecne ruchy dziecka, silny lub utrzymujący się ból głowy, zaburzenia widzenia (np. mroczki, błyski przed oczami), objawy wysokiego ciśnienia krwi (np. silny ból głowy z obrzękami) lub objawy reakcji alergicznej (wysypka, obrzęk twarzy lub gardła, trudności w oddychaniu). Nie czekaj, czy objawy ustąpią samoistnie.",
+      "redFlagMessageDe": "Suchen Sie sofort ärztliche Hilfe auf (Arzt, Hebamme oder Notruf), wenn Folgendes auftritt: vaginale Blutungen, starke Bauchschmerzen, hohes Fieber, regelmäßige Wehen oder Kontraktionen, verringerte oder fehlende Kindsbewegungen, starke oder anhaltende Kopfschmerzen, Sehstörungen (z. B. Augenflimmern, verschwommenes Sehen), Anzeichen von hohem Blutdruck (z. B. starke Kopfschmerzen mit Schwellungen) oder Anzeichen einer allergischen Reaktion (Hautausschlag, Schwellung von Gesicht oder Rachen, Atembeschwerden). Warten Sie nicht ab, ob die Symptome von selbst verschwinden.",
+      "redFlagMessageEn": "Seek immediate medical attention (call your doctor, midwife, or emergency services) if you experience: vaginal bleeding, severe abdominal pain, high fever, regular contractions, reduced or absent baby movements, severe or persistent headache, vision problems (e.g. blurred vision, flashing lights), signs of high blood pressure (e.g. severe headache with swelling), or signs of an allergic reaction (rash, swelling of the face or throat, difficulty breathing). Do not wait to see if symptoms improve on their own.",
+      "notesPl": "Nie myl niskiej dawki aspiryny zalecanej przez lekarza w określonych wskazaniach z doraźnym stosowaniem przeciwbólowym – to różne sytuacje kliniczne.",
+      "notesDe": "Verwechseln Sie die niedrig dosierte, ärztlich verordnete ASS für bestimmte Indikationen nicht mit der bedarfsweisen Anwendung als Schmerzmittel – es handelt sich um unterschiedliche klinische Situationen.",
+      "notesEn": "Don't confuse doctor-prescribed low-dose aspirin for specific indications with as-needed pain relief use — these are different clinical situations."
+    },
+    {
+      "id": "metamizole_pain_fever",
+      "countryCodes": [
+        "PL",
+        "DE"
+      ],
+      "brandNames": [
+        "Pyralgina",
+        "Novalgin"
+      ],
+      "activeIngredientPl": "Metamizol",
+      "activeIngredientDe": "Metamizol",
+      "activeIngredientEn": "Metamizole",
+      "category": "pain_fever_metamizole",
+      "pregnancySafetyLevel": "urgent_professional_advice",
+      "weekRule": "professional_advice_required_any_trimester",
+      "safetyMessagePl": "Metamizol wymaga oceny lekarza przed jakimkolwiek zastosowaniem w ciąży. Nie stosuj tego leku samodzielnie – skontaktuj się z lekarzem lub farmaceutą, aby ustalić, czy i kiedy jego użycie może być rozważone.",
+      "safetyMessageDe": "Metamizol erfordert vor jeder Anwendung in der Schwangerschaft eine ärztliche Einschätzung. Wenden Sie dieses Arzneimittel nicht eigenständig an – sprechen Sie mit Ihrem Arzt oder Ihrer Apotheke, ob und wann eine Anwendung in Betracht gezogen werden kann.",
+      "safetyMessageEn": "Metamizole requires a doctor's assessment before any use in pregnancy. Do not use this medicine on your own — contact your doctor or pharmacist to discuss whether and when its use might be considered.",
+      "redFlagMessagePl": "Natychmiast skontaktuj się z lekarzem, położną lub pogotowiem, jeśli wystąpi: krwawienie z dróg rodnych, silny ból brzucha, wysoka gorączka, regularne skurcze macicy, zmniejszone lub nieobecne ruchy dziecka, silny lub utrzymujący się ból głowy, zaburzenia widzenia (np. mroczki, błyski przed oczami), objawy wysokiego ciśnienia krwi (np. silny ból głowy z obrzękami) lub objawy reakcji alergicznej (wysypka, obrzęk twarzy lub gardła, trudności w oddychaniu). Nie czekaj, czy objawy ustąpią samoistnie.",
+      "redFlagMessageDe": "Suchen Sie sofort ärztliche Hilfe auf (Arzt, Hebamme oder Notruf), wenn Folgendes auftritt: vaginale Blutungen, starke Bauchschmerzen, hohes Fieber, regelmäßige Wehen oder Kontraktionen, verringerte oder fehlende Kindsbewegungen, starke oder anhaltende Kopfschmerzen, Sehstörungen (z. B. Augenflimmern, verschwommenes Sehen), Anzeichen von hohem Blutdruck (z. B. starke Kopfschmerzen mit Schwellungen) oder Anzeichen einer allergischen Reaktion (Hautausschlag, Schwellung von Gesicht oder Rachen, Atembeschwerden). Warten Sie nicht ab, ob die Symptome von selbst verschwinden.",
+      "redFlagMessageEn": "Seek immediate medical attention (call your doctor, midwife, or emergency services) if you experience: vaginal bleeding, severe abdominal pain, high fever, regular contractions, reduced or absent baby movements, severe or persistent headache, vision problems (e.g. blurred vision, flashing lights), signs of high blood pressure (e.g. severe headache with swelling), or signs of an allergic reaction (rash, swelling of the face or throat, difficulty breathing). Do not wait to see if symptoms improve on their own.",
+      "notesPl": "Stosowanie metamizolu w ciąży podlega odrębnym ograniczeniom w różnych krajach – zawsze pytaj lekarza lub farmaceutę przed użyciem.",
+      "notesDe": "Die Anwendung von Metamizol in der Schwangerschaft unterliegt länderspezifischen Einschränkungen – fragen Sie vor der Anwendung stets Ihren Arzt oder Ihre Apotheke.",
+      "notesEn": "Use of metamizole in pregnancy is subject to country-specific restrictions — always ask a doctor or pharmacist before use."
+    },
+    {
+      "id": "drotaverine_antispasmodic",
+      "countryCodes": [
+        "PL"
+      ],
+      "brandNames": [
+        "No-Spa"
+      ],
+      "activeIngredientPl": "Drotaweryna",
+      "activeIngredientDe": "Drotaverin",
+      "activeIngredientEn": "Drotaverine",
+      "category": "antispasmodic",
+      "pregnancySafetyLevel": "ask_professional",
+      "weekRule": "ask_professional_any_trimester_especially_with_pain_or_contractions",
+      "safetyMessagePl": "Leki rozkurczowe, takie jak drotaweryna, nie powinny być stosowane samodzielnie w ciąży, szczególnie w przypadku bólu brzucha, skurczów lub niepokoju o przebieg ciąży. Skontaktuj się z lekarzem lub położną przed zastosowaniem.",
+      "safetyMessageDe": "Krampflösende Mittel wie Drotaverin sollten in der Schwangerschaft nicht eigenständig angewendet werden, insbesondere bei Bauchschmerzen, Krämpfen oder Bedenken hinsichtlich des Schwangerschaftsverlaufs. Sprechen Sie vor der Anwendung mit Ihrem Arzt oder Ihrer Hebamme.",
+      "safetyMessageEn": "Antispasmodic medicines such as drotaverine should not be used on a self-care basis during pregnancy, particularly with abdominal pain, cramping, or concerns about the pregnancy. Contact your doctor or midwife before use.",
+      "redFlagMessagePl": "Natychmiast skontaktuj się z lekarzem, położną lub pogotowiem, jeśli wystąpi: krwawienie z dróg rodnych, silny ból brzucha, wysoka gorączka, regularne skurcze macicy, zmniejszone lub nieobecne ruchy dziecka, silny lub utrzymujący się ból głowy, zaburzenia widzenia (np. mroczki, błyski przed oczami), objawy wysokiego ciśnienia krwi (np. silny ból głowy z obrzękami) lub objawy reakcji alergicznej (wysypka, obrzęk twarzy lub gardła, trudności w oddychaniu). Nie czekaj, czy objawy ustąpią samoistnie.",
+      "redFlagMessageDe": "Suchen Sie sofort ärztliche Hilfe auf (Arzt, Hebamme oder Notruf), wenn Folgendes auftritt: vaginale Blutungen, starke Bauchschmerzen, hohes Fieber, regelmäßige Wehen oder Kontraktionen, verringerte oder fehlende Kindsbewegungen, starke oder anhaltende Kopfschmerzen, Sehstörungen (z. B. Augenflimmern, verschwommenes Sehen), Anzeichen von hohem Blutdruck (z. B. starke Kopfschmerzen mit Schwellungen) oder Anzeichen einer allergischen Reaktion (Hautausschlag, Schwellung von Gesicht oder Rachen, Atembeschwerden). Warten Sie nicht ab, ob die Symptome von selbst verschwinden.",
+      "redFlagMessageEn": "Seek immediate medical attention (call your doctor, midwife, or emergency services) if you experience: vaginal bleeding, severe abdominal pain, high fever, regular contractions, reduced or absent baby movements, severe or persistent headache, vision problems (e.g. blurred vision, flashing lights), signs of high blood pressure (e.g. severe headache with swelling), or signs of an allergic reaction (rash, swelling of the face or throat, difficulty breathing). Do not wait to see if symptoms improve on their own.",
+      "notesPl": "Ból brzucha lub skurcze w ciąży mogą mieć różne przyczyny – zawsze skonsultuj się z lekarzem lub położną zamiast stosować lek samodzielnie.",
+      "notesDe": "Bauchschmerzen oder Krämpfe in der Schwangerschaft können viele Ursachen haben – konsultieren Sie immer Arzt oder Hebamme, anstatt das Arzneimittel eigenständig anzuwenden.",
+      "notesEn": "Abdominal pain or cramping in pregnancy can have many causes — always consult a doctor or midwife rather than self-treating."
+    },
+    {
+      "id": "hyoscine_butylbromide_antispasmodic",
+      "countryCodes": [
+        "DE"
+      ],
+      "brandNames": [
+        "Buscopan"
+      ],
+      "activeIngredientPl": "Butylobromek hioscyny",
+      "activeIngredientDe": "Butylscopolamin (Hyoscinbutylbromid)",
+      "activeIngredientEn": "Hyoscine butylbromide",
+      "category": "antispasmodic",
+      "pregnancySafetyLevel": "ask_professional",
+      "weekRule": "ask_professional_any_trimester_especially_with_pain_or_contractions",
+      "safetyMessagePl": "Leki rozkurczowe, takie jak butylobromek hioscyny, nie powinny być stosowane samodzielnie w ciąży, szczególnie w przypadku bólu brzucha, skurczów lub niepokoju o przebieg ciąży. Skontaktuj się z lekarzem lub położną przed zastosowaniem.",
+      "safetyMessageDe": "Krampflösende Mittel wie Butylscopolamin sollten in der Schwangerschaft nicht eigenständig angewendet werden, insbesondere bei Bauchschmerzen, Krämpfen oder Bedenken hinsichtlich des Schwangerschaftsverlaufs. Sprechen Sie vor der Anwendung mit Ihrem Arzt oder Ihrer Hebamme.",
+      "safetyMessageEn": "Antispasmodic medicines such as hyoscine butylbromide should not be used on a self-care basis during pregnancy, particularly with abdominal pain, cramping, or concerns about the pregnancy. Contact your doctor or midwife before use.",
+      "redFlagMessagePl": "Natychmiast skontaktuj się z lekarzem, położną lub pogotowiem, jeśli wystąpi: krwawienie z dróg rodnych, silny ból brzucha, wysoka gorączka, regularne skurcze macicy, zmniejszone lub nieobecne ruchy dziecka, silny lub utrzymujący się ból głowy, zaburzenia widzenia (np. mroczki, błyski przed oczami), objawy wysokiego ciśnienia krwi (np. silny ból głowy z obrzękami) lub objawy reakcji alergicznej (wysypka, obrzęk twarzy lub gardła, trudności w oddychaniu). Nie czekaj, czy objawy ustąpią samoistnie.",
+      "redFlagMessageDe": "Suchen Sie sofort ärztliche Hilfe auf (Arzt, Hebamme oder Notruf), wenn Folgendes auftritt: vaginale Blutungen, starke Bauchschmerzen, hohes Fieber, regelmäßige Wehen oder Kontraktionen, verringerte oder fehlende Kindsbewegungen, starke oder anhaltende Kopfschmerzen, Sehstörungen (z. B. Augenflimmern, verschwommenes Sehen), Anzeichen von hohem Blutdruck (z. B. starke Kopfschmerzen mit Schwellungen) oder Anzeichen einer allergischen Reaktion (Hautausschlag, Schwellung von Gesicht oder Rachen, Atembeschwerden). Warten Sie nicht ab, ob die Symptome von selbst verschwinden.",
+      "redFlagMessageEn": "Seek immediate medical attention (call your doctor, midwife, or emergency services) if you experience: vaginal bleeding, severe abdominal pain, high fever, regular contractions, reduced or absent baby movements, severe or persistent headache, vision problems (e.g. blurred vision, flashing lights), signs of high blood pressure (e.g. severe headache with swelling), or signs of an allergic reaction (rash, swelling of the face or throat, difficulty breathing). Do not wait to see if symptoms improve on their own.",
+      "notesPl": "Butylobromek hioscyny działa miejscowo na mięśnie gładkie, ale w ciąży decyzję o jego zastosowaniu powinien podjąć lekarz lub położna.",
+      "notesDe": "Butylscopolamin wirkt lokal auf die glatte Muskulatur, doch in der Schwangerschaft sollte die Entscheidung über eine Anwendung von Arzt oder Hebamme getroffen werden.",
+      "notesEn": "Hyoscine butylbromide acts locally on smooth muscle, but in pregnancy the decision to use it should be made by a doctor or midwife."
+    },
+    {
+      "id": "cold_flu_combination_pl",
+      "countryCodes": [
+        "PL"
+      ],
+      "brandNames": [
+        "Gripex",
+        "Theraflu",
+        "Fervex"
+      ],
+      "activeIngredientPl": "Złożone preparaty przeciwprzeziębieniowe (skład zmienny, np. paracetamol w połączeniu z innymi substancjami)",
+      "activeIngredientDe": "Kombinationspräparate gegen Erkältung/Grippe (variable Zusammensetzung, z. B. Paracetamol in Kombination mit weiteren Wirkstoffen)",
+      "activeIngredientEn": "Combination cold and flu products (variable composition, e.g. paracetamol combined with other active ingredients)",
+      "category": "cold_flu_combination",
+      "pregnancySafetyLevel": "ingredient_check_required",
+      "weekRule": "check_each_ingredient_any_trimester",
+      "safetyMessagePl": "Preparaty złożone na przeziębienie i grypę mogą zawierać kilka substancji aktywnych (np. paracetamol razem z innymi składnikami), z których niektóre nie są zalecane w ciąży. Przed użyciem sprawdź pełny skład na opakowaniu lub w ulotce i zapytaj farmaceutę lub lekarza, czy dany preparat jest odpowiedni.",
+      "safetyMessageDe": "Kombinationspräparate gegen Erkältung und Grippe können mehrere Wirkstoffe enthalten (z. B. Paracetamol zusammen mit weiteren Bestandteilen), von denen einige in der Schwangerschaft nicht empfohlen werden. Prüfen Sie vor der Anwendung die vollständige Zusammensetzung auf der Packung oder im Beipackzettel und fragen Sie Apotheke oder Arzt, ob das Präparat geeignet ist.",
+      "safetyMessageEn": "Combination cold and flu products can contain several active ingredients (e.g. paracetamol together with other components), some of which are not recommended in pregnancy. Before use, check the full ingredient list on the packaging or leaflet and ask a pharmacist or doctor whether the product is suitable.",
+      "redFlagMessagePl": "Natychmiast skontaktuj się z lekarzem, położną lub pogotowiem, jeśli wystąpi: krwawienie z dróg rodnych, silny ból brzucha, wysoka gorączka, regularne skurcze macicy, zmniejszone lub nieobecne ruchy dziecka, silny lub utrzymujący się ból głowy, zaburzenia widzenia (np. mroczki, błyski przed oczami), objawy wysokiego ciśnienia krwi (np. silny ból głowy z obrzękami) lub objawy reakcji alergicznej (wysypka, obrzęk twarzy lub gardła, trudności w oddychaniu). Nie czekaj, czy objawy ustąpią samoistnie.",
+      "redFlagMessageDe": "Suchen Sie sofort ärztliche Hilfe auf (Arzt, Hebamme oder Notruf), wenn Folgendes auftritt: vaginale Blutungen, starke Bauchschmerzen, hohes Fieber, regelmäßige Wehen oder Kontraktionen, verringerte oder fehlende Kindsbewegungen, starke oder anhaltende Kopfschmerzen, Sehstörungen (z. B. Augenflimmern, verschwommenes Sehen), Anzeichen von hohem Blutdruck (z. B. starke Kopfschmerzen mit Schwellungen) oder Anzeichen einer allergischen Reaktion (Hautausschlag, Schwellung von Gesicht oder Rachen, Atembeschwerden). Warten Sie nicht ab, ob die Symptome von selbst verschwinden.",
+      "redFlagMessageEn": "Seek immediate medical attention (call your doctor, midwife, or emergency services) if you experience: vaginal bleeding, severe abdominal pain, high fever, regular contractions, reduced or absent baby movements, severe or persistent headache, vision problems (e.g. blurred vision, flashing lights), signs of high blood pressure (e.g. severe headache with swelling), or signs of an allergic reaction (rash, swelling of the face or throat, difficulty breathing). Do not wait to see if symptoms improve on their own.",
+      "notesPl": "Skład preparatów złożonych może się różnić między wariantami i krajami – zawsze czytaj aktualną ulotkę danego produktu.",
+      "notesDe": "Die Zusammensetzung von Kombinationspräparaten kann je nach Variante und Land unterschiedlich sein – lesen Sie immer den aktuellen Beipackzettel des jeweiligen Produkts.",
+      "notesEn": "The composition of combination products can vary between variants and countries — always read the current leaflet for the specific product."
+    },
+    {
+      "id": "cold_flu_combination_de",
+      "countryCodes": [
+        "DE"
+      ],
+      "brandNames": [
+        "Grippostad",
+        "Wick"
+      ],
+      "activeIngredientPl": "Złożone preparaty przeciwprzeziębieniowe (skład zmienny, np. paracetamol w połączeniu z innymi substancjami)",
+      "activeIngredientDe": "Kombinationspräparate gegen Erkältung/Grippe (variable Zusammensetzung, z. B. Paracetamol in Kombination mit weiteren Wirkstoffen)",
+      "activeIngredientEn": "Combination cold and flu products (variable composition, e.g. paracetamol combined with other active ingredients)",
+      "category": "cold_flu_combination",
+      "pregnancySafetyLevel": "ingredient_check_required",
+      "weekRule": "check_each_ingredient_any_trimester",
+      "safetyMessagePl": "Preparaty złożone na przeziębienie i grypę mogą zawierać kilka substancji aktywnych, z których niektóre nie są zalecane w ciąży. Przed użyciem sprawdź pełny skład na opakowaniu lub w ulotce i zapytaj farmaceutę lub lekarza, czy dany preparat jest odpowiedni. Marka Wick obejmuje wiele różnych produktów o różnym składzie – zawsze sprawdzaj konkretny produkt.",
+      "safetyMessageDe": "Kombinationspräparate gegen Erkältung und Grippe können mehrere Wirkstoffe enthalten, von denen einige in der Schwangerschaft nicht empfohlen werden. Prüfen Sie vor der Anwendung die vollständige Zusammensetzung auf der Packung oder im Beipackzettel und fragen Sie Apotheke oder Arzt, ob das Präparat geeignet ist. Die Marke Wick umfasst viele unterschiedliche Produkte mit unterschiedlicher Zusammensetzung – prüfen Sie immer das konkrete Produkt.",
+      "safetyMessageEn": "Combination cold and flu products can contain several active ingredients, some of which are not recommended in pregnancy. Before use, check the full ingredient list on the packaging or leaflet and ask a pharmacist or doctor whether the product is suitable. The Wick brand covers many different products with different compositions — always check the specific product.",
+      "redFlagMessagePl": "Natychmiast skontaktuj się z lekarzem, położną lub pogotowiem, jeśli wystąpi: krwawienie z dróg rodnych, silny ból brzucha, wysoka gorączka, regularne skurcze macicy, zmniejszone lub nieobecne ruchy dziecka, silny lub utrzymujący się ból głowy, zaburzenia widzenia (np. mroczki, błyski przed oczami), objawy wysokiego ciśnienia krwi (np. silny ból głowy z obrzękami) lub objawy reakcji alergicznej (wysypka, obrzęk twarzy lub gardła, trudności w oddychaniu). Nie czekaj, czy objawy ustąpią samoistnie.",
+      "redFlagMessageDe": "Suchen Sie sofort ärztliche Hilfe auf (Arzt, Hebamme oder Notruf), wenn Folgendes auftritt: vaginale Blutungen, starke Bauchschmerzen, hohes Fieber, regelmäßige Wehen oder Kontraktionen, verringerte oder fehlende Kindsbewegungen, starke oder anhaltende Kopfschmerzen, Sehstörungen (z. B. Augenflimmern, verschwommenes Sehen), Anzeichen von hohem Blutdruck (z. B. starke Kopfschmerzen mit Schwellungen) oder Anzeichen einer allergischen Reaktion (Hautausschlag, Schwellung von Gesicht oder Rachen, Atembeschwerden). Warten Sie nicht ab, ob die Symptome von selbst verschwinden.",
+      "redFlagMessageEn": "Seek immediate medical attention (call your doctor, midwife, or emergency services) if you experience: vaginal bleeding, severe abdominal pain, high fever, regular contractions, reduced or absent baby movements, severe or persistent headache, vision problems (e.g. blurred vision, flashing lights), signs of high blood pressure (e.g. severe headache with swelling), or signs of an allergic reaction (rash, swelling of the face or throat, difficulty breathing). Do not wait to see if symptoms improve on their own.",
+      "notesPl": "Skład preparatów złożonych może się różnić między wariantami i krajami – zawsze czytaj aktualną ulotkę danego produktu.",
+      "notesDe": "Die Zusammensetzung von Kombinationspräparaten kann je nach Variante und Land unterschiedlich sein – lesen Sie immer den aktuellen Beipackzettel des jeweiligen Produkts.",
+      "notesEn": "The composition of combination products can vary between variants and countries — always read the current leaflet for the specific product."
+    },
+    {
+      "id": "throat_lozenges_local_treatment_de",
+      "countryCodes": [
+        "DE"
+      ],
+      "brandNames": [
+        "Dobendan",
+        "Lemocin"
+      ],
+      "activeIngredientPl": "Miejscowe pastylki do gardła (skład zmienny, np. substancje przeciwbólowe miejscowe, antyseptyczne lub przeciwzapalne)",
+      "activeIngredientDe": "Lokal wirkende Halstabletten (variable Zusammensetzung, z. B. lokal schmerzlindernde, antiseptische oder entzündungshemmende Wirkstoffe)",
+      "activeIngredientEn": "Local throat lozenges (variable composition, e.g. local pain-relieving, antiseptic, or anti-inflammatory ingredients)",
+      "category": "throat_lozenge_local_treatment",
+      "pregnancySafetyLevel": "ingredient_check_required",
+      "weekRule": "check_each_ingredient_any_trimester",
+      "safetyMessagePl": "Pastylki do gardła mogą zawierać różne substancje aktywne, w tym miejscowe leki przeciwzapalne lub przeciwbólowe. Przed użyciem w ciąży sprawdź skład i zapytaj farmaceutę lub lekarza, czy dany preparat jest odpowiedni.",
+      "safetyMessageDe": "Halstabletten können verschiedene Wirkstoffe enthalten, darunter lokal wirkende entzündungshemmende oder schmerzlindernde Substanzen. Prüfen Sie vor der Anwendung in der Schwangerschaft die Inhaltsstoffe und fragen Sie Apotheke oder Arzt, ob das Präparat geeignet ist.",
+      "safetyMessageEn": "Throat lozenges can contain different active ingredients, including local anti-inflammatory or pain-relieving substances. Before use in pregnancy, check the ingredients and ask a pharmacist or doctor whether the product is suitable.",
+      "redFlagMessagePl": "Natychmiast skontaktuj się z lekarzem, położną lub pogotowiem, jeśli wystąpi: krwawienie z dróg rodnych, silny ból brzucha, wysoka gorączka, regularne skurcze macicy, zmniejszone lub nieobecne ruchy dziecka, silny lub utrzymujący się ból głowy, zaburzenia widzenia (np. mroczki, błyski przed oczami), objawy wysokiego ciśnienia krwi (np. silny ból głowy z obrzękami) lub objawy reakcji alergicznej (wysypka, obrzęk twarzy lub gardła, trudności w oddychaniu). Nie czekaj, czy objawy ustąpią samoistnie.",
+      "redFlagMessageDe": "Suchen Sie sofort ärztliche Hilfe auf (Arzt, Hebamme oder Notruf), wenn Folgendes auftritt: vaginale Blutungen, starke Bauchschmerzen, hohes Fieber, regelmäßige Wehen oder Kontraktionen, verringerte oder fehlende Kindsbewegungen, starke oder anhaltende Kopfschmerzen, Sehstörungen (z. B. Augenflimmern, verschwommenes Sehen), Anzeichen von hohem Blutdruck (z. B. starke Kopfschmerzen mit Schwellungen) oder Anzeichen einer allergischen Reaktion (Hautausschlag, Schwellung von Gesicht oder Rachen, Atembeschwerden). Warten Sie nicht ab, ob die Symptome von selbst verschwinden.",
+      "redFlagMessageEn": "Seek immediate medical attention (call your doctor, midwife, or emergency services) if you experience: vaginal bleeding, severe abdominal pain, high fever, regular contractions, reduced or absent baby movements, severe or persistent headache, vision problems (e.g. blurred vision, flashing lights), signs of high blood pressure (e.g. severe headache with swelling), or signs of an allergic reaction (rash, swelling of the face or throat, difficulty breathing). Do not wait to see if symptoms improve on their own.",
+      "notesPl": "Niektóre pastylki do gardła zawierają substancje z grupy NLPZ działające miejscowo – nie zakładaj, że produkt jest bezpieczny tylko dlatego, że jest stosowany miejscowo.",
+      "notesDe": "Manche Halstabletten enthalten lokal wirkende NSAR – gehen Sie nicht davon aus, dass ein Produkt allein deshalb sicher ist, weil es örtlich angewendet wird.",
+      "notesEn": "Some throat lozenges contain locally acting NSAIDs — don't assume a product is safe simply because it is applied locally."
+    }
+  ]
 }
