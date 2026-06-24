@@ -1,13 +1,2905 @@
-﻿{
+{
   "version": "1.0.0",
   "updatedAt": "2026-06-24",
-  "languageSupport": ["pl", "de", "en"],
+  "languageSupport": [
+    "pl",
+    "de",
+    "en"
+  ],
   "source": "vitree-content-hub",
   "contentType": "public_educational_content",
   "disclaimer": {
-    "pl": "Treści mają charakter edukacyjny i organizacyjny. Nie zastępują lekarza, położnej, farmaceuty, prawnika ani urzędu.",
-    "de": "Die Inhalte dienen nur der Bildung und Organisation. Sie ersetzen keine Ärztin, keinen Arzt, keine Hebamme, keine Apotheke, keine Rechtsberatung und keine Behörde.",
-    "en": "This content is educational and organizational only. It does not replace a doctor, midwife, pharmacist, legal advisor or official authority."
+    "pl": "Te treści mają charakter ogólnoinformacyjny i edukacyjny w ramach aplikacji LUNARA. Tempo rozwoju dziecka i odczucia w ciąży mogą się różnić między osobami i ciążami. Treści te nie stanowią diagnozy ani instrukcji leczenia i nie zastępują indywidualnej opieki lekarza lub położnej.",
+    "de": "Diese Inhalte dienen ausschließlich allgemeinen Informations- und Bildungszwecken innerhalb der LUNARA-App. Das Entwicklungstempo des Kindes und das Erleben der Schwangerschaft können von Person zu Person und von Schwangerschaft zu Schwangerschaft variieren. Diese Inhalte stellen keine Diagnose und keine Behandlungsanweisung dar und ersetzen nicht die individuelle Betreuung durch Arzt oder Hebamme.",
+    "en": "This content is provided for general informational and educational purposes only within the LUNARA app. The pace of a baby's development and how pregnancy feels can vary between individuals and pregnancies. This content does not constitute a diagnosis or treatment instructions and does not replace individual care from a doctor or midwife."
   },
-  "items": []
+  "items": [
+    {
+      "id": "week_01",
+      "weekNumber": 1,
+      "trimester": 1,
+      "titlePl": "Tydzień 1 ciąży",
+      "titleDe": "Schwangerschaftswoche 1",
+      "titleEn": "Pregnancy week 1",
+      "babyDevelopmentPl": "Ciążę liczy się od pierwszego dnia ostatniej miesiączki, więc w 1. tygodniu zapłodnienie jeszcze nie nastąpiło. To po prostu sposób liczenia czasu trwania ciąży.",
+      "babyDevelopmentDe": "Die Schwangerschaft wird ab dem ersten Tag der letzten Periode berechnet, daher hat in Woche 1 noch keine Befruchtung stattgefunden. Dies ist lediglich die übliche Zählweise des Schwangerschaftsverlaufs.",
+      "babyDevelopmentEn": "Pregnancy is dated from the first day of your last menstrual period, so at week 1 conception has not yet taken place. This is simply how the timeline of pregnancy is counted.",
+      "motherBodyPl": "Twoje ciało przechodzi przez zwykły cykl miesiączkowy. Nie ma jeszcze zmian typowych dla ciąży, ponieważ ten tydzień oznacza początek liczenia, a nie samą ciążę.",
+      "motherBodyDe": "Ihr Körper durchläuft den gewohnten Menstruationszyklus. Schwangerschaftsspezifische Veränderungen gibt es noch nicht, da diese Woche lediglich den Start der Zählung markiert.",
+      "motherBodyEn": "Your body is going through its usual menstrual cycle. There are no pregnancy-specific changes yet, since this week marks the start of the dating timeline rather than the pregnancy itself.",
+      "commonSymptomsPl": [
+        "Zmęczenie",
+        "Tkliwość lub wrażliwość piersi",
+        "Lekkie mdłości u niektórych osób",
+        "Brak zauważalnych objawów u wielu osób na tym etapie"
+      ],
+      "commonSymptomsDe": [
+        "Müdigkeit",
+        "Empfindliche oder spannende Brüste",
+        "Bei manchen leichte Übelkeit",
+        "Bei vielen noch keine spürbaren Anzeichen in diesem Stadium"
+      ],
+      "commonSymptomsEn": [
+        "Fatigue",
+        "Breast tenderness or sensitivity",
+        "Mild nausea for some",
+        "No noticeable symptoms yet for many at this stage"
+      ],
+      "helpfulTipsPl": [
+        "Rozważ umówienie pierwszej wizyty u lekarza lub położnej, gdy będziesz na to gotowa.",
+        "Staraj się odpoczywać, gdy czujesz się zmęczona.",
+        "Zwróć uwagę na ogólne samopoczucie, ale unikaj nadmiernego martwienia się o pojedyncze objawy."
+      ],
+      "helpfulTipsDe": [
+        "Erwägen Sie, einen ersten Termin bei Arzt oder Hebamme zu vereinbaren, wenn Sie dazu bereit sind.",
+        "Versuchen Sie, sich auszuruhen, wenn Sie sich müde fühlen.",
+        "Achten Sie auf Ihr allgemeines Befinden, ohne sich wegen einzelner Symptome zu viele Sorgen zu machen."
+      ],
+      "helpfulTipsEn": [
+        "Consider booking a first appointment with a doctor or midwife when you feel ready.",
+        "Try to rest when you feel tired.",
+        "Pay attention to your general wellbeing without overworrying about individual symptoms."
+      ],
+      "doctorQuestionsPl": [
+        "Kiedy powinnam umówić pierwszą wizytę ciążową?",
+        "Jakie badania są zwykle wykonywane na początku ciąży?",
+        "Na co powinnam zwracać uwagę w najbliższych tygodniach?"
+      ],
+      "doctorQuestionsDe": [
+        "Wann sollte ich den ersten Schwangerschaftstermin vereinbaren?",
+        "Welche Untersuchungen sind am Anfang der Schwangerschaft üblich?",
+        "Worauf sollte ich in den kommenden Wochen achten?"
+      ],
+      "doctorQuestionsEn": [
+        "When should I book my first pregnancy appointment?",
+        "What tests are typically done early in pregnancy?",
+        "What should I watch for in the coming weeks?"
+      ],
+      "redFlagsReminderPl": "Jeśli zauważysz silny ból, krwawienie lub inne niepokojące objawy, skontaktuj się z lekarzem lub położną — więcej informacji znajdziesz w sekcji sygnałów ostrzegawczych.",
+      "redFlagsReminderDe": "Wenn Sie starke Schmerzen, Blutungen oder andere beunruhigende Symptome bemerken, wenden Sie sich an Arzt oder Hebamme — weitere Informationen finden Sie im Bereich Warnzeichen.",
+      "redFlagsReminderEn": "If you notice severe pain, bleeding, or other concerning symptoms, contact your doctor or midwife — you can find more information in the red flags section.",
+      "relatedModules": [
+        "ai_guardian",
+        "doctor_questions",
+        "documents",
+        "red_flags"
+      ]
+    },
+    {
+      "id": "week_02",
+      "weekNumber": 2,
+      "trimester": 1,
+      "titlePl": "Tydzień 2 ciąży",
+      "titleDe": "Schwangerschaftswoche 2",
+      "titleEn": "Pregnancy week 2",
+      "babyDevelopmentPl": "W tym czasie zwykle dochodzi do owulacji, a zapłodnienie może nastąpić, jeśli komórka jajowa zostanie zapłodniona. Rozwój nie jest jeszcze obserwowalny.",
+      "babyDevelopmentDe": "In dieser Zeit findet in der Regel der Eisprung statt, und eine Befruchtung kann erfolgen, wenn eine Eizelle befruchtet wird. Eine beobachtbare Entwicklung gibt es noch nicht.",
+      "babyDevelopmentEn": "Ovulation typically occurs around this time, and conception may take place if an egg is fertilized. Development has not yet begun in a way that can be observed.",
+      "motherBodyPl": "Twoje ciało może się przygotowywać do owulacji. Wiele osób nie wie jeszcze, czy doszło do zapłodnienia.",
+      "motherBodyDe": "Ihr Körper bereitet sich möglicherweise auf den Eisprung vor. Viele Menschen wissen zu diesem Zeitpunkt noch nicht, ob eine Befruchtung stattgefunden hat.",
+      "motherBodyEn": "Your body may be preparing for ovulation. Many people are not yet aware whether conception has occurred.",
+      "commonSymptomsPl": [
+        "Zmęczenie",
+        "Tkliwość lub wrażliwość piersi",
+        "Lekkie mdłości u niektórych osób",
+        "Brak zauważalnych objawów u wielu osób na tym etapie"
+      ],
+      "commonSymptomsDe": [
+        "Müdigkeit",
+        "Empfindliche oder spannende Brüste",
+        "Bei manchen leichte Übelkeit",
+        "Bei vielen noch keine spürbaren Anzeichen in diesem Stadium"
+      ],
+      "commonSymptomsEn": [
+        "Fatigue",
+        "Breast tenderness or sensitivity",
+        "Mild nausea for some",
+        "No noticeable symptoms yet for many at this stage"
+      ],
+      "helpfulTipsPl": [
+        "Rozważ umówienie pierwszej wizyty u lekarza lub położnej, gdy będziesz na to gotowa.",
+        "Staraj się odpoczywać, gdy czujesz się zmęczona.",
+        "Zwróć uwagę na ogólne samopoczucie, ale unikaj nadmiernego martwienia się o pojedyncze objawy."
+      ],
+      "helpfulTipsDe": [
+        "Erwägen Sie, einen ersten Termin bei Arzt oder Hebamme zu vereinbaren, wenn Sie dazu bereit sind.",
+        "Versuchen Sie, sich auszuruhen, wenn Sie sich müde fühlen.",
+        "Achten Sie auf Ihr allgemeines Befinden, ohne sich wegen einzelner Symptome zu viele Sorgen zu machen."
+      ],
+      "helpfulTipsEn": [
+        "Consider booking a first appointment with a doctor or midwife when you feel ready.",
+        "Try to rest when you feel tired.",
+        "Pay attention to your general wellbeing without overworrying about individual symptoms."
+      ],
+      "doctorQuestionsPl": [
+        "Kiedy powinnam umówić pierwszą wizytę ciążową?",
+        "Jakie badania są zwykle wykonywane na początku ciąży?",
+        "Na co powinnam zwracać uwagę w najbliższych tygodniach?"
+      ],
+      "doctorQuestionsDe": [
+        "Wann sollte ich den ersten Schwangerschaftstermin vereinbaren?",
+        "Welche Untersuchungen sind am Anfang der Schwangerschaft üblich?",
+        "Worauf sollte ich in den kommenden Wochen achten?"
+      ],
+      "doctorQuestionsEn": [
+        "When should I book my first pregnancy appointment?",
+        "What tests are typically done early in pregnancy?",
+        "What should I watch for in the coming weeks?"
+      ],
+      "redFlagsReminderPl": "Jeśli zauważysz silny ból, krwawienie lub inne niepokojące objawy, skontaktuj się z lekarzem lub położną — więcej informacji znajdziesz w sekcji sygnałów ostrzegawczych.",
+      "redFlagsReminderDe": "Wenn Sie starke Schmerzen, Blutungen oder andere beunruhigende Symptome bemerken, wenden Sie sich an Arzt oder Hebamme — weitere Informationen finden Sie im Bereich Warnzeichen.",
+      "redFlagsReminderEn": "If you notice severe pain, bleeding, or other concerning symptoms, contact your doctor or midwife — you can find more information in the red flags section.",
+      "relatedModules": [
+        "ai_guardian",
+        "doctor_questions",
+        "documents",
+        "red_flags"
+      ]
+    },
+    {
+      "id": "week_03",
+      "weekNumber": 3,
+      "trimester": 1,
+      "titlePl": "Tydzień 3 ciąży",
+      "titleDe": "Schwangerschaftswoche 3",
+      "titleEn": "Pregnancy week 3",
+      "babyDevelopmentPl": "Jeśli doszło do zapłodnienia, zapłodniona komórka jajowa zaczyna się szybko dzielić i przemieszcza się w stronę macicy, gdzie w kolejnych dniach może się zagnieździć.",
+      "babyDevelopmentDe": "Wenn eine Befruchtung stattgefunden hat, beginnt sich die befruchtete Eizelle schnell zu teilen und wandert in Richtung Gebärmutter, wo sie sich in den folgenden Tagen einnisten kann.",
+      "babyDevelopmentEn": "If fertilization has occurred, the fertilized egg begins dividing rapidly and travels toward the uterus, where it may implant in the coming days.",
+      "motherBodyPl": "Na tym wczesnym etapie większość osób nie zauważa jeszcze żadnych oznak ciąży.",
+      "motherBodyDe": "In diesem frühen Stadium bemerken die meisten Menschen noch keine Anzeichen einer Schwangerschaft.",
+      "motherBodyEn": "At this early stage, most people do not yet notice any signs of pregnancy.",
+      "commonSymptomsPl": [
+        "Zmęczenie",
+        "Tkliwość lub wrażliwość piersi",
+        "Lekkie mdłości u niektórych osób",
+        "Brak zauważalnych objawów u wielu osób na tym etapie"
+      ],
+      "commonSymptomsDe": [
+        "Müdigkeit",
+        "Empfindliche oder spannende Brüste",
+        "Bei manchen leichte Übelkeit",
+        "Bei vielen noch keine spürbaren Anzeichen in diesem Stadium"
+      ],
+      "commonSymptomsEn": [
+        "Fatigue",
+        "Breast tenderness or sensitivity",
+        "Mild nausea for some",
+        "No noticeable symptoms yet for many at this stage"
+      ],
+      "helpfulTipsPl": [
+        "Rozważ umówienie pierwszej wizyty u lekarza lub położnej, gdy będziesz na to gotowa.",
+        "Staraj się odpoczywać, gdy czujesz się zmęczona.",
+        "Zwróć uwagę na ogólne samopoczucie, ale unikaj nadmiernego martwienia się o pojedyncze objawy."
+      ],
+      "helpfulTipsDe": [
+        "Erwägen Sie, einen ersten Termin bei Arzt oder Hebamme zu vereinbaren, wenn Sie dazu bereit sind.",
+        "Versuchen Sie, sich auszuruhen, wenn Sie sich müde fühlen.",
+        "Achten Sie auf Ihr allgemeines Befinden, ohne sich wegen einzelner Symptome zu viele Sorgen zu machen."
+      ],
+      "helpfulTipsEn": [
+        "Consider booking a first appointment with a doctor or midwife when you feel ready.",
+        "Try to rest when you feel tired.",
+        "Pay attention to your general wellbeing without overworrying about individual symptoms."
+      ],
+      "doctorQuestionsPl": [
+        "Kiedy powinnam umówić pierwszą wizytę ciążową?",
+        "Jakie badania są zwykle wykonywane na początku ciąży?",
+        "Na co powinnam zwracać uwagę w najbliższych tygodniach?"
+      ],
+      "doctorQuestionsDe": [
+        "Wann sollte ich den ersten Schwangerschaftstermin vereinbaren?",
+        "Welche Untersuchungen sind am Anfang der Schwangerschaft üblich?",
+        "Worauf sollte ich in den kommenden Wochen achten?"
+      ],
+      "doctorQuestionsEn": [
+        "When should I book my first pregnancy appointment?",
+        "What tests are typically done early in pregnancy?",
+        "What should I watch for in the coming weeks?"
+      ],
+      "redFlagsReminderPl": "Jeśli zauważysz silny ból, krwawienie lub inne niepokojące objawy, skontaktuj się z lekarzem lub położną — więcej informacji znajdziesz w sekcji sygnałów ostrzegawczych.",
+      "redFlagsReminderDe": "Wenn Sie starke Schmerzen, Blutungen oder andere beunruhigende Symptome bemerken, wenden Sie sich an Arzt oder Hebamme — weitere Informationen finden Sie im Bereich Warnzeichen.",
+      "redFlagsReminderEn": "If you notice severe pain, bleeding, or other concerning symptoms, contact your doctor or midwife — you can find more information in the red flags section.",
+      "relatedModules": [
+        "ai_guardian",
+        "doctor_questions",
+        "documents",
+        "red_flags"
+      ]
+    },
+    {
+      "id": "week_04",
+      "weekNumber": 4,
+      "trimester": 1,
+      "titlePl": "Tydzień 4 ciąży",
+      "titleDe": "Schwangerschaftswoche 4",
+      "titleEn": "Pregnancy week 4",
+      "babyDevelopmentPl": "Zapłodniona komórka jajowa, obecnie niewielka grupa komórek wielkości ziarna maku, zwykle zagnieżdża się w błonie śluzowej macicy w tym czasie.",
+      "babyDevelopmentDe": "Die befruchtete Eizelle, derzeit ein winziger Zellhaufen etwa von der Größe eines Mohnsamens, nistet sich in dieser Zeit in der Regel in der Gebärmutterschleimhaut ein.",
+      "babyDevelopmentEn": "The fertilized egg, now a tiny cluster of cells about the size of a poppy seed, typically implants in the lining of the uterus around this time.",
+      "motherBodyPl": "Poziom hormonów zaczyna rosnąć, co często umożliwia wykrycie ciąży testem.",
+      "motherBodyDe": "Der Hormonspiegel beginnt zu steigen, wodurch ein Schwangerschaftstest die Schwangerschaft häufig erstmals nachweisen kann.",
+      "motherBodyEn": "Hormone levels are starting to rise, which is often when a pregnancy test may first detect pregnancy.",
+      "commonSymptomsPl": [
+        "Zmęczenie",
+        "Tkliwość lub wrażliwość piersi",
+        "Lekkie mdłości u niektórych osób",
+        "Brak zauważalnych objawów u wielu osób na tym etapie"
+      ],
+      "commonSymptomsDe": [
+        "Müdigkeit",
+        "Empfindliche oder spannende Brüste",
+        "Bei manchen leichte Übelkeit",
+        "Bei vielen noch keine spürbaren Anzeichen in diesem Stadium"
+      ],
+      "commonSymptomsEn": [
+        "Fatigue",
+        "Breast tenderness or sensitivity",
+        "Mild nausea for some",
+        "No noticeable symptoms yet for many at this stage"
+      ],
+      "helpfulTipsPl": [
+        "Rozważ umówienie pierwszej wizyty u lekarza lub położnej, gdy będziesz na to gotowa.",
+        "Staraj się odpoczywać, gdy czujesz się zmęczona.",
+        "Zwróć uwagę na ogólne samopoczucie, ale unikaj nadmiernego martwienia się o pojedyncze objawy."
+      ],
+      "helpfulTipsDe": [
+        "Erwägen Sie, einen ersten Termin bei Arzt oder Hebamme zu vereinbaren, wenn Sie dazu bereit sind.",
+        "Versuchen Sie, sich auszuruhen, wenn Sie sich müde fühlen.",
+        "Achten Sie auf Ihr allgemeines Befinden, ohne sich wegen einzelner Symptome zu viele Sorgen zu machen."
+      ],
+      "helpfulTipsEn": [
+        "Consider booking a first appointment with a doctor or midwife when you feel ready.",
+        "Try to rest when you feel tired.",
+        "Pay attention to your general wellbeing without overworrying about individual symptoms."
+      ],
+      "doctorQuestionsPl": [
+        "Kiedy powinnam umówić pierwszą wizytę ciążową?",
+        "Jakie badania są zwykle wykonywane na początku ciąży?",
+        "Na co powinnam zwracać uwagę w najbliższych tygodniach?"
+      ],
+      "doctorQuestionsDe": [
+        "Wann sollte ich den ersten Schwangerschaftstermin vereinbaren?",
+        "Welche Untersuchungen sind am Anfang der Schwangerschaft üblich?",
+        "Worauf sollte ich in den kommenden Wochen achten?"
+      ],
+      "doctorQuestionsEn": [
+        "When should I book my first pregnancy appointment?",
+        "What tests are typically done early in pregnancy?",
+        "What should I watch for in the coming weeks?"
+      ],
+      "redFlagsReminderPl": "Jeśli zauważysz silny ból, krwawienie lub inne niepokojące objawy, skontaktuj się z lekarzem lub położną — więcej informacji znajdziesz w sekcji sygnałów ostrzegawczych.",
+      "redFlagsReminderDe": "Wenn Sie starke Schmerzen, Blutungen oder andere beunruhigende Symptome bemerken, wenden Sie sich an Arzt oder Hebamme — weitere Informationen finden Sie im Bereich Warnzeichen.",
+      "redFlagsReminderEn": "If you notice severe pain, bleeding, or other concerning symptoms, contact your doctor or midwife — you can find more information in the red flags section.",
+      "relatedModules": [
+        "ai_guardian",
+        "doctor_questions",
+        "documents",
+        "red_flags"
+      ]
+    },
+    {
+      "id": "week_05",
+      "weekNumber": 5,
+      "trimester": 1,
+      "titlePl": "Tydzień 5 ciąży",
+      "titleDe": "Schwangerschaftswoche 5",
+      "titleEn": "Pregnancy week 5",
+      "babyDevelopmentPl": "Dziecko, obecnie wielkości ziarenka sezamu, rozwija najwcześniejsze struktury mózgu, rdzenia kręgowego i serca.",
+      "babyDevelopmentDe": "Das Baby, derzeit etwa von der Größe eines Sesamkorns, entwickelt die frühesten Strukturen von Gehirn, Rückenmark und Herz.",
+      "babyDevelopmentEn": "The baby, now about the size of a sesame seed, is developing the earliest structures of the brain, spinal cord, and heart.",
+      "motherBodyPl": "Wiele osób zauważa pierwsze objawy, takie jak zmęczenie czy tkliwość piersi, choć doświadczenia bardzo się różnią.",
+      "motherBodyDe": "Viele Menschen bemerken erste Anzeichen wie Müdigkeit oder spannende Brüste, wobei die Erfahrungen sehr unterschiedlich sind.",
+      "motherBodyEn": "Many people start noticing early signs such as fatigue or breast tenderness, though experiences vary widely.",
+      "commonSymptomsPl": [
+        "Zmęczenie",
+        "Tkliwość lub wrażliwość piersi",
+        "Lekkie mdłości u niektórych osób",
+        "Brak zauważalnych objawów u wielu osób na tym etapie"
+      ],
+      "commonSymptomsDe": [
+        "Müdigkeit",
+        "Empfindliche oder spannende Brüste",
+        "Bei manchen leichte Übelkeit",
+        "Bei vielen noch keine spürbaren Anzeichen in diesem Stadium"
+      ],
+      "commonSymptomsEn": [
+        "Fatigue",
+        "Breast tenderness or sensitivity",
+        "Mild nausea for some",
+        "No noticeable symptoms yet for many at this stage"
+      ],
+      "helpfulTipsPl": [
+        "Rozważ umówienie pierwszej wizyty u lekarza lub położnej, gdy będziesz na to gotowa.",
+        "Staraj się odpoczywać, gdy czujesz się zmęczona.",
+        "Zwróć uwagę na ogólne samopoczucie, ale unikaj nadmiernego martwienia się o pojedyncze objawy."
+      ],
+      "helpfulTipsDe": [
+        "Erwägen Sie, einen ersten Termin bei Arzt oder Hebamme zu vereinbaren, wenn Sie dazu bereit sind.",
+        "Versuchen Sie, sich auszuruhen, wenn Sie sich müde fühlen.",
+        "Achten Sie auf Ihr allgemeines Befinden, ohne sich wegen einzelner Symptome zu viele Sorgen zu machen."
+      ],
+      "helpfulTipsEn": [
+        "Consider booking a first appointment with a doctor or midwife when you feel ready.",
+        "Try to rest when you feel tired.",
+        "Pay attention to your general wellbeing without overworrying about individual symptoms."
+      ],
+      "doctorQuestionsPl": [
+        "Kiedy powinnam umówić pierwszą wizytę ciążową?",
+        "Jakie badania są zwykle wykonywane na początku ciąży?",
+        "Na co powinnam zwracać uwagę w najbliższych tygodniach?"
+      ],
+      "doctorQuestionsDe": [
+        "Wann sollte ich den ersten Schwangerschaftstermin vereinbaren?",
+        "Welche Untersuchungen sind am Anfang der Schwangerschaft üblich?",
+        "Worauf sollte ich in den kommenden Wochen achten?"
+      ],
+      "doctorQuestionsEn": [
+        "When should I book my first pregnancy appointment?",
+        "What tests are typically done early in pregnancy?",
+        "What should I watch for in the coming weeks?"
+      ],
+      "redFlagsReminderPl": "Jeśli zauważysz silny ból, krwawienie lub inne niepokojące objawy, skontaktuj się z lekarzem lub położną — więcej informacji znajdziesz w sekcji sygnałów ostrzegawczych.",
+      "redFlagsReminderDe": "Wenn Sie starke Schmerzen, Blutungen oder andere beunruhigende Symptome bemerken, wenden Sie sich an Arzt oder Hebamme — weitere Informationen finden Sie im Bereich Warnzeichen.",
+      "redFlagsReminderEn": "If you notice severe pain, bleeding, or other concerning symptoms, contact your doctor or midwife — you can find more information in the red flags section.",
+      "relatedModules": [
+        "ai_guardian",
+        "doctor_questions",
+        "documents",
+        "red_flags"
+      ]
+    },
+    {
+      "id": "week_06",
+      "weekNumber": 6,
+      "trimester": 1,
+      "titlePl": "Tydzień 6 ciąży",
+      "titleDe": "Schwangerschaftswoche 6",
+      "titleEn": "Pregnancy week 6",
+      "babyDevelopmentPl": "Przy wielkości ziarna lentilki serce dziecka często zaczyna wykazywać wczesną aktywność, a zaczyna się też kształtować podstawowy zarys twarzy.",
+      "babyDevelopmentDe": "Bei einer Größe von etwa einer Linse zeigt das Herz des Babys häufig erste Aktivität, und die grundlegende Form des Gesichts beginnt sich zu bilden.",
+      "babyDevelopmentEn": "At around the size of a lentil, the baby's heart often begins to show early activity, and the basic shape of the face starts forming.",
+      "motherBodyPl": "Zmiany hormonalne mogą u niektórych powodować nudności, wzmożoną wrażliwość na zapachy lub zmęczenie, a inne osoby nie zauważają większych zmian.",
+      "motherBodyDe": "Hormonelle Veränderungen können bei manchen Übelkeit, erhöhte Geruchsempfindlichkeit oder Müdigkeit verursachen, während andere kaum Veränderungen bemerken.",
+      "motherBodyEn": "Hormonal changes can bring nausea, heightened smell sensitivity, or tiredness for some, while others notice little change.",
+      "commonSymptomsPl": [
+        "Zmęczenie",
+        "Tkliwość lub wrażliwość piersi",
+        "Lekkie mdłości u niektórych osób",
+        "Brak zauważalnych objawów u wielu osób na tym etapie"
+      ],
+      "commonSymptomsDe": [
+        "Müdigkeit",
+        "Empfindliche oder spannende Brüste",
+        "Bei manchen leichte Übelkeit",
+        "Bei vielen noch keine spürbaren Anzeichen in diesem Stadium"
+      ],
+      "commonSymptomsEn": [
+        "Fatigue",
+        "Breast tenderness or sensitivity",
+        "Mild nausea for some",
+        "No noticeable symptoms yet for many at this stage"
+      ],
+      "helpfulTipsPl": [
+        "Rozważ umówienie pierwszej wizyty u lekarza lub położnej, gdy będziesz na to gotowa.",
+        "Staraj się odpoczywać, gdy czujesz się zmęczona.",
+        "Zwróć uwagę na ogólne samopoczucie, ale unikaj nadmiernego martwienia się o pojedyncze objawy."
+      ],
+      "helpfulTipsDe": [
+        "Erwägen Sie, einen ersten Termin bei Arzt oder Hebamme zu vereinbaren, wenn Sie dazu bereit sind.",
+        "Versuchen Sie, sich auszuruhen, wenn Sie sich müde fühlen.",
+        "Achten Sie auf Ihr allgemeines Befinden, ohne sich wegen einzelner Symptome zu viele Sorgen zu machen."
+      ],
+      "helpfulTipsEn": [
+        "Consider booking a first appointment with a doctor or midwife when you feel ready.",
+        "Try to rest when you feel tired.",
+        "Pay attention to your general wellbeing without overworrying about individual symptoms."
+      ],
+      "doctorQuestionsPl": [
+        "Kiedy powinnam umówić pierwszą wizytę ciążową?",
+        "Jakie badania są zwykle wykonywane na początku ciąży?",
+        "Na co powinnam zwracać uwagę w najbliższych tygodniach?"
+      ],
+      "doctorQuestionsDe": [
+        "Wann sollte ich den ersten Schwangerschaftstermin vereinbaren?",
+        "Welche Untersuchungen sind am Anfang der Schwangerschaft üblich?",
+        "Worauf sollte ich in den kommenden Wochen achten?"
+      ],
+      "doctorQuestionsEn": [
+        "When should I book my first pregnancy appointment?",
+        "What tests are typically done early in pregnancy?",
+        "What should I watch for in the coming weeks?"
+      ],
+      "redFlagsReminderPl": "Jeśli zauważysz silny ból, krwawienie lub inne niepokojące objawy, skontaktuj się z lekarzem lub położną — więcej informacji znajdziesz w sekcji sygnałów ostrzegawczych.",
+      "redFlagsReminderDe": "Wenn Sie starke Schmerzen, Blutungen oder andere beunruhigende Symptome bemerken, wenden Sie sich an Arzt oder Hebamme — weitere Informationen finden Sie im Bereich Warnzeichen.",
+      "redFlagsReminderEn": "If you notice severe pain, bleeding, or other concerning symptoms, contact your doctor or midwife — you can find more information in the red flags section.",
+      "relatedModules": [
+        "ai_guardian",
+        "doctor_questions",
+        "documents",
+        "red_flags"
+      ]
+    },
+    {
+      "id": "week_07",
+      "weekNumber": 7,
+      "trimester": 1,
+      "titlePl": "Tydzień 7 ciąży",
+      "titleDe": "Schwangerschaftswoche 7",
+      "titleEn": "Pregnancy week 7",
+      "babyDevelopmentPl": "Obecnie wielkości jagody, mózg dziecka i niewielkie zawiązki kończyn rozwijają się szybko.",
+      "babyDevelopmentDe": "Derzeit etwa von der Größe einer Heidelbeere entwickeln sich Gehirn und kleine Gliedmaßenansätze des Babys rasch.",
+      "babyDevelopmentEn": "Now about the size of a blueberry, the baby's brain and tiny limb buds are developing quickly.",
+      "motherBodyPl": "Wczesne objawy ciąży, takie jak nudności czy zmęczenie, mogą się utrzymywać i mieć różne nasilenie u różnych osób.",
+      "motherBodyDe": "Frühe Schwangerschaftssymptome wie Übelkeit oder Müdigkeit können anhalten und sind bei verschiedenen Personen unterschiedlich stark ausgeprägt.",
+      "motherBodyEn": "Early pregnancy symptoms such as nausea or fatigue may continue and can vary in intensity from person to person.",
+      "commonSymptomsPl": [
+        "Nudności lub wymioty (tzw. poranne mdłości)",
+        "Silne zmęczenie",
+        "Wzmożona wrażliwość na zapachy",
+        "Częstsze oddawanie moczu"
+      ],
+      "commonSymptomsDe": [
+        "Übelkeit oder Erbrechen (sogenannte Morgenübelkeit)",
+        "Starke Müdigkeit",
+        "Erhöhte Geruchsempfindlichkeit",
+        "Häufigeres Wasserlassen"
+      ],
+      "commonSymptomsEn": [
+        "Nausea or vomiting (so-called morning sickness)",
+        "Strong fatigue",
+        "Heightened sensitivity to smells",
+        "More frequent urination"
+      ],
+      "helpfulTipsPl": [
+        "Jedz małe, częste posiłki, jeśli pomaga to na nudności.",
+        "Pij wystarczającą ilość wody w ciągu dnia.",
+        "Daj sobie czas na odpoczynek — to częsty etap większego zmęczenia."
+      ],
+      "helpfulTipsDe": [
+        "Essen Sie kleine, häufige Mahlzeiten, wenn dies bei Übelkeit hilft.",
+        "Trinken Sie über den Tag ausreichend Wasser.",
+        "Geben Sie sich Zeit zum Ausruhen — dies ist häufig eine Phase stärkerer Müdigkeit."
+      ],
+      "helpfulTipsEn": [
+        "Eat small, frequent meals if that helps with nausea.",
+        "Drink enough water throughout the day.",
+        "Allow yourself time to rest — this is often a stage of increased tiredness."
+      ],
+      "doctorQuestionsPl": [
+        "Co mogę zrobić, gdy nudności są szczególnie nasilone?",
+        "Jakie badania krwi są zalecane w tym okresie?",
+        "Czy moje samopoczucie jest typowe dla tego tygodnia ciąży?"
+      ],
+      "doctorQuestionsDe": [
+        "Was kann ich tun, wenn die Übelkeit besonders stark ist?",
+        "Welche Blutuntersuchungen werden in diesem Zeitraum empfohlen?",
+        "Ist mein Befinden typisch für diese Schwangerschaftswoche?"
+      ],
+      "doctorQuestionsEn": [
+        "What can I do when nausea feels especially strong?",
+        "What blood tests are recommended during this period?",
+        "Is how I'm feeling typical for this week of pregnancy?"
+      ],
+      "redFlagsReminderPl": "Silne, uporczywe wymioty, krwawienie lub silny ból brzucha to sygnały, by skontaktować się z lekarzem lub położną bez zwlekania.",
+      "redFlagsReminderDe": "Starkes, anhaltendes Erbrechen, Blutungen oder starke Bauchschmerzen sind Anzeichen, bei denen Sie sich ohne Verzögerung an Arzt oder Hebamme wenden sollten.",
+      "redFlagsReminderEn": "Severe, persistent vomiting, bleeding, or severe abdominal pain are signs to contact your doctor or midwife without delay.",
+      "relatedModules": [
+        "ai_guardian",
+        "doctor_questions",
+        "documents",
+        "red_flags"
+      ]
+    },
+    {
+      "id": "week_08",
+      "weekNumber": 8,
+      "trimester": 1,
+      "titlePl": "Tydzień 8 ciąży",
+      "titleDe": "Schwangerschaftswoche 8",
+      "titleEn": "Pregnancy week 8",
+      "babyDevelopmentPl": "Przy wielkości maliny zaczynają formować się paluszki u rąk i nóg, a zarodek zaczyna się poruszać, choć matka jeszcze tego nie czuje.",
+      "babyDevelopmentDe": "Bei etwa der Größe einer Himbeere bilden sich Finger und Zehen, und der Embryo beginnt sich zu bewegen, was die Mutter jedoch noch nicht spürt.",
+      "babyDevelopmentEn": "At roughly the size of a raspberry, fingers and toes are beginning to form, and the embryo is starting to move, though not yet felt by the mother.",
+      "motherBodyPl": "Macica powoli się powiększa, choć zmiany te zwykle nie są jeszcze widoczne z zewnątrz.",
+      "motherBodyDe": "Die Gebärmutter wächst allmählich, auch wenn die Veränderungen von außen meist noch nicht sichtbar sind.",
+      "motherBodyEn": "The uterus is gradually growing, although changes are often not yet visible from the outside.",
+      "commonSymptomsPl": [
+        "Nudności lub wymioty (tzw. poranne mdłości)",
+        "Silne zmęczenie",
+        "Wzmożona wrażliwość na zapachy",
+        "Częstsze oddawanie moczu"
+      ],
+      "commonSymptomsDe": [
+        "Übelkeit oder Erbrechen (sogenannte Morgenübelkeit)",
+        "Starke Müdigkeit",
+        "Erhöhte Geruchsempfindlichkeit",
+        "Häufigeres Wasserlassen"
+      ],
+      "commonSymptomsEn": [
+        "Nausea or vomiting (so-called morning sickness)",
+        "Strong fatigue",
+        "Heightened sensitivity to smells",
+        "More frequent urination"
+      ],
+      "helpfulTipsPl": [
+        "Jedz małe, częste posiłki, jeśli pomaga to na nudności.",
+        "Pij wystarczającą ilość wody w ciągu dnia.",
+        "Daj sobie czas na odpoczynek — to częsty etap większego zmęczenia."
+      ],
+      "helpfulTipsDe": [
+        "Essen Sie kleine, häufige Mahlzeiten, wenn dies bei Übelkeit hilft.",
+        "Trinken Sie über den Tag ausreichend Wasser.",
+        "Geben Sie sich Zeit zum Ausruhen — dies ist häufig eine Phase stärkerer Müdigkeit."
+      ],
+      "helpfulTipsEn": [
+        "Eat small, frequent meals if that helps with nausea.",
+        "Drink enough water throughout the day.",
+        "Allow yourself time to rest — this is often a stage of increased tiredness."
+      ],
+      "doctorQuestionsPl": [
+        "Co mogę zrobić, gdy nudności są szczególnie nasilone?",
+        "Jakie badania krwi są zalecane w tym okresie?",
+        "Czy moje samopoczucie jest typowe dla tego tygodnia ciąży?"
+      ],
+      "doctorQuestionsDe": [
+        "Was kann ich tun, wenn die Übelkeit besonders stark ist?",
+        "Welche Blutuntersuchungen werden in diesem Zeitraum empfohlen?",
+        "Ist mein Befinden typisch für diese Schwangerschaftswoche?"
+      ],
+      "doctorQuestionsEn": [
+        "What can I do when nausea feels especially strong?",
+        "What blood tests are recommended during this period?",
+        "Is how I'm feeling typical for this week of pregnancy?"
+      ],
+      "redFlagsReminderPl": "Silne, uporczywe wymioty, krwawienie lub silny ból brzucha to sygnały, by skontaktować się z lekarzem lub położną bez zwlekania.",
+      "redFlagsReminderDe": "Starkes, anhaltendes Erbrechen, Blutungen oder starke Bauchschmerzen sind Anzeichen, bei denen Sie sich ohne Verzögerung an Arzt oder Hebamme wenden sollten.",
+      "redFlagsReminderEn": "Severe, persistent vomiting, bleeding, or severe abdominal pain are signs to contact your doctor or midwife without delay.",
+      "relatedModules": [
+        "ai_guardian",
+        "doctor_questions",
+        "documents",
+        "red_flags"
+      ]
+    },
+    {
+      "id": "week_09",
+      "weekNumber": 9,
+      "trimester": 1,
+      "titlePl": "Tydzień 9 ciąży",
+      "titleDe": "Schwangerschaftswoche 9",
+      "titleEn": "Pregnancy week 9",
+      "babyDevelopmentPl": "Przy wielkości winogrona podstawowe struktury ciała dziecka są już ukształtowane, a zewnętrzne cechy stają się wyraźniejsze.",
+      "babyDevelopmentDe": "Bei etwa der Größe einer Weintraube sind die grundlegenden Körperstrukturen des Babys bereits angelegt, und äußere Merkmale werden deutlicher.",
+      "babyDevelopmentEn": "Around the size of a grape, the baby's basic body structures are now in place, and external features are becoming more defined.",
+      "motherBodyPl": "Niektóre osoby zauważają, że ubrania leżą inaczej, inne nie widzą jeszcze żadnej zmiany.",
+      "motherBodyDe": "Manche Menschen bemerken, dass Kleidung anders sitzt, andere sehen noch keine Veränderung.",
+      "motherBodyEn": "Some people notice their clothes fitting differently, while others see no visible change yet.",
+      "commonSymptomsPl": [
+        "Nudności lub wymioty (tzw. poranne mdłości)",
+        "Silne zmęczenie",
+        "Wzmożona wrażliwość na zapachy",
+        "Częstsze oddawanie moczu"
+      ],
+      "commonSymptomsDe": [
+        "Übelkeit oder Erbrechen (sogenannte Morgenübelkeit)",
+        "Starke Müdigkeit",
+        "Erhöhte Geruchsempfindlichkeit",
+        "Häufigeres Wasserlassen"
+      ],
+      "commonSymptomsEn": [
+        "Nausea or vomiting (so-called morning sickness)",
+        "Strong fatigue",
+        "Heightened sensitivity to smells",
+        "More frequent urination"
+      ],
+      "helpfulTipsPl": [
+        "Jedz małe, częste posiłki, jeśli pomaga to na nudności.",
+        "Pij wystarczającą ilość wody w ciągu dnia.",
+        "Daj sobie czas na odpoczynek — to częsty etap większego zmęczenia."
+      ],
+      "helpfulTipsDe": [
+        "Essen Sie kleine, häufige Mahlzeiten, wenn dies bei Übelkeit hilft.",
+        "Trinken Sie über den Tag ausreichend Wasser.",
+        "Geben Sie sich Zeit zum Ausruhen — dies ist häufig eine Phase stärkerer Müdigkeit."
+      ],
+      "helpfulTipsEn": [
+        "Eat small, frequent meals if that helps with nausea.",
+        "Drink enough water throughout the day.",
+        "Allow yourself time to rest — this is often a stage of increased tiredness."
+      ],
+      "doctorQuestionsPl": [
+        "Co mogę zrobić, gdy nudności są szczególnie nasilone?",
+        "Jakie badania krwi są zalecane w tym okresie?",
+        "Czy moje samopoczucie jest typowe dla tego tygodnia ciąży?"
+      ],
+      "doctorQuestionsDe": [
+        "Was kann ich tun, wenn die Übelkeit besonders stark ist?",
+        "Welche Blutuntersuchungen werden in diesem Zeitraum empfohlen?",
+        "Ist mein Befinden typisch für diese Schwangerschaftswoche?"
+      ],
+      "doctorQuestionsEn": [
+        "What can I do when nausea feels especially strong?",
+        "What blood tests are recommended during this period?",
+        "Is how I'm feeling typical for this week of pregnancy?"
+      ],
+      "redFlagsReminderPl": "Silne, uporczywe wymioty, krwawienie lub silny ból brzucha to sygnały, by skontaktować się z lekarzem lub położną bez zwlekania.",
+      "redFlagsReminderDe": "Starkes, anhaltendes Erbrechen, Blutungen oder starke Bauchschmerzen sind Anzeichen, bei denen Sie sich ohne Verzögerung an Arzt oder Hebamme wenden sollten.",
+      "redFlagsReminderEn": "Severe, persistent vomiting, bleeding, or severe abdominal pain are signs to contact your doctor or midwife without delay.",
+      "relatedModules": [
+        "ai_guardian",
+        "doctor_questions",
+        "documents",
+        "red_flags"
+      ]
+    },
+    {
+      "id": "week_10",
+      "weekNumber": 10,
+      "trimester": 1,
+      "titlePl": "Tydzień 10 ciąży",
+      "titleDe": "Schwangerschaftswoche 10",
+      "titleEn": "Pregnancy week 10",
+      "babyDevelopmentPl": "Przy wielkości kumkwatu dziecko przechodzi z etapu zarodkowego do płodowego, a kości zaczynają twardnieć.",
+      "babyDevelopmentDe": "Bei etwa der Größe einer Kumquat geht das Baby vom embryonalen in das fetale Stadium über, und die Knochen beginnen sich zu verhärten.",
+      "babyDevelopmentEn": "Now about the size of a kumquat, the baby is transitioning from the embryonic to the fetal stage, with bones starting to harden.",
+      "motherBodyPl": "Wiele osób zbliża się do momentu, gdy wczesne objawy ciąży zaczynają łagodnieć, choć czas ten bywa różny.",
+      "motherBodyDe": "Viele Menschen nähern sich dem Zeitpunkt, an dem frühe Schwangerschaftssymptome nachlassen, wobei der Zeitpunkt variiert.",
+      "motherBodyEn": "Many people are approaching the point where early pregnancy symptoms start to ease, though timing varies.",
+      "commonSymptomsPl": [
+        "Nudności lub wymioty (tzw. poranne mdłości)",
+        "Silne zmęczenie",
+        "Wzmożona wrażliwość na zapachy",
+        "Częstsze oddawanie moczu"
+      ],
+      "commonSymptomsDe": [
+        "Übelkeit oder Erbrechen (sogenannte Morgenübelkeit)",
+        "Starke Müdigkeit",
+        "Erhöhte Geruchsempfindlichkeit",
+        "Häufigeres Wasserlassen"
+      ],
+      "commonSymptomsEn": [
+        "Nausea or vomiting (so-called morning sickness)",
+        "Strong fatigue",
+        "Heightened sensitivity to smells",
+        "More frequent urination"
+      ],
+      "helpfulTipsPl": [
+        "Jedz małe, częste posiłki, jeśli pomaga to na nudności.",
+        "Pij wystarczającą ilość wody w ciągu dnia.",
+        "Daj sobie czas na odpoczynek — to częsty etap większego zmęczenia."
+      ],
+      "helpfulTipsDe": [
+        "Essen Sie kleine, häufige Mahlzeiten, wenn dies bei Übelkeit hilft.",
+        "Trinken Sie über den Tag ausreichend Wasser.",
+        "Geben Sie sich Zeit zum Ausruhen — dies ist häufig eine Phase stärkerer Müdigkeit."
+      ],
+      "helpfulTipsEn": [
+        "Eat small, frequent meals if that helps with nausea.",
+        "Drink enough water throughout the day.",
+        "Allow yourself time to rest — this is often a stage of increased tiredness."
+      ],
+      "doctorQuestionsPl": [
+        "Co mogę zrobić, gdy nudności są szczególnie nasilone?",
+        "Jakie badania krwi są zalecane w tym okresie?",
+        "Czy moje samopoczucie jest typowe dla tego tygodnia ciąży?"
+      ],
+      "doctorQuestionsDe": [
+        "Was kann ich tun, wenn die Übelkeit besonders stark ist?",
+        "Welche Blutuntersuchungen werden in diesem Zeitraum empfohlen?",
+        "Ist mein Befinden typisch für diese Schwangerschaftswoche?"
+      ],
+      "doctorQuestionsEn": [
+        "What can I do when nausea feels especially strong?",
+        "What blood tests are recommended during this period?",
+        "Is how I'm feeling typical for this week of pregnancy?"
+      ],
+      "redFlagsReminderPl": "Silne, uporczywe wymioty, krwawienie lub silny ból brzucha to sygnały, by skontaktować się z lekarzem lub położną bez zwlekania.",
+      "redFlagsReminderDe": "Starkes, anhaltendes Erbrechen, Blutungen oder starke Bauchschmerzen sind Anzeichen, bei denen Sie sich ohne Verzögerung an Arzt oder Hebamme wenden sollten.",
+      "redFlagsReminderEn": "Severe, persistent vomiting, bleeding, or severe abdominal pain are signs to contact your doctor or midwife without delay.",
+      "relatedModules": [
+        "ai_guardian",
+        "doctor_questions",
+        "documents",
+        "red_flags"
+      ]
+    },
+    {
+      "id": "week_11",
+      "weekNumber": 11,
+      "trimester": 1,
+      "titlePl": "Tydzień 11 ciąży",
+      "titleDe": "Schwangerschaftswoche 11",
+      "titleEn": "Pregnancy week 11",
+      "babyDevelopmentPl": "Przy wielkości figi dziecko porusza się w macicy, choć te ruchy zwykle nie są jeszcze odczuwalne.",
+      "babyDevelopmentDe": "Bei etwa der Größe einer Feige bewegt sich das Baby in der Gebärmutter, auch wenn diese Bewegungen meist noch nicht spürbar sind.",
+      "babyDevelopmentEn": "At around the size of a fig, the baby is moving inside the womb, even though these movements usually cannot be felt yet.",
+      "motherBodyPl": "Macica nadal się powiększa i może zacząć być wyczuwalna tuż powyżej kości łonowej.",
+      "motherBodyDe": "Die Gebärmutter wächst weiter und kann beginnen, knapp oberhalb des Schambeins fühlbar zu werden.",
+      "motherBodyEn": "The uterus continues to grow and may start to be felt just above the pelvic bone.",
+      "commonSymptomsPl": [
+        "Nudności lub wymioty (tzw. poranne mdłości)",
+        "Silne zmęczenie",
+        "Wzmożona wrażliwość na zapachy",
+        "Częstsze oddawanie moczu"
+      ],
+      "commonSymptomsDe": [
+        "Übelkeit oder Erbrechen (sogenannte Morgenübelkeit)",
+        "Starke Müdigkeit",
+        "Erhöhte Geruchsempfindlichkeit",
+        "Häufigeres Wasserlassen"
+      ],
+      "commonSymptomsEn": [
+        "Nausea or vomiting (so-called morning sickness)",
+        "Strong fatigue",
+        "Heightened sensitivity to smells",
+        "More frequent urination"
+      ],
+      "helpfulTipsPl": [
+        "Jedz małe, częste posiłki, jeśli pomaga to na nudności.",
+        "Pij wystarczającą ilość wody w ciągu dnia.",
+        "Daj sobie czas na odpoczynek — to częsty etap większego zmęczenia."
+      ],
+      "helpfulTipsDe": [
+        "Essen Sie kleine, häufige Mahlzeiten, wenn dies bei Übelkeit hilft.",
+        "Trinken Sie über den Tag ausreichend Wasser.",
+        "Geben Sie sich Zeit zum Ausruhen — dies ist häufig eine Phase stärkerer Müdigkeit."
+      ],
+      "helpfulTipsEn": [
+        "Eat small, frequent meals if that helps with nausea.",
+        "Drink enough water throughout the day.",
+        "Allow yourself time to rest — this is often a stage of increased tiredness."
+      ],
+      "doctorQuestionsPl": [
+        "Co mogę zrobić, gdy nudności są szczególnie nasilone?",
+        "Jakie badania krwi są zalecane w tym okresie?",
+        "Czy moje samopoczucie jest typowe dla tego tygodnia ciąży?"
+      ],
+      "doctorQuestionsDe": [
+        "Was kann ich tun, wenn die Übelkeit besonders stark ist?",
+        "Welche Blutuntersuchungen werden in diesem Zeitraum empfohlen?",
+        "Ist mein Befinden typisch für diese Schwangerschaftswoche?"
+      ],
+      "doctorQuestionsEn": [
+        "What can I do when nausea feels especially strong?",
+        "What blood tests are recommended during this period?",
+        "Is how I'm feeling typical for this week of pregnancy?"
+      ],
+      "redFlagsReminderPl": "Silne, uporczywe wymioty, krwawienie lub silny ból brzucha to sygnały, by skontaktować się z lekarzem lub położną bez zwlekania.",
+      "redFlagsReminderDe": "Starkes, anhaltendes Erbrechen, Blutungen oder starke Bauchschmerzen sind Anzeichen, bei denen Sie sich ohne Verzögerung an Arzt oder Hebamme wenden sollten.",
+      "redFlagsReminderEn": "Severe, persistent vomiting, bleeding, or severe abdominal pain are signs to contact your doctor or midwife without delay.",
+      "relatedModules": [
+        "ai_guardian",
+        "doctor_questions",
+        "documents",
+        "red_flags"
+      ]
+    },
+    {
+      "id": "week_12",
+      "weekNumber": 12,
+      "trimester": 1,
+      "titlePl": "Tydzień 12 ciąży",
+      "titleDe": "Schwangerschaftswoche 12",
+      "titleEn": "Pregnancy week 12",
+      "babyDevelopmentPl": "Przy wielkości limonki podstawowe narządy i struktury dziecka są już uformowane, a zaczynają się rozwijać odruchy.",
+      "babyDevelopmentDe": "Bei etwa der Größe einer Limette sind die grundlegenden Organe und Strukturen des Babys bereits gebildet, und Reflexe beginnen sich zu entwickeln.",
+      "babyDevelopmentEn": "Now about the size of a lime, the baby's basic organs and structures are formed, and reflexes are starting to develop.",
+      "motherBodyPl": "To dla wielu osób koniec pierwszego trymestru, gdy wczesne objawy zaczynają stawać się łatwiejsze do zniesienia.",
+      "motherBodyDe": "Dies markiert für viele das Ende des ersten Trimesters, wenn frühe Symptome oft leichter zu bewältigen werden.",
+      "motherBodyEn": "This marks the end of the first trimester for many, when early symptoms often start to feel more manageable.",
+      "commonSymptomsPl": [
+        "Nudności lub wymioty (tzw. poranne mdłości)",
+        "Silne zmęczenie",
+        "Wzmożona wrażliwość na zapachy",
+        "Częstsze oddawanie moczu"
+      ],
+      "commonSymptomsDe": [
+        "Übelkeit oder Erbrechen (sogenannte Morgenübelkeit)",
+        "Starke Müdigkeit",
+        "Erhöhte Geruchsempfindlichkeit",
+        "Häufigeres Wasserlassen"
+      ],
+      "commonSymptomsEn": [
+        "Nausea or vomiting (so-called morning sickness)",
+        "Strong fatigue",
+        "Heightened sensitivity to smells",
+        "More frequent urination"
+      ],
+      "helpfulTipsPl": [
+        "Jedz małe, częste posiłki, jeśli pomaga to na nudności.",
+        "Pij wystarczającą ilość wody w ciągu dnia.",
+        "Daj sobie czas na odpoczynek — to częsty etap większego zmęczenia."
+      ],
+      "helpfulTipsDe": [
+        "Essen Sie kleine, häufige Mahlzeiten, wenn dies bei Übelkeit hilft.",
+        "Trinken Sie über den Tag ausreichend Wasser.",
+        "Geben Sie sich Zeit zum Ausruhen — dies ist häufig eine Phase stärkerer Müdigkeit."
+      ],
+      "helpfulTipsEn": [
+        "Eat small, frequent meals if that helps with nausea.",
+        "Drink enough water throughout the day.",
+        "Allow yourself time to rest — this is often a stage of increased tiredness."
+      ],
+      "doctorQuestionsPl": [
+        "Co mogę zrobić, gdy nudności są szczególnie nasilone?",
+        "Jakie badania krwi są zalecane w tym okresie?",
+        "Czy moje samopoczucie jest typowe dla tego tygodnia ciąży?"
+      ],
+      "doctorQuestionsDe": [
+        "Was kann ich tun, wenn die Übelkeit besonders stark ist?",
+        "Welche Blutuntersuchungen werden in diesem Zeitraum empfohlen?",
+        "Ist mein Befinden typisch für diese Schwangerschaftswoche?"
+      ],
+      "doctorQuestionsEn": [
+        "What can I do when nausea feels especially strong?",
+        "What blood tests are recommended during this period?",
+        "Is how I'm feeling typical for this week of pregnancy?"
+      ],
+      "redFlagsReminderPl": "Silne, uporczywe wymioty, krwawienie lub silny ból brzucha to sygnały, by skontaktować się z lekarzem lub położną bez zwlekania.",
+      "redFlagsReminderDe": "Starkes, anhaltendes Erbrechen, Blutungen oder starke Bauchschmerzen sind Anzeichen, bei denen Sie sich ohne Verzögerung an Arzt oder Hebamme wenden sollten.",
+      "redFlagsReminderEn": "Severe, persistent vomiting, bleeding, or severe abdominal pain are signs to contact your doctor or midwife without delay.",
+      "relatedModules": [
+        "ai_guardian",
+        "doctor_questions",
+        "documents",
+        "red_flags"
+      ]
+    },
+    {
+      "id": "week_13",
+      "weekNumber": 13,
+      "trimester": 1,
+      "titlePl": "Tydzień 13 ciąży",
+      "titleDe": "Schwangerschaftswoche 13",
+      "titleEn": "Pregnancy week 13",
+      "babyDevelopmentPl": "Przy wielkości cytryny rozwijają się drobne szczegóły, takie jak odciski palców i pierwsze zarysy strun głosowych.",
+      "babyDevelopmentDe": "Bei etwa der Größe einer Zitrone entwickeln sich feine Details wie Fingerabdrücke und erste Ansätze der Stimmbänder.",
+      "babyDevelopmentEn": "At roughly the size of a lemon, fine details such as fingerprints and the first traces of vocal cords are developing.",
+      "motherBodyPl": "Poziom energii u niektórych osób może się zacząć poprawiać w miarę zbliżania się drugiego trymestru.",
+      "motherBodyDe": "Das Energieniveau kann sich bei manchen verbessern, je näher das zweite Trimester rückt.",
+      "motherBodyEn": "Energy levels may start to improve for some as the second trimester approaches.",
+      "commonSymptomsPl": [
+        "Nudności lub wymioty (tzw. poranne mdłości)",
+        "Silne zmęczenie",
+        "Wzmożona wrażliwość na zapachy",
+        "Częstsze oddawanie moczu"
+      ],
+      "commonSymptomsDe": [
+        "Übelkeit oder Erbrechen (sogenannte Morgenübelkeit)",
+        "Starke Müdigkeit",
+        "Erhöhte Geruchsempfindlichkeit",
+        "Häufigeres Wasserlassen"
+      ],
+      "commonSymptomsEn": [
+        "Nausea or vomiting (so-called morning sickness)",
+        "Strong fatigue",
+        "Heightened sensitivity to smells",
+        "More frequent urination"
+      ],
+      "helpfulTipsPl": [
+        "Jedz małe, częste posiłki, jeśli pomaga to na nudności.",
+        "Pij wystarczającą ilość wody w ciągu dnia.",
+        "Daj sobie czas na odpoczynek — to częsty etap większego zmęczenia."
+      ],
+      "helpfulTipsDe": [
+        "Essen Sie kleine, häufige Mahlzeiten, wenn dies bei Übelkeit hilft.",
+        "Trinken Sie über den Tag ausreichend Wasser.",
+        "Geben Sie sich Zeit zum Ausruhen — dies ist häufig eine Phase stärkerer Müdigkeit."
+      ],
+      "helpfulTipsEn": [
+        "Eat small, frequent meals if that helps with nausea.",
+        "Drink enough water throughout the day.",
+        "Allow yourself time to rest — this is often a stage of increased tiredness."
+      ],
+      "doctorQuestionsPl": [
+        "Co mogę zrobić, gdy nudności są szczególnie nasilone?",
+        "Jakie badania krwi są zalecane w tym okresie?",
+        "Czy moje samopoczucie jest typowe dla tego tygodnia ciąży?"
+      ],
+      "doctorQuestionsDe": [
+        "Was kann ich tun, wenn die Übelkeit besonders stark ist?",
+        "Welche Blutuntersuchungen werden in diesem Zeitraum empfohlen?",
+        "Ist mein Befinden typisch für diese Schwangerschaftswoche?"
+      ],
+      "doctorQuestionsEn": [
+        "What can I do when nausea feels especially strong?",
+        "What blood tests are recommended during this period?",
+        "Is how I'm feeling typical for this week of pregnancy?"
+      ],
+      "redFlagsReminderPl": "Silne, uporczywe wymioty, krwawienie lub silny ból brzucha to sygnały, by skontaktować się z lekarzem lub położną bez zwlekania.",
+      "redFlagsReminderDe": "Starkes, anhaltendes Erbrechen, Blutungen oder starke Bauchschmerzen sind Anzeichen, bei denen Sie sich ohne Verzögerung an Arzt oder Hebamme wenden sollten.",
+      "redFlagsReminderEn": "Severe, persistent vomiting, bleeding, or severe abdominal pain are signs to contact your doctor or midwife without delay.",
+      "relatedModules": [
+        "ai_guardian",
+        "doctor_questions",
+        "documents",
+        "red_flags"
+      ]
+    },
+    {
+      "id": "week_14",
+      "weekNumber": 14,
+      "trimester": 2,
+      "titlePl": "Tydzień 14 ciąży",
+      "titleDe": "Schwangerschaftswoche 14",
+      "titleEn": "Pregnancy week 14",
+      "babyDevelopmentPl": "Przy wielkości brzoskwini proporcje ciała dziecka stają się bardziej wyrównane, a na skórze może zacząć się pojawiać meszek (lanugo).",
+      "babyDevelopmentDe": "Bei etwa der Größe eines Pfirsichs werden die Körperproportionen des Babys ausgeglichener, und feiner Flaum (Lanugo) kann sich zu bilden beginnen.",
+      "babyDevelopmentEn": "Now about the size of a peach, the baby's proportions are becoming more balanced, and fine hair (lanugo) may begin to appear.",
+      "motherBodyPl": "Wiele osób zauważa rosnące poczucie dobrego samopoczucia, gdy wczesne objawy ciąży łagodnieją, choć bywa to różne.",
+      "motherBodyDe": "Viele Menschen verspüren ein wachsendes Wohlbefinden, da frühe Schwangerschaftssymptome nachlassen, auch wenn dies variieren kann.",
+      "motherBodyEn": "Many people notice a growing sense of wellbeing as early pregnancy symptoms ease, though this varies.",
+      "commonSymptomsPl": [
+        "Stopniowo więcej energii u wielu osób",
+        "Powiększający się brzuch",
+        "Dyskomfort związany z więzadłami obłymi",
+        "Możliwe pierwsze, delikatne ruchy dziecka"
+      ],
+      "commonSymptomsDe": [
+        "Bei vielen allmählich mehr Energie",
+        "Wachsender Bauch",
+        "Beschwerden durch die Mutterbänder",
+        "Mögliche erste, leichte Bewegungen des Babys"
+      ],
+      "commonSymptomsEn": [
+        "Gradually more energy for many",
+        "A growing belly",
+        "Round ligament discomfort",
+        "Possible first, light baby movements"
+      ],
+      "helpfulTipsPl": [
+        "Noś wygodne ubrania, które dopasowują się do zmieniającego się ciała.",
+        "Rozważ delikatną aktywność fizyczną, jeśli czujesz się na siły i po konsultacji z lekarzem.",
+        "Zacznij zwracać uwagę na to, jak się czujesz w miarę wzrostu brzucha."
+      ],
+      "helpfulTipsDe": [
+        "Tragen Sie bequeme Kleidung, die sich dem veränderten Körper anpasst.",
+        "Erwägen Sie sanfte Bewegung, wenn Sie sich danach fühlen und nach Rücksprache mit dem Arzt.",
+        "Achten Sie zunehmend darauf, wie Sie sich mit wachsendem Bauch fühlen."
+      ],
+      "helpfulTipsEn": [
+        "Wear comfortable clothing that adapts to your changing body.",
+        "Consider gentle physical activity if you feel up to it and after checking with your doctor.",
+        "Start paying attention to how you feel as your belly grows."
+      ],
+      "doctorQuestionsPl": [
+        "Kiedy mogę oczekiwać pierwszych ruchów dziecka?",
+        "Czy mogę bezpiecznie kontynuować swoją obecną aktywność fizyczną?",
+        "Jakie badania są planowane w nadchodzących tygodniach?"
+      ],
+      "doctorQuestionsDe": [
+        "Wann kann ich mit den ersten Bewegungen des Babys rechnen?",
+        "Kann ich meine aktuelle körperliche Aktivität sicher fortsetzen?",
+        "Welche Untersuchungen sind in den kommenden Wochen geplant?"
+      ],
+      "doctorQuestionsEn": [
+        "When can I expect to feel the baby's first movements?",
+        "Can I safely continue my current physical activity?",
+        "What tests are planned in the coming weeks?"
+      ],
+      "redFlagsReminderPl": "Silne krwawienie, silny ból brzucha lub gorączka wymagają szybkiego kontaktu z lekarzem lub położną.",
+      "redFlagsReminderDe": "Starke Blutungen, starke Bauchschmerzen oder Fieber erfordern eine schnelle Kontaktaufnahme mit Arzt oder Hebamme.",
+      "redFlagsReminderEn": "Heavy bleeding, severe abdominal pain, or fever call for prompt contact with your doctor or midwife.",
+      "relatedModules": [
+        "ai_guardian",
+        "baby_movements",
+        "doctor_questions",
+        "documents",
+        "red_flags"
+      ]
+    },
+    {
+      "id": "week_15",
+      "weekNumber": 15,
+      "trimester": 2,
+      "titlePl": "Tydzień 15 ciąży",
+      "titleDe": "Schwangerschaftswoche 15",
+      "titleEn": "Pregnancy week 15",
+      "babyDevelopmentPl": "Przy wielkości jabłka szkielet dziecka nadal się rozwija, a może pojawić się wczesna wrażliwość na światło.",
+      "babyDevelopmentDe": "Bei etwa der Größe eines Apfels entwickelt sich das Skelett des Babys weiter, und eine frühe Lichtempfindlichkeit kann auftreten.",
+      "babyDevelopmentEn": "At around the size of an apple, the baby's skeleton continues to develop, and there may be early sensitivity to light.",
+      "motherBodyPl": "Brzuch może zacząć być nieco bardziej zauważalny dla bliskich osób.",
+      "motherBodyDe": "Der Bauch kann für nahestehende Personen allmählich etwas sichtbarer werden.",
+      "motherBodyEn": "The belly may start becoming a little more noticeable to those close to you.",
+      "commonSymptomsPl": [
+        "Stopniowo więcej energii u wielu osób",
+        "Powiększający się brzuch",
+        "Dyskomfort związany z więzadłami obłymi",
+        "Możliwe pierwsze, delikatne ruchy dziecka"
+      ],
+      "commonSymptomsDe": [
+        "Bei vielen allmählich mehr Energie",
+        "Wachsender Bauch",
+        "Beschwerden durch die Mutterbänder",
+        "Mögliche erste, leichte Bewegungen des Babys"
+      ],
+      "commonSymptomsEn": [
+        "Gradually more energy for many",
+        "A growing belly",
+        "Round ligament discomfort",
+        "Possible first, light baby movements"
+      ],
+      "helpfulTipsPl": [
+        "Noś wygodne ubrania, które dopasowują się do zmieniającego się ciała.",
+        "Rozważ delikatną aktywność fizyczną, jeśli czujesz się na siły i po konsultacji z lekarzem.",
+        "Zacznij zwracać uwagę na to, jak się czujesz w miarę wzrostu brzucha."
+      ],
+      "helpfulTipsDe": [
+        "Tragen Sie bequeme Kleidung, die sich dem veränderten Körper anpasst.",
+        "Erwägen Sie sanfte Bewegung, wenn Sie sich danach fühlen und nach Rücksprache mit dem Arzt.",
+        "Achten Sie zunehmend darauf, wie Sie sich mit wachsendem Bauch fühlen."
+      ],
+      "helpfulTipsEn": [
+        "Wear comfortable clothing that adapts to your changing body.",
+        "Consider gentle physical activity if you feel up to it and after checking with your doctor.",
+        "Start paying attention to how you feel as your belly grows."
+      ],
+      "doctorQuestionsPl": [
+        "Kiedy mogę oczekiwać pierwszych ruchów dziecka?",
+        "Czy mogę bezpiecznie kontynuować swoją obecną aktywność fizyczną?",
+        "Jakie badania są planowane w nadchodzących tygodniach?"
+      ],
+      "doctorQuestionsDe": [
+        "Wann kann ich mit den ersten Bewegungen des Babys rechnen?",
+        "Kann ich meine aktuelle körperliche Aktivität sicher fortsetzen?",
+        "Welche Untersuchungen sind in den kommenden Wochen geplant?"
+      ],
+      "doctorQuestionsEn": [
+        "When can I expect to feel the baby's first movements?",
+        "Can I safely continue my current physical activity?",
+        "What tests are planned in the coming weeks?"
+      ],
+      "redFlagsReminderPl": "Silne krwawienie, silny ból brzucha lub gorączka wymagają szybkiego kontaktu z lekarzem lub położną.",
+      "redFlagsReminderDe": "Starke Blutungen, starke Bauchschmerzen oder Fieber erfordern eine schnelle Kontaktaufnahme mit Arzt oder Hebamme.",
+      "redFlagsReminderEn": "Heavy bleeding, severe abdominal pain, or fever call for prompt contact with your doctor or midwife.",
+      "relatedModules": [
+        "ai_guardian",
+        "baby_movements",
+        "doctor_questions",
+        "documents",
+        "red_flags"
+      ]
+    },
+    {
+      "id": "week_16",
+      "weekNumber": 16,
+      "trimester": 2,
+      "titlePl": "Tydzień 16 ciąży",
+      "titleDe": "Schwangerschaftswoche 16",
+      "titleEn": "Pregnancy week 16",
+      "babyDevelopmentPl": "Przy wielkości awokado rozwój mięśni przyspiesza, a ruchy mogą być nieco silniejsze, choć wciąż często niewyczuwalne.",
+      "babyDevelopmentDe": "Bei etwa der Größe einer Avocado nimmt die Muskelentwicklung zu, und Bewegungen können etwas kräftiger werden, sind jedoch oft noch nicht spürbar.",
+      "babyDevelopmentEn": "Now about the size of an avocado, muscle development is increasing, and movements may be slightly stronger, although still often not felt.",
+      "motherBodyPl": "Niektóre osoby zaczynają w tym czasie czuć delikatne ruchy dziecka, u innych może to potrwać dłużej.",
+      "motherBodyDe": "Manche spüren zu dieser Zeit erste leichte Bewegungen des Babys, bei anderen kann dies länger dauern.",
+      "motherBodyEn": "Some people begin to feel subtle baby movements around this time, while for others it may take longer.",
+      "commonSymptomsPl": [
+        "Stopniowo więcej energii u wielu osób",
+        "Powiększający się brzuch",
+        "Dyskomfort związany z więzadłami obłymi",
+        "Możliwe pierwsze, delikatne ruchy dziecka"
+      ],
+      "commonSymptomsDe": [
+        "Bei vielen allmählich mehr Energie",
+        "Wachsender Bauch",
+        "Beschwerden durch die Mutterbänder",
+        "Mögliche erste, leichte Bewegungen des Babys"
+      ],
+      "commonSymptomsEn": [
+        "Gradually more energy for many",
+        "A growing belly",
+        "Round ligament discomfort",
+        "Possible first, light baby movements"
+      ],
+      "helpfulTipsPl": [
+        "Noś wygodne ubrania, które dopasowują się do zmieniającego się ciała.",
+        "Rozważ delikatną aktywność fizyczną, jeśli czujesz się na siły i po konsultacji z lekarzem.",
+        "Zacznij zwracać uwagę na to, jak się czujesz w miarę wzrostu brzucha."
+      ],
+      "helpfulTipsDe": [
+        "Tragen Sie bequeme Kleidung, die sich dem veränderten Körper anpasst.",
+        "Erwägen Sie sanfte Bewegung, wenn Sie sich danach fühlen und nach Rücksprache mit dem Arzt.",
+        "Achten Sie zunehmend darauf, wie Sie sich mit wachsendem Bauch fühlen."
+      ],
+      "helpfulTipsEn": [
+        "Wear comfortable clothing that adapts to your changing body.",
+        "Consider gentle physical activity if you feel up to it and after checking with your doctor.",
+        "Start paying attention to how you feel as your belly grows."
+      ],
+      "doctorQuestionsPl": [
+        "Kiedy mogę oczekiwać pierwszych ruchów dziecka?",
+        "Czy mogę bezpiecznie kontynuować swoją obecną aktywność fizyczną?",
+        "Jakie badania są planowane w nadchodzących tygodniach?"
+      ],
+      "doctorQuestionsDe": [
+        "Wann kann ich mit den ersten Bewegungen des Babys rechnen?",
+        "Kann ich meine aktuelle körperliche Aktivität sicher fortsetzen?",
+        "Welche Untersuchungen sind in den kommenden Wochen geplant?"
+      ],
+      "doctorQuestionsEn": [
+        "When can I expect to feel the baby's first movements?",
+        "Can I safely continue my current physical activity?",
+        "What tests are planned in the coming weeks?"
+      ],
+      "redFlagsReminderPl": "Silne krwawienie, silny ból brzucha lub gorączka wymagają szybkiego kontaktu z lekarzem lub położną.",
+      "redFlagsReminderDe": "Starke Blutungen, starke Bauchschmerzen oder Fieber erfordern eine schnelle Kontaktaufnahme mit Arzt oder Hebamme.",
+      "redFlagsReminderEn": "Heavy bleeding, severe abdominal pain, or fever call for prompt contact with your doctor or midwife.",
+      "relatedModules": [
+        "ai_guardian",
+        "baby_movements",
+        "doctor_questions",
+        "documents",
+        "red_flags"
+      ]
+    },
+    {
+      "id": "week_17",
+      "weekNumber": 17,
+      "trimester": 2,
+      "titlePl": "Tydzień 17 ciąży",
+      "titleDe": "Schwangerschaftswoche 17",
+      "titleEn": "Pregnancy week 17",
+      "babyDevelopmentPl": "Przy wielkości rzepy dziecko zaczyna tworzyć niewielkie zapasy tkanki tłuszczowej pod skórą.",
+      "babyDevelopmentDe": "Bei etwa der Größe einer Speiserübe beginnt das Baby, kleine Fettpolster unter der Haut anzulegen.",
+      "babyDevelopmentEn": "At roughly the size of a turnip, the baby is starting to build small fat stores under the skin.",
+      "motherBodyPl": "Macica nadal rośnie ku górze, a środek równowagi ciała może zacząć się stopniowo przesuwać.",
+      "motherBodyDe": "Die Gebärmutter wächst weiter nach oben, und der Körperschwerpunkt kann sich allmählich verschieben.",
+      "motherBodyEn": "The uterus continues to expand upward, and your center of balance may gradually start to shift.",
+      "commonSymptomsPl": [
+        "Stopniowo więcej energii u wielu osób",
+        "Powiększający się brzuch",
+        "Dyskomfort związany z więzadłami obłymi",
+        "Możliwe pierwsze, delikatne ruchy dziecka"
+      ],
+      "commonSymptomsDe": [
+        "Bei vielen allmählich mehr Energie",
+        "Wachsender Bauch",
+        "Beschwerden durch die Mutterbänder",
+        "Mögliche erste, leichte Bewegungen des Babys"
+      ],
+      "commonSymptomsEn": [
+        "Gradually more energy for many",
+        "A growing belly",
+        "Round ligament discomfort",
+        "Possible first, light baby movements"
+      ],
+      "helpfulTipsPl": [
+        "Noś wygodne ubrania, które dopasowują się do zmieniającego się ciała.",
+        "Rozważ delikatną aktywność fizyczną, jeśli czujesz się na siły i po konsultacji z lekarzem.",
+        "Zacznij zwracać uwagę na to, jak się czujesz w miarę wzrostu brzucha."
+      ],
+      "helpfulTipsDe": [
+        "Tragen Sie bequeme Kleidung, die sich dem veränderten Körper anpasst.",
+        "Erwägen Sie sanfte Bewegung, wenn Sie sich danach fühlen und nach Rücksprache mit dem Arzt.",
+        "Achten Sie zunehmend darauf, wie Sie sich mit wachsendem Bauch fühlen."
+      ],
+      "helpfulTipsEn": [
+        "Wear comfortable clothing that adapts to your changing body.",
+        "Consider gentle physical activity if you feel up to it and after checking with your doctor.",
+        "Start paying attention to how you feel as your belly grows."
+      ],
+      "doctorQuestionsPl": [
+        "Kiedy mogę oczekiwać pierwszych ruchów dziecka?",
+        "Czy mogę bezpiecznie kontynuować swoją obecną aktywność fizyczną?",
+        "Jakie badania są planowane w nadchodzących tygodniach?"
+      ],
+      "doctorQuestionsDe": [
+        "Wann kann ich mit den ersten Bewegungen des Babys rechnen?",
+        "Kann ich meine aktuelle körperliche Aktivität sicher fortsetzen?",
+        "Welche Untersuchungen sind in den kommenden Wochen geplant?"
+      ],
+      "doctorQuestionsEn": [
+        "When can I expect to feel the baby's first movements?",
+        "Can I safely continue my current physical activity?",
+        "What tests are planned in the coming weeks?"
+      ],
+      "redFlagsReminderPl": "Silne krwawienie, silny ból brzucha lub gorączka wymagają szybkiego kontaktu z lekarzem lub położną.",
+      "redFlagsReminderDe": "Starke Blutungen, starke Bauchschmerzen oder Fieber erfordern eine schnelle Kontaktaufnahme mit Arzt oder Hebamme.",
+      "redFlagsReminderEn": "Heavy bleeding, severe abdominal pain, or fever call for prompt contact with your doctor or midwife.",
+      "relatedModules": [
+        "ai_guardian",
+        "baby_movements",
+        "doctor_questions",
+        "documents",
+        "red_flags"
+      ]
+    },
+    {
+      "id": "week_18",
+      "weekNumber": 18,
+      "trimester": 2,
+      "titlePl": "Tydzień 18 ciąży",
+      "titleDe": "Schwangerschaftswoche 18",
+      "titleEn": "Pregnancy week 18",
+      "babyDevelopmentPl": "Przy wielkości papryki uszy dziecka osiągają swoje ostateczne położenie, a dziecko może zaczynać wyczuwać dźwięki z zewnątrz.",
+      "babyDevelopmentDe": "Bei etwa der Größe einer Paprika erreichen die Ohren des Babys ihre endgültige Position, und Geräusche von außen können allmählich wahrgenommen werden.",
+      "babyDevelopmentEn": "Now about the size of a bell pepper, the baby's ears are reaching their final position, and sounds from outside may start to be sensed.",
+      "motherBodyPl": "To częsty moment, gdy niektóre osoby czują pierwsze wyraźne ruchy dziecka, opisywane często jako delikatne machnięcia.",
+      "motherBodyDe": "Dies ist ein häufiger Zeitpunkt, an dem manche die ersten deutlichen Bewegungen des Babys spüren, oft als leichtes Flattern beschrieben.",
+      "motherBodyEn": "This is a common time for some people to feel the first definite baby movements, often described as light flutters.",
+      "commonSymptomsPl": [
+        "Stopniowo więcej energii u wielu osób",
+        "Powiększający się brzuch",
+        "Dyskomfort związany z więzadłami obłymi",
+        "Możliwe pierwsze, delikatne ruchy dziecka"
+      ],
+      "commonSymptomsDe": [
+        "Bei vielen allmählich mehr Energie",
+        "Wachsender Bauch",
+        "Beschwerden durch die Mutterbänder",
+        "Mögliche erste, leichte Bewegungen des Babys"
+      ],
+      "commonSymptomsEn": [
+        "Gradually more energy for many",
+        "A growing belly",
+        "Round ligament discomfort",
+        "Possible first, light baby movements"
+      ],
+      "helpfulTipsPl": [
+        "Noś wygodne ubrania, które dopasowują się do zmieniającego się ciała.",
+        "Rozważ delikatną aktywność fizyczną, jeśli czujesz się na siły i po konsultacji z lekarzem.",
+        "Zacznij zwracać uwagę na to, jak się czujesz w miarę wzrostu brzucha."
+      ],
+      "helpfulTipsDe": [
+        "Tragen Sie bequeme Kleidung, die sich dem veränderten Körper anpasst.",
+        "Erwägen Sie sanfte Bewegung, wenn Sie sich danach fühlen und nach Rücksprache mit dem Arzt.",
+        "Achten Sie zunehmend darauf, wie Sie sich mit wachsendem Bauch fühlen."
+      ],
+      "helpfulTipsEn": [
+        "Wear comfortable clothing that adapts to your changing body.",
+        "Consider gentle physical activity if you feel up to it and after checking with your doctor.",
+        "Start paying attention to how you feel as your belly grows."
+      ],
+      "doctorQuestionsPl": [
+        "Kiedy mogę oczekiwać pierwszych ruchów dziecka?",
+        "Czy mogę bezpiecznie kontynuować swoją obecną aktywność fizyczną?",
+        "Jakie badania są planowane w nadchodzących tygodniach?"
+      ],
+      "doctorQuestionsDe": [
+        "Wann kann ich mit den ersten Bewegungen des Babys rechnen?",
+        "Kann ich meine aktuelle körperliche Aktivität sicher fortsetzen?",
+        "Welche Untersuchungen sind in den kommenden Wochen geplant?"
+      ],
+      "doctorQuestionsEn": [
+        "When can I expect to feel the baby's first movements?",
+        "Can I safely continue my current physical activity?",
+        "What tests are planned in the coming weeks?"
+      ],
+      "redFlagsReminderPl": "Silne krwawienie, silny ból brzucha lub gorączka wymagają szybkiego kontaktu z lekarzem lub położną.",
+      "redFlagsReminderDe": "Starke Blutungen, starke Bauchschmerzen oder Fieber erfordern eine schnelle Kontaktaufnahme mit Arzt oder Hebamme.",
+      "redFlagsReminderEn": "Heavy bleeding, severe abdominal pain, or fever call for prompt contact with your doctor or midwife.",
+      "relatedModules": [
+        "ai_guardian",
+        "baby_movements",
+        "doctor_questions",
+        "documents",
+        "red_flags"
+      ]
+    },
+    {
+      "id": "week_19",
+      "weekNumber": 19,
+      "trimester": 2,
+      "titlePl": "Tydzień 19 ciąży",
+      "titleDe": "Schwangerschaftswoche 19",
+      "titleEn": "Pregnancy week 19",
+      "babyDevelopmentPl": "Przy wielkości pomidora skóra dziecka pokrywa się ochronną warstwą zwaną mazią płodową (vernix).",
+      "babyDevelopmentDe": "Bei etwa der Größe einer Tomate bildet sich auf der Haut des Babys eine Schutzschicht namens Vernix.",
+      "babyDevelopmentEn": "At around the size of a tomato, the baby's skin is developing a protective coating called vernix.",
+      "motherBodyPl": "Dyskomfort wzdłuż boków brzucha, związany z więzadłami obłymi, jest częsty w miarę powiększania się macicy.",
+      "motherBodyDe": "Beschwerden an den Seiten des Bauches durch die Mutterbänder sind häufig, da die Gebärmutter weiter wächst.",
+      "motherBodyEn": "Round ligament discomfort along the sides of the belly is common as the uterus grows.",
+      "commonSymptomsPl": [
+        "Stopniowo więcej energii u wielu osób",
+        "Powiększający się brzuch",
+        "Dyskomfort związany z więzadłami obłymi",
+        "Możliwe pierwsze, delikatne ruchy dziecka"
+      ],
+      "commonSymptomsDe": [
+        "Bei vielen allmählich mehr Energie",
+        "Wachsender Bauch",
+        "Beschwerden durch die Mutterbänder",
+        "Mögliche erste, leichte Bewegungen des Babys"
+      ],
+      "commonSymptomsEn": [
+        "Gradually more energy for many",
+        "A growing belly",
+        "Round ligament discomfort",
+        "Possible first, light baby movements"
+      ],
+      "helpfulTipsPl": [
+        "Noś wygodne ubrania, które dopasowują się do zmieniającego się ciała.",
+        "Rozważ delikatną aktywność fizyczną, jeśli czujesz się na siły i po konsultacji z lekarzem.",
+        "Zacznij zwracać uwagę na to, jak się czujesz w miarę wzrostu brzucha."
+      ],
+      "helpfulTipsDe": [
+        "Tragen Sie bequeme Kleidung, die sich dem veränderten Körper anpasst.",
+        "Erwägen Sie sanfte Bewegung, wenn Sie sich danach fühlen und nach Rücksprache mit dem Arzt.",
+        "Achten Sie zunehmend darauf, wie Sie sich mit wachsendem Bauch fühlen."
+      ],
+      "helpfulTipsEn": [
+        "Wear comfortable clothing that adapts to your changing body.",
+        "Consider gentle physical activity if you feel up to it and after checking with your doctor.",
+        "Start paying attention to how you feel as your belly grows."
+      ],
+      "doctorQuestionsPl": [
+        "Kiedy mogę oczekiwać pierwszych ruchów dziecka?",
+        "Czy mogę bezpiecznie kontynuować swoją obecną aktywność fizyczną?",
+        "Jakie badania są planowane w nadchodzących tygodniach?"
+      ],
+      "doctorQuestionsDe": [
+        "Wann kann ich mit den ersten Bewegungen des Babys rechnen?",
+        "Kann ich meine aktuelle körperliche Aktivität sicher fortsetzen?",
+        "Welche Untersuchungen sind in den kommenden Wochen geplant?"
+      ],
+      "doctorQuestionsEn": [
+        "When can I expect to feel the baby's first movements?",
+        "Can I safely continue my current physical activity?",
+        "What tests are planned in the coming weeks?"
+      ],
+      "redFlagsReminderPl": "Silne krwawienie, silny ból brzucha lub gorączka wymagają szybkiego kontaktu z lekarzem lub położną.",
+      "redFlagsReminderDe": "Starke Blutungen, starke Bauchschmerzen oder Fieber erfordern eine schnelle Kontaktaufnahme mit Arzt oder Hebamme.",
+      "redFlagsReminderEn": "Heavy bleeding, severe abdominal pain, or fever call for prompt contact with your doctor or midwife.",
+      "relatedModules": [
+        "ai_guardian",
+        "baby_movements",
+        "doctor_questions",
+        "documents",
+        "red_flags"
+      ]
+    },
+    {
+      "id": "week_20",
+      "weekNumber": 20,
+      "trimester": 2,
+      "titlePl": "Tydzień 20 ciąży",
+      "titleDe": "Schwangerschaftswoche 20",
+      "titleEn": "Pregnancy week 20",
+      "babyDevelopmentPl": "Przy wielkości banana dziecko osiąga połowę typowego czasu trwania ciąży, a jego wzrost przebiega w stałym tempie.",
+      "babyDevelopmentDe": "Bei etwa der Größe einer Banane erreicht das Baby die Hälfte einer typischen Schwangerschaftsdauer, und das Wachstum verläuft stetig weiter.",
+      "babyDevelopmentEn": "Now about the size of a banana, the baby has reached the halfway point of a full-term pregnancy, with steady growth continuing.",
+      "motherBodyPl": "W tym czasie wielu osobom proponuje się rutynowe badanie USG — to dobra okazja, by zadać pytania lekarzowi lub położnej.",
+      "motherBodyDe": "Um diese Zeit wird vielen eine routinemäßige Ultraschalluntersuchung angeboten — eine gute Gelegenheit, Fragen an Arzt oder Hebamme zu stellen.",
+      "motherBodyEn": "Many people have a routine anatomy scan offered around this time — it's a good opportunity to ask your doctor or midwife any questions.",
+      "commonSymptomsPl": [
+        "Bardziej regularne i zauważalne ruchy dziecka",
+        "Zwiększony apetyt",
+        "Zmiany skórne, np. linea nigra",
+        "Okazjonalne bóle pleców"
+      ],
+      "commonSymptomsDe": [
+        "Regelmäßigere und deutlichere Bewegungen des Babys",
+        "Gesteigerter Appetit",
+        "Hautveränderungen, z. B. Linea nigra",
+        "Gelegentliche Rückenschmerzen"
+      ],
+      "commonSymptomsEn": [
+        "More regular and noticeable baby movements",
+        "Increased appetite",
+        "Skin changes, such as linea nigra",
+        "Occasional back pain"
+      ],
+      "helpfulTipsPl": [
+        "Zacznij zwracać uwagę na wzorzec ruchów dziecka.",
+        "Wybieraj wygodne obuwie i pozycje do siedzenia, jeśli pojawia się dyskomfort.",
+        "Rozważ udział w kursie przygotowującym do porodu, jeśli jeszcze tego nie zrobiłaś."
+      ],
+      "helpfulTipsDe": [
+        "Beginnen Sie, auf das Bewegungsmuster des Babys zu achten.",
+        "Wählen Sie bequeme Schuhe und Sitzpositionen, wenn Beschwerden auftreten.",
+        "Erwägen Sie die Teilnahme an einem Geburtsvorbereitungskurs, falls noch nicht geschehen."
+      ],
+      "helpfulTipsEn": [
+        "Start paying attention to your baby's movement pattern.",
+        "Choose comfortable shoes and sitting positions if discomfort appears.",
+        "Consider joining a birth preparation course if you haven't already."
+      ],
+      "doctorQuestionsPl": [
+        "Jaki wzorzec ruchów dziecka jest typowy w mojej sytuacji?",
+        "Czy jestem kandydatką do badania w kierunku cukrzycy ciążowej?",
+        "Jak przygotować się do trzeciego trymestru?"
+      ],
+      "doctorQuestionsDe": [
+        "Welches Bewegungsmuster ist in meiner Situation typisch?",
+        "Komme ich für ein Screening auf Schwangerschaftsdiabetes in Frage?",
+        "Wie kann ich mich auf das dritte Trimester vorbereiten?"
+      ],
+      "doctorQuestionsEn": [
+        "What movement pattern is typical in my situation?",
+        "Am I a candidate for gestational diabetes screening?",
+        "How should I prepare for the third trimester?"
+      ],
+      "redFlagsReminderPl": "Zmniejszone ruchy dziecka, silne bóle, krwawienie lub silne bóle głowy z zaburzeniami widzenia wymagają kontaktu z lekarzem lub położną — nie czekaj do następnego dnia.",
+      "redFlagsReminderDe": "Verringerte Bewegungen des Babys, starke Schmerzen, Blutungen oder starke Kopfschmerzen mit Sehstörungen erfordern den Kontakt zu Arzt oder Hebamme — warten Sie nicht bis zum nächsten Tag.",
+      "redFlagsReminderEn": "Reduced baby movements, severe pain, bleeding, or severe headache with vision changes call for contacting your doctor or midwife — don't wait until the next day.",
+      "relatedModules": [
+        "ai_guardian",
+        "baby_movements",
+        "doctor_questions",
+        "documents",
+        "red_flags"
+      ]
+    },
+    {
+      "id": "week_21",
+      "weekNumber": 21,
+      "trimester": 2,
+      "titlePl": "Tydzień 21 ciąży",
+      "titleDe": "Schwangerschaftswoche 21",
+      "titleEn": "Pregnancy week 21",
+      "babyDevelopmentPl": "Przy wielkości marchewki ruchy dziecka stają się często łatwiejsze do zauważenia i rozpoznania.",
+      "babyDevelopmentDe": "Bei etwa der Größe einer Karotte werden die Bewegungen des Babys oft leichter zu bemerken und zu erkennen.",
+      "babyDevelopmentEn": "At roughly the size of a carrot, baby movements are often becoming easier to notice and recognize.",
+      "motherBodyPl": "U niektórych osób mogą stać się bardziej widoczne zmiany skórne, np. ciemna linia na brzuchu (linea nigra).",
+      "motherBodyDe": "Bei manchen können Hautveränderungen wie eine dunkle Linie am Bauch (Linea nigra) deutlicher sichtbar werden.",
+      "motherBodyEn": "Skin changes such as a dark line on the belly (linea nigra) may become more visible for some.",
+      "commonSymptomsPl": [
+        "Bardziej regularne i zauważalne ruchy dziecka",
+        "Zwiększony apetyt",
+        "Zmiany skórne, np. linea nigra",
+        "Okazjonalne bóle pleców"
+      ],
+      "commonSymptomsDe": [
+        "Regelmäßigere und deutlichere Bewegungen des Babys",
+        "Gesteigerter Appetit",
+        "Hautveränderungen, z. B. Linea nigra",
+        "Gelegentliche Rückenschmerzen"
+      ],
+      "commonSymptomsEn": [
+        "More regular and noticeable baby movements",
+        "Increased appetite",
+        "Skin changes, such as linea nigra",
+        "Occasional back pain"
+      ],
+      "helpfulTipsPl": [
+        "Zacznij zwracać uwagę na wzorzec ruchów dziecka.",
+        "Wybieraj wygodne obuwie i pozycje do siedzenia, jeśli pojawia się dyskomfort.",
+        "Rozważ udział w kursie przygotowującym do porodu, jeśli jeszcze tego nie zrobiłaś."
+      ],
+      "helpfulTipsDe": [
+        "Beginnen Sie, auf das Bewegungsmuster des Babys zu achten.",
+        "Wählen Sie bequeme Schuhe und Sitzpositionen, wenn Beschwerden auftreten.",
+        "Erwägen Sie die Teilnahme an einem Geburtsvorbereitungskurs, falls noch nicht geschehen."
+      ],
+      "helpfulTipsEn": [
+        "Start paying attention to your baby's movement pattern.",
+        "Choose comfortable shoes and sitting positions if discomfort appears.",
+        "Consider joining a birth preparation course if you haven't already."
+      ],
+      "doctorQuestionsPl": [
+        "Jaki wzorzec ruchów dziecka jest typowy w mojej sytuacji?",
+        "Czy jestem kandydatką do badania w kierunku cukrzycy ciążowej?",
+        "Jak przygotować się do trzeciego trymestru?"
+      ],
+      "doctorQuestionsDe": [
+        "Welches Bewegungsmuster ist in meiner Situation typisch?",
+        "Komme ich für ein Screening auf Schwangerschaftsdiabetes in Frage?",
+        "Wie kann ich mich auf das dritte Trimester vorbereiten?"
+      ],
+      "doctorQuestionsEn": [
+        "What movement pattern is typical in my situation?",
+        "Am I a candidate for gestational diabetes screening?",
+        "How should I prepare for the third trimester?"
+      ],
+      "redFlagsReminderPl": "Zmniejszone ruchy dziecka, silne bóle, krwawienie lub silne bóle głowy z zaburzeniami widzenia wymagają kontaktu z lekarzem lub położną — nie czekaj do następnego dnia.",
+      "redFlagsReminderDe": "Verringerte Bewegungen des Babys, starke Schmerzen, Blutungen oder starke Kopfschmerzen mit Sehstörungen erfordern den Kontakt zu Arzt oder Hebamme — warten Sie nicht bis zum nächsten Tag.",
+      "redFlagsReminderEn": "Reduced baby movements, severe pain, bleeding, or severe headache with vision changes call for contacting your doctor or midwife — don't wait until the next day.",
+      "relatedModules": [
+        "ai_guardian",
+        "baby_movements",
+        "doctor_questions",
+        "documents",
+        "red_flags"
+      ]
+    },
+    {
+      "id": "week_22",
+      "weekNumber": 22,
+      "trimester": 2,
+      "titlePl": "Tydzień 22 ciąży",
+      "titleDe": "Schwangerschaftswoche 22",
+      "titleEn": "Pregnancy week 22",
+      "babyDevelopmentPl": "Przy wielkości papai brwi i powieki dziecka są już w pełni uformowane.",
+      "babyDevelopmentDe": "Bei etwa der Größe einer Papaya sind Augenbrauen und Augenlider des Babys vollständig ausgebildet.",
+      "babyDevelopmentEn": "Now about the size of a papaya, the baby's eyebrows and eyelids are fully formed.",
+      "motherBodyPl": "Apetyt może wzrosnąć, a wiele osób zaczyna zauważać bardziej regularne wzorce ruchów dziecka.",
+      "motherBodyDe": "Der Appetit kann zunehmen, und viele bemerken jetzt regelmäßigere Bewegungsmuster des Babys.",
+      "motherBodyEn": "Appetite may increase, and many start noticing more regular fetal movement patterns.",
+      "commonSymptomsPl": [
+        "Bardziej regularne i zauważalne ruchy dziecka",
+        "Zwiększony apetyt",
+        "Zmiany skórne, np. linea nigra",
+        "Okazjonalne bóle pleców"
+      ],
+      "commonSymptomsDe": [
+        "Regelmäßigere und deutlichere Bewegungen des Babys",
+        "Gesteigerter Appetit",
+        "Hautveränderungen, z. B. Linea nigra",
+        "Gelegentliche Rückenschmerzen"
+      ],
+      "commonSymptomsEn": [
+        "More regular and noticeable baby movements",
+        "Increased appetite",
+        "Skin changes, such as linea nigra",
+        "Occasional back pain"
+      ],
+      "helpfulTipsPl": [
+        "Zacznij zwracać uwagę na wzorzec ruchów dziecka.",
+        "Wybieraj wygodne obuwie i pozycje do siedzenia, jeśli pojawia się dyskomfort.",
+        "Rozważ udział w kursie przygotowującym do porodu, jeśli jeszcze tego nie zrobiłaś."
+      ],
+      "helpfulTipsDe": [
+        "Beginnen Sie, auf das Bewegungsmuster des Babys zu achten.",
+        "Wählen Sie bequeme Schuhe und Sitzpositionen, wenn Beschwerden auftreten.",
+        "Erwägen Sie die Teilnahme an einem Geburtsvorbereitungskurs, falls noch nicht geschehen."
+      ],
+      "helpfulTipsEn": [
+        "Start paying attention to your baby's movement pattern.",
+        "Choose comfortable shoes and sitting positions if discomfort appears.",
+        "Consider joining a birth preparation course if you haven't already."
+      ],
+      "doctorQuestionsPl": [
+        "Jaki wzorzec ruchów dziecka jest typowy w mojej sytuacji?",
+        "Czy jestem kandydatką do badania w kierunku cukrzycy ciążowej?",
+        "Jak przygotować się do trzeciego trymestru?"
+      ],
+      "doctorQuestionsDe": [
+        "Welches Bewegungsmuster ist in meiner Situation typisch?",
+        "Komme ich für ein Screening auf Schwangerschaftsdiabetes in Frage?",
+        "Wie kann ich mich auf das dritte Trimester vorbereiten?"
+      ],
+      "doctorQuestionsEn": [
+        "What movement pattern is typical in my situation?",
+        "Am I a candidate for gestational diabetes screening?",
+        "How should I prepare for the third trimester?"
+      ],
+      "redFlagsReminderPl": "Zmniejszone ruchy dziecka, silne bóle, krwawienie lub silne bóle głowy z zaburzeniami widzenia wymagają kontaktu z lekarzem lub położną — nie czekaj do następnego dnia.",
+      "redFlagsReminderDe": "Verringerte Bewegungen des Babys, starke Schmerzen, Blutungen oder starke Kopfschmerzen mit Sehstörungen erfordern den Kontakt zu Arzt oder Hebamme — warten Sie nicht bis zum nächsten Tag.",
+      "redFlagsReminderEn": "Reduced baby movements, severe pain, bleeding, or severe headache with vision changes call for contacting your doctor or midwife — don't wait until the next day.",
+      "relatedModules": [
+        "ai_guardian",
+        "baby_movements",
+        "doctor_questions",
+        "documents",
+        "red_flags"
+      ]
+    },
+    {
+      "id": "week_23",
+      "weekNumber": 23,
+      "trimester": 2,
+      "titlePl": "Tydzień 23 ciąży",
+      "titleDe": "Schwangerschaftswoche 23",
+      "titleEn": "Pregnancy week 23",
+      "babyDevelopmentPl": "Przy wielkości dużego mango naczynia krwionośne w płucach dziecka nadal się rozwijają, przygotowując je na późniejsze życie poza brzuchem.",
+      "babyDevelopmentDe": "Bei etwa der Größe einer großen Mango entwickeln sich die Blutgefäße in den Lungen des Babys weiter, um es später auf das Leben außerhalb des Bauches vorzubereiten.",
+      "babyDevelopmentEn": "At around the size of a large mango, blood vessels in the baby's lungs are continuing to develop in preparation for life outside the womb later on.",
+      "motherBodyPl": "U niektórych osób mogą się pojawić bóle pleców lub niewielkie obrzęki, gdy ciało nadal się dostosowuje.",
+      "motherBodyDe": "Bei manchen können Rückenschmerzen oder leichte Schwellungen auftreten, während sich der Körper weiter anpasst.",
+      "motherBodyEn": "Backaches or mild swelling may appear for some as the body continues adjusting.",
+      "commonSymptomsPl": [
+        "Bardziej regularne i zauważalne ruchy dziecka",
+        "Zwiększony apetyt",
+        "Zmiany skórne, np. linea nigra",
+        "Okazjonalne bóle pleców"
+      ],
+      "commonSymptomsDe": [
+        "Regelmäßigere und deutlichere Bewegungen des Babys",
+        "Gesteigerter Appetit",
+        "Hautveränderungen, z. B. Linea nigra",
+        "Gelegentliche Rückenschmerzen"
+      ],
+      "commonSymptomsEn": [
+        "More regular and noticeable baby movements",
+        "Increased appetite",
+        "Skin changes, such as linea nigra",
+        "Occasional back pain"
+      ],
+      "helpfulTipsPl": [
+        "Zacznij zwracać uwagę na wzorzec ruchów dziecka.",
+        "Wybieraj wygodne obuwie i pozycje do siedzenia, jeśli pojawia się dyskomfort.",
+        "Rozważ udział w kursie przygotowującym do porodu, jeśli jeszcze tego nie zrobiłaś."
+      ],
+      "helpfulTipsDe": [
+        "Beginnen Sie, auf das Bewegungsmuster des Babys zu achten.",
+        "Wählen Sie bequeme Schuhe und Sitzpositionen, wenn Beschwerden auftreten.",
+        "Erwägen Sie die Teilnahme an einem Geburtsvorbereitungskurs, falls noch nicht geschehen."
+      ],
+      "helpfulTipsEn": [
+        "Start paying attention to your baby's movement pattern.",
+        "Choose comfortable shoes and sitting positions if discomfort appears.",
+        "Consider joining a birth preparation course if you haven't already."
+      ],
+      "doctorQuestionsPl": [
+        "Jaki wzorzec ruchów dziecka jest typowy w mojej sytuacji?",
+        "Czy jestem kandydatką do badania w kierunku cukrzycy ciążowej?",
+        "Jak przygotować się do trzeciego trymestru?"
+      ],
+      "doctorQuestionsDe": [
+        "Welches Bewegungsmuster ist in meiner Situation typisch?",
+        "Komme ich für ein Screening auf Schwangerschaftsdiabetes in Frage?",
+        "Wie kann ich mich auf das dritte Trimester vorbereiten?"
+      ],
+      "doctorQuestionsEn": [
+        "What movement pattern is typical in my situation?",
+        "Am I a candidate for gestational diabetes screening?",
+        "How should I prepare for the third trimester?"
+      ],
+      "redFlagsReminderPl": "Zmniejszone ruchy dziecka, silne bóle, krwawienie lub silne bóle głowy z zaburzeniami widzenia wymagają kontaktu z lekarzem lub położną — nie czekaj do następnego dnia.",
+      "redFlagsReminderDe": "Verringerte Bewegungen des Babys, starke Schmerzen, Blutungen oder starke Kopfschmerzen mit Sehstörungen erfordern den Kontakt zu Arzt oder Hebamme — warten Sie nicht bis zum nächsten Tag.",
+      "redFlagsReminderEn": "Reduced baby movements, severe pain, bleeding, or severe headache with vision changes call for contacting your doctor or midwife — don't wait until the next day.",
+      "relatedModules": [
+        "ai_guardian",
+        "baby_movements",
+        "doctor_questions",
+        "documents",
+        "red_flags"
+      ]
+    },
+    {
+      "id": "week_24",
+      "weekNumber": 24,
+      "trimester": 2,
+      "titlePl": "Tydzień 24 ciąży",
+      "titleDe": "Schwangerschaftswoche 24",
+      "titleEn": "Pregnancy week 24",
+      "babyDevelopmentPl": "Przy wielkości kolby kukurydzy płuca dziecka zaczynają wytwarzać substancje, które pomogą mu oddychać po urodzeniu.",
+      "babyDevelopmentDe": "Bei etwa der Größe eines Maiskolbens beginnen die Lungen des Babys, Stoffe zu bilden, die später die Atmung nach der Geburt unterstützen.",
+      "babyDevelopmentEn": "Now about the size of an ear of corn, the baby's lungs are producing substances that will eventually help with breathing after birth.",
+      "motherBodyPl": "Niektórym osobom proponuje się w tym czasie badanie przesiewowe w kierunku cukrzycy ciążowej — lekarz lub położna powie, co jest zalecane w Twojej opiece.",
+      "motherBodyDe": "Manchen wird um diese Zeit ein Screening auf Schwangerschaftsdiabetes angeboten — Arzt oder Hebamme können sagen, was für die individuelle Betreuung empfohlen wird.",
+      "motherBodyEn": "Some people are offered a glucose screening test around this time — your doctor or midwife can tell you what is recommended for your care.",
+      "commonSymptomsPl": [
+        "Bardziej regularne i zauważalne ruchy dziecka",
+        "Zwiększony apetyt",
+        "Zmiany skórne, np. linea nigra",
+        "Okazjonalne bóle pleców"
+      ],
+      "commonSymptomsDe": [
+        "Regelmäßigere und deutlichere Bewegungen des Babys",
+        "Gesteigerter Appetit",
+        "Hautveränderungen, z. B. Linea nigra",
+        "Gelegentliche Rückenschmerzen"
+      ],
+      "commonSymptomsEn": [
+        "More regular and noticeable baby movements",
+        "Increased appetite",
+        "Skin changes, such as linea nigra",
+        "Occasional back pain"
+      ],
+      "helpfulTipsPl": [
+        "Zacznij zwracać uwagę na wzorzec ruchów dziecka.",
+        "Wybieraj wygodne obuwie i pozycje do siedzenia, jeśli pojawia się dyskomfort.",
+        "Rozważ udział w kursie przygotowującym do porodu, jeśli jeszcze tego nie zrobiłaś."
+      ],
+      "helpfulTipsDe": [
+        "Beginnen Sie, auf das Bewegungsmuster des Babys zu achten.",
+        "Wählen Sie bequeme Schuhe und Sitzpositionen, wenn Beschwerden auftreten.",
+        "Erwägen Sie die Teilnahme an einem Geburtsvorbereitungskurs, falls noch nicht geschehen."
+      ],
+      "helpfulTipsEn": [
+        "Start paying attention to your baby's movement pattern.",
+        "Choose comfortable shoes and sitting positions if discomfort appears.",
+        "Consider joining a birth preparation course if you haven't already."
+      ],
+      "doctorQuestionsPl": [
+        "Jaki wzorzec ruchów dziecka jest typowy w mojej sytuacji?",
+        "Czy jestem kandydatką do badania w kierunku cukrzycy ciążowej?",
+        "Jak przygotować się do trzeciego trymestru?"
+      ],
+      "doctorQuestionsDe": [
+        "Welches Bewegungsmuster ist in meiner Situation typisch?",
+        "Komme ich für ein Screening auf Schwangerschaftsdiabetes in Frage?",
+        "Wie kann ich mich auf das dritte Trimester vorbereiten?"
+      ],
+      "doctorQuestionsEn": [
+        "What movement pattern is typical in my situation?",
+        "Am I a candidate for gestational diabetes screening?",
+        "How should I prepare for the third trimester?"
+      ],
+      "redFlagsReminderPl": "Zmniejszone ruchy dziecka, silne bóle, krwawienie lub silne bóle głowy z zaburzeniami widzenia wymagają kontaktu z lekarzem lub położną — nie czekaj do następnego dnia.",
+      "redFlagsReminderDe": "Verringerte Bewegungen des Babys, starke Schmerzen, Blutungen oder starke Kopfschmerzen mit Sehstörungen erfordern den Kontakt zu Arzt oder Hebamme — warten Sie nicht bis zum nächsten Tag.",
+      "redFlagsReminderEn": "Reduced baby movements, severe pain, bleeding, or severe headache with vision changes call for contacting your doctor or midwife — don't wait until the next day.",
+      "relatedModules": [
+        "ai_guardian",
+        "baby_movements",
+        "doctor_questions",
+        "documents",
+        "red_flags"
+      ]
+    },
+    {
+      "id": "week_25",
+      "weekNumber": 25,
+      "trimester": 2,
+      "titlePl": "Tydzień 25 ciąży",
+      "titleDe": "Schwangerschaftswoche 25",
+      "titleEn": "Pregnancy week 25",
+      "babyDevelopmentPl": "Przy wielkości kalafiora dziecko może silniej reagować na dźwięki, dotyk i światło.",
+      "babyDevelopmentDe": "Bei etwa der Größe eines Blumenkohls kann das Baby stärker auf Geräusche, Berührung und Licht reagieren.",
+      "babyDevelopmentEn": "At roughly the size of a cauliflower, the baby may respond more to sounds, touch, and light.",
+      "motherBodyPl": "Stały przyrost masy ciała i powiększający się brzuch są typowe na tym etapie, choć różnią się między osobami.",
+      "motherBodyDe": "Eine stetige Gewichtszunahme und ein wachsender Bauch sind in diesem Stadium typisch, variieren jedoch von Person zu Person.",
+      "motherBodyEn": "Continued weight gain and a growing belly are typical at this stage, varying from person to person.",
+      "commonSymptomsPl": [
+        "Bardziej regularne i zauważalne ruchy dziecka",
+        "Zwiększony apetyt",
+        "Zmiany skórne, np. linea nigra",
+        "Okazjonalne bóle pleców"
+      ],
+      "commonSymptomsDe": [
+        "Regelmäßigere und deutlichere Bewegungen des Babys",
+        "Gesteigerter Appetit",
+        "Hautveränderungen, z. B. Linea nigra",
+        "Gelegentliche Rückenschmerzen"
+      ],
+      "commonSymptomsEn": [
+        "More regular and noticeable baby movements",
+        "Increased appetite",
+        "Skin changes, such as linea nigra",
+        "Occasional back pain"
+      ],
+      "helpfulTipsPl": [
+        "Zacznij zwracać uwagę na wzorzec ruchów dziecka.",
+        "Wybieraj wygodne obuwie i pozycje do siedzenia, jeśli pojawia się dyskomfort.",
+        "Rozważ udział w kursie przygotowującym do porodu, jeśli jeszcze tego nie zrobiłaś."
+      ],
+      "helpfulTipsDe": [
+        "Beginnen Sie, auf das Bewegungsmuster des Babys zu achten.",
+        "Wählen Sie bequeme Schuhe und Sitzpositionen, wenn Beschwerden auftreten.",
+        "Erwägen Sie die Teilnahme an einem Geburtsvorbereitungskurs, falls noch nicht geschehen."
+      ],
+      "helpfulTipsEn": [
+        "Start paying attention to your baby's movement pattern.",
+        "Choose comfortable shoes and sitting positions if discomfort appears.",
+        "Consider joining a birth preparation course if you haven't already."
+      ],
+      "doctorQuestionsPl": [
+        "Jaki wzorzec ruchów dziecka jest typowy w mojej sytuacji?",
+        "Czy jestem kandydatką do badania w kierunku cukrzycy ciążowej?",
+        "Jak przygotować się do trzeciego trymestru?"
+      ],
+      "doctorQuestionsDe": [
+        "Welches Bewegungsmuster ist in meiner Situation typisch?",
+        "Komme ich für ein Screening auf Schwangerschaftsdiabetes in Frage?",
+        "Wie kann ich mich auf das dritte Trimester vorbereiten?"
+      ],
+      "doctorQuestionsEn": [
+        "What movement pattern is typical in my situation?",
+        "Am I a candidate for gestational diabetes screening?",
+        "How should I prepare for the third trimester?"
+      ],
+      "redFlagsReminderPl": "Zmniejszone ruchy dziecka, silne bóle, krwawienie lub silne bóle głowy z zaburzeniami widzenia wymagają kontaktu z lekarzem lub położną — nie czekaj do następnego dnia.",
+      "redFlagsReminderDe": "Verringerte Bewegungen des Babys, starke Schmerzen, Blutungen oder starke Kopfschmerzen mit Sehstörungen erfordern den Kontakt zu Arzt oder Hebamme — warten Sie nicht bis zum nächsten Tag.",
+      "redFlagsReminderEn": "Reduced baby movements, severe pain, bleeding, or severe headache with vision changes call for contacting your doctor or midwife — don't wait until the next day.",
+      "relatedModules": [
+        "ai_guardian",
+        "baby_movements",
+        "doctor_questions",
+        "documents",
+        "red_flags"
+      ]
+    },
+    {
+      "id": "week_26",
+      "weekNumber": 26,
+      "trimester": 2,
+      "titlePl": "Tydzień 26 ciąży",
+      "titleDe": "Schwangerschaftswoche 26",
+      "titleEn": "Pregnancy week 26",
+      "babyDevelopmentPl": "Przy wielkości głowy sałaty oczy dziecka zaczynają się otwierać.",
+      "babyDevelopmentDe": "Bei etwa der Größe eines Kopfsalats beginnen sich die Augen des Babys zu öffnen.",
+      "babyDevelopmentEn": "Now about the size of a head of lettuce, the baby's eyes are beginning to open.",
+      "motherBodyPl": "U niektórych osób w późniejszych godzinach dnia mogą pojawić się niewielkie obrzęki stóp lub kostek.",
+      "motherBodyDe": "Bei manchen können im Laufe des Tages leichte Schwellungen an Füßen oder Knöcheln auftreten.",
+      "motherBodyEn": "Mild swelling in the feet or ankles can appear for some people later in the day.",
+      "commonSymptomsPl": [
+        "Bardziej regularne i zauważalne ruchy dziecka",
+        "Zwiększony apetyt",
+        "Zmiany skórne, np. linea nigra",
+        "Okazjonalne bóle pleców"
+      ],
+      "commonSymptomsDe": [
+        "Regelmäßigere und deutlichere Bewegungen des Babys",
+        "Gesteigerter Appetit",
+        "Hautveränderungen, z. B. Linea nigra",
+        "Gelegentliche Rückenschmerzen"
+      ],
+      "commonSymptomsEn": [
+        "More regular and noticeable baby movements",
+        "Increased appetite",
+        "Skin changes, such as linea nigra",
+        "Occasional back pain"
+      ],
+      "helpfulTipsPl": [
+        "Zacznij zwracać uwagę na wzorzec ruchów dziecka.",
+        "Wybieraj wygodne obuwie i pozycje do siedzenia, jeśli pojawia się dyskomfort.",
+        "Rozważ udział w kursie przygotowującym do porodu, jeśli jeszcze tego nie zrobiłaś."
+      ],
+      "helpfulTipsDe": [
+        "Beginnen Sie, auf das Bewegungsmuster des Babys zu achten.",
+        "Wählen Sie bequeme Schuhe und Sitzpositionen, wenn Beschwerden auftreten.",
+        "Erwägen Sie die Teilnahme an einem Geburtsvorbereitungskurs, falls noch nicht geschehen."
+      ],
+      "helpfulTipsEn": [
+        "Start paying attention to your baby's movement pattern.",
+        "Choose comfortable shoes and sitting positions if discomfort appears.",
+        "Consider joining a birth preparation course if you haven't already."
+      ],
+      "doctorQuestionsPl": [
+        "Jaki wzorzec ruchów dziecka jest typowy w mojej sytuacji?",
+        "Czy jestem kandydatką do badania w kierunku cukrzycy ciążowej?",
+        "Jak przygotować się do trzeciego trymestru?"
+      ],
+      "doctorQuestionsDe": [
+        "Welches Bewegungsmuster ist in meiner Situation typisch?",
+        "Komme ich für ein Screening auf Schwangerschaftsdiabetes in Frage?",
+        "Wie kann ich mich auf das dritte Trimester vorbereiten?"
+      ],
+      "doctorQuestionsEn": [
+        "What movement pattern is typical in my situation?",
+        "Am I a candidate for gestational diabetes screening?",
+        "How should I prepare for the third trimester?"
+      ],
+      "redFlagsReminderPl": "Zmniejszone ruchy dziecka, silne bóle, krwawienie lub silne bóle głowy z zaburzeniami widzenia wymagają kontaktu z lekarzem lub położną — nie czekaj do następnego dnia.",
+      "redFlagsReminderDe": "Verringerte Bewegungen des Babys, starke Schmerzen, Blutungen oder starke Kopfschmerzen mit Sehstörungen erfordern den Kontakt zu Arzt oder Hebamme — warten Sie nicht bis zum nächsten Tag.",
+      "redFlagsReminderEn": "Reduced baby movements, severe pain, bleeding, or severe headache with vision changes call for contacting your doctor or midwife — don't wait until the next day.",
+      "relatedModules": [
+        "ai_guardian",
+        "baby_movements",
+        "doctor_questions",
+        "documents",
+        "red_flags"
+      ]
+    },
+    {
+      "id": "week_27",
+      "weekNumber": 27,
+      "trimester": 2,
+      "titlePl": "Tydzień 27 ciąży",
+      "titleDe": "Schwangerschaftswoche 27",
+      "titleEn": "Pregnancy week 27",
+      "babyDevelopmentPl": "Przy wielkości brokuła tkanka mózgowa dziecka rozwija się intensywnie, gdy zbliża się trzeci trymestr.",
+      "babyDevelopmentDe": "Bei etwa der Größe eines Brokkolikopfes entwickelt sich das Hirngewebe des Babys rasch weiter, während sich das dritte Trimester nähert.",
+      "babyDevelopmentEn": "At around the size of a head of broccoli, the baby's brain tissue is developing rapidly as the third trimester approaches.",
+      "motherBodyPl": "Ten tydzień często oznacza przejście do trzeciego trymestru, gdy wizyty kontrolne mogą stać się częstsze.",
+      "motherBodyDe": "Diese Woche markiert oft den Übergang ins dritte Trimester, wenn Vorsorgetermine häufiger werden können.",
+      "motherBodyEn": "This week often marks the transition into the third trimester, when prenatal visits may become more frequent.",
+      "commonSymptomsPl": [
+        "Bardziej regularne i zauważalne ruchy dziecka",
+        "Zwiększony apetyt",
+        "Zmiany skórne, np. linea nigra",
+        "Okazjonalne bóle pleców"
+      ],
+      "commonSymptomsDe": [
+        "Regelmäßigere und deutlichere Bewegungen des Babys",
+        "Gesteigerter Appetit",
+        "Hautveränderungen, z. B. Linea nigra",
+        "Gelegentliche Rückenschmerzen"
+      ],
+      "commonSymptomsEn": [
+        "More regular and noticeable baby movements",
+        "Increased appetite",
+        "Skin changes, such as linea nigra",
+        "Occasional back pain"
+      ],
+      "helpfulTipsPl": [
+        "Zacznij zwracać uwagę na wzorzec ruchów dziecka.",
+        "Wybieraj wygodne obuwie i pozycje do siedzenia, jeśli pojawia się dyskomfort.",
+        "Rozważ udział w kursie przygotowującym do porodu, jeśli jeszcze tego nie zrobiłaś."
+      ],
+      "helpfulTipsDe": [
+        "Beginnen Sie, auf das Bewegungsmuster des Babys zu achten.",
+        "Wählen Sie bequeme Schuhe und Sitzpositionen, wenn Beschwerden auftreten.",
+        "Erwägen Sie die Teilnahme an einem Geburtsvorbereitungskurs, falls noch nicht geschehen."
+      ],
+      "helpfulTipsEn": [
+        "Start paying attention to your baby's movement pattern.",
+        "Choose comfortable shoes and sitting positions if discomfort appears.",
+        "Consider joining a birth preparation course if you haven't already."
+      ],
+      "doctorQuestionsPl": [
+        "Jaki wzorzec ruchów dziecka jest typowy w mojej sytuacji?",
+        "Czy jestem kandydatką do badania w kierunku cukrzycy ciążowej?",
+        "Jak przygotować się do trzeciego trymestru?"
+      ],
+      "doctorQuestionsDe": [
+        "Welches Bewegungsmuster ist in meiner Situation typisch?",
+        "Komme ich für ein Screening auf Schwangerschaftsdiabetes in Frage?",
+        "Wie kann ich mich auf das dritte Trimester vorbereiten?"
+      ],
+      "doctorQuestionsEn": [
+        "What movement pattern is typical in my situation?",
+        "Am I a candidate for gestational diabetes screening?",
+        "How should I prepare for the third trimester?"
+      ],
+      "redFlagsReminderPl": "Zmniejszone ruchy dziecka, silne bóle, krwawienie lub silne bóle głowy z zaburzeniami widzenia wymagają kontaktu z lekarzem lub położną — nie czekaj do następnego dnia.",
+      "redFlagsReminderDe": "Verringerte Bewegungen des Babys, starke Schmerzen, Blutungen oder starke Kopfschmerzen mit Sehstörungen erfordern den Kontakt zu Arzt oder Hebamme — warten Sie nicht bis zum nächsten Tag.",
+      "redFlagsReminderEn": "Reduced baby movements, severe pain, bleeding, or severe headache with vision changes call for contacting your doctor or midwife — don't wait until the next day.",
+      "relatedModules": [
+        "ai_guardian",
+        "baby_movements",
+        "doctor_questions",
+        "documents",
+        "red_flags"
+      ]
+    },
+    {
+      "id": "week_28",
+      "weekNumber": 28,
+      "trimester": 3,
+      "titlePl": "Tydzień 28 ciąży",
+      "titleDe": "Schwangerschaftswoche 28",
+      "titleEn": "Pregnancy week 28",
+      "babyDevelopmentPl": "Przy wielkości bakłażana dziecko rozwija coraz bardziej regularne cykle snu i czuwania.",
+      "babyDevelopmentDe": "Bei etwa der Größe einer Aubergine entwickelt das Baby zunehmend regelmäßige Schlaf- und Wachphasen.",
+      "babyDevelopmentEn": "Now about the size of an eggplant, the baby is developing more regular sleep-and-wake patterns.",
+      "motherBodyPl": "Mogą pojawiać się okazjonalnie skurcze przepowiadające (Braxton Hicks) — to zwykle bezbolesne napięcia macicy.",
+      "motherBodyDe": "Gelegentlich können Übungswehen (Braxton-Hicks-Kontraktionen) spürbar werden — meist schmerzlose Anspannungen der Gebärmutter.",
+      "motherBodyEn": "Practice contractions (Braxton Hicks) may be felt occasionally — these are usually painless tightening sensations.",
+      "commonSymptomsPl": [
+        "Skurcze przepowiadające (Braxton Hicks)",
+        "Duszność przy większym wysiłku",
+        "Trudności ze snem",
+        "Ucisk w okolicy miednicy"
+      ],
+      "commonSymptomsDe": [
+        "Übungswehen (Braxton-Hicks-Kontraktionen)",
+        "Atemnot bei stärkerer Anstrengung",
+        "Schwierigkeiten beim Schlafen",
+        "Druck im Beckenbereich"
+      ],
+      "commonSymptomsEn": [
+        "Practice contractions (Braxton Hicks)",
+        "Shortness of breath with greater exertion",
+        "Difficulty sleeping",
+        "Pelvic pressure"
+      ],
+      "helpfulTipsPl": [
+        "Rozważ zaplanowanie dokumentów potrzebnych do porodu, jeśli jeszcze tego nie zrobiłaś.",
+        "Spróbuj różnych pozycji do spania, by poczuć się wygodniej.",
+        "Zapytaj o dostępne kursy lub materiały przygotowujące do porodu."
+      ],
+      "helpfulTipsDe": [
+        "Erwägen Sie, die für die Geburt benötigten Unterlagen zu planen, falls noch nicht erledigt.",
+        "Probieren Sie verschiedene Schlafpositionen für mehr Komfort.",
+        "Fragen Sie nach verfügbaren Kursen oder Materialien zur Geburtsvorbereitung."
+      ],
+      "helpfulTipsEn": [
+        "Consider planning the documents needed for the birth, if you haven't already.",
+        "Try different sleep positions for more comfort.",
+        "Ask about available courses or materials for birth preparation."
+      ],
+      "doctorQuestionsPl": [
+        "Czy odczuwane przez mnie skurcze przepowiadające są typowe?",
+        "Co powinnam przygotować do porodu w nadchodzących tygodniach?",
+        "Jak rozpoznać różnicę między skurczami przepowiadającymi a porodowymi?"
+      ],
+      "doctorQuestionsDe": [
+        "Sind die von mir wahrgenommenen Übungswehen typisch?",
+        "Was sollte ich in den kommenden Wochen für die Geburt vorbereiten?",
+        "Wie erkenne ich den Unterschied zwischen Übungswehen und echten Wehen?"
+      ],
+      "doctorQuestionsEn": [
+        "Are the practice contractions I'm feeling typical?",
+        "What should I prepare for the birth in the coming weeks?",
+        "How can I tell the difference between practice contractions and real labor contractions?"
+      ],
+      "redFlagsReminderPl": "Regularne bolesne skurcze przed czasem, krwawienie, wyciek płynu lub silny ból to sygnały, by skontaktować się z lekarzem lub położną.",
+      "redFlagsReminderDe": "Regelmäßige schmerzhafte Wehen vor der Zeit, Blutungen, Fruchtwasserabgang oder starke Schmerzen sind Anzeichen, bei denen Sie Arzt oder Hebamme kontaktieren sollten.",
+      "redFlagsReminderEn": "Regular painful contractions before term, bleeding, fluid leakage, or severe pain are signs to contact your doctor or midwife.",
+      "relatedModules": [
+        "ai_guardian",
+        "baby_movements",
+        "birth_preparation",
+        "doctor_questions",
+        "documents",
+        "red_flags"
+      ]
+    },
+    {
+      "id": "week_29",
+      "weekNumber": 29,
+      "trimester": 3,
+      "titlePl": "Tydzień 29 ciąży",
+      "titleDe": "Schwangerschaftswoche 29",
+      "titleEn": "Pregnancy week 29",
+      "babyDevelopmentPl": "Przy wielkości dyni piżmowej kości dziecka są już w pełni uformowane, ale wciąż miękkie i nadal się wzmacniają.",
+      "babyDevelopmentDe": "Bei etwa der Größe eines Butternut-Kürbisses sind die Knochen des Babys vollständig angelegt, aber noch weich und werden weiter fester.",
+      "babyDevelopmentEn": "At roughly the size of a butternut squash, the baby's bones are fully formed but still soft and continuing to strengthen.",
+      "motherBodyPl": "Duszność lub dyskomfort w okolicy pleców mogą stać się bardziej zauważalne, gdy macica nadal rośnie.",
+      "motherBodyDe": "Atemnot oder Rückenbeschwerden können deutlicher werden, da die Gebärmutter weiter wächst.",
+      "motherBodyEn": "Shortness of breath or back discomfort may become more noticeable as the uterus continues to grow.",
+      "commonSymptomsPl": [
+        "Skurcze przepowiadające (Braxton Hicks)",
+        "Duszność przy większym wysiłku",
+        "Trudności ze snem",
+        "Ucisk w okolicy miednicy"
+      ],
+      "commonSymptomsDe": [
+        "Übungswehen (Braxton-Hicks-Kontraktionen)",
+        "Atemnot bei stärkerer Anstrengung",
+        "Schwierigkeiten beim Schlafen",
+        "Druck im Beckenbereich"
+      ],
+      "commonSymptomsEn": [
+        "Practice contractions (Braxton Hicks)",
+        "Shortness of breath with greater exertion",
+        "Difficulty sleeping",
+        "Pelvic pressure"
+      ],
+      "helpfulTipsPl": [
+        "Rozważ zaplanowanie dokumentów potrzebnych do porodu, jeśli jeszcze tego nie zrobiłaś.",
+        "Spróbuj różnych pozycji do spania, by poczuć się wygodniej.",
+        "Zapytaj o dostępne kursy lub materiały przygotowujące do porodu."
+      ],
+      "helpfulTipsDe": [
+        "Erwägen Sie, die für die Geburt benötigten Unterlagen zu planen, falls noch nicht erledigt.",
+        "Probieren Sie verschiedene Schlafpositionen für mehr Komfort.",
+        "Fragen Sie nach verfügbaren Kursen oder Materialien zur Geburtsvorbereitung."
+      ],
+      "helpfulTipsEn": [
+        "Consider planning the documents needed for the birth, if you haven't already.",
+        "Try different sleep positions for more comfort.",
+        "Ask about available courses or materials for birth preparation."
+      ],
+      "doctorQuestionsPl": [
+        "Czy odczuwane przez mnie skurcze przepowiadające są typowe?",
+        "Co powinnam przygotować do porodu w nadchodzących tygodniach?",
+        "Jak rozpoznać różnicę między skurczami przepowiadającymi a porodowymi?"
+      ],
+      "doctorQuestionsDe": [
+        "Sind die von mir wahrgenommenen Übungswehen typisch?",
+        "Was sollte ich in den kommenden Wochen für die Geburt vorbereiten?",
+        "Wie erkenne ich den Unterschied zwischen Übungswehen und echten Wehen?"
+      ],
+      "doctorQuestionsEn": [
+        "Are the practice contractions I'm feeling typical?",
+        "What should I prepare for the birth in the coming weeks?",
+        "How can I tell the difference between practice contractions and real labor contractions?"
+      ],
+      "redFlagsReminderPl": "Regularne bolesne skurcze przed czasem, krwawienie, wyciek płynu lub silny ból to sygnały, by skontaktować się z lekarzem lub położną.",
+      "redFlagsReminderDe": "Regelmäßige schmerzhafte Wehen vor der Zeit, Blutungen, Fruchtwasserabgang oder starke Schmerzen sind Anzeichen, bei denen Sie Arzt oder Hebamme kontaktieren sollten.",
+      "redFlagsReminderEn": "Regular painful contractions before term, bleeding, fluid leakage, or severe pain are signs to contact your doctor or midwife.",
+      "relatedModules": [
+        "ai_guardian",
+        "baby_movements",
+        "birth_preparation",
+        "doctor_questions",
+        "documents",
+        "red_flags"
+      ]
+    },
+    {
+      "id": "week_30",
+      "weekNumber": 30,
+      "trimester": 3,
+      "titlePl": "Tydzień 30 ciąży",
+      "titleDe": "Schwangerschaftswoche 30",
+      "titleEn": "Pregnancy week 30",
+      "babyDevelopmentPl": "Przy wielkości kapusty mózg dziecka rozwija się szybko, wspierając rosnącą świadomość.",
+      "babyDevelopmentDe": "Bei etwa der Größe eines Kohlkopfes entwickelt sich das Gehirn des Babys rasch und unterstützt ein wachsendes Bewusstsein.",
+      "babyDevelopmentEn": "Now about the size of a cabbage, the baby's brain is developing quickly, supporting growing awareness.",
+      "motherBodyPl": "Wiele osób zaczyna na tym etapie myśleć o praktycznych przygotowaniach, takich jak dokumenty i torba do szpitala.",
+      "motherBodyDe": "Viele beginnen in diesem Stadium, an praktische Vorbereitungen wie Unterlagen und eine Krankenhaustasche zu denken.",
+      "motherBodyEn": "Many people start thinking about practical preparations, such as documents and a hospital bag, around this stage.",
+      "commonSymptomsPl": [
+        "Skurcze przepowiadające (Braxton Hicks)",
+        "Duszność przy większym wysiłku",
+        "Trudności ze snem",
+        "Ucisk w okolicy miednicy"
+      ],
+      "commonSymptomsDe": [
+        "Übungswehen (Braxton-Hicks-Kontraktionen)",
+        "Atemnot bei stärkerer Anstrengung",
+        "Schwierigkeiten beim Schlafen",
+        "Druck im Beckenbereich"
+      ],
+      "commonSymptomsEn": [
+        "Practice contractions (Braxton Hicks)",
+        "Shortness of breath with greater exertion",
+        "Difficulty sleeping",
+        "Pelvic pressure"
+      ],
+      "helpfulTipsPl": [
+        "Rozważ zaplanowanie dokumentów potrzebnych do porodu, jeśli jeszcze tego nie zrobiłaś.",
+        "Spróbuj różnych pozycji do spania, by poczuć się wygodniej.",
+        "Zapytaj o dostępne kursy lub materiały przygotowujące do porodu."
+      ],
+      "helpfulTipsDe": [
+        "Erwägen Sie, die für die Geburt benötigten Unterlagen zu planen, falls noch nicht erledigt.",
+        "Probieren Sie verschiedene Schlafpositionen für mehr Komfort.",
+        "Fragen Sie nach verfügbaren Kursen oder Materialien zur Geburtsvorbereitung."
+      ],
+      "helpfulTipsEn": [
+        "Consider planning the documents needed for the birth, if you haven't already.",
+        "Try different sleep positions for more comfort.",
+        "Ask about available courses or materials for birth preparation."
+      ],
+      "doctorQuestionsPl": [
+        "Czy odczuwane przez mnie skurcze przepowiadające są typowe?",
+        "Co powinnam przygotować do porodu w nadchodzących tygodniach?",
+        "Jak rozpoznać różnicę między skurczami przepowiadającymi a porodowymi?"
+      ],
+      "doctorQuestionsDe": [
+        "Sind die von mir wahrgenommenen Übungswehen typisch?",
+        "Was sollte ich in den kommenden Wochen für die Geburt vorbereiten?",
+        "Wie erkenne ich den Unterschied zwischen Übungswehen und echten Wehen?"
+      ],
+      "doctorQuestionsEn": [
+        "Are the practice contractions I'm feeling typical?",
+        "What should I prepare for the birth in the coming weeks?",
+        "How can I tell the difference between practice contractions and real labor contractions?"
+      ],
+      "redFlagsReminderPl": "Regularne bolesne skurcze przed czasem, krwawienie, wyciek płynu lub silny ból to sygnały, by skontaktować się z lekarzem lub położną.",
+      "redFlagsReminderDe": "Regelmäßige schmerzhafte Wehen vor der Zeit, Blutungen, Fruchtwasserabgang oder starke Schmerzen sind Anzeichen, bei denen Sie Arzt oder Hebamme kontaktieren sollten.",
+      "redFlagsReminderEn": "Regular painful contractions before term, bleeding, fluid leakage, or severe pain are signs to contact your doctor or midwife.",
+      "relatedModules": [
+        "ai_guardian",
+        "baby_movements",
+        "birth_preparation",
+        "doctor_questions",
+        "documents",
+        "red_flags"
+      ]
+    },
+    {
+      "id": "week_31",
+      "weekNumber": 31,
+      "trimester": 3,
+      "titlePl": "Tydzień 31 ciąży",
+      "titleDe": "Schwangerschaftswoche 31",
+      "titleEn": "Pregnancy week 31",
+      "babyDevelopmentPl": "Przy wielkości kokosa dziecko potrafi zwykle obracać głową i coraz płynniej koordynuje swoje ruchy.",
+      "babyDevelopmentDe": "Bei etwa der Größe einer Kokosnuss kann das Baby in der Regel den Kopf drehen und koordiniert seine Bewegungen zunehmend flüssiger.",
+      "babyDevelopmentEn": "At around the size of a coconut, the baby can typically turn its head and is coordinating movements more smoothly.",
+      "motherBodyPl": "Sen może stać się mniej wygodny, gdy brzuch rośnie; pomocne bywa znalezienie wspierających pozycji do spania.",
+      "motherBodyDe": "Der Schlaf kann unbequemer werden, da der Bauch wächst; unterstützende Schlafpositionen können dabei helfen.",
+      "motherBodyEn": "Sleep may feel less comfortable as the belly grows; finding supportive positions can help.",
+      "commonSymptomsPl": [
+        "Skurcze przepowiadające (Braxton Hicks)",
+        "Duszność przy większym wysiłku",
+        "Trudności ze snem",
+        "Ucisk w okolicy miednicy"
+      ],
+      "commonSymptomsDe": [
+        "Übungswehen (Braxton-Hicks-Kontraktionen)",
+        "Atemnot bei stärkerer Anstrengung",
+        "Schwierigkeiten beim Schlafen",
+        "Druck im Beckenbereich"
+      ],
+      "commonSymptomsEn": [
+        "Practice contractions (Braxton Hicks)",
+        "Shortness of breath with greater exertion",
+        "Difficulty sleeping",
+        "Pelvic pressure"
+      ],
+      "helpfulTipsPl": [
+        "Rozważ zaplanowanie dokumentów potrzebnych do porodu, jeśli jeszcze tego nie zrobiłaś.",
+        "Spróbuj różnych pozycji do spania, by poczuć się wygodniej.",
+        "Zapytaj o dostępne kursy lub materiały przygotowujące do porodu."
+      ],
+      "helpfulTipsDe": [
+        "Erwägen Sie, die für die Geburt benötigten Unterlagen zu planen, falls noch nicht erledigt.",
+        "Probieren Sie verschiedene Schlafpositionen für mehr Komfort.",
+        "Fragen Sie nach verfügbaren Kursen oder Materialien zur Geburtsvorbereitung."
+      ],
+      "helpfulTipsEn": [
+        "Consider planning the documents needed for the birth, if you haven't already.",
+        "Try different sleep positions for more comfort.",
+        "Ask about available courses or materials for birth preparation."
+      ],
+      "doctorQuestionsPl": [
+        "Czy odczuwane przez mnie skurcze przepowiadające są typowe?",
+        "Co powinnam przygotować do porodu w nadchodzących tygodniach?",
+        "Jak rozpoznać różnicę między skurczami przepowiadającymi a porodowymi?"
+      ],
+      "doctorQuestionsDe": [
+        "Sind die von mir wahrgenommenen Übungswehen typisch?",
+        "Was sollte ich in den kommenden Wochen für die Geburt vorbereiten?",
+        "Wie erkenne ich den Unterschied zwischen Übungswehen und echten Wehen?"
+      ],
+      "doctorQuestionsEn": [
+        "Are the practice contractions I'm feeling typical?",
+        "What should I prepare for the birth in the coming weeks?",
+        "How can I tell the difference between practice contractions and real labor contractions?"
+      ],
+      "redFlagsReminderPl": "Regularne bolesne skurcze przed czasem, krwawienie, wyciek płynu lub silny ból to sygnały, by skontaktować się z lekarzem lub położną.",
+      "redFlagsReminderDe": "Regelmäßige schmerzhafte Wehen vor der Zeit, Blutungen, Fruchtwasserabgang oder starke Schmerzen sind Anzeichen, bei denen Sie Arzt oder Hebamme kontaktieren sollten.",
+      "redFlagsReminderEn": "Regular painful contractions before term, bleeding, fluid leakage, or severe pain are signs to contact your doctor or midwife.",
+      "relatedModules": [
+        "ai_guardian",
+        "baby_movements",
+        "birth_preparation",
+        "doctor_questions",
+        "documents",
+        "red_flags"
+      ]
+    },
+    {
+      "id": "week_32",
+      "weekNumber": 32,
+      "trimester": 3,
+      "titlePl": "Tydzień 32 ciąży",
+      "titleDe": "Schwangerschaftswoche 32",
+      "titleEn": "Pregnancy week 32",
+      "babyDevelopmentPl": "Przy wielkości rzepy meksykańskiej (jicama) dziecko ćwiczy ruchy oddechowe, a paznokcie u stóp są już w pełni uformowane.",
+      "babyDevelopmentDe": "Bei etwa der Größe einer Jicama übt das Baby Atembewegungen, und die Zehennägel sind vollständig ausgebildet.",
+      "babyDevelopmentEn": "Now about the size of a jicama, the baby is practicing breathing motions, and toenails are fully formed.",
+      "motherBodyPl": "Ucisk w okolicy miednicy i częstsze wizyty w toalecie są częste, gdy dziecko rośnie.",
+      "motherBodyDe": "Druck im Beckenbereich und häufigere Toilettengänge sind üblich, da das Baby weiter wächst.",
+      "motherBodyEn": "Pelvic pressure and more frequent trips to the bathroom are common as the baby grows.",
+      "commonSymptomsPl": [
+        "Skurcze przepowiadające (Braxton Hicks)",
+        "Duszność przy większym wysiłku",
+        "Trudności ze snem",
+        "Ucisk w okolicy miednicy"
+      ],
+      "commonSymptomsDe": [
+        "Übungswehen (Braxton-Hicks-Kontraktionen)",
+        "Atemnot bei stärkerer Anstrengung",
+        "Schwierigkeiten beim Schlafen",
+        "Druck im Beckenbereich"
+      ],
+      "commonSymptomsEn": [
+        "Practice contractions (Braxton Hicks)",
+        "Shortness of breath with greater exertion",
+        "Difficulty sleeping",
+        "Pelvic pressure"
+      ],
+      "helpfulTipsPl": [
+        "Rozważ zaplanowanie dokumentów potrzebnych do porodu, jeśli jeszcze tego nie zrobiłaś.",
+        "Spróbuj różnych pozycji do spania, by poczuć się wygodniej.",
+        "Zapytaj o dostępne kursy lub materiały przygotowujące do porodu."
+      ],
+      "helpfulTipsDe": [
+        "Erwägen Sie, die für die Geburt benötigten Unterlagen zu planen, falls noch nicht erledigt.",
+        "Probieren Sie verschiedene Schlafpositionen für mehr Komfort.",
+        "Fragen Sie nach verfügbaren Kursen oder Materialien zur Geburtsvorbereitung."
+      ],
+      "helpfulTipsEn": [
+        "Consider planning the documents needed for the birth, if you haven't already.",
+        "Try different sleep positions for more comfort.",
+        "Ask about available courses or materials for birth preparation."
+      ],
+      "doctorQuestionsPl": [
+        "Czy odczuwane przez mnie skurcze przepowiadające są typowe?",
+        "Co powinnam przygotować do porodu w nadchodzących tygodniach?",
+        "Jak rozpoznać różnicę między skurczami przepowiadającymi a porodowymi?"
+      ],
+      "doctorQuestionsDe": [
+        "Sind die von mir wahrgenommenen Übungswehen typisch?",
+        "Was sollte ich in den kommenden Wochen für die Geburt vorbereiten?",
+        "Wie erkenne ich den Unterschied zwischen Übungswehen und echten Wehen?"
+      ],
+      "doctorQuestionsEn": [
+        "Are the practice contractions I'm feeling typical?",
+        "What should I prepare for the birth in the coming weeks?",
+        "How can I tell the difference between practice contractions and real labor contractions?"
+      ],
+      "redFlagsReminderPl": "Regularne bolesne skurcze przed czasem, krwawienie, wyciek płynu lub silny ból to sygnały, by skontaktować się z lekarzem lub położną.",
+      "redFlagsReminderDe": "Regelmäßige schmerzhafte Wehen vor der Zeit, Blutungen, Fruchtwasserabgang oder starke Schmerzen sind Anzeichen, bei denen Sie Arzt oder Hebamme kontaktieren sollten.",
+      "redFlagsReminderEn": "Regular painful contractions before term, bleeding, fluid leakage, or severe pain are signs to contact your doctor or midwife.",
+      "relatedModules": [
+        "ai_guardian",
+        "baby_movements",
+        "birth_preparation",
+        "doctor_questions",
+        "documents",
+        "red_flags"
+      ]
+    },
+    {
+      "id": "week_33",
+      "weekNumber": 33,
+      "trimester": 3,
+      "titlePl": "Tydzień 33 ciąży",
+      "titleDe": "Schwangerschaftswoche 33",
+      "titleEn": "Pregnancy week 33",
+      "babyDevelopmentPl": "Przy wielkości ananasa kości dziecka twardnieją, z wyjątkiem czaszki, która pozostaje elastyczna na potrzeby porodu.",
+      "babyDevelopmentDe": "Bei etwa der Größe einer Ananas verhärten sich die Knochen des Babys, mit Ausnahme des Schädels, der für die Geburt flexibel bleibt.",
+      "babyDevelopmentEn": "At roughly the size of a pineapple, the baby's bones are hardening, except for the skull, which stays flexible for the birth process.",
+      "motherBodyPl": "Kontynuowane wizyty kontrolne to dobry moment, by zapytać o przygotowanie do porodu i czego można się spodziewać w nadchodzących tygodniach.",
+      "motherBodyDe": "Fortlaufende Vorsorgetermine sind ein guter Zeitpunkt, um nach der Geburtsvorbereitung und den kommenden Wochen zu fragen.",
+      "motherBodyEn": "Continuing prenatal visits are a good time to ask about birth preparation and what to expect in the coming weeks.",
+      "commonSymptomsPl": [
+        "Skurcze przepowiadające (Braxton Hicks)",
+        "Duszność przy większym wysiłku",
+        "Trudności ze snem",
+        "Ucisk w okolicy miednicy"
+      ],
+      "commonSymptomsDe": [
+        "Übungswehen (Braxton-Hicks-Kontraktionen)",
+        "Atemnot bei stärkerer Anstrengung",
+        "Schwierigkeiten beim Schlafen",
+        "Druck im Beckenbereich"
+      ],
+      "commonSymptomsEn": [
+        "Practice contractions (Braxton Hicks)",
+        "Shortness of breath with greater exertion",
+        "Difficulty sleeping",
+        "Pelvic pressure"
+      ],
+      "helpfulTipsPl": [
+        "Rozważ zaplanowanie dokumentów potrzebnych do porodu, jeśli jeszcze tego nie zrobiłaś.",
+        "Spróbuj różnych pozycji do spania, by poczuć się wygodniej.",
+        "Zapytaj o dostępne kursy lub materiały przygotowujące do porodu."
+      ],
+      "helpfulTipsDe": [
+        "Erwägen Sie, die für die Geburt benötigten Unterlagen zu planen, falls noch nicht erledigt.",
+        "Probieren Sie verschiedene Schlafpositionen für mehr Komfort.",
+        "Fragen Sie nach verfügbaren Kursen oder Materialien zur Geburtsvorbereitung."
+      ],
+      "helpfulTipsEn": [
+        "Consider planning the documents needed for the birth, if you haven't already.",
+        "Try different sleep positions for more comfort.",
+        "Ask about available courses or materials for birth preparation."
+      ],
+      "doctorQuestionsPl": [
+        "Czy odczuwane przez mnie skurcze przepowiadające są typowe?",
+        "Co powinnam przygotować do porodu w nadchodzących tygodniach?",
+        "Jak rozpoznać różnicę między skurczami przepowiadającymi a porodowymi?"
+      ],
+      "doctorQuestionsDe": [
+        "Sind die von mir wahrgenommenen Übungswehen typisch?",
+        "Was sollte ich in den kommenden Wochen für die Geburt vorbereiten?",
+        "Wie erkenne ich den Unterschied zwischen Übungswehen und echten Wehen?"
+      ],
+      "doctorQuestionsEn": [
+        "Are the practice contractions I'm feeling typical?",
+        "What should I prepare for the birth in the coming weeks?",
+        "How can I tell the difference between practice contractions and real labor contractions?"
+      ],
+      "redFlagsReminderPl": "Regularne bolesne skurcze przed czasem, krwawienie, wyciek płynu lub silny ból to sygnały, by skontaktować się z lekarzem lub położną.",
+      "redFlagsReminderDe": "Regelmäßige schmerzhafte Wehen vor der Zeit, Blutungen, Fruchtwasserabgang oder starke Schmerzen sind Anzeichen, bei denen Sie Arzt oder Hebamme kontaktieren sollten.",
+      "redFlagsReminderEn": "Regular painful contractions before term, bleeding, fluid leakage, or severe pain are signs to contact your doctor or midwife.",
+      "relatedModules": [
+        "ai_guardian",
+        "baby_movements",
+        "birth_preparation",
+        "doctor_questions",
+        "documents",
+        "red_flags"
+      ]
+    },
+    {
+      "id": "week_34",
+      "weekNumber": 34,
+      "trimester": 3,
+      "titlePl": "Tydzień 34 ciąży",
+      "titleDe": "Schwangerschaftswoche 34",
+      "titleEn": "Pregnancy week 34",
+      "babyDevelopmentPl": "Przy wielkości kantalupy wiele dzieci układa się w tym czasie głową do dołu, choć to się różni i nie jest gwarantowane.",
+      "babyDevelopmentDe": "Bei etwa der Größe einer Cantaloupe-Melone nehmen viele Babys um diese Zeit eine Kopf-nach-unten-Lage ein, dies variiert jedoch und ist nicht garantiert.",
+      "babyDevelopmentEn": "Now about the size of a cantaloupe, many babies are settling into a head-down position around this time, though this varies and is not guaranteed.",
+      "motherBodyPl": "To dobry moment, by dokończyć przygotowanie torby do szpitala i przejrzeć swój plan przygotowania do porodu.",
+      "motherBodyDe": "Dies ist ein guter Zeitpunkt, um die Krankenhaustasche fertig zu packen und die Geburtsvorbereitung durchzugehen.",
+      "motherBodyEn": "It can be a good time to finish preparing your hospital bag and review your birth preparation plans.",
+      "commonSymptomsPl": [
+        "Częstszy ucisk w okolicy miednicy",
+        "Zwiększona częstotliwość oddawania moczu",
+        "Trudności w znalezieniu wygodnej pozycji",
+        "Skurcze przepowiadające mogą stać się częstsze"
+      ],
+      "commonSymptomsDe": [
+        "Häufigerer Druck im Beckenbereich",
+        "Häufigeres Wasserlassen",
+        "Schwierigkeiten, eine bequeme Position zu finden",
+        "Übungswehen können häufiger werden"
+      ],
+      "commonSymptomsEn": [
+        "More frequent pelvic pressure",
+        "Increased frequency of urination",
+        "Difficulty finding a comfortable position",
+        "Practice contractions may become more frequent"
+      ],
+      "helpfulTipsPl": [
+        "Dokończ przygotowanie torby do szpitala/kliniki.",
+        "Sprawdź, czy masz przygotowane wszystkie potrzebne dokumenty.",
+        "Ustal, z kim się skontaktować, gdy zacznie się poród."
+      ],
+      "helpfulTipsDe": [
+        "Packen Sie die Krankenhaustasche fertig.",
+        "Überprüfen Sie, ob alle benötigten Unterlagen vorbereitet sind.",
+        "Klären Sie, wen Sie bei Beginn der Geburt kontaktieren."
+      ],
+      "helpfulTipsEn": [
+        "Finish packing your hospital/clinic bag.",
+        "Check that all needed documents are ready.",
+        "Confirm who to contact when labor begins."
+      ],
+      "doctorQuestionsPl": [
+        "Jak rozpoznać, że zaczyna się poród?",
+        "Co powinnam zabrać do szpitala/kliniki?",
+        "Z kim się skontaktować, jeśli poród zacznie się w nocy lub w weekend?"
+      ],
+      "doctorQuestionsDe": [
+        "Wie erkenne ich, dass die Geburt beginnt?",
+        "Was sollte ich ins Krankenhaus/in die Klinik mitnehmen?",
+        "Wen kontaktiere ich, wenn die Geburt nachts oder am Wochenende beginnt?"
+      ],
+      "doctorQuestionsEn": [
+        "How do I recognize that labor is starting?",
+        "What should I bring to the hospital/clinic?",
+        "Who should I contact if labor starts at night or on a weekend?"
+      ],
+      "redFlagsReminderPl": "Regularne, coraz silniejsze skurcze, krwawienie, wyciek płynu lub zmniejszone ruchy dziecka to sygnały, by skontaktować się z lekarzem, położną lub szpitalem bez zwlekania.",
+      "redFlagsReminderDe": "Regelmäßige, stärker werdende Wehen, Blutungen, Fruchtwasserabgang oder verringerte Bewegungen des Babys sind Anzeichen, bei denen Sie sich ohne Verzögerung an Arzt, Hebamme oder Krankenhaus wenden sollten.",
+      "redFlagsReminderEn": "Regular, intensifying contractions, bleeding, fluid leakage, or reduced baby movements are signs to contact your doctor, midwife, or hospital without delay.",
+      "relatedModules": [
+        "ai_guardian",
+        "baby_movements",
+        "birth_preparation",
+        "contractions",
+        "doctor_questions",
+        "documents",
+        "red_flags"
+      ]
+    },
+    {
+      "id": "week_35",
+      "weekNumber": 35,
+      "trimester": 3,
+      "titlePl": "Tydzień 35 ciąży",
+      "titleDe": "Schwangerschaftswoche 35",
+      "titleEn": "Pregnancy week 35",
+      "babyDevelopmentPl": "Przy wielkości melona miodowego nerki dziecka są dobrze rozwinięte, a wątroba zaczyna funkcjonować.",
+      "babyDevelopmentDe": "Bei etwa der Größe einer Honigmelone sind die Nieren des Babys gut entwickelt, und die Leber beginnt zu arbeiten.",
+      "babyDevelopmentEn": "At around the size of a honeydew melon, the baby's kidneys are well developed, and the liver is functioning.",
+      "motherBodyPl": "Mniejsza przestrzeń w macicy może zmieniać charakter ruchów dziecka, a nie ich częstość — dobrym nawykiem jest obserwowanie wzorców i zgłaszanie zmian położnej lub lekarzowi.",
+      "motherBodyDe": "Der geringere Platz in der Gebärmutter kann die Art der Bewegungen verändern, nicht unbedingt ihre Häufigkeit — es ist sinnvoll, Muster zu beobachten und Veränderungen Hebamme oder Arzt zu melden.",
+      "motherBodyEn": "Reduced space in the uterus may make movements feel different rather than less frequent — tracking patterns and reporting changes to your midwife or doctor is a good habit.",
+      "commonSymptomsPl": [
+        "Częstszy ucisk w okolicy miednicy",
+        "Zwiększona częstotliwość oddawania moczu",
+        "Trudności w znalezieniu wygodnej pozycji",
+        "Skurcze przepowiadające mogą stać się częstsze"
+      ],
+      "commonSymptomsDe": [
+        "Häufigerer Druck im Beckenbereich",
+        "Häufigeres Wasserlassen",
+        "Schwierigkeiten, eine bequeme Position zu finden",
+        "Übungswehen können häufiger werden"
+      ],
+      "commonSymptomsEn": [
+        "More frequent pelvic pressure",
+        "Increased frequency of urination",
+        "Difficulty finding a comfortable position",
+        "Practice contractions may become more frequent"
+      ],
+      "helpfulTipsPl": [
+        "Dokończ przygotowanie torby do szpitala/kliniki.",
+        "Sprawdź, czy masz przygotowane wszystkie potrzebne dokumenty.",
+        "Ustal, z kim się skontaktować, gdy zacznie się poród."
+      ],
+      "helpfulTipsDe": [
+        "Packen Sie die Krankenhaustasche fertig.",
+        "Überprüfen Sie, ob alle benötigten Unterlagen vorbereitet sind.",
+        "Klären Sie, wen Sie bei Beginn der Geburt kontaktieren."
+      ],
+      "helpfulTipsEn": [
+        "Finish packing your hospital/clinic bag.",
+        "Check that all needed documents are ready.",
+        "Confirm who to contact when labor begins."
+      ],
+      "doctorQuestionsPl": [
+        "Jak rozpoznać, że zaczyna się poród?",
+        "Co powinnam zabrać do szpitala/kliniki?",
+        "Z kim się skontaktować, jeśli poród zacznie się w nocy lub w weekend?"
+      ],
+      "doctorQuestionsDe": [
+        "Wie erkenne ich, dass die Geburt beginnt?",
+        "Was sollte ich ins Krankenhaus/in die Klinik mitnehmen?",
+        "Wen kontaktiere ich, wenn die Geburt nachts oder am Wochenende beginnt?"
+      ],
+      "doctorQuestionsEn": [
+        "How do I recognize that labor is starting?",
+        "What should I bring to the hospital/clinic?",
+        "Who should I contact if labor starts at night or on a weekend?"
+      ],
+      "redFlagsReminderPl": "Regularne, coraz silniejsze skurcze, krwawienie, wyciek płynu lub zmniejszone ruchy dziecka to sygnały, by skontaktować się z lekarzem, położną lub szpitalem bez zwlekania.",
+      "redFlagsReminderDe": "Regelmäßige, stärker werdende Wehen, Blutungen, Fruchtwasserabgang oder verringerte Bewegungen des Babys sind Anzeichen, bei denen Sie sich ohne Verzögerung an Arzt, Hebamme oder Krankenhaus wenden sollten.",
+      "redFlagsReminderEn": "Regular, intensifying contractions, bleeding, fluid leakage, or reduced baby movements are signs to contact your doctor, midwife, or hospital without delay.",
+      "relatedModules": [
+        "ai_guardian",
+        "baby_movements",
+        "birth_preparation",
+        "contractions",
+        "doctor_questions",
+        "documents",
+        "red_flags"
+      ]
+    },
+    {
+      "id": "week_36",
+      "weekNumber": 36,
+      "trimester": 3,
+      "titlePl": "Tydzień 36 ciąży",
+      "titleDe": "Schwangerschaftswoche 36",
+      "titleEn": "Pregnancy week 36",
+      "babyDevelopmentPl": "Przy wielkości głowy sałaty rzymskiej dziecko nadal stabilnie przybiera na wadze, przygotowując się do porodu.",
+      "babyDevelopmentDe": "Bei etwa der Größe eines Römersalat-Kopfes nimmt das Baby weiterhin stetig an Gewicht zu und bereitet sich auf die Geburt vor.",
+      "babyDevelopmentEn": "Now about the size of a head of romaine lettuce, the baby continues steady weight gain in preparation for birth.",
+      "motherBodyPl": "Ucisk w okolicy miednicy może się zwiększyć, gdy dziecko u wielu osób przesuwa się niżej w stronę miednicy.",
+      "motherBodyDe": "Der Druck im Becken kann zunehmen, da das Baby bei vielen tiefer in das Becken rutscht.",
+      "motherBodyEn": "Pelvic pressure may increase as the baby moves lower into the pelvis for many people.",
+      "commonSymptomsPl": [
+        "Częstszy ucisk w okolicy miednicy",
+        "Zwiększona częstotliwość oddawania moczu",
+        "Trudności w znalezieniu wygodnej pozycji",
+        "Skurcze przepowiadające mogą stać się częstsze"
+      ],
+      "commonSymptomsDe": [
+        "Häufigerer Druck im Beckenbereich",
+        "Häufigeres Wasserlassen",
+        "Schwierigkeiten, eine bequeme Position zu finden",
+        "Übungswehen können häufiger werden"
+      ],
+      "commonSymptomsEn": [
+        "More frequent pelvic pressure",
+        "Increased frequency of urination",
+        "Difficulty finding a comfortable position",
+        "Practice contractions may become more frequent"
+      ],
+      "helpfulTipsPl": [
+        "Dokończ przygotowanie torby do szpitala/kliniki.",
+        "Sprawdź, czy masz przygotowane wszystkie potrzebne dokumenty.",
+        "Ustal, z kim się skontaktować, gdy zacznie się poród."
+      ],
+      "helpfulTipsDe": [
+        "Packen Sie die Krankenhaustasche fertig.",
+        "Überprüfen Sie, ob alle benötigten Unterlagen vorbereitet sind.",
+        "Klären Sie, wen Sie bei Beginn der Geburt kontaktieren."
+      ],
+      "helpfulTipsEn": [
+        "Finish packing your hospital/clinic bag.",
+        "Check that all needed documents are ready.",
+        "Confirm who to contact when labor begins."
+      ],
+      "doctorQuestionsPl": [
+        "Jak rozpoznać, że zaczyna się poród?",
+        "Co powinnam zabrać do szpitala/kliniki?",
+        "Z kim się skontaktować, jeśli poród zacznie się w nocy lub w weekend?"
+      ],
+      "doctorQuestionsDe": [
+        "Wie erkenne ich, dass die Geburt beginnt?",
+        "Was sollte ich ins Krankenhaus/in die Klinik mitnehmen?",
+        "Wen kontaktiere ich, wenn die Geburt nachts oder am Wochenende beginnt?"
+      ],
+      "doctorQuestionsEn": [
+        "How do I recognize that labor is starting?",
+        "What should I bring to the hospital/clinic?",
+        "Who should I contact if labor starts at night or on a weekend?"
+      ],
+      "redFlagsReminderPl": "Regularne, coraz silniejsze skurcze, krwawienie, wyciek płynu lub zmniejszone ruchy dziecka to sygnały, by skontaktować się z lekarzem, położną lub szpitalem bez zwlekania.",
+      "redFlagsReminderDe": "Regelmäßige, stärker werdende Wehen, Blutungen, Fruchtwasserabgang oder verringerte Bewegungen des Babys sind Anzeichen, bei denen Sie sich ohne Verzögerung an Arzt, Hebamme oder Krankenhaus wenden sollten.",
+      "redFlagsReminderEn": "Regular, intensifying contractions, bleeding, fluid leakage, or reduced baby movements are signs to contact your doctor, midwife, or hospital without delay.",
+      "relatedModules": [
+        "ai_guardian",
+        "baby_movements",
+        "birth_preparation",
+        "contractions",
+        "doctor_questions",
+        "documents",
+        "red_flags"
+      ]
+    },
+    {
+      "id": "week_37",
+      "weekNumber": 37,
+      "trimester": 3,
+      "titlePl": "Tydzień 37 ciąży",
+      "titleDe": "Schwangerschaftswoche 37",
+      "titleEn": "Pregnancy week 37",
+      "babyDevelopmentPl": "Przy wielkości pęczka boćwiny dziecko jest uznawane za urodzone we wczesnym terminie, a narządy nadal dopracowują swoje funkcje.",
+      "babyDevelopmentDe": "Bei etwa der Größe eines Bund Mangold gilt das Baby als früh termingerecht, und die Organe verfeinern weiterhin ihre Funktion.",
+      "babyDevelopmentEn": "At roughly the size of a bunch of Swiss chard, the baby is considered early term, and organs continue fine-tuning their function.",
+      "motherBodyPl": "To dobry moment, by przejrzeć listę dokumentów i rzeczy do torby do szpitala oraz wiedzieć, z kim się skontaktować, gdy zacznie się poród.",
+      "motherBodyDe": "Dies ist ein guter Zeitpunkt, um Unterlagen und die Krankenhaustasche zu überprüfen und zu wissen, wen man bei Beginn der Geburt kontaktieren sollte.",
+      "motherBodyEn": "This is a good time to review your documents and hospital bag checklist, and to know who to contact if labor begins.",
+      "commonSymptomsPl": [
+        "Częstszy ucisk w okolicy miednicy",
+        "Zwiększona częstotliwość oddawania moczu",
+        "Trudności w znalezieniu wygodnej pozycji",
+        "Skurcze przepowiadające mogą stać się częstsze"
+      ],
+      "commonSymptomsDe": [
+        "Häufigerer Druck im Beckenbereich",
+        "Häufigeres Wasserlassen",
+        "Schwierigkeiten, eine bequeme Position zu finden",
+        "Übungswehen können häufiger werden"
+      ],
+      "commonSymptomsEn": [
+        "More frequent pelvic pressure",
+        "Increased frequency of urination",
+        "Difficulty finding a comfortable position",
+        "Practice contractions may become more frequent"
+      ],
+      "helpfulTipsPl": [
+        "Dokończ przygotowanie torby do szpitala/kliniki.",
+        "Sprawdź, czy masz przygotowane wszystkie potrzebne dokumenty.",
+        "Ustal, z kim się skontaktować, gdy zacznie się poród."
+      ],
+      "helpfulTipsDe": [
+        "Packen Sie die Krankenhaustasche fertig.",
+        "Überprüfen Sie, ob alle benötigten Unterlagen vorbereitet sind.",
+        "Klären Sie, wen Sie bei Beginn der Geburt kontaktieren."
+      ],
+      "helpfulTipsEn": [
+        "Finish packing your hospital/clinic bag.",
+        "Check that all needed documents are ready.",
+        "Confirm who to contact when labor begins."
+      ],
+      "doctorQuestionsPl": [
+        "Jak rozpoznać, że zaczyna się poród?",
+        "Co powinnam zabrać do szpitala/kliniki?",
+        "Z kim się skontaktować, jeśli poród zacznie się w nocy lub w weekend?"
+      ],
+      "doctorQuestionsDe": [
+        "Wie erkenne ich, dass die Geburt beginnt?",
+        "Was sollte ich ins Krankenhaus/in die Klinik mitnehmen?",
+        "Wen kontaktiere ich, wenn die Geburt nachts oder am Wochenende beginnt?"
+      ],
+      "doctorQuestionsEn": [
+        "How do I recognize that labor is starting?",
+        "What should I bring to the hospital/clinic?",
+        "Who should I contact if labor starts at night or on a weekend?"
+      ],
+      "redFlagsReminderPl": "Regularne, coraz silniejsze skurcze, krwawienie, wyciek płynu lub zmniejszone ruchy dziecka to sygnały, by skontaktować się z lekarzem, położną lub szpitalem bez zwlekania.",
+      "redFlagsReminderDe": "Regelmäßige, stärker werdende Wehen, Blutungen, Fruchtwasserabgang oder verringerte Bewegungen des Babys sind Anzeichen, bei denen Sie sich ohne Verzögerung an Arzt, Hebamme oder Krankenhaus wenden sollten.",
+      "redFlagsReminderEn": "Regular, intensifying contractions, bleeding, fluid leakage, or reduced baby movements are signs to contact your doctor, midwife, or hospital without delay.",
+      "relatedModules": [
+        "ai_guardian",
+        "baby_movements",
+        "birth_preparation",
+        "contractions",
+        "doctor_questions",
+        "documents",
+        "red_flags"
+      ]
+    },
+    {
+      "id": "week_38",
+      "weekNumber": 38,
+      "trimester": 3,
+      "titlePl": "Tydzień 38 ciąży",
+      "titleDe": "Schwangerschaftswoche 38",
+      "titleEn": "Pregnancy week 38",
+      "babyDevelopmentPl": "Przy wielkości pora dziecko nadal przybiera na wadze i dopracowuje odruchy potrzebne po urodzeniu.",
+      "babyDevelopmentDe": "Bei etwa der Größe einer Lauchstange nimmt das Baby weiterhin an Gewicht zu und verfeinert die nach der Geburt benötigten Reflexe.",
+      "babyDevelopmentEn": "Now about the size of a leek, the baby continues to gain weight and refine reflexes needed after birth.",
+      "motherBodyPl": "Skurcze przepowiadające mogą stać się częstsze — lekarz lub położna pomoże zrozumieć, czego można się spodziewać, gdy zbliża się poród.",
+      "motherBodyDe": "Übungswehen können häufiger werden — Arzt oder Hebamme können helfen zu verstehen, was zu erwarten ist, wenn sich die Geburt nähert.",
+      "motherBodyEn": "Practice contractions may become more frequent — your doctor or midwife can help you understand what to expect as labor approaches.",
+      "commonSymptomsPl": [
+        "Częstsze skurcze przepowiadające",
+        "Zwiększone zmęczenie",
+        "Silniejszy ucisk w okolicy miednicy",
+        "Niecierpliwość i mieszane emocje przed porodem"
+      ],
+      "commonSymptomsDe": [
+        "Häufigere Übungswehen",
+        "Zunehmende Müdigkeit",
+        "Stärkerer Druck im Beckenbereich",
+        "Ungeduld und gemischte Gefühle vor der Geburt"
+      ],
+      "commonSymptomsEn": [
+        "More frequent practice contractions",
+        "Increased tiredness",
+        "Stronger pelvic pressure",
+        "Impatience and mixed emotions before the birth"
+      ],
+      "helpfulTipsPl": [
+        "Odpoczywaj, kiedy możesz — poród może zacząć się w każdym momencie.",
+        "Miej numery kontaktowe do szpitala/kliniki i położnej w łatwo dostępnym miejscu.",
+        "Bądź dla siebie wyrozumiała — oczekiwanie na termin porodu bywa emocjonalnie wymagające."
+      ],
+      "helpfulTipsDe": [
+        "Ruhen Sie sich aus, wann immer möglich — die Geburt kann jederzeit beginnen.",
+        "Halten Sie die Kontaktdaten von Krankenhaus/Klinik und Hebamme griffbereit.",
+        "Seien Sie geduldig mit sich selbst — das Warten auf den Geburtstermin kann emotional fordernd sein."
+      ],
+      "helpfulTipsEn": [
+        "Rest whenever you can — labor can start at any time.",
+        "Keep contact details for your hospital/clinic and midwife easily accessible.",
+        "Be patient with yourself — waiting for the due date can feel emotionally demanding."
+      ],
+      "doctorQuestionsPl": [
+        "Jakie są pierwsze oznaki, że powinnam jechać do szpitala/kliniki?",
+        "Co się dzieje, jeśli poród nie zacznie się do terminu porodu?",
+        "Jakie opcje monitorowania są dostępne, jeśli termin porodu zostanie przekroczony?"
+      ],
+      "doctorQuestionsDe": [
+        "Was sind die ersten Anzeichen, bei denen ich ins Krankenhaus/in die Klinik fahren sollte?",
+        "Was passiert, wenn die Geburt nicht bis zum Termin beginnt?",
+        "Welche Überwachungsoptionen gibt es, wenn der Termin überschritten wird?"
+      ],
+      "doctorQuestionsEn": [
+        "What are the first signs that I should go to the hospital/clinic?",
+        "What happens if labor doesn't start by the due date?",
+        "What monitoring options are available if the due date is passed?"
+      ],
+      "redFlagsReminderPl": "Regularne, silne skurcze, krwawienie, wyciek płynu owodniowego lub zmniejszone ruchy dziecka to sygnały, by natychmiast skontaktować się z lekarzem, położną lub szpitalem.",
+      "redFlagsReminderDe": "Regelmäßige, starke Wehen, Blutungen, Fruchtwasserabgang oder verringerte Bewegungen des Babys sind Anzeichen, bei denen Sie sofort Arzt, Hebamme oder Krankenhaus kontaktieren sollten.",
+      "redFlagsReminderEn": "Regular, strong contractions, bleeding, amniotic fluid leakage, or reduced baby movements are signs to contact your doctor, midwife, or hospital immediately.",
+      "relatedModules": [
+        "ai_guardian",
+        "baby_movements",
+        "birth_preparation",
+        "contractions",
+        "doctor_questions",
+        "documents",
+        "red_flags"
+      ]
+    },
+    {
+      "id": "week_39",
+      "weekNumber": 39,
+      "trimester": 3,
+      "titlePl": "Tydzień 39 ciąży",
+      "titleDe": "Schwangerschaftswoche 39",
+      "titleEn": "Pregnancy week 39",
+      "babyDevelopmentPl": "Przy wielkości małego arbuza dziecko już bardzo wkrótce uznawane będzie za urodzone w pełnym terminie, a jego rozwój jest w dużej mierze zakończony.",
+      "babyDevelopmentDe": "Bei etwa der Größe einer kleinen Wassermelone gilt das Baby schon sehr bald als termingerecht, und seine Entwicklung ist weitgehend abgeschlossen.",
+      "babyDevelopmentEn": "At around the size of a mini watermelon, the baby is considered full term very soon, with development largely complete.",
+      "motherBodyPl": "Wiele osób odczuwa w tych ostatnich dniach mieszankę wyczekiwania i zmęczenia — obie te reakcje są powszechne.",
+      "motherBodyDe": "Viele empfinden in diesen letzten Tagen eine Mischung aus Vorfreude und Müdigkeit — beides ist verbreitet.",
+      "motherBodyEn": "Many people feel a mix of anticipation and tiredness in these final days — both are common experiences.",
+      "commonSymptomsPl": [
+        "Częstsze skurcze przepowiadające",
+        "Zwiększone zmęczenie",
+        "Silniejszy ucisk w okolicy miednicy",
+        "Niecierpliwość i mieszane emocje przed porodem"
+      ],
+      "commonSymptomsDe": [
+        "Häufigere Übungswehen",
+        "Zunehmende Müdigkeit",
+        "Stärkerer Druck im Beckenbereich",
+        "Ungeduld und gemischte Gefühle vor der Geburt"
+      ],
+      "commonSymptomsEn": [
+        "More frequent practice contractions",
+        "Increased tiredness",
+        "Stronger pelvic pressure",
+        "Impatience and mixed emotions before the birth"
+      ],
+      "helpfulTipsPl": [
+        "Odpoczywaj, kiedy możesz — poród może zacząć się w każdym momencie.",
+        "Miej numery kontaktowe do szpitala/kliniki i położnej w łatwo dostępnym miejscu.",
+        "Bądź dla siebie wyrozumiała — oczekiwanie na termin porodu bywa emocjonalnie wymagające."
+      ],
+      "helpfulTipsDe": [
+        "Ruhen Sie sich aus, wann immer möglich — die Geburt kann jederzeit beginnen.",
+        "Halten Sie die Kontaktdaten von Krankenhaus/Klinik und Hebamme griffbereit.",
+        "Seien Sie geduldig mit sich selbst — das Warten auf den Geburtstermin kann emotional fordernd sein."
+      ],
+      "helpfulTipsEn": [
+        "Rest whenever you can — labor can start at any time.",
+        "Keep contact details for your hospital/clinic and midwife easily accessible.",
+        "Be patient with yourself — waiting for the due date can feel emotionally demanding."
+      ],
+      "doctorQuestionsPl": [
+        "Jakie są pierwsze oznaki, że powinnam jechać do szpitala/kliniki?",
+        "Co się dzieje, jeśli poród nie zacznie się do terminu porodu?",
+        "Jakie opcje monitorowania są dostępne, jeśli termin porodu zostanie przekroczony?"
+      ],
+      "doctorQuestionsDe": [
+        "Was sind die ersten Anzeichen, bei denen ich ins Krankenhaus/in die Klinik fahren sollte?",
+        "Was passiert, wenn die Geburt nicht bis zum Termin beginnt?",
+        "Welche Überwachungsoptionen gibt es, wenn der Termin überschritten wird?"
+      ],
+      "doctorQuestionsEn": [
+        "What are the first signs that I should go to the hospital/clinic?",
+        "What happens if labor doesn't start by the due date?",
+        "What monitoring options are available if the due date is passed?"
+      ],
+      "redFlagsReminderPl": "Regularne, silne skurcze, krwawienie, wyciek płynu owodniowego lub zmniejszone ruchy dziecka to sygnały, by natychmiast skontaktować się z lekarzem, położną lub szpitalem.",
+      "redFlagsReminderDe": "Regelmäßige, starke Wehen, Blutungen, Fruchtwasserabgang oder verringerte Bewegungen des Babys sind Anzeichen, bei denen Sie sofort Arzt, Hebamme oder Krankenhaus kontaktieren sollten.",
+      "redFlagsReminderEn": "Regular, strong contractions, bleeding, amniotic fluid leakage, or reduced baby movements are signs to contact your doctor, midwife, or hospital immediately.",
+      "relatedModules": [
+        "ai_guardian",
+        "baby_movements",
+        "birth_preparation",
+        "contractions",
+        "doctor_questions",
+        "documents",
+        "red_flags"
+      ]
+    },
+    {
+      "id": "week_40",
+      "weekNumber": 40,
+      "trimester": 3,
+      "titlePl": "Tydzień 40 ciąży",
+      "titleDe": "Schwangerschaftswoche 40",
+      "titleEn": "Pregnancy week 40",
+      "babyDevelopmentPl": "Przy wielkości małej dyni dziecko osiąga szacowany termin porodu, choć dokładny moment urodzenia naturalnie się różni, a termin porodu jest jedynie szacunkiem, nie gwarancją.",
+      "babyDevelopmentDe": "Bei etwa der Größe eines kleinen Kürbisses erreicht das Baby den errechneten Geburtstermin, wobei der genaue Zeitpunkt der Geburt natürlich variiert und der Termin lediglich eine Schätzung ist.",
+      "babyDevelopmentEn": "Now about the size of a small pumpkin, the baby has reached the estimated due date, although the exact timing of birth naturally varies and due dates are an estimate rather than a guarantee.",
+      "motherBodyPl": "Jeśli poród jeszcze się nie zaczął, lekarz lub położna zwykle omówią z Tobą dalsze kroki i sposób monitorowania.",
+      "motherBodyDe": "Wenn die Geburt noch nicht begonnen hat, werden Arzt oder Hebamme in der Regel die nächsten Schritte und die Überwachung mit Ihnen besprechen.",
+      "motherBodyEn": "If birth has not yet started, your doctor or midwife will usually discuss next steps and monitoring with you.",
+      "commonSymptomsPl": [
+        "Częstsze skurcze przepowiadające",
+        "Zwiększone zmęczenie",
+        "Silniejszy ucisk w okolicy miednicy",
+        "Niecierpliwość i mieszane emocje przed porodem"
+      ],
+      "commonSymptomsDe": [
+        "Häufigere Übungswehen",
+        "Zunehmende Müdigkeit",
+        "Stärkerer Druck im Beckenbereich",
+        "Ungeduld und gemischte Gefühle vor der Geburt"
+      ],
+      "commonSymptomsEn": [
+        "More frequent practice contractions",
+        "Increased tiredness",
+        "Stronger pelvic pressure",
+        "Impatience and mixed emotions before the birth"
+      ],
+      "helpfulTipsPl": [
+        "Odpoczywaj, kiedy możesz — poród może zacząć się w każdym momencie.",
+        "Miej numery kontaktowe do szpitala/kliniki i położnej w łatwo dostępnym miejscu.",
+        "Bądź dla siebie wyrozumiała — oczekiwanie na termin porodu bywa emocjonalnie wymagające."
+      ],
+      "helpfulTipsDe": [
+        "Ruhen Sie sich aus, wann immer möglich — die Geburt kann jederzeit beginnen.",
+        "Halten Sie die Kontaktdaten von Krankenhaus/Klinik und Hebamme griffbereit.",
+        "Seien Sie geduldig mit sich selbst — das Warten auf den Geburtstermin kann emotional fordernd sein."
+      ],
+      "helpfulTipsEn": [
+        "Rest whenever you can — labor can start at any time.",
+        "Keep contact details for your hospital/clinic and midwife easily accessible.",
+        "Be patient with yourself — waiting for the due date can feel emotionally demanding."
+      ],
+      "doctorQuestionsPl": [
+        "Jakie są pierwsze oznaki, że powinnam jechać do szpitala/kliniki?",
+        "Co się dzieje, jeśli poród nie zacznie się do terminu porodu?",
+        "Jakie opcje monitorowania są dostępne, jeśli termin porodu zostanie przekroczony?"
+      ],
+      "doctorQuestionsDe": [
+        "Was sind die ersten Anzeichen, bei denen ich ins Krankenhaus/in die Klinik fahren sollte?",
+        "Was passiert, wenn die Geburt nicht bis zum Termin beginnt?",
+        "Welche Überwachungsoptionen gibt es, wenn der Termin überschritten wird?"
+      ],
+      "doctorQuestionsEn": [
+        "What are the first signs that I should go to the hospital/clinic?",
+        "What happens if labor doesn't start by the due date?",
+        "What monitoring options are available if the due date is passed?"
+      ],
+      "redFlagsReminderPl": "Regularne, silne skurcze, krwawienie, wyciek płynu owodniowego lub zmniejszone ruchy dziecka to sygnały, by natychmiast skontaktować się z lekarzem, położną lub szpitalem.",
+      "redFlagsReminderDe": "Regelmäßige, starke Wehen, Blutungen, Fruchtwasserabgang oder verringerte Bewegungen des Babys sind Anzeichen, bei denen Sie sofort Arzt, Hebamme oder Krankenhaus kontaktieren sollten.",
+      "redFlagsReminderEn": "Regular, strong contractions, bleeding, amniotic fluid leakage, or reduced baby movements are signs to contact your doctor, midwife, or hospital immediately.",
+      "relatedModules": [
+        "ai_guardian",
+        "baby_movements",
+        "birth_preparation",
+        "contractions",
+        "doctor_questions",
+        "documents",
+        "red_flags"
+      ]
+    }
+  ]
 }
