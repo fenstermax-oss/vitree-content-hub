@@ -1,13 +1,695 @@
-﻿{
+{
   "version": "1.0.0",
   "updatedAt": "2026-06-24",
-  "languageSupport": ["pl", "de", "en"],
+  "languageSupport": [
+    "pl",
+    "de",
+    "en"
+  ],
   "source": "vitree-content-hub",
   "contentType": "public_educational_content",
   "disclaimer": {
-    "pl": "Treści mają charakter edukacyjny i organizacyjny. Nie zastępują lekarza, położnej, farmaceuty, prawnika ani urzędu.",
-    "de": "Die Inhalte dienen nur der Bildung und Organisation. Sie ersetzen keine Ärztin, keinen Arzt, keine Hebamme, keine Apotheke, keine Rechtsberatung und keine Behörde.",
-    "en": "This content is educational and organizational only. It does not replace a doctor, midwife, pharmacist, legal advisor or official authority."
+    "pl": "Treści mają charakter wyłącznie edukacyjny i informacyjny w ramach aplikacji LUNARA. Nie stanowią diagnozy, porady medycznej ani instrukcji leczenia i nie zastępują kontaktu z lekarzem, położną lub pogotowiem ratunkowym. W sytuacjach nagłych zawsze korzystaj z pomocy medycznej dostępnej w Twoim kraju.",
+    "de": "Diese Inhalte dienen ausschließlich allgemeinen Bildungs- und Informationszwecken innerhalb der LUNARA-App. Sie stellen keine Diagnose, keine medizinische Beratung und keine Behandlungsanweisung dar und ersetzen nicht den Kontakt zu einem Arzt, einer Hebamme oder dem Rettungsdienst. Nutzen Sie in Notfällen immer die in Ihrem Land verfügbare medizinische Hilfe.",
+    "en": "This content is provided for general educational and informational purposes only within the LUNARA app. It does not constitute a diagnosis, medical advice, or treatment instructions, and does not replace contact with a doctor, midwife, or emergency services. In urgent situations, always use the medical help available in your country."
   },
-  "items": []
+  "items": [
+    {
+      "id": "vaginal_bleeding",
+      "category": "bleeding",
+      "urgencyLevel": "emergency_now",
+      "titlePl": "Krwawienie z dróg rodnych",
+      "titleDe": "Vaginale Blutung",
+      "titleEn": "Vaginal bleeding",
+      "shortMessagePl": "Krwawienie z dróg rodnych w ciąży zawsze wymaga szybkiej oceny medycznej.",
+      "shortMessageDe": "Vaginale Blutungen in der Schwangerschaft erfordern immer eine schnelle medizinische Abklärung.",
+      "shortMessageEn": "Vaginal bleeding in pregnancy always needs prompt medical assessment.",
+      "actionMessagePl": "Skontaktuj się natychmiast z pogotowiem, oddziałem ginekologiczno-położniczym, lekarzem lub położną – niezależnie od ilości krwawienia. Nie czekaj, aż krwawienie ustanie samoistnie.",
+      "actionMessageDe": "Wenden Sie sich sofort an den Rettungsdienst, die Kreißsaal- bzw. gynäkologische Abteilung, Ihren Arzt oder Ihre Hebamme – unabhängig von der Menge der Blutung. Warten Sie nicht, bis die Blutung von selbst aufhört.",
+      "actionMessageEn": "Contact emergency services, your maternity/gynecology unit, doctor, or midwife immediately — regardless of how much bleeding there is. Do not wait for it to stop on its own.",
+      "symptomsPl": [
+        "Krwawienie lub plamienie z pochwy",
+        "Krew jasnoczerwona lub ciemna",
+        "Krwawienie ze skrzepami",
+        "Krwawienie z bólem brzucha lub bez bólu"
+      ],
+      "symptomsDe": [
+        "Blutung oder Schmierblutung aus der Scheide",
+        "Hellrotes oder dunkles Blut",
+        "Blutung mit Blutgerinnseln",
+        "Blutung mit oder ohne Bauchschmerzen"
+      ],
+      "symptomsEn": [
+        "Bleeding or spotting from the vagina",
+        "Bright red or dark blood",
+        "Bleeding with clots",
+        "Bleeding with or without abdominal pain"
+      ],
+      "aiGuardianTriggerKeywords": [
+        "krwawienie",
+        "krwawię",
+        "plamienie",
+        "krew z pochwy",
+        "blutung",
+        "ich blute",
+        "schmierblutung",
+        "blut in der schwangerschaft",
+        "bleeding",
+        "spotting",
+        "i'm bleeding",
+        "blood during pregnancy"
+      ],
+      "relatedModules": [
+        "ai_guardian",
+        "doctor",
+        "pregnancy"
+      ]
+    },
+    {
+      "id": "severe_abdominal_pain",
+      "category": "severe_abdominal_pain",
+      "urgencyLevel": "emergency_now",
+      "titlePl": "Silny ból brzucha",
+      "titleDe": "Starke Bauchschmerzen",
+      "titleEn": "Severe abdominal pain",
+      "shortMessagePl": "Silny, nagły lub narastający ból brzucha w ciąży należy zawsze skonsultować bez zwłoki.",
+      "shortMessageDe": "Starke, plötzliche oder zunehmende Bauchschmerzen in der Schwangerschaft sollten immer sofort abgeklärt werden.",
+      "shortMessageEn": "Severe, sudden, or worsening abdominal pain in pregnancy should always be checked without delay.",
+      "actionMessagePl": "Skontaktuj się natychmiast z pogotowiem, oddziałem położniczym, lekarzem lub położną. Jeśli ból jest bardzo silny lub towarzyszą mu inne niepokojące objawy, udaj się na pogotowie.",
+      "actionMessageDe": "Wenden Sie sich sofort an den Rettungsdienst, die Kreißsaal-Abteilung, Ihren Arzt oder Ihre Hebamme. Bei sehr starken Schmerzen oder zusätzlichen Warnzeichen suchen Sie umgehend eine Notaufnahme auf.",
+      "actionMessageEn": "Contact emergency services, your maternity unit, doctor, or midwife immediately. If the pain is very severe or accompanied by other warning signs, go to an emergency department.",
+      "symptomsPl": [
+        "Silny, nagły ból brzucha",
+        "Ból, który narasta i nie mija",
+        "Ból jednostronny lub promieniujący",
+        "Ból brzucha z gorączką, krwawieniem lub omdleniem"
+      ],
+      "symptomsDe": [
+        "Starke, plötzliche Bauchschmerzen",
+        "Schmerzen, die zunehmen und nicht nachlassen",
+        "Einseitige oder ausstrahlende Schmerzen",
+        "Bauchschmerzen mit Fieber, Blutung oder Ohnmacht"
+      ],
+      "symptomsEn": [
+        "Severe, sudden abdominal pain",
+        "Pain that keeps getting worse and does not ease",
+        "One-sided or radiating pain",
+        "Abdominal pain with fever, bleeding, or fainting"
+      ],
+      "aiGuardianTriggerKeywords": [
+        "silny ból brzucha",
+        "bardzo boli brzuch",
+        "ból brzucha w ciąży",
+        "starke bauchschmerzen",
+        "mein bauch tut sehr weh",
+        "bauchschmerzen schwangerschaft",
+        "severe abdominal pain",
+        "my stomach really hurts",
+        "sharp pain in belly"
+      ],
+      "relatedModules": [
+        "ai_guardian",
+        "doctor",
+        "pregnancy"
+      ]
+    },
+    {
+      "id": "high_fever",
+      "category": "high_fever",
+      "urgencyLevel": "contact_doctor_today",
+      "titlePl": "Wysoka gorączka",
+      "titleDe": "Hohes Fieber",
+      "titleEn": "High fever",
+      "shortMessagePl": "Wysoka gorączka w ciąży wymaga kontaktu z lekarzem lub położną w tym samym dniu.",
+      "shortMessageDe": "Hohes Fieber in der Schwangerschaft erfordert noch am selben Tag Kontakt zu Arzt oder Hebamme.",
+      "shortMessageEn": "High fever in pregnancy needs same-day contact with your doctor or midwife.",
+      "actionMessagePl": "Skontaktuj się z lekarzem lub położną jeszcze tego samego dnia. Jeśli gorączka jest bardzo wysoka, towarzyszą jej dreszcze, splątanie, silny ból lub trudności w oddychaniu, skontaktuj się z pogotowiem.",
+      "actionMessageDe": "Kontaktieren Sie noch am selben Tag Ihren Arzt oder Ihre Hebamme. Bei sehr hohem Fieber, Schüttelfrost, Verwirrtheit, starken Schmerzen oder Atembeschwerden wenden Sie sich an den Rettungsdienst.",
+      "actionMessageEn": "Contact your doctor or midwife the same day. If the fever is very high, or comes with chills, confusion, severe pain, or breathing difficulty, contact emergency services.",
+      "symptomsPl": [
+        "Temperatura ciała powyżej 38°C",
+        "Dreszcze lub silne pocenie",
+        "Gorączka z bólem, wysypką lub trudnością w oddychaniu",
+        "Gorączka utrzymująca się dłużej niż jeden dzień"
+      ],
+      "symptomsDe": [
+        "Körpertemperatur über 38 °C",
+        "Schüttelfrost oder starkes Schwitzen",
+        "Fieber mit Schmerzen, Hautausschlag oder Atembeschwerden",
+        "Fieber, das länger als einen Tag anhält"
+      ],
+      "symptomsEn": [
+        "Body temperature above 38°C",
+        "Chills or heavy sweating",
+        "Fever with pain, rash, or breathing difficulty",
+        "Fever lasting more than one day"
+      ],
+      "aiGuardianTriggerKeywords": [
+        "gorączka w ciąży",
+        "wysoka temperatura",
+        "mam gorączkę",
+        "fieber in der schwangerschaft",
+        "hohes fieber",
+        "ich habe fieber",
+        "high fever pregnancy",
+        "i have a fever",
+        "temperature is high"
+      ],
+      "relatedModules": [
+        "ai_guardian",
+        "doctor",
+        "medications"
+      ]
+    },
+    {
+      "id": "preterm_labor_contractions",
+      "category": "contractions_preterm_labor",
+      "urgencyLevel": "contact_doctor_today",
+      "titlePl": "Regularne skurcze lub objawy porodu przedwczesnego",
+      "titleDe": "Regelmäßige Wehen oder Anzeichen einer Frühgeburt",
+      "titleEn": "Regular contractions or signs of preterm labor",
+      "shortMessagePl": "Regularne, bolesne skurcze, zwłaszcza przed terminem porodu, wymagają kontaktu z położną lub szpitalem.",
+      "shortMessageDe": "Regelmäßige, schmerzhafte Wehen, besonders vor dem errechneten Termin, erfordern Kontakt zu Hebamme oder Klinik.",
+      "shortMessageEn": "Regular, painful contractions — especially before your due date — need contact with your midwife or maternity unit.",
+      "actionMessagePl": "Skontaktuj się z położną, lekarzem lub szpitalem, w którym planujesz poród, aby opisać częstotliwość i charakter skurczów. Jeśli skurcze są bardzo częste, silne lub jesteś przed 37. tygodniem ciąży, zgłoś się tam bez zwłoki.",
+      "actionMessageDe": "Kontaktieren Sie Ihre Hebamme, Ihren Arzt oder die Klinik, in der Sie entbinden möchten, und beschreiben Sie Häufigkeit und Art der Wehen. Bei sehr häufigen, starken Wehen oder vor der 37. Schwangerschaftswoche suchen Sie die Klinik umgehend auf.",
+      "actionMessageEn": "Contact your midwife, doctor, or the maternity unit where you plan to give birth, and describe how often and how strong the contractions are. If contractions are very frequent, strong, or you are before week 37, go in without delay.",
+      "symptomsPl": [
+        "Regularne, powtarzające się skurcze brzucha",
+        "Skurcze, które nie mijają po odpoczynku",
+        "Ucisk w dole brzucha lub plecach",
+        "Skurcze przed 37. tygodniem ciąży"
+      ],
+      "symptomsDe": [
+        "Regelmäßige, wiederkehrende Bauchkrämpfe",
+        "Wehen, die sich durch Ruhe nicht legen",
+        "Druckgefühl im Unterbauch oder Rücken",
+        "Wehen vor der 37. Schwangerschaftswoche"
+      ],
+      "symptomsEn": [
+        "Regular, repeating tightening of the abdomen",
+        "Contractions that don't ease with rest",
+        "Pressure in the lower abdomen or back",
+        "Contractions before week 37 of pregnancy"
+      ],
+      "aiGuardianTriggerKeywords": [
+        "skurcze w ciąży",
+        "regularne skurcze",
+        "poród przedwczesny",
+        "wehen",
+        "regelmäßige wehen",
+        "frühgeburt anzeichen",
+        "contractions in pregnancy",
+        "regular contractions",
+        "preterm labor signs"
+      ],
+      "relatedModules": [
+        "ai_guardian",
+        "doctor",
+        "pregnancy",
+        "movement"
+      ]
+    },
+    {
+      "id": "reduced_baby_movements",
+      "category": "reduced_baby_movements",
+      "urgencyLevel": "contact_doctor_today",
+      "titlePl": "Słabsze lub brak ruchów dziecka",
+      "titleDe": "Verringerte oder fehlende Kindsbewegungen",
+      "titleEn": "Reduced or absent baby movements",
+      "shortMessagePl": "Zauważalnie słabsze lub nieobecne ruchy dziecka należy zgłosić od razu – nie czekaj do następnego dnia.",
+      "shortMessageDe": "Deutlich verringerte oder fehlende Kindsbewegungen sollten Sie sofort melden – warten Sie nicht bis zum nächsten Tag.",
+      "shortMessageEn": "Noticeably reduced or absent baby movements should be reported right away — don't wait until the next day.",
+      "actionMessagePl": "Skontaktuj się natychmiast z położną, lekarzem lub oddziałem położniczym, aby ocenić ruchy dziecka, najlepiej tego samego dnia i bez odkładania na później. Zgłoszenie zmiany ruchów dziecka nigdy nie jest przesadą.",
+      "actionMessageDe": "Kontaktieren Sie sofort Ihre Hebamme, Ihren Arzt oder die Kreißsaal-Abteilung, um die Kindsbewegungen beurteilen zu lassen – am besten noch am selben Tag und ohne Aufschub. Eine Veränderung der Kindsbewegungen zu melden, ist nie übertrieben.",
+      "actionMessageEn": "Contact your midwife, doctor, or maternity unit right away to have your baby's movements checked, ideally the same day and without delay. Reporting a change in your baby's movements is never an overreaction.",
+      "symptomsPl": [
+        "Zauważalnie mniej ruchów niż zwykle",
+        "Brak ruchów dziecka przez dłuższy czas",
+        "Zmiana zwykłego rytmu ruchów",
+        "Wątpliwości dotyczące aktywności dziecka"
+      ],
+      "symptomsDe": [
+        "Deutlich weniger Bewegungen als sonst",
+        "Keine Kindsbewegungen über einen längeren Zeitraum",
+        "Veränderung des gewohnten Bewegungsmusters",
+        "Unsicherheit bezüglich der Aktivität des Kindes"
+      ],
+      "symptomsEn": [
+        "Noticeably fewer movements than usual",
+        "No baby movements for an extended period",
+        "A change in the usual movement pattern",
+        "Uncertainty about the baby's activity"
+      ],
+      "aiGuardianTriggerKeywords": [
+        "dziecko mniej się rusza",
+        "brak ruchów dziecka",
+        "nie czuję ruchów",
+        "kind bewegt sich weniger",
+        "keine kindsbewegungen",
+        "ich spüre das baby nicht",
+        "baby not moving",
+        "reduced fetal movement",
+        "less movement than usual"
+      ],
+      "relatedModules": [
+        "ai_guardian",
+        "baby_movements",
+        "movement",
+        "doctor"
+      ]
+    },
+    {
+      "id": "severe_persistent_headache",
+      "category": "severe_headache",
+      "urgencyLevel": "contact_doctor_today",
+      "titlePl": "Silny lub utrzymujący się ból głowy",
+      "titleDe": "Starke oder anhaltende Kopfschmerzen",
+      "titleEn": "Severe or persistent headache",
+      "shortMessagePl": "Silny ból głowy, który nie mija lub jest nietypowy dla Ciebie, wymaga kontaktu z lekarzem lub położną w tym samym dniu.",
+      "shortMessageDe": "Starke Kopfschmerzen, die nicht nachlassen oder untypisch für Sie sind, erfordern noch am selben Tag Kontakt zu Arzt oder Hebamme.",
+      "shortMessageEn": "A severe headache that won't go away or feels unusual for you needs same-day contact with your doctor or midwife.",
+      "actionMessagePl": "Skontaktuj się z lekarzem lub położną tego samego dnia, szczególnie jeśli bólowi głowy towarzyszą zaburzenia widzenia, obrzęki, ból w nadbrzuszu lub wysokie ciśnienie krwi. Jeśli ból jest bardzo nagły i intensywny, skontaktuj się z pogotowiem.",
+      "actionMessageDe": "Kontaktieren Sie noch am selben Tag Ihren Arzt oder Ihre Hebamme, besonders wenn zusätzlich Sehstörungen, Schwellungen, Oberbauchschmerzen oder hoher Blutdruck auftreten. Bei sehr plötzlichen und starken Schmerzen wenden Sie sich an den Rettungsdienst.",
+      "actionMessageEn": "Contact your doctor or midwife the same day, especially if the headache comes with vision changes, swelling, upper abdominal pain, or high blood pressure. If the pain is very sudden and intense, contact emergency services.",
+      "symptomsPl": [
+        "Silny ból głowy, który nie ustępuje",
+        "Ból głowy inny niż zwykle u Ciebie",
+        "Ból głowy z zaburzeniami widzenia lub obrzękami",
+        "Ból głowy z bólem w nadbrzuszu"
+      ],
+      "symptomsDe": [
+        "Starke Kopfschmerzen, die nicht nachlassen",
+        "Kopfschmerzen, die anders sind als sonst",
+        "Kopfschmerzen mit Sehstörungen oder Schwellungen",
+        "Kopfschmerzen mit Oberbauchschmerzen"
+      ],
+      "symptomsEn": [
+        "Severe headache that doesn't ease",
+        "A headache that feels different from your usual ones",
+        "Headache with vision changes or swelling",
+        "Headache with upper abdominal pain"
+      ],
+      "aiGuardianTriggerKeywords": [
+        "silny ból głowy",
+        "ból głowy nie mija",
+        "migrena w ciąży",
+        "starke kopfschmerzen",
+        "kopfschmerzen schwangerschaft",
+        "anhaltende kopfschmerzen",
+        "severe headache",
+        "headache won't go away",
+        "bad headache pregnancy"
+      ],
+      "relatedModules": [
+        "ai_guardian",
+        "doctor",
+        "pregnancy"
+      ]
+    },
+    {
+      "id": "vision_problems",
+      "category": "vision_problems",
+      "urgencyLevel": "contact_doctor_today",
+      "titlePl": "Zaburzenia widzenia",
+      "titleDe": "Sehstörungen",
+      "titleEn": "Vision problems",
+      "shortMessagePl": "Nowe zaburzenia widzenia w ciąży należy zgłosić lekarzowi lub położnej tego samego dnia.",
+      "shortMessageDe": "Neu auftretende Sehstörungen in der Schwangerschaft sollten noch am selben Tag dem Arzt oder der Hebamme gemeldet werden.",
+      "shortMessageEn": "New vision problems during pregnancy should be reported to your doctor or midwife the same day.",
+      "actionMessagePl": "Skontaktuj się z lekarzem lub położną tego samego dnia, zwłaszcza jeśli zaburzeniom widzenia towarzyszy ból głowy, obrzęki lub wysokie ciśnienie krwi. Jeśli widzenie nagle bardzo się pogorszyło, skontaktuj się z pogotowiem.",
+      "actionMessageDe": "Kontaktieren Sie noch am selben Tag Ihren Arzt oder Ihre Hebamme, besonders wenn zusätzlich Kopfschmerzen, Schwellungen oder hoher Blutdruck auftreten. Bei einer plötzlichen, starken Verschlechterung des Sehens wenden Sie sich an den Rettungsdienst.",
+      "actionMessageEn": "Contact your doctor or midwife the same day, especially if the vision problems come with headache, swelling, or high blood pressure. If your eyesight suddenly worsens a lot, contact emergency services.",
+      "symptomsPl": [
+        "Mroczki lub błyski przed oczami",
+        "Nieostre lub rozmyte widzenie",
+        "Tymczasowa utrata widzenia",
+        "Zaburzenia widzenia z bólem głowy lub obrzękami"
+      ],
+      "symptomsDe": [
+        "Augenflimmern oder Lichtblitze",
+        "Verschwommenes oder unscharfes Sehen",
+        "Vorübergehender Sehverlust",
+        "Sehstörungen mit Kopfschmerzen oder Schwellungen"
+      ],
+      "symptomsEn": [
+        "Flashing lights or spots in vision",
+        "Blurred or unclear vision",
+        "Temporary loss of vision",
+        "Vision changes with headache or swelling"
+      ],
+      "aiGuardianTriggerKeywords": [
+        "zaburzenia widzenia",
+        "mroczki przed oczami",
+        "nie widzę dobrze",
+        "sehstörungen",
+        "ich sehe verschwommen",
+        "augenflimmern",
+        "vision problems pregnancy",
+        "blurred vision",
+        "seeing spots"
+      ],
+      "relatedModules": [
+        "ai_guardian",
+        "doctor",
+        "pregnancy"
+      ]
+    },
+    {
+      "id": "high_blood_pressure_preeclampsia_signs",
+      "category": "high_blood_pressure_preeclampsia",
+      "urgencyLevel": "contact_doctor_today",
+      "titlePl": "Objawy wysokiego ciśnienia krwi lub stanu przedrzucawkowego",
+      "titleDe": "Anzeichen von hohem Blutdruck oder Präeklampsie",
+      "titleEn": "Signs of high blood pressure or preeclampsia",
+      "shortMessagePl": "Objawy mogące wskazywać na wysokie ciśnienie krwi w ciąży wymagają kontaktu z lekarzem lub położną tego samego dnia.",
+      "shortMessageDe": "Anzeichen, die auf hohen Blutdruck in der Schwangerschaft hindeuten können, erfordern noch am selben Tag Kontakt zu Arzt oder Hebamme.",
+      "shortMessageEn": "Signs that may point to high blood pressure in pregnancy need same-day contact with your doctor or midwife.",
+      "actionMessagePl": "Skontaktuj się z lekarzem lub położną tego samego dnia, aby zmierzyć ciśnienie krwi i ocenić objawy. Jeśli objawy są nasilone lub gwałtownie się pojawiły, skontaktuj się z pogotowiem lub udaj się na oddział położniczy.",
+      "actionMessageDe": "Kontaktieren Sie noch am selben Tag Ihren Arzt oder Ihre Hebamme, um den Blutdruck messen und die Symptome beurteilen zu lassen. Bei starken oder plötzlich auftretenden Symptomen wenden Sie sich an den Rettungsdienst oder suchen Sie die Kreißsaal-Abteilung auf.",
+      "actionMessageEn": "Contact your doctor or midwife the same day to have your blood pressure measured and symptoms assessed. If symptoms are severe or appeared suddenly, contact emergency services or go to your maternity unit.",
+      "symptomsPl": [
+        "Silny ból głowy z obrzękami rąk, twarzy lub nóg",
+        "Nagły, znaczny obrzęk",
+        "Ból w nadbrzuszu lub pod żebrami",
+        "Nudności z bólem głowy i zaburzeniami widzenia"
+      ],
+      "symptomsDe": [
+        "Starke Kopfschmerzen mit Schwellungen an Händen, Gesicht oder Beinen",
+        "Plötzliche, deutliche Schwellung",
+        "Schmerzen im Oberbauch oder unter den Rippen",
+        "Übelkeit mit Kopfschmerzen und Sehstörungen"
+      ],
+      "symptomsEn": [
+        "Severe headache with swelling of hands, face, or legs",
+        "Sudden, noticeable swelling",
+        "Pain in the upper abdomen or under the ribs",
+        "Nausea with headache and vision changes"
+      ],
+      "aiGuardianTriggerKeywords": [
+        "wysokie ciśnienie w ciąży",
+        "obrzęki i ból głowy",
+        "stan przedrzucawkowy",
+        "hoher blutdruck schwangerschaft",
+        "präeklampsie anzeichen",
+        "schwellungen und kopfschmerzen",
+        "high blood pressure pregnancy",
+        "preeclampsia signs",
+        "swelling and headache"
+      ],
+      "relatedModules": [
+        "ai_guardian",
+        "doctor",
+        "pregnancy"
+      ]
+    },
+    {
+      "id": "fluid_leakage_vagina",
+      "category": "fluid_leakage",
+      "urgencyLevel": "emergency_now",
+      "titlePl": "Odpływanie płynu z pochwy",
+      "titleDe": "Flüssigkeitsabgang aus der Scheide",
+      "titleEn": "Fluid leakage from the vagina",
+      "shortMessagePl": "Odpływanie płynu z pochwy może oznaczać pęknięcie błon płodowych i wymaga szybkiej oceny medycznej.",
+      "shortMessageDe": "Flüssigkeitsabgang aus der Scheide kann auf einen Blasensprung hinweisen und erfordert eine schnelle medizinische Abklärung.",
+      "shortMessageEn": "Fluid leaking from the vagina can mean the waters have broken and needs prompt medical assessment.",
+      "actionMessagePl": "Skontaktuj się natychmiast z pogotowiem, oddziałem położniczym, lekarzem lub położną – niezależnie od ilości płynu i tygodnia ciąży.",
+      "actionMessageDe": "Wenden Sie sich sofort an den Rettungsdienst, die Kreißsaal-Abteilung, Ihren Arzt oder Ihre Hebamme – unabhängig von der Menge der Flüssigkeit und der Schwangerschaftswoche.",
+      "actionMessageEn": "Contact emergency services, your maternity unit, doctor, or midwife immediately — regardless of how much fluid there is or how many weeks pregnant you are.",
+      "symptomsPl": [
+        "Wyciek przezroczystego lub lekko zabarwionego płynu",
+        "Nagłe lub ciągłe odpływanie płynu",
+        "Wilgotność niezwiązana z moczem",
+        "Odpływanie płynu przed terminem porodu"
+      ],
+      "symptomsDe": [
+        "Austritt von klarer oder leicht gefärbter Flüssigkeit",
+        "Plötzlicher oder anhaltender Flüssigkeitsabgang",
+        "Feuchtigkeitsgefühl, das nicht durch Urin erklärbar ist",
+        "Flüssigkeitsabgang vor dem errechneten Termin"
+      ],
+      "symptomsEn": [
+        "Leaking of clear or slightly colored fluid",
+        "Sudden or continuous fluid leakage",
+        "A feeling of wetness not explained by urine",
+        "Fluid leakage before the due date"
+      ],
+      "aiGuardianTriggerKeywords": [
+        "odpływanie płynu",
+        "pękły wody",
+        "wyciek płynu z pochwy",
+        "fruchtwasserabgang",
+        "blasensprung",
+        "flüssigkeit läuft ab",
+        "water broke",
+        "fluid leaking",
+        "amniotic fluid leaking"
+      ],
+      "relatedModules": [
+        "ai_guardian",
+        "doctor",
+        "pregnancy"
+      ]
+    },
+    {
+      "id": "severe_vomiting_dehydration",
+      "category": "severe_vomiting_dehydration",
+      "urgencyLevel": "contact_doctor_today",
+      "titlePl": "Silne wymioty lub objawy odwodnienia",
+      "titleDe": "Starkes Erbrechen oder Anzeichen einer Austrocknung",
+      "titleEn": "Severe vomiting or signs of dehydration",
+      "shortMessagePl": "Silne, uporczywe wymioty lub objawy odwodnienia wymagają kontaktu z lekarzem lub położną tego samego dnia.",
+      "shortMessageDe": "Starkes, anhaltendes Erbrechen oder Anzeichen einer Austrocknung erfordern noch am selben Tag Kontakt zu Arzt oder Hebamme.",
+      "shortMessageEn": "Severe, persistent vomiting or signs of dehydration need same-day contact with your doctor or midwife.",
+      "actionMessagePl": "Skontaktuj się z lekarzem lub położną tego samego dnia. Jeśli nie jesteś w stanie utrzymać żadnych płynów, czujesz silne osłabienie, masz zawroty głowy lub omdlałaś, skontaktuj się z pogotowiem.",
+      "actionMessageDe": "Kontaktieren Sie noch am selben Tag Ihren Arzt oder Ihre Hebamme. Wenn Sie überhaupt keine Flüssigkeit bei sich behalten können, sich stark geschwächt fühlen, Schwindel haben oder ohnmächtig geworden sind, wenden Sie sich an den Rettungsdienst.",
+      "actionMessageEn": "Contact your doctor or midwife the same day. If you cannot keep any fluids down, feel very weak, dizzy, or have fainted, contact emergency services.",
+      "symptomsPl": [
+        "Częste wymioty utrzymujące się przez wiele godzin",
+        "Niemożność utrzymania płynów",
+        "Suchość w ustach, rzadkie oddawanie moczu",
+        "Zawroty głowy lub silne osłabienie"
+      ],
+      "symptomsDe": [
+        "Häufiges Erbrechen über viele Stunden",
+        "Unfähigkeit, Flüssigkeit bei sich zu behalten",
+        "Trockener Mund, seltenes Wasserlassen",
+        "Schwindel oder starke Schwäche"
+      ],
+      "symptomsEn": [
+        "Frequent vomiting lasting many hours",
+        "Unable to keep any fluids down",
+        "Dry mouth, infrequent urination",
+        "Dizziness or severe weakness"
+      ],
+      "aiGuardianTriggerKeywords": [
+        "silne wymioty w ciąży",
+        "nie mogę nic zjeść",
+        "odwodnienie",
+        "starkes erbrechen schwangerschaft",
+        "ich kann nichts bei mir behalten",
+        "austrocknung",
+        "severe vomiting pregnancy",
+        "can't keep anything down",
+        "dehydration signs"
+      ],
+      "relatedModules": [
+        "ai_guardian",
+        "doctor",
+        "medications"
+      ]
+    },
+    {
+      "id": "chest_pain_breathlessness_fainting",
+      "category": "chest_pain_breathlessness_fainting",
+      "urgencyLevel": "emergency_now",
+      "titlePl": "Ból w klatce piersiowej, silna duszność lub omdlenie",
+      "titleDe": "Brustschmerzen, starke Atemnot oder Ohnmacht",
+      "titleEn": "Chest pain, severe shortness of breath, or fainting",
+      "shortMessagePl": "Ból w klatce piersiowej, silna duszność lub omdlenie to objawy wymagające natychmiastowej pomocy medycznej.",
+      "shortMessageDe": "Brustschmerzen, starke Atemnot oder Ohnmacht sind Anzeichen, die sofortige medizinische Hilfe erfordern.",
+      "shortMessageEn": "Chest pain, severe shortness of breath, or fainting are signs that need immediate medical help.",
+      "actionMessagePl": "Skontaktuj się natychmiast z pogotowiem ratunkowym. Nie prowadź samodzielnie samochodu – poproś o pomoc kogoś z otoczenia lub zadzwoń po pomoc medyczną.",
+      "actionMessageDe": "Wenden Sie sich sofort an den Rettungsdienst. Fahren Sie nicht selbst Auto – bitten Sie jemanden in Ihrer Nähe um Hilfe oder rufen Sie den Notruf.",
+      "actionMessageEn": "Contact emergency services immediately. Do not drive yourself — ask someone nearby for help or call for emergency medical assistance.",
+      "symptomsPl": [
+        "Ból lub ucisk w klatce piersiowej",
+        "Silna, nagła duszność",
+        "Omdlenie lub utrata przytomności",
+        "Kołatanie serca z zawrotami głowy"
+      ],
+      "symptomsDe": [
+        "Schmerzen oder Druckgefühl in der Brust",
+        "Plötzliche, starke Atemnot",
+        "Ohnmacht oder Bewusstlosigkeit",
+        "Herzrasen mit Schwindel"
+      ],
+      "symptomsEn": [
+        "Pain or tightness in the chest",
+        "Sudden, severe breathlessness",
+        "Fainting or loss of consciousness",
+        "Heart palpitations with dizziness"
+      ],
+      "aiGuardianTriggerKeywords": [
+        "ból w klatce piersiowej",
+        "trudności w oddychaniu",
+        "zemdlałam",
+        "brustschmerzen",
+        "starke atemnot",
+        "ich bin ohnmächtig geworden",
+        "chest pain pregnancy",
+        "can't breathe",
+        "i fainted"
+      ],
+      "relatedModules": [
+        "ai_guardian",
+        "doctor",
+        "pregnancy"
+      ]
+    },
+    {
+      "id": "allergic_reaction",
+      "category": "allergic_reaction",
+      "urgencyLevel": "emergency_now",
+      "titlePl": "Reakcja alergiczna",
+      "titleDe": "Allergische Reaktion",
+      "titleEn": "Allergic reaction",
+      "shortMessagePl": "Objawy poważnej reakcji alergicznej wymagają natychmiastowej pomocy medycznej.",
+      "shortMessageDe": "Anzeichen einer schweren allergischen Reaktion erfordern sofortige medizinische Hilfe.",
+      "shortMessageEn": "Signs of a serious allergic reaction need immediate medical help.",
+      "actionMessagePl": "Skontaktuj się natychmiast z pogotowiem ratunkowym, szczególnie jeśli występuje obrzęk twarzy, warg, języka lub gardła, trudności w oddychaniu lub zawroty głowy.",
+      "actionMessageDe": "Wenden Sie sich sofort an den Rettungsdienst, besonders bei Schwellung von Gesicht, Lippen, Zunge oder Rachen, Atembeschwerden oder Schwindel.",
+      "actionMessageEn": "Contact emergency services immediately, especially if there is swelling of the face, lips, tongue, or throat, difficulty breathing, or dizziness.",
+      "symptomsPl": [
+        "Wysypka lub pokrzywka",
+        "Obrzęk twarzy, warg, języka lub gardła",
+        "Trudności w oddychaniu lub świszczący oddech",
+        "Zawroty głowy lub omdlenie po kontakcie z lekiem lub jedzeniem"
+      ],
+      "symptomsDe": [
+        "Hautausschlag oder Nesselsucht",
+        "Schwellung von Gesicht, Lippen, Zunge oder Rachen",
+        "Atembeschwerden oder pfeifende Atmung",
+        "Schwindel oder Ohnmacht nach Kontakt mit einem Medikament oder Lebensmittel"
+      ],
+      "symptomsEn": [
+        "Rash or hives",
+        "Swelling of the face, lips, tongue, or throat",
+        "Difficulty breathing or wheezing",
+        "Dizziness or fainting after contact with a medicine or food"
+      ],
+      "aiGuardianTriggerKeywords": [
+        "reakcja alergiczna",
+        "obrzęk twarzy",
+        "wysypka po leku",
+        "allergische reaktion",
+        "schwellung im gesicht",
+        "ausschlag nach medikament",
+        "allergic reaction",
+        "swelling face throat",
+        "rash after medicine"
+      ],
+      "relatedModules": [
+        "ai_guardian",
+        "medications",
+        "doctor"
+      ]
+    },
+    {
+      "id": "fall_abdominal_trauma_accident",
+      "category": "trauma_fall_accident",
+      "urgencyLevel": "emergency_now",
+      "titlePl": "Upadek, uraz brzucha lub wypadek",
+      "titleDe": "Sturz, Bauchtrauma oder Unfall",
+      "titleEn": "Fall, abdominal trauma, or accident",
+      "shortMessagePl": "Po upadku, urazie brzucha lub wypadku w ciąży zawsze zalecana jest ocena medyczna, nawet bez wyraźnych objawów.",
+      "shortMessageDe": "Nach einem Sturz, Bauchtrauma oder Unfall in der Schwangerschaft wird immer eine medizinische Abklärung empfohlen, auch ohne offensichtliche Symptome.",
+      "shortMessageEn": "After a fall, abdominal injury, or accident in pregnancy, medical assessment is always recommended, even without obvious symptoms.",
+      "actionMessagePl": "Skontaktuj się z pogotowiem, oddziałem położniczym, lekarzem lub położną, aby ocenić stan po zdarzeniu – nawet jeśli czujesz się dobrze. W przypadku silnego bólu, krwawienia lub utraty przytomności wezwij pogotowie natychmiast.",
+      "actionMessageDe": "Kontaktieren Sie den Rettungsdienst, die Kreißsaal-Abteilung, Ihren Arzt oder Ihre Hebamme, um den Zustand nach dem Vorfall beurteilen zu lassen – auch wenn Sie sich gut fühlen. Bei starken Schmerzen, Blutung oder Bewusstlosigkeit rufen Sie sofort den Notruf.",
+      "actionMessageEn": "Contact emergency services, your maternity unit, doctor, or midwife to have your condition assessed after the event — even if you feel fine. If there is severe pain, bleeding, or loss of consciousness, call emergency services immediately.",
+      "symptomsPl": [
+        "Upadek na brzuch lub plecy",
+        "Uderzenie lub uraz brzucha",
+        "Wypadek samochodowy lub inny poważny incydent",
+        "Ból, krwawienie lub niepokój po zdarzeniu"
+      ],
+      "symptomsDe": [
+        "Sturz auf den Bauch oder Rücken",
+        "Schlag oder Verletzung im Bauchbereich",
+        "Autounfall oder anderer ernster Vorfall",
+        "Schmerzen, Blutung oder Unruhe nach dem Vorfall"
+      ],
+      "symptomsEn": [
+        "A fall onto the abdomen or back",
+        "A blow or injury to the abdomen",
+        "A car accident or other serious incident",
+        "Pain, bleeding, or unease after the event"
+      ],
+      "aiGuardianTriggerKeywords": [
+        "upadłam w ciąży",
+        "uraz brzucha",
+        "wypadek samochodowy ciąża",
+        "sturz in der schwangerschaft",
+        "bauchtrauma",
+        "autounfall schwanger",
+        "fell during pregnancy",
+        "abdominal injury",
+        "car accident pregnant"
+      ],
+      "relatedModules": [
+        "ai_guardian",
+        "doctor",
+        "pregnancy"
+      ]
+    },
+    {
+      "id": "urinary_pain_fever_flank_pain",
+      "category": "urinary_symptoms_with_fever",
+      "urgencyLevel": "contact_doctor_today",
+      "titlePl": "Ból lub pieczenie przy oddawaniu moczu z gorączką lub bólem boku",
+      "titleDe": "Schmerzen oder Brennen beim Wasserlassen mit Fieber oder Flankenschmerz",
+      "titleEn": "Pain or burning when urinating with fever or flank pain",
+      "shortMessagePl": "Ból przy oddawaniu moczu z gorączką lub bólem w boku może wskazywać na infekcję wymagającą oceny lekarskiej tego samego dnia.",
+      "shortMessageDe": "Schmerzen beim Wasserlassen mit Fieber oder Flankenschmerz können auf eine Infektion hinweisen, die noch am selben Tag ärztlich abgeklärt werden sollte.",
+      "shortMessageEn": "Pain when urinating along with fever or flank pain can point to an infection that needs same-day medical assessment.",
+      "actionMessagePl": "Skontaktuj się z lekarzem lub położną tego samego dnia. Jeśli masz wysoką gorączkę, silny ból boku lub czujesz się bardzo źle, skontaktuj się z pogotowiem lub udaj się na oddział.",
+      "actionMessageDe": "Kontaktieren Sie noch am selben Tag Ihren Arzt oder Ihre Hebamme. Bei hohem Fieber, starkem Flankenschmerz oder starkem Krankheitsgefühl wenden Sie sich an den Rettungsdienst oder suchen Sie eine Klinik auf.",
+      "actionMessageEn": "Contact your doctor or midwife the same day. If you have a high fever, severe flank pain, or feel very unwell, contact emergency services or go to a hospital.",
+      "symptomsPl": [
+        "Ból lub pieczenie podczas oddawania moczu",
+        "Częste oddawanie moczu w małych ilościach",
+        "Ból w boku lub okolicy lędźwiowej",
+        "Gorączka towarzysząca objawom ze strony układu moczowego"
+      ],
+      "symptomsDe": [
+        "Schmerzen oder Brennen beim Wasserlassen",
+        "Häufiges Wasserlassen in kleinen Mengen",
+        "Schmerzen in der Flanke oder im unteren Rückenbereich",
+        "Fieber begleitend zu Harnwegsbeschwerden"
+      ],
+      "symptomsEn": [
+        "Pain or burning when urinating",
+        "Frequent urination in small amounts",
+        "Pain in the flank or lower back area",
+        "Fever accompanying urinary symptoms"
+      ],
+      "aiGuardianTriggerKeywords": [
+        "ból przy oddawaniu moczu",
+        "pieczenie podczas siusiania",
+        "infekcja dróg moczowych ciąża",
+        "schmerzen beim wasserlassen",
+        "brennen beim urinieren",
+        "harnwegsinfekt schwangerschaft",
+        "burning when urinating",
+        "painful urination pregnancy",
+        "kidney infection symptoms"
+      ],
+      "relatedModules": [
+        "ai_guardian",
+        "doctor",
+        "medications"
+      ]
+    }
+  ]
 }
