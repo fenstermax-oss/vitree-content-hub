@@ -1,13 +1,1474 @@
-﻿{
+{
   "version": "1.0.0",
   "updatedAt": "2026-06-24",
-  "languageSupport": ["pl", "de", "en"],
+  "languageSupport": [
+    "pl",
+    "de",
+    "en"
+  ],
   "source": "vitree-content-hub",
   "contentType": "public_educational_content",
   "disclaimer": {
-    "pl": "Treści mają charakter edukacyjny i organizacyjny. Nie zastępują lekarza, położnej, farmaceuty, prawnika ani urzędu.",
-    "de": "Die Inhalte dienen nur der Bildung und Organisation. Sie ersetzen keine Ärztin, keinen Arzt, keine Hebamme, keine Apotheke, keine Rechtsberatung und keine Behörde.",
-    "en": "This content is educational and organizational only. It does not replace a doctor, midwife, pharmacist, legal advisor or official authority."
+    "pl": "Te treści mają charakter ogólnoinformacyjny i organizacyjny w ramach aplikacji LUNARA. Nie stanowią porady prawnej ani finansowej i nie zastępują urzędu, lekarza, położnej, kasy chorych/NFZ, pracodawcy ani doradcy podatkowego. Zasady, terminy i wymagane dokumenty mogą się zmieniać, dlatego zawsze warto potwierdzić aktualne informacje we właściwej instytucji.",
+    "de": "Diese Inhalte dienen ausschließlich allgemeinen Informations- und Organisationszwecken innerhalb der LUNARA-App. Sie stellen keine Rechts- oder Steuerberatung dar und ersetzen keine Behörde, keinen Arzt, keine Hebamme, keine Krankenkasse, keinen Arbeitgeber und keine Steuerberatung. Regeln, Fristen und erforderliche Unterlagen können sich ändern, daher lohnt es sich, aktuelle Informationen stets bei der zuständigen Stelle zu bestätigen.",
+    "en": "This content is provided for general informational and organizational purposes only within the LUNARA app. It does not constitute legal or financial advice and does not replace an official authority, doctor, midwife, health insurance fund, employer, or tax advisor. Rules, deadlines, and required documents can change, so it is always worth confirming current information with the relevant institution."
   },
-  "items": []
+  "countries": [
+    "DE",
+    "PL",
+    "PL_IN_DE"
+  ],
+  "items": [
+    {
+      "id": "de_mutterpass",
+      "countryGroup": "DE",
+      "category": "medical_documents",
+      "priority": "high",
+      "titlePl": "Mutterpass",
+      "titleDe": "Mutterpass",
+      "titleEn": "Mutterpass (maternity record booklet)",
+      "descriptionPl": "Mutterpass to niemiecka książeczka ciąży, w której lekarz lub położna zapisują wyniki badań i przebieg ciąży.",
+      "descriptionDe": "Der Mutterpass ist ein deutsches Dokument, in dem Arzt oder Hebamme Untersuchungsergebnisse und den Schwangerschaftsverlauf festhalten.",
+      "descriptionEn": "The Mutterpass is a German maternity record booklet in which the doctor or midwife note examination results and the course of the pregnancy.",
+      "whenNeededPl": "Jest wydawany zwykle przy pierwszej wizycie potwierdzającej ciążę.",
+      "whenNeededDe": "Er wird in der Regel beim ersten Termin zur Bestätigung der Schwangerschaft ausgestellt.",
+      "whenNeededEn": "It is usually issued at the first appointment confirming the pregnancy.",
+      "whereToGetPl": "Lekarz ginekolog lub praktyka prowadząca ciążę.",
+      "whereToGetDe": "Frauenarztpraxis bzw. die die Schwangerschaft betreuende Praxis.",
+      "whereToGetEn": "Your gynecology practice or the practice managing your pregnancy care.",
+      "whatToPreparePl": [
+        "Dokument tożsamości",
+        "Dane dotychczasowej opieki medycznej, jeśli dostępne"
+      ],
+      "whatToPrepareDe": [
+        "Ausweisdokument",
+        "Bisherige medizinische Unterlagen, falls vorhanden"
+      ],
+      "whatToPrepareEn": [
+        "An identity document",
+        "Previous medical records, if available"
+      ],
+      "importantNotesPl": [
+        "Mutterpass należy nosić przy sobie przez całą ciążę, np. na wizyty i w razie nagłej potrzeby.",
+        "Zgubienie dokumentu warto jak najszybciej zgłosić w swojej praktyce prowadzącej ciążę."
+      ],
+      "importantNotesDe": [
+        "Der Mutterpass sollte während der gesamten Schwangerschaft mitgeführt werden, z. B. zu Terminen und für Notfälle.",
+        "Der Verlust sollte möglichst schnell in der betreuenden Praxis gemeldet werden."
+      ],
+      "importantNotesEn": [
+        "Carry the Mutterpass with you throughout the pregnancy, for example to appointments and in case of emergencies.",
+        "If lost, report this to your care practice as soon as possible."
+      ],
+      "relatedModules": [
+        "documents",
+        "doctor_questions",
+        "pregnancy_week",
+        "ai_guardian"
+      ]
+    },
+    {
+      "id": "de_schwangerschaftsbescheinigung",
+      "countryGroup": "DE",
+      "category": "medical_documents",
+      "priority": "medium",
+      "titlePl": "Schwangerschaftsbescheinigung",
+      "titleDe": "Schwangerschaftsbescheinigung",
+      "titleEn": "Certificate confirming pregnancy",
+      "descriptionPl": "Schwangerschaftsbescheinigung to zaświadczenie lekarskie lub od położnej potwierdzające ciążę i przewidywany termin porodu.",
+      "descriptionDe": "Die Schwangerschaftsbescheinigung ist eine ärztliche oder von der Hebamme ausgestellte Bescheinigung, die die Schwangerschaft und den voraussichtlichen Geburtstermin bestätigt.",
+      "descriptionEn": "The Schwangerschaftsbescheinigung is a certificate from a doctor or midwife confirming the pregnancy and the expected due date.",
+      "whenNeededPl": "Często wymagana przez pracodawcę, kasę chorych lub w związku z Mutterschutz.",
+      "whenNeededDe": "Häufig erforderlich für Arbeitgeber, Krankenkasse oder im Zusammenhang mit dem Mutterschutz.",
+      "whenNeededEn": "Often required by an employer, health insurance fund, or in connection with Mutterschutz.",
+      "whereToGetPl": "Praktyka ginekologiczna lub położna.",
+      "whereToGetDe": "Frauenarztpraxis oder Hebamme.",
+      "whereToGetEn": "Gynecology practice or midwife.",
+      "whatToPreparePl": [
+        "Informacja o przewidywanym terminie porodu"
+      ],
+      "whatToPrepareDe": [
+        "Angabe des voraussichtlichen Geburtstermins"
+      ],
+      "whatToPrepareEn": [
+        "Information about the expected due date"
+      ],
+      "importantNotesPl": [
+        "Warto zapytać pracodawcę lub kasę chorych, do kiedy dokument musi zostać złożony.",
+        "Niektóre instytucje wymagają oryginału, a nie kopii."
+      ],
+      "importantNotesDe": [
+        "Es lohnt sich, beim Arbeitgeber oder der Krankenkasse zu erfragen, bis wann die Bescheinigung vorgelegt werden muss.",
+        "Manche Stellen verlangen das Original und keine Kopie."
+      ],
+      "importantNotesEn": [
+        "Ask your employer or health insurance fund by when the certificate must be submitted.",
+        "Some institutions require the original document rather than a copy."
+      ],
+      "relatedModules": [
+        "documents",
+        "doctor_questions",
+        "ai_guardian"
+      ]
+    },
+    {
+      "id": "de_mutterschutz",
+      "countryGroup": "DE",
+      "category": "employment_benefits",
+      "priority": "high",
+      "titlePl": "Mutterschutz",
+      "titleDe": "Mutterschutz",
+      "titleEn": "Mutterschutz (maternity protection period)",
+      "descriptionPl": "Mutterschutz to niemiecki ustawowy okres ochrony pracujących kobiet w ciąży i po porodzie.",
+      "descriptionDe": "Der Mutterschutz ist der gesetzliche Schutzzeitraum für berufstätige Frauen in der Schwangerschaft und nach der Geburt in Deutschland.",
+      "descriptionEn": "Mutterschutz is the statutory maternity protection period for working women during pregnancy and after birth in Germany.",
+      "whenNeededPl": "Dotyczy okresu przed i po porodzie; konkretne terminy zależą od indywidualnej sytuacji.",
+      "whenNeededDe": "Betrifft den Zeitraum vor und nach der Geburt; die genauen Termine hängen von der individuellen Situation ab.",
+      "whenNeededEn": "Applies to the period before and after birth; exact dates depend on individual circumstances.",
+      "whereToGetPl": "Pracodawca, w razie pytań pomocne jest też doradztwo urzędu pracy lub Krankenkasse.",
+      "whereToGetDe": "Arbeitgeber, bei Fragen kann auch eine Beratung durch Arbeitsagentur oder Krankenkasse hilfreich sein.",
+      "whereToGetEn": "Your employer; for questions, advice from the employment agency or your Krankenkasse can also help.",
+      "whatToPreparePl": [
+        "Schwangerschaftsbescheinigung z przewidywanym terminem porodu"
+      ],
+      "whatToPrepareDe": [
+        "Schwangerschaftsbescheinigung mit dem voraussichtlichen Geburtstermin"
+      ],
+      "whatToPrepareEn": [
+        "A Schwangerschaftsbescheinigung with the expected due date"
+      ],
+      "importantNotesPl": [
+        "Mutterschutz to temat do omówienia z pracodawcą i kasą chorych — szczegóły zależą od indywidualnej sytuacji zawodowej.",
+        "Niektóre zasady różnią się dla osób samozatrudnionych."
+      ],
+      "importantNotesDe": [
+        "Der Mutterschutz sollte mit Arbeitgeber und Krankenkasse besprochen werden — Details hängen von der individuellen beruflichen Situation ab.",
+        "Für Selbstständige gelten teilweise andere Regelungen."
+      ],
+      "importantNotesEn": [
+        "Mutterschutz is a topic to discuss with your employer and health insurance fund — details depend on your individual employment situation.",
+        "Different rules can apply for self-employed individuals."
+      ],
+      "relatedModules": [
+        "documents",
+        "doctor_questions",
+        "pregnancy_week",
+        "ai_guardian"
+      ]
+    },
+    {
+      "id": "de_arbeitgeber_informieren",
+      "countryGroup": "DE",
+      "category": "employment_benefits",
+      "priority": "high",
+      "titlePl": "Poinformowanie pracodawcy o ciąży",
+      "titleDe": "Arbeitgeber über die Schwangerschaft informieren",
+      "titleEn": "Informing your employer about the pregnancy",
+      "descriptionPl": "Poinformowanie pracodawcy o ciąży uruchamia ochronę wynikającą z Mutterschutzgesetz oraz inne ustalenia organizacyjne.",
+      "descriptionDe": "Die Information des Arbeitgebers über die Schwangerschaft löst den Schutz nach dem Mutterschutzgesetz sowie weitere organisatorische Schritte aus.",
+      "descriptionEn": "Informing your employer about the pregnancy triggers protection under the Mutterschutzgesetz and other organizational arrangements.",
+      "whenNeededPl": "Możliwie wcześnie, gdy czujesz się na to gotowa — nie ma jednego sztywnego terminu.",
+      "whenNeededDe": "Möglichst frühzeitig, sobald man sich dazu bereit fühlt — es gibt keinen einzigen festen Termin.",
+      "whenNeededEn": "As early as you feel ready — there is no single fixed deadline.",
+      "whereToGetPl": "Bezpośrednio u pracodawcy lub dział HR.",
+      "whereToGetDe": "Direkt beim Arbeitgeber bzw. der Personalabteilung.",
+      "whereToGetEn": "Directly with your employer or HR department.",
+      "whatToPreparePl": [
+        "Schwangerschaftsbescheinigung",
+        "Informacja o przewidywanym terminie porodu"
+      ],
+      "whatToPrepareDe": [
+        "Schwangerschaftsbescheinigung",
+        "Angabe des voraussichtlichen Geburtstermins"
+      ],
+      "whatToPrepareEn": [
+        "Schwangerschaftsbescheinigung",
+        "Information about the expected due date"
+      ],
+      "importantNotesPl": [
+        "Decyzja o momencie poinformowania pracodawcy jest indywidualna.",
+        "Warto zapytać dział HR o dalsze kroki organizacyjne."
+      ],
+      "importantNotesDe": [
+        "Der Zeitpunkt der Information liegt im eigenen Ermessen.",
+        "Es lohnt sich, die Personalabteilung nach den weiteren organisatorischen Schritten zu fragen."
+      ],
+      "importantNotesEn": [
+        "The timing of informing your employer is a personal decision.",
+        "It helps to ask HR about the further organizational steps."
+      ],
+      "relatedModules": [
+        "documents",
+        "doctor_questions",
+        "ai_guardian"
+      ]
+    },
+    {
+      "id": "de_krankenkasse_informieren",
+      "countryGroup": "DE",
+      "category": "insurance",
+      "priority": "high",
+      "titlePl": "Poinformowanie kasy chorych (Krankenkasse)",
+      "titleDe": "Krankenkasse informieren",
+      "titleEn": "Informing your health insurance fund (Krankenkasse)",
+      "descriptionPl": "Poinformowanie Krankenkasse o ciąży pomaga ustalić zakres świadczeń i formalności związanych z porodem.",
+      "descriptionDe": "Die Information der Krankenkasse über die Schwangerschaft hilft, den Leistungsumfang und die Formalitäten rund um die Geburt zu klären.",
+      "descriptionEn": "Informing your Krankenkasse about the pregnancy helps clarify the scope of benefits and the formalities around the birth.",
+      "whenNeededPl": "Najlepiej wcześnie w ciąży, a także ponownie po wyborze szpitala i położnej.",
+      "whenNeededDe": "Am besten frühzeitig in der Schwangerschaft sowie erneut nach der Wahl von Klinik und Hebamme.",
+      "whenNeededEn": "Best done early in pregnancy, and again after choosing a hospital and midwife.",
+      "whereToGetPl": "Twoja Krankenkasse — telefonicznie, online lub osobiście.",
+      "whereToGetDe": "Ihre Krankenkasse — telefonisch, online oder persönlich.",
+      "whereToGetEn": "Your Krankenkasse — by phone, online, or in person.",
+      "whatToPreparePl": [
+        "Schwangerschaftsbescheinigung",
+        "Dane osobowe / numer ubezpieczenia"
+      ],
+      "whatToPrepareDe": [
+        "Schwangerschaftsbescheinigung",
+        "Persönliche Daten / Versichertennummer"
+      ],
+      "whatToPrepareEn": [
+        "Schwangerschaftsbescheinigung",
+        "Personal details / insurance number"
+      ],
+      "importantNotesPl": [
+        "Zakres świadczeń może się różnić między kasami chorych — warto zapytać o szczegóły.",
+        "Krankenkasa może udzielić informacji o kursach przygotowujących do porodu."
+      ],
+      "importantNotesDe": [
+        "Der Leistungsumfang kann sich zwischen Krankenkassen unterscheiden — Details sollten erfragt werden.",
+        "Die Krankenkasse kann über Geburtsvorbereitungskurse informieren."
+      ],
+      "importantNotesEn": [
+        "The scope of benefits can vary between health insurance funds — it's worth asking for details.",
+        "Your Krankenkasse can provide information about birth preparation courses."
+      ],
+      "relatedModules": [
+        "documents",
+        "doctor_questions",
+        "ai_guardian"
+      ]
+    },
+    {
+      "id": "de_hebamme_suchen",
+      "countryGroup": "DE",
+      "category": "care_provider_search",
+      "priority": "high",
+      "titlePl": "Szukanie położnej",
+      "titleDe": "Hebamme suchen",
+      "titleEn": "Finding a midwife",
+      "descriptionPl": "Wybór i znalezienie położnej (Hebamme) to ważny krok organizacyjny w ciąży w Niemczech, ponieważ dostępność miejsc bywa ograniczona.",
+      "descriptionDe": "Die Wahl und Suche nach einer Hebamme ist ein wichtiger organisatorischer Schritt in der Schwangerschaft in Deutschland, da Plätze begrenzt sein können.",
+      "descriptionEn": "Choosing and finding a midwife (Hebamme) is an important organizational step in pregnancy in Germany, since availability can be limited.",
+      "whenNeededPl": "Najlepiej zacząć szukać możliwie wcześnie w ciąży.",
+      "whenNeededDe": "Am besten möglichst früh in der Schwangerschaft mit der Suche beginnen.",
+      "whenNeededEn": "Best to start the search as early as possible in pregnancy.",
+      "whereToGetPl": "Lokalne wyszukiwarki położnych, polecenia, Krankenkasse, praktyka ginekologiczna.",
+      "whereToGetDe": "Lokale Hebammensuchportale, Empfehlungen, Krankenkasse, Frauenarztpraxis.",
+      "whereToGetEn": "Local midwife search portals, recommendations, your Krankenkasse, or your gynecology practice.",
+      "whatToPreparePl": [
+        "Przewidywany termin porodu",
+        "Informacja o miejscu zamieszkania"
+      ],
+      "whatToPrepareDe": [
+        "Voraussichtlicher Geburtstermin",
+        "Angabe zum Wohnort"
+      ],
+      "whatToPrepareEn": [
+        "Expected due date",
+        "Information about your place of residence"
+      ],
+      "importantNotesPl": [
+        "W niektórych regionach dostępność położnych bywa ograniczona, dlatego wczesne poszukiwania mogą pomóc.",
+        "Położna może wspierać w ciąży, przy porodzie i w połogu — zakres usług warto wyjaśnić wcześniej."
+      ],
+      "importantNotesDe": [
+        "In manchen Regionen ist die Verfügbarkeit von Hebammen begrenzt, daher kann eine frühe Suche helfen.",
+        "Eine Hebamme kann in Schwangerschaft, Geburt und Wochenbett unterstützen — der Leistungsumfang sollte vorab geklärt werden."
+      ],
+      "importantNotesEn": [
+        "In some regions midwife availability can be limited, so starting the search early can help.",
+        "A midwife can support you during pregnancy, birth, and postpartum — it helps to clarify the scope of services in advance."
+      ],
+      "relatedModules": [
+        "documents",
+        "doctor_questions",
+        "birth_preparation",
+        "ai_guardian"
+      ]
+    },
+    {
+      "id": "de_geburtsklinik_anmelden",
+      "countryGroup": "DE",
+      "category": "care_provider_search",
+      "priority": "high",
+      "titlePl": "Zapisanie się do kliniki/szpitala na poród",
+      "titleDe": "Geburtsklinik anmelden",
+      "titleEn": "Registering at a birth clinic/hospital",
+      "descriptionPl": "Zapisanie się do wybranej kliniki lub szpitala pozwala zarezerwować miejsce i poznać organizację porodu.",
+      "descriptionDe": "Die Anmeldung in einer gewählten Klinik oder einem Krankenhaus ermöglicht es, einen Platz zu sichern und die Organisation der Geburt kennenzulernen.",
+      "descriptionEn": "Registering at a chosen clinic or hospital allows you to secure a place and learn how the birth is organized there.",
+      "whenNeededPl": "Zwykle w drugiej połowie ciąży, choć terminy różnią się między klinikami.",
+      "whenNeededDe": "In der Regel in der zweiten Schwangerschaftshälfte, wobei sich die Termine zwischen Kliniken unterscheiden.",
+      "whenNeededEn": "Usually in the second half of pregnancy, though timing varies between clinics.",
+      "whereToGetPl": "Strona internetowa lub recepcja wybranej kliniki/szpitala.",
+      "whereToGetDe": "Webseite oder Anmeldung der gewählten Klinik bzw. des Krankenhauses.",
+      "whereToGetEn": "The website or admissions office of the chosen clinic/hospital.",
+      "whatToPreparePl": [
+        "Mutterpass",
+        "Dane osobowe i adresowe"
+      ],
+      "whatToPrepareDe": [
+        "Mutterpass",
+        "Persönliche Daten und Adresse"
+      ],
+      "whatToPrepareEn": [
+        "Mutterpass",
+        "Personal and address details"
+      ],
+      "importantNotesPl": [
+        "Warto zapytać o dostępność miejsc z wyprzedzeniem, ponieważ niektóre kliniki mają limity.",
+        "Dobrym pomysłem jest zapytanie o ofertę kursów przygotowujących do porodu oferowanych przez klinikę."
+      ],
+      "importantNotesDe": [
+        "Es lohnt sich, frühzeitig nach der Platzverfügbarkeit zu fragen, da manche Kliniken Kapazitätsgrenzen haben.",
+        "Es kann sinnvoll sein, nach Geburtsvorbereitungskursen der Klinik zu fragen."
+      ],
+      "importantNotesEn": [
+        "It's worth asking about availability early, since some clinics have capacity limits.",
+        "It can help to ask about birth preparation courses offered by the clinic."
+      ],
+      "relatedModules": [
+        "documents",
+        "doctor_questions",
+        "birth_preparation",
+        "ai_guardian"
+      ]
+    },
+    {
+      "id": "de_elterngeld",
+      "countryGroup": "DE",
+      "category": "financial_benefits",
+      "priority": "medium",
+      "titlePl": "Elterngeld",
+      "titleDe": "Elterngeld",
+      "titleEn": "Elterngeld (parental allowance)",
+      "descriptionPl": "Elterngeld to niemieckie świadczenie wspierające rodziców po urodzeniu dziecka.",
+      "descriptionDe": "Elterngeld ist die deutsche Familienleistung zur Unterstützung von Eltern nach der Geburt eines Kindes.",
+      "descriptionEn": "Elterngeld is the German parental allowance supporting parents after the birth of a child.",
+      "whenNeededPl": "Wniosek składa się po porodzie, najlepiej możliwie szybko.",
+      "whenNeededDe": "Der Antrag wird nach der Geburt gestellt, am besten möglichst zeitnah.",
+      "whenNeededEn": "The application is submitted after the birth, ideally as soon as possible.",
+      "whereToGetPl": "Elterngeldstelle właściwa dla miejsca zamieszkania.",
+      "whereToGetDe": "Die für den Wohnort zuständige Elterngeldstelle.",
+      "whereToGetEn": "The Elterngeldstelle responsible for your place of residence.",
+      "whatToPreparePl": [
+        "Akt urodzenia dziecka",
+        "Dane o dochodach",
+        "Numer konta bankowego"
+      ],
+      "whatToPrepareDe": [
+        "Geburtsurkunde des Kindes",
+        "Einkommensnachweise",
+        "Bankverbindung"
+      ],
+      "whatToPrepareEn": [
+        "The child's birth certificate",
+        "Income documentation",
+        "Bank account details"
+      ],
+      "importantNotesPl": [
+        "Zasady i terminy mogą się zmieniać, dlatego warto sprawdzić aktualne informacje w Elterngeldstelle.",
+        "Warto zaplanować złożenie wniosku z wyprzedzeniem, aby uniknąć utraty części świadczenia."
+      ],
+      "importantNotesDe": [
+        "Regeln und Fristen können sich ändern, daher sollten aktuelle Informationen bei der Elterngeldstelle geprüft werden.",
+        "Es empfiehlt sich, die Antragstellung frühzeitig zu planen, um keinen Anspruch zu verlieren."
+      ],
+      "importantNotesEn": [
+        "Rules and deadlines can change, so it's worth checking current information with the Elterngeldstelle.",
+        "It helps to plan the application in advance to avoid losing part of the benefit."
+      ],
+      "relatedModules": [
+        "documents",
+        "doctor_questions",
+        "ai_guardian"
+      ]
+    },
+    {
+      "id": "de_kindergeld",
+      "countryGroup": "DE",
+      "category": "financial_benefits",
+      "priority": "medium",
+      "titlePl": "Kindergeld",
+      "titleDe": "Kindergeld",
+      "titleEn": "Kindergeld (child benefit)",
+      "descriptionPl": "Kindergeld to niemieckie świadczenie na dziecko wypłacane regularnie po jego urodzeniu.",
+      "descriptionDe": "Kindergeld ist die deutsche Familienleistung, die regelmäßig nach der Geburt eines Kindes gezahlt wird.",
+      "descriptionEn": "Kindergeld is the German child benefit paid regularly after a child's birth.",
+      "whenNeededPl": "Wniosek można złożyć po urodzeniu dziecka i otrzymaniu aktu urodzenia.",
+      "whenNeededDe": "Der Antrag kann nach der Geburt des Kindes und Erhalt der Geburtsurkunde gestellt werden.",
+      "whenNeededEn": "The application can be submitted after the child's birth and receipt of the birth certificate.",
+      "whereToGetPl": "Familienkasse właściwa dla miejsca zamieszkania.",
+      "whereToGetDe": "Die für den Wohnort zuständige Familienkasse.",
+      "whereToGetEn": "The Familienkasse responsible for your place of residence.",
+      "whatToPreparePl": [
+        "Akt urodzenia dziecka",
+        "Dane osobowe rodziców"
+      ],
+      "whatToPrepareDe": [
+        "Geburtsurkunde des Kindes",
+        "Persönliche Daten der Eltern"
+      ],
+      "whatToPrepareEn": [
+        "The child's birth certificate",
+        "Parents' personal details"
+      ],
+      "importantNotesPl": [
+        "Świadczenie zwykle przysługuje niezależnie od dochodu, ale warto potwierdzić szczegóły w Familienkasse.",
+        "Wniosek warto złożyć możliwie szybko po porodzie."
+      ],
+      "importantNotesDe": [
+        "Die Leistung steht in der Regel unabhängig vom Einkommen zu, Details sollten jedoch bei der Familienkasse bestätigt werden.",
+        "Der Antrag sollte möglichst zeitnah nach der Geburt gestellt werden."
+      ],
+      "importantNotesEn": [
+        "The benefit is generally available regardless of income, but it's worth confirming details with the Familienkasse.",
+        "It helps to submit the application as soon as possible after the birth."
+      ],
+      "relatedModules": [
+        "documents",
+        "doctor_questions",
+        "ai_guardian"
+      ]
+    },
+    {
+      "id": "de_geburtsurkunde",
+      "countryGroup": "DE",
+      "category": "civil_registration",
+      "priority": "medium",
+      "titlePl": "Akt urodzenia (Geburtsurkunde)",
+      "titleDe": "Geburtsurkunde",
+      "titleEn": "Birth certificate (Geburtsurkunde)",
+      "descriptionPl": "Geburtsurkunde to niemiecki akt urodzenia dziecka wystawiany po zgłoszeniu narodzin w Standesamt.",
+      "descriptionDe": "Die Geburtsurkunde ist das deutsche Geburtszeugnis des Kindes, das nach der Meldung der Geburt beim Standesamt ausgestellt wird.",
+      "descriptionEn": "The Geburtsurkunde is the German birth certificate, issued after the birth is reported to the Standesamt.",
+      "whenNeededPl": "Zgłoszenie zwykle następuje w krótkim czasie po porodzie.",
+      "whenNeededDe": "Die Meldung erfolgt in der Regel innerhalb kurzer Zeit nach der Geburt.",
+      "whenNeededEn": "Reporting usually takes place within a short time after the birth.",
+      "whereToGetPl": "Standesamt właściwy dla miejsca urodzenia dziecka.",
+      "whereToGetDe": "Das für den Geburtsort des Kindes zuständige Standesamt.",
+      "whereToGetEn": "The Standesamt responsible for the child's place of birth.",
+      "whatToPreparePl": [
+        "Zaświadczenie ze szpitala/kliniki o urodzeniu",
+        "Dokumenty tożsamości rodziców",
+        "Akt małżeństwa, jeśli dotyczy"
+      ],
+      "whatToPrepareDe": [
+        "Geburtsbescheinigung der Klinik",
+        "Ausweisdokumente der Eltern",
+        "Eheurkunde, falls zutreffend"
+      ],
+      "whatToPrepareEn": [
+        "The birth notification from the hospital/clinic",
+        "Parents' identity documents",
+        "Marriage certificate, if applicable"
+      ],
+      "importantNotesPl": [
+        "Wymagane dokumenty mogą się różnić w zależności od stanu cywilnego rodziców.",
+        "Warto zapytać klinikę, jakie dokumenty przygotowuje ona automatycznie dla Standesamt."
+      ],
+      "importantNotesDe": [
+        "Die erforderlichen Unterlagen können je nach Familienstand der Eltern variieren.",
+        "Es lohnt sich, die Klinik zu fragen, welche Unterlagen sie automatisch für das Standesamt vorbereitet."
+      ],
+      "importantNotesEn": [
+        "Required documents can vary depending on the parents' marital status.",
+        "It helps to ask the clinic which documents it prepares automatically for the Standesamt."
+      ],
+      "relatedModules": [
+        "documents",
+        "doctor_questions",
+        "ai_guardian"
+      ]
+    },
+    {
+      "id": "de_vaterschaftsanerkennung",
+      "countryGroup": "DE",
+      "category": "civil_registration",
+      "priority": "low",
+      "titlePl": "Uznanie ojcostwa (Vaterschaftsanerkennung)",
+      "titleDe": "Vaterschaftsanerkennung",
+      "titleEn": "Acknowledgment of paternity (Vaterschaftsanerkennung)",
+      "descriptionPl": "Vaterschaftsanerkennung to formalne uznanie ojcostwa, istotne przede wszystkim dla rodziców niebędących w związku małżeńskim.",
+      "descriptionDe": "Die Vaterschaftsanerkennung ist die formale Anerkennung der Vaterschaft, relevant vor allem für nicht miteinander verheiratete Eltern.",
+      "descriptionEn": "The Vaterschaftsanerkennung is the formal acknowledgment of paternity, relevant mainly for parents who are not married to each other.",
+      "whenNeededPl": "Może nastąpić jeszcze przed porodem lub po nim.",
+      "whenNeededDe": "Kann bereits vor der Geburt oder danach erfolgen.",
+      "whenNeededEn": "Can take place either before or after the birth.",
+      "whereToGetPl": "Urząd stanu cywilnego (Standesamt), urząd dla młodzieży (Jugendamt) lub notariusz.",
+      "whereToGetDe": "Standesamt, Jugendamt oder Notariat.",
+      "whereToGetEn": "The Standesamt, the Jugendamt, or a notary's office.",
+      "whatToPreparePl": [
+        "Dokumenty tożsamości obu rodziców"
+      ],
+      "whatToPrepareDe": [
+        "Ausweisdokumente beider Elternteile"
+      ],
+      "whatToPrepareEn": [
+        "Identity documents of both parents"
+      ],
+      "importantNotesPl": [
+        "Dotyczy głównie rodziców niebędących w związku małżeńskim — warto sprawdzić, czy ta formalność ma zastosowanie w Twojej sytuacji.",
+        "Jugendamt często udziela bezpłatnych informacji w tym temacie."
+      ],
+      "importantNotesDe": [
+        "Betrifft vor allem nicht verheiratete Eltern — es lohnt sich zu prüfen, ob diese Formalität in der eigenen Situation zutrifft.",
+        "Das Jugendamt informiert hierzu häufig kostenlos."
+      ],
+      "importantNotesEn": [
+        "This applies mainly to parents who are not married — it's worth checking whether this formality applies to your situation.",
+        "The Jugendamt often provides free information on this topic."
+      ],
+      "relatedModules": [
+        "documents",
+        "doctor_questions"
+      ]
+    },
+    {
+      "id": "de_anmeldung_nach_geburt",
+      "countryGroup": "DE",
+      "category": "civil_registration",
+      "priority": "medium",
+      "titlePl": "Formalności po porodzie (zgłoszenia i rejestracje)",
+      "titleDe": "Anmeldungen nach der Geburt",
+      "titleEn": "Registrations and notifications after the birth",
+      "descriptionPl": "Po porodzie konieczne jest zgłoszenie dziecka w kilku instytucjach, np. w kasie chorych i ewentualnie w urzędzie meldunkowym.",
+      "descriptionDe": "Nach der Geburt müssen Eltern das Kind bei mehreren Stellen anmelden, z. B. bei der Krankenkasse und gegebenenfalls beim Einwohnermeldeamt.",
+      "descriptionEn": "After the birth, parents need to register the child with several institutions, for example the Krankenkasse and, where relevant, the residents' registration office.",
+      "whenNeededPl": "Zwykle w pierwszych tygodniach po porodzie.",
+      "whenNeededDe": "In der Regel in den ersten Wochen nach der Geburt.",
+      "whenNeededEn": "Usually within the first few weeks after birth.",
+      "whereToGetPl": "Krankenkasse, Einwohnermeldeamt, ewentualnie Jugendamt.",
+      "whereToGetDe": "Krankenkasse, Einwohnermeldeamt, ggf. Jugendamt.",
+      "whereToGetEn": "The Krankenkasse, the residents' registration office, and possibly the Jugendamt.",
+      "whatToPreparePl": [
+        "Akt urodzenia dziecka",
+        "Dokumenty tożsamości rodziców"
+      ],
+      "whatToPrepareDe": [
+        "Geburtsurkunde des Kindes",
+        "Ausweisdokumente der Eltern"
+      ],
+      "whatToPrepareEn": [
+        "The child's birth certificate",
+        "Parents' identity documents"
+      ],
+      "importantNotesPl": [
+        "Lista wymaganych zgłoszeń może różnić się zależnie od sytuacji rodzinnej i miejsca zamieszkania.",
+        "Warto zapytać klinikę lub Standesamt, które zgłoszenia są już automatycznie przekazywane."
+      ],
+      "importantNotesDe": [
+        "Die Liste der erforderlichen Meldungen kann je nach familiärer Situation und Wohnort variieren.",
+        "Es lohnt sich, Klinik oder Standesamt zu fragen, welche Meldungen bereits automatisch weitergegeben werden."
+      ],
+      "importantNotesEn": [
+        "The list of required notifications can vary depending on family situation and place of residence.",
+        "It helps to ask the clinic or Standesamt which notifications are already passed on automatically."
+      ],
+      "relatedModules": [
+        "documents",
+        "doctor_questions",
+        "ai_guardian"
+      ]
+    },
+    {
+      "id": "pl_karta_ciazy",
+      "countryGroup": "PL",
+      "category": "medical_documents",
+      "priority": "high",
+      "titlePl": "Karta ciąży",
+      "titleDe": "Schwangerschaftskarte (Polen)",
+      "titleEn": "Pregnancy record card (Poland)",
+      "descriptionPl": "Karta ciąży to polski dokument, w którym lekarz lub położna zapisują przebieg ciąży i wyniki badań.",
+      "descriptionDe": "Die polnische Schwangerschaftskarte ist ein Dokument, in dem Arzt oder Hebamme den Schwangerschaftsverlauf und Untersuchungsergebnisse festhalten.",
+      "descriptionEn": "The Polish pregnancy record card (karta ciąży) is a document in which the doctor or midwife note the course of the pregnancy and examination results.",
+      "whenNeededPl": "Wydawana zwykle przy pierwszej wizycie potwierdzającej ciążę.",
+      "whenNeededDe": "Wird in der Regel beim ersten Termin zur Bestätigung der Schwangerschaft ausgestellt.",
+      "whenNeededEn": "Usually issued at the first appointment confirming the pregnancy.",
+      "whereToGetPl": "Lekarz ginekolog prowadzący ciążę, w ramach NFZ lub prywatnie.",
+      "whereToGetDe": "Der die Schwangerschaft betreuende Frauenarzt, im Rahmen der NFZ oder privat.",
+      "whereToGetEn": "The gynecologist managing your pregnancy care, either through NFZ or privately.",
+      "whatToPreparePl": [
+        "Dokument tożsamości"
+      ],
+      "whatToPrepareDe": [
+        "Ausweisdokument"
+      ],
+      "whatToPrepareEn": [
+        "An identity document"
+      ],
+      "importantNotesPl": [
+        "Kartę ciąży warto nosić przy sobie na każdą wizytę.",
+        "Zgubienie karty warto zgłosić jak najszybciej swojemu lekarzowi."
+      ],
+      "importantNotesDe": [
+        "Die Karte sollte zu jedem Termin mitgeführt werden.",
+        "Ein Verlust sollte dem behandelnden Arzt möglichst schnell gemeldet werden."
+      ],
+      "importantNotesEn": [
+        "It helps to bring the card to every appointment.",
+        "If lost, report this to your doctor as soon as possible."
+      ],
+      "relatedModules": [
+        "documents",
+        "doctor_questions",
+        "pregnancy_week",
+        "ai_guardian"
+      ]
+    },
+    {
+      "id": "pl_zaswiadczenie_o_ciazy",
+      "countryGroup": "PL",
+      "category": "medical_documents",
+      "priority": "medium",
+      "titlePl": "Zaświadczenie o ciąży",
+      "titleDe": "Schwangerschaftsbescheinigung (Polen)",
+      "titleEn": "Certificate confirming pregnancy (Poland)",
+      "descriptionPl": "Zaświadczenie o ciąży to dokument lekarski potwierdzający ciążę, często wymagany przez pracodawcę lub inne instytucje.",
+      "descriptionDe": "Die polnische Schwangerschaftsbescheinigung ist ein ärztliches Dokument, das die Schwangerschaft bestätigt und häufig von Arbeitgebern oder anderen Stellen verlangt wird.",
+      "descriptionEn": "The Polish certificate confirming pregnancy is a medical document that confirms the pregnancy and is often required by an employer or other institutions.",
+      "whenNeededPl": "W zależności od potrzeby, np. do pracy, urzędu lub ubezpieczenia.",
+      "whenNeededDe": "Je nach Bedarf, z. B. für Arbeitgeber, Behörden oder Versicherung.",
+      "whenNeededEn": "Depending on the need, for example for an employer, an office, or insurance purposes.",
+      "whereToGetPl": "Lekarz ginekolog prowadzący ciążę.",
+      "whereToGetDe": "Der die Schwangerschaft betreuende Frauenarzt.",
+      "whereToGetEn": "The gynecologist managing your pregnancy care.",
+      "whatToPreparePl": [
+        "Informacja, do jakiej instytucji zaświadczenie jest potrzebne"
+      ],
+      "whatToPrepareDe": [
+        "Angabe, für welche Stelle die Bescheinigung benötigt wird"
+      ],
+      "whatToPrepareEn": [
+        "Information about which institution requires the certificate"
+      ],
+      "importantNotesPl": [
+        "Warto zapytać instytucję, czy wymaga oryginału, czy wystarczy kopia.",
+        "Niektóre zaświadczenia mają ograniczony okres ważności."
+      ],
+      "importantNotesDe": [
+        "Es lohnt sich zu fragen, ob die Stelle das Original oder eine Kopie verlangt.",
+        "Manche Bescheinigungen haben eine begrenzte Gültigkeitsdauer."
+      ],
+      "importantNotesEn": [
+        "It's worth asking the institution whether it requires the original or a copy.",
+        "Some certificates have a limited period of validity."
+      ],
+      "relatedModules": [
+        "documents",
+        "doctor_questions",
+        "ai_guardian"
+      ]
+    },
+    {
+      "id": "pl_l4_w_ciazy",
+      "countryGroup": "PL",
+      "category": "employment_benefits",
+      "priority": "medium",
+      "titlePl": "L4 w ciąży (zwolnienie lekarskie)",
+      "titleDe": "Krankschreibung (L4) während der Schwangerschaft (Polen)",
+      "titleEn": "Sick leave certificate (L4) during pregnancy (Poland)",
+      "descriptionPl": "L4 to polskie zwolnienie lekarskie, które lekarz może wystawić w ciąży w razie potrzeby ochrony zdrowia matki lub dziecka.",
+      "descriptionDe": "L4 ist die polnische Krankschreibung, die ein Arzt in der Schwangerschaft bei Bedarf zum Schutz der Gesundheit von Mutter oder Kind ausstellen kann.",
+      "descriptionEn": "L4 is the Polish sick leave certificate that a doctor can issue during pregnancy when needed to protect the health of the mother or baby.",
+      "whenNeededPl": "Gdy lekarz uzna to za potrzebne w danej sytuacji zdrowotnej.",
+      "whenNeededDe": "Wenn der Arzt dies in der jeweiligen gesundheitlichen Situation für notwendig hält.",
+      "whenNeededEn": "When a doctor considers it necessary in a given health situation.",
+      "whereToGetPl": "Lekarz prowadzący ciążę lub lekarz rodzinny.",
+      "whereToGetDe": "Der die Schwangerschaft betreuende Arzt oder Hausarzt.",
+      "whereToGetEn": "The doctor managing your pregnancy care or your family doctor.",
+      "whatToPreparePl": [
+        "Dokument tożsamości",
+        "Informacje o pracodawcy/ZUS, jeśli wymagane"
+      ],
+      "whatToPrepareDe": [
+        "Ausweisdokument",
+        "Angaben zum Arbeitgeber/ZUS, falls erforderlich"
+      ],
+      "whatToPrepareEn": [
+        "An identity document",
+        "Employer/ZUS details, if required"
+      ],
+      "importantNotesPl": [
+        "Zasady wypłaty świadczeń podczas L4 warto sprawdzić w ZUS lub u pracodawcy.",
+        "L4 jest decyzją medyczną — to lekarz ocenia, czy jest potrzebne."
+      ],
+      "importantNotesDe": [
+        "Die Regeln zur Auszahlung von Leistungen während der Krankschreibung sollten bei der ZUS oder dem Arbeitgeber geprüft werden.",
+        "Die Krankschreibung ist eine medizinische Entscheidung — der Arzt beurteilt, ob sie notwendig ist."
+      ],
+      "importantNotesEn": [
+        "Rules on benefit payments during sick leave are worth checking with ZUS or your employer.",
+        "Issuing sick leave is a medical decision made by the doctor."
+      ],
+      "relatedModules": [
+        "documents",
+        "doctor_questions",
+        "ai_guardian"
+      ]
+    },
+    {
+      "id": "pl_nfz_ubezpieczenie",
+      "countryGroup": "PL",
+      "category": "insurance",
+      "priority": "high",
+      "titlePl": "NFZ / ubezpieczenie zdrowotne",
+      "titleDe": "NFZ / Krankenversicherung (Polen)",
+      "titleEn": "NFZ / health insurance (Poland)",
+      "descriptionPl": "Ubezpieczenie w NFZ daje dostęp do bezpłatnej opieki prenatalnej i porodu w ramach publicznego systemu zdrowia w Polsce.",
+      "descriptionDe": "Die Versicherung bei der NFZ ermöglicht den Zugang zu kostenloser Schwangerschaftsvorsorge und Geburt im polnischen öffentlichen Gesundheitssystem.",
+      "descriptionEn": "NFZ insurance provides access to free prenatal care and birth within Poland's public healthcare system.",
+      "whenNeededPl": "Status ubezpieczenia warto sprawdzić na początku ciąży.",
+      "whenNeededDe": "Der Versicherungsstatus sollte am Anfang der Schwangerschaft überprüft werden.",
+      "whenNeededEn": "It's worth checking your insurance status early in pregnancy.",
+      "whereToGetPl": "Strona NFZ, ZUS lub pracodawca.",
+      "whereToGetDe": "NFZ-Webseite, ZUS oder Arbeitgeber.",
+      "whereToGetEn": "The NFZ website, ZUS, or your employer.",
+      "whatToPreparePl": [
+        "Numer PESEL",
+        "Dokument tożsamości"
+      ],
+      "whatToPrepareDe": [
+        "PESEL-Nummer",
+        "Ausweisdokument"
+      ],
+      "whatToPrepareEn": [
+        "PESEL number",
+        "An identity document"
+      ],
+      "importantNotesPl": [
+        "Osoby bez aktywnego ubezpieczenia mogą sprawdzić możliwości w NFZ lub ZUS.",
+        "Status ubezpieczenia może wpływać na dostępność niektórych świadczeń."
+      ],
+      "importantNotesDe": [
+        "Personen ohne aktive Versicherung können sich bei NFZ oder ZUS über Möglichkeiten informieren.",
+        "Der Versicherungsstatus kann die Verfügbarkeit bestimmter Leistungen beeinflussen."
+      ],
+      "importantNotesEn": [
+        "People without active insurance can check their options with NFZ or ZUS.",
+        "Insurance status can affect the availability of certain benefits."
+      ],
+      "relatedModules": [
+        "documents",
+        "doctor_questions",
+        "ai_guardian"
+      ]
+    },
+    {
+      "id": "pl_wybor_poloznej",
+      "countryGroup": "PL",
+      "category": "care_provider_search",
+      "priority": "high",
+      "titlePl": "Wybór położnej",
+      "titleDe": "Wahl der Hebamme (Polen)",
+      "titleEn": "Choosing a midwife (Poland)",
+      "descriptionPl": "Wybór położnej środowiskowej lub prowadzącej ciążę pomaga zapewnić ciągłość opieki w ciąży i połogu.",
+      "descriptionDe": "Die Wahl einer Gemeinde- oder betreuenden Hebamme hilft, die Kontinuität der Betreuung in Schwangerschaft und Wochenbett zu sichern.",
+      "descriptionEn": "Choosing a community or care-providing midwife helps ensure continuity of care during pregnancy and postpartum.",
+      "whenNeededPl": "Najlepiej zająć się tym w pierwszym lub drugim trymestrze.",
+      "whenNeededDe": "Am besten im ersten oder zweiten Trimester erledigen.",
+      "whenNeededEn": "Best arranged in the first or second trimester.",
+      "whereToGetPl": "Przychodnia POZ, NFZ, polecenia lub szkoły rodzenia.",
+      "whereToGetDe": "Hausarztpraxis (POZ), NFZ, Empfehlungen oder Geburtsvorbereitungskurse.",
+      "whereToGetEn": "Your primary care clinic (POZ), NFZ, recommendations, or birth preparation classes.",
+      "whatToPreparePl": [
+        "Numer PESEL",
+        "Informacja o miejscu zamieszkania"
+      ],
+      "whatToPrepareDe": [
+        "PESEL-Nummer",
+        "Angabe zum Wohnort"
+      ],
+      "whatToPrepareEn": [
+        "PESEL number",
+        "Information about your place of residence"
+      ],
+      "importantNotesPl": [
+        "Położna środowiskowa w ramach NFZ jest zwykle bezpłatna.",
+        "Warto wcześniej zapytać o zakres wsparcia, jakie oferuje wybrana położna."
+      ],
+      "importantNotesDe": [
+        "Die Gemeindehebamme im Rahmen der NFZ ist in der Regel kostenlos.",
+        "Es lohnt sich, vorab nach dem Unterstützungsangebot der gewählten Hebamme zu fragen."
+      ],
+      "importantNotesEn": [
+        "A community midwife through NFZ is usually free of charge.",
+        "It helps to ask in advance about the scope of support the chosen midwife offers."
+      ],
+      "relatedModules": [
+        "documents",
+        "doctor_questions",
+        "birth_preparation",
+        "ai_guardian"
+      ]
+    },
+    {
+      "id": "pl_wybor_szpitala",
+      "countryGroup": "PL",
+      "category": "care_provider_search",
+      "priority": "high",
+      "titlePl": "Wybór szpitala",
+      "titleDe": "Wahl des Krankenhauses (Polen)",
+      "titleEn": "Choosing a hospital (Poland)",
+      "descriptionPl": "Wybór szpitala do porodu pomaga przygotować się organizacyjnie i poznać dostępne opcje opieki.",
+      "descriptionDe": "Die Wahl des Krankenhauses für die Geburt hilft bei der organisatorischen Vorbereitung und beim Kennenlernen der verfügbaren Betreuungsoptionen.",
+      "descriptionEn": "Choosing a hospital for the birth helps with organizational preparation and learning about the available care options.",
+      "whenNeededPl": "Zwykle w drugiej połowie ciąży, choć można rozglądać się wcześniej.",
+      "whenNeededDe": "In der Regel in der zweiten Schwangerschaftshälfte, eine frühere Orientierung ist jedoch möglich.",
+      "whenNeededEn": "Usually in the second half of pregnancy, though you can start looking earlier.",
+      "whereToGetPl": "Strony internetowe szpitali, rankingi szpitali, polecenia lekarza prowadzącego.",
+      "whereToGetDe": "Krankenhaus-Webseiten, Krankenhausrankings, Empfehlungen des behandelnden Arztes.",
+      "whereToGetEn": "Hospital websites, hospital rankings, or recommendations from your doctor.",
+      "whatToPreparePl": [
+        "Karta ciąży",
+        "Dokument tożsamości"
+      ],
+      "whatToPrepareDe": [
+        "Schwangerschaftskarte",
+        "Ausweisdokument"
+      ],
+      "whatToPrepareEn": [
+        "Pregnancy record card",
+        "An identity document"
+      ],
+      "importantNotesPl": [
+        "Warto zapytać o dostępność sali porodowej rodzinnej i inne opcje organizacyjne.",
+        "Niektóre szpitale organizują dni otwarte dla przyszłych rodziców."
+      ],
+      "importantNotesDe": [
+        "Es lohnt sich, nach der Verfügbarkeit eines Familienkreißsaals und anderen organisatorischen Optionen zu fragen.",
+        "Manche Krankenhäuser bieten Informationsabende für werdende Eltern an."
+      ],
+      "importantNotesEn": [
+        "It's worth asking about the availability of a family birthing room and other organizational options.",
+        "Some hospitals hold open information sessions for expectant parents."
+      ],
+      "relatedModules": [
+        "documents",
+        "doctor_questions",
+        "birth_preparation",
+        "ai_guardian"
+      ]
+    },
+    {
+      "id": "pl_plan_porodu",
+      "countryGroup": "PL",
+      "category": "birth_preparation",
+      "priority": "medium",
+      "titlePl": "Plan porodu",
+      "titleDe": "Geburtsplan (Polen)",
+      "titleEn": "Birth plan (Poland)",
+      "descriptionPl": "Plan porodu to dokument opisujący preferencje dotyczące porodu, który można przygotować wraz z lekarzem lub położną.",
+      "descriptionDe": "Der Geburtsplan ist ein Dokument mit Präferenzen zur Geburt, das gemeinsam mit Arzt oder Hebamme vorbereitet werden kann.",
+      "descriptionEn": "A birth plan is a document describing preferences for the birth, which can be prepared together with a doctor or midwife.",
+      "whenNeededPl": "Zwykle przygotowywany w trzecim trymestrze.",
+      "whenNeededDe": "Wird in der Regel im dritten Trimester vorbereitet.",
+      "whenNeededEn": "Usually prepared in the third trimester.",
+      "whereToGetPl": "Wzory dostępne w szkołach rodzenia, u położnej lub w wybranym szpitalu.",
+      "whereToGetDe": "Vorlagen sind in Geburtsvorbereitungskursen, bei der Hebamme oder im gewählten Krankenhaus erhältlich.",
+      "whereToGetEn": "Templates are available through birth preparation classes, your midwife, or your chosen hospital.",
+      "whatToPreparePl": [
+        "Informacje o wybranym szpitalu",
+        "Lista pytań i preferencji"
+      ],
+      "whatToPrepareDe": [
+        "Informationen zum gewählten Krankenhaus",
+        "Liste von Fragen und Präferenzen"
+      ],
+      "whatToPrepareEn": [
+        "Information about your chosen hospital",
+        "A list of questions and preferences"
+      ],
+      "importantNotesPl": [
+        "Plan porodu jest elastyczny — przebieg porodu może wymagać zmian zależnych od sytuacji medycznej.",
+        "Warto omówić plan porodu z personelem szpitala przy przyjęciu."
+      ],
+      "importantNotesDe": [
+        "Der Geburtsplan ist flexibel — der Geburtsverlauf kann je nach medizinischer Situation Anpassungen erfordern.",
+        "Es lohnt sich, den Geburtsplan bei der Aufnahme mit dem Klinikpersonal zu besprechen."
+      ],
+      "importantNotesEn": [
+        "A birth plan is flexible — the course of birth may require changes depending on the medical situation.",
+        "It helps to discuss the birth plan with hospital staff on admission."
+      ],
+      "relatedModules": [
+        "documents",
+        "doctor_questions",
+        "birth_preparation",
+        "ai_guardian"
+      ]
+    },
+    {
+      "id": "pl_akt_urodzenia",
+      "countryGroup": "PL",
+      "category": "civil_registration",
+      "priority": "medium",
+      "titlePl": "Akt urodzenia dziecka",
+      "titleDe": "Geburtsurkunde des Kindes (Polen)",
+      "titleEn": "Child's birth certificate (Poland)",
+      "descriptionPl": "Akt urodzenia to polski dokument rejestrujący narodziny dziecka, wystawiany w Urzędzie Stanu Cywilnego.",
+      "descriptionDe": "Die polnische Geburtsurkunde ist das Dokument, das die Geburt eines Kindes im Standesamt (Urząd Stanu Cywilnego) registriert.",
+      "descriptionEn": "The Polish birth certificate registers the child's birth and is issued by the civil registry office (Urząd Stanu Cywilnego).",
+      "whenNeededPl": "Zgłoszenie zwykle następuje w krótkim czasie po porodzie.",
+      "whenNeededDe": "Die Meldung erfolgt in der Regel innerhalb kurzer Zeit nach der Geburt.",
+      "whenNeededEn": "Reporting usually takes place within a short time after the birth.",
+      "whereToGetPl": "Urząd Stanu Cywilnego właściwy dla miejsca urodzenia dziecka.",
+      "whereToGetDe": "Das für den Geburtsort des Kindes zuständige Standesamt (Urząd Stanu Cywilnego).",
+      "whereToGetEn": "The civil registry office responsible for the child's place of birth.",
+      "whatToPreparePl": [
+        "Zaświadczenie o urodzeniu ze szpitala",
+        "Dokumenty tożsamości rodziców",
+        "Akt małżeństwa, jeśli dotyczy"
+      ],
+      "whatToPrepareDe": [
+        "Geburtsbescheinigung des Krankenhauses",
+        "Ausweisdokumente der Eltern",
+        "Heiratsurkunde, falls zutreffend"
+      ],
+      "whatToPrepareEn": [
+        "The hospital's birth notification",
+        "Parents' identity documents",
+        "Marriage certificate, if applicable"
+      ],
+      "importantNotesPl": [
+        "Wiele szpitali przekazuje zgłoszenie do urzędu automatycznie — warto to potwierdzić.",
+        "Wymagane dokumenty mogą się różnić w zależności od stanu cywilnego rodziców."
+      ],
+      "importantNotesDe": [
+        "Viele Krankenhäuser melden die Geburt automatisch an das Standesamt — dies sollte bestätigt werden.",
+        "Die erforderlichen Unterlagen können je nach Familienstand der Eltern variieren."
+      ],
+      "importantNotesEn": [
+        "Many hospitals report the birth to the registry office automatically — it's worth confirming this.",
+        "Required documents can vary depending on the parents' marital status."
+      ],
+      "relatedModules": [
+        "documents",
+        "doctor_questions",
+        "ai_guardian"
+      ]
+    },
+    {
+      "id": "pl_becikowe_swiadczenia",
+      "countryGroup": "PL",
+      "category": "financial_benefits",
+      "priority": "low",
+      "titlePl": "Becikowe i inne świadczenia z tytułu urodzenia dziecka",
+      "titleDe": "Einmalige Geburtsbeihilfe und andere Leistungen (Polen)",
+      "titleEn": "One-time birth grant and other benefits (Poland)",
+      "descriptionPl": "Becikowe to jednorazowe świadczenie z tytułu urodzenia dziecka, które w Polsce zależy od kryteriów dochodowych; mogą istnieć też inne lokalne świadczenia.",
+      "descriptionDe": "Die einmalige Geburtsbeihilfe (Becikowe) ist eine Leistung, die in Polen von Einkommenskriterien abhängt; es können zusätzlich lokale Leistungen existieren.",
+      "descriptionEn": "Becikowe is a one-time birth grant in Poland that depends on income criteria; additional local benefits may also exist.",
+      "whenNeededPl": "Wniosek zwykle składa się w określonym czasie po porodzie.",
+      "whenNeededDe": "Der Antrag wird in der Regel innerhalb einer bestimmten Frist nach der Geburt gestellt.",
+      "whenNeededEn": "The application is usually submitted within a certain period after the birth.",
+      "whereToGetPl": "Urząd miasta/gminy lub ośrodek pomocy społecznej.",
+      "whereToGetDe": "Stadt-/Gemeindeamt oder Sozialamt.",
+      "whereToGetEn": "The city/municipal office or social welfare center.",
+      "whatToPreparePl": [
+        "Akt urodzenia dziecka",
+        "Dokumenty potwierdzające dochód",
+        "Zaświadczenie o opiece medycznej w ciąży"
+      ],
+      "whatToPrepareDe": [
+        "Geburtsurkunde des Kindes",
+        "Einkommensnachweise",
+        "Bescheinigung über die Schwangerschaftsvorsorge"
+      ],
+      "whatToPrepareEn": [
+        "The child's birth certificate",
+        "Income documentation",
+        "Certificate of prenatal care"
+      ],
+      "importantNotesPl": [
+        "Kryteria dochodowe i dostępność świadczeń mogą się zmieniać — warto sprawdzić aktualne zasady w urzędzie.",
+        "Niektóre gminy oferują dodatkowe, lokalne świadczenia."
+      ],
+      "importantNotesDe": [
+        "Einkommenskriterien und Verfügbarkeit der Leistungen können sich ändern — aktuelle Regeln sollten beim Amt geprüft werden.",
+        "Manche Gemeinden bieten zusätzliche lokale Leistungen an."
+      ],
+      "importantNotesEn": [
+        "Income criteria and benefit availability can change — it's worth checking current rules with the office.",
+        "Some municipalities offer additional local benefits."
+      ],
+      "relatedModules": [
+        "documents",
+        "doctor_questions",
+        "ai_guardian"
+      ]
+    },
+    {
+      "id": "pl_urlop_macierzynski_rodzicielski",
+      "countryGroup": "PL",
+      "category": "employment_benefits",
+      "priority": "medium",
+      "titlePl": "Urlop macierzyński i rodzicielski",
+      "titleDe": "Mutterschafts- und Elternurlaub (Polen)",
+      "titleEn": "Maternity and parental leave (Poland)",
+      "descriptionPl": "Urlop macierzyński i rodzicielski to polskie urlopy związane z opieką nad dzieckiem po porodzie.",
+      "descriptionDe": "Mutterschafts- und Elternurlaub sind die polnischen Urlaubsarten im Zusammenhang mit der Betreuung des Kindes nach der Geburt.",
+      "descriptionEn": "Maternity and parental leave are the Polish leave entitlements related to caring for a child after birth.",
+      "whenNeededPl": "Urlop macierzyński zwykle zaczyna się od dnia porodu; urlop rodzicielski może następować po nim.",
+      "whenNeededDe": "Der Mutterschaftsurlaub beginnt in der Regel am Tag der Geburt; der Elternurlaub kann sich daran anschließen.",
+      "whenNeededEn": "Maternity leave usually begins on the day of the birth; parental leave can follow afterward.",
+      "whereToGetPl": "Pracodawca oraz ZUS w zakresie wypłaty świadczeń.",
+      "whereToGetDe": "Arbeitgeber sowie ZUS für die Leistungsauszahlung.",
+      "whereToGetEn": "Your employer, and ZUS for benefit payments.",
+      "whatToPreparePl": [
+        "Akt urodzenia dziecka",
+        "Wniosek do pracodawcy"
+      ],
+      "whatToPrepareDe": [
+        "Geburtsurkunde des Kindes",
+        "Antrag beim Arbeitgeber"
+      ],
+      "whatToPrepareEn": [
+        "The child's birth certificate",
+        "An application submitted to the employer"
+      ],
+      "importantNotesPl": [
+        "Zasady mogą różnić się w zależności od formy zatrudnienia (np. umowa o pracę, samozatrudnienie).",
+        "Warto zapytać pracodawcę lub ZUS o aktualne terminy składania wniosków."
+      ],
+      "importantNotesDe": [
+        "Die Regeln können je nach Beschäftigungsform variieren (z. B. Arbeitsvertrag, Selbstständigkeit).",
+        "Es lohnt sich, Arbeitgeber oder ZUS nach den aktuellen Antragsfristen zu fragen."
+      ],
+      "importantNotesEn": [
+        "Rules can vary depending on the type of employment (e.g., employment contract, self-employment).",
+        "It helps to ask your employer or ZUS about current application deadlines."
+      ],
+      "relatedModules": [
+        "documents",
+        "doctor_questions",
+        "ai_guardian"
+      ]
+    },
+    {
+      "id": "plde_niemiecka_ciaza_po_polsku",
+      "countryGroup": "PL_IN_DE",
+      "category": "cross_border_guidance",
+      "priority": "medium",
+      "titlePl": "Niemiecka ciąża po polsku — wprowadzenie",
+      "titleDe": "Schwangerschaft in Deutschland — Einführung auf Polnisch",
+      "titleEn": "Pregnancy in Germany explained in Polish — introduction",
+      "descriptionPl": "Ten wpis to ogólne wprowadzenie do tego, jak wygląda formalna strona ciąży w Niemczech z perspektywy osoby przyzwyczajonej do polskiego systemu.",
+      "descriptionDe": "Dieser Eintrag bietet eine allgemeine Einführung in die formalen Abläufe der Schwangerschaft in Deutschland aus der Perspektive einer mit dem polnischen System vertrauten Person.",
+      "descriptionEn": "This entry offers a general introduction to the formal side of pregnancy in Germany, from the perspective of someone familiar with the Polish system.",
+      "whenNeededPl": "Najlepiej przeczytać na początku ciąży w Niemczech.",
+      "whenNeededDe": "Am besten am Anfang der Schwangerschaft in Deutschland lesen.",
+      "whenNeededEn": "Best read at the beginning of pregnancy in Germany.",
+      "whereToGetPl": "Ogólne informacje — szczegóły warto zawsze potwierdzić u lekarza, położnej lub w odpowiednim urzędzie.",
+      "whereToGetDe": "Allgemeine Informationen — Details sollten stets bei Arzt, Hebamme oder der zuständigen Behörde bestätigt werden.",
+      "whereToGetEn": "General information — details should always be confirmed with a doctor, midwife, or the relevant authority.",
+      "whatToPreparePl": [
+        "Brak dodatkowych dokumentów na ten krok"
+      ],
+      "whatToPrepareDe": [
+        "Keine zusätzlichen Unterlagen für diesen Schritt erforderlich"
+      ],
+      "whatToPrepareEn": [
+        "No additional documents needed for this step"
+      ],
+      "importantNotesPl": [
+        "System niemiecki różni się od polskiego w kilku obszarach, np. w nazwach dokumentów i instytucji.",
+        "Warto zapoznać się z lokalnymi odpowiednikami polskich dokumentów, takich jak karta ciąży."
+      ],
+      "importantNotesDe": [
+        "Das deutsche System unterscheidet sich in einigen Bereichen vom polnischen, z. B. bei Dokument- und Behördennamen.",
+        "Es lohnt sich, die deutschen Entsprechungen polnischer Dokumente wie der Schwangerschaftskarte kennenzulernen."
+      ],
+      "importantNotesEn": [
+        "The German system differs from the Polish one in several areas, such as document and institution names.",
+        "It helps to learn the German equivalents of Polish documents such as the pregnancy record card."
+      ],
+      "relatedModules": [
+        "documents",
+        "doctor_questions",
+        "ai_guardian"
+      ]
+    },
+    {
+      "id": "plde_mutterpass_explained_pl",
+      "countryGroup": "PL_IN_DE",
+      "category": "cross_border_guidance",
+      "priority": "high",
+      "titlePl": "Mutterpass wyjaśniony po polsku",
+      "titleDe": "Mutterpass auf Polnisch erklärt",
+      "titleEn": "Mutterpass explained in Polish",
+      "descriptionPl": "Mutterpass to niemiecki odpowiednik polskiej karty ciąży — dokument zawierający przebieg ciąży i wyniki badań.",
+      "descriptionDe": "Der Mutterpass ist das deutsche Äquivalent zur polnischen Schwangerschaftskarte — ein Dokument mit dem Schwangerschaftsverlauf und Untersuchungsergebnissen.",
+      "descriptionEn": "The Mutterpass is the German equivalent of the Polish pregnancy record card — a document containing the course of the pregnancy and examination results.",
+      "whenNeededPl": "Wydawany przy pierwszej wizycie potwierdzającej ciążę w Niemczech.",
+      "whenNeededDe": "Wird beim ersten Termin zur Bestätigung der Schwangerschaft in Deutschland ausgestellt.",
+      "whenNeededEn": "Issued at the first appointment confirming the pregnancy in Germany.",
+      "whereToGetPl": "Niemiecka praktyka ginekologiczna prowadząca ciążę.",
+      "whereToGetDe": "Die in Deutschland betreuende Frauenarztpraxis.",
+      "whereToGetEn": "The gynecology practice managing your pregnancy care in Germany.",
+      "whatToPreparePl": [
+        "Dokument tożsamości"
+      ],
+      "whatToPrepareDe": [
+        "Ausweisdokument"
+      ],
+      "whatToPrepareEn": [
+        "An identity document"
+      ],
+      "importantNotesPl": [
+        "Mutterpass warto zawsze nosić przy sobie, podobnie jak kartę ciąży w Polsce.",
+        "Dokument jest napisany po niemiecku — w razie potrzeby można zapytać lekarza o wyjaśnienie poszczególnych wpisów."
+      ],
+      "importantNotesDe": [
+        "Der Mutterpass sollte stets mitgeführt werden, ähnlich wie die Schwangerschaftskarte in Polen.",
+        "Das Dokument ist auf Deutsch verfasst — bei Bedarf kann der Arzt einzelne Einträge erklären."
+      ],
+      "importantNotesEn": [
+        "The Mutterpass should always be carried with you, similar to the pregnancy record card in Poland.",
+        "The document is written in German — if needed, you can ask your doctor to explain specific entries."
+      ],
+      "relatedModules": [
+        "documents",
+        "doctor_questions",
+        "pregnancy_week",
+        "ai_guardian"
+      ]
+    },
+    {
+      "id": "plde_mutterschutz_explained_pl",
+      "countryGroup": "PL_IN_DE",
+      "category": "cross_border_guidance",
+      "priority": "high",
+      "titlePl": "Mutterschutz wyjaśniony po polsku",
+      "titleDe": "Mutterschutz auf Polnisch erklärt",
+      "titleEn": "Mutterschutz explained in Polish",
+      "descriptionPl": "Mutterschutz to niemiecki system ochrony pracujących kobiet w ciąży i po porodzie, częściowo odpowiadający polskim regulacjom dotyczącym ochrony zatrudnienia.",
+      "descriptionDe": "Der Mutterschutz ist das deutsche System zum Schutz berufstätiger Frauen in der Schwangerschaft und nach der Geburt, das teilweise den polnischen Regelungen zum Beschäftigungsschutz entspricht.",
+      "descriptionEn": "Mutterschutz is the German system protecting working women during pregnancy and after birth, partly comparable to Polish employment protection rules.",
+      "whenNeededPl": "Dotyczy okresu przed i po porodzie — warto dowiedzieć się o tym wcześnie w ciąży.",
+      "whenNeededDe": "Betrifft den Zeitraum vor und nach der Geburt — es lohnt sich, sich früh in der Schwangerschaft zu informieren.",
+      "whenNeededEn": "Applies to the period before and after birth — it's worth learning about it early in pregnancy.",
+      "whereToGetPl": "Pracodawca w Niemczech, ewentualnie Krankenkasse.",
+      "whereToGetDe": "Arbeitgeber in Deutschland, gegebenenfalls die Krankenkasse.",
+      "whereToGetEn": "Your employer in Germany, and possibly the Krankenkasse.",
+      "whatToPreparePl": [
+        "Schwangerschaftsbescheinigung"
+      ],
+      "whatToPrepareDe": [
+        "Schwangerschaftsbescheinigung"
+      ],
+      "whatToPrepareEn": [
+        "Schwangerschaftsbescheinigung"
+      ],
+      "importantNotesPl": [
+        "Zasady Mutterschutz różnią się od polskich regulacji — warto nie zakładać, że są identyczne.",
+        "W razie pytań pomocna może być rozmowa z działem HR pracodawcy."
+      ],
+      "importantNotesDe": [
+        "Die Regeln des Mutterschutzes unterscheiden sich von den polnischen Regelungen — sie sollten nicht als identisch angenommen werden.",
+        "Bei Fragen kann ein Gespräch mit der Personalabteilung des Arbeitgebers helfen."
+      ],
+      "importantNotesEn": [
+        "Mutterschutz rules differ from Polish regulations — they shouldn't be assumed to be identical.",
+        "If you have questions, talking to your employer's HR department can help."
+      ],
+      "relatedModules": [
+        "documents",
+        "doctor_questions",
+        "ai_guardian"
+      ]
+    },
+    {
+      "id": "plde_elterngeld_explained_pl",
+      "countryGroup": "PL_IN_DE",
+      "category": "cross_border_guidance",
+      "priority": "medium",
+      "titlePl": "Elterngeld wyjaśniony po polsku",
+      "titleDe": "Elterngeld auf Polnisch erklärt",
+      "titleEn": "Elterngeld explained in Polish",
+      "descriptionPl": "Elterngeld to niemieckie świadczenie rodzicielskie, które nie ma dokładnego odpowiednika w polskim systemie świadczeń.",
+      "descriptionDe": "Elterngeld ist die deutsche Familienleistung, die kein genaues Äquivalent im polnischen Leistungssystem hat.",
+      "descriptionEn": "Elterngeld is the German parental allowance, which does not have an exact equivalent in the Polish benefits system.",
+      "whenNeededPl": "Wniosek składa się po porodzie dziecka.",
+      "whenNeededDe": "Der Antrag wird nach der Geburt des Kindes gestellt.",
+      "whenNeededEn": "The application is submitted after the child's birth.",
+      "whereToGetPl": "Elterngeldstelle właściwa dla miejsca zamieszkania w Niemczech.",
+      "whereToGetDe": "Die für den Wohnort in Deutschland zuständige Elterngeldstelle.",
+      "whereToGetEn": "The Elterngeldstelle responsible for your place of residence in Germany.",
+      "whatToPreparePl": [
+        "Akt urodzenia dziecka",
+        "Dane o dochodach z Polski i/lub Niemiec"
+      ],
+      "whatToPrepareDe": [
+        "Geburtsurkunde des Kindes",
+        "Einkommensnachweise aus Polen und/oder Deutschland"
+      ],
+      "whatToPrepareEn": [
+        "The child's birth certificate",
+        "Income documentation from Poland and/or Germany"
+      ],
+      "importantNotesPl": [
+        "Sytuacja osób z dochodami z dwóch krajów może być bardziej złożona — warto zapytać Elterngeldstelle o szczegóły.",
+        "Terminy składania wniosku mają znaczenie dla wysokości świadczenia."
+      ],
+      "importantNotesDe": [
+        "Die Situation bei Einkommen aus zwei Ländern kann komplexer sein — Details sollten bei der Elterngeldstelle erfragt werden.",
+        "Die Antragsfristen sind für die Höhe der Leistung relevant."
+      ],
+      "importantNotesEn": [
+        "The situation for people with income from two countries can be more complex — it's worth asking the Elterngeldstelle for details.",
+        "Application deadlines matter for the amount of the benefit."
+      ],
+      "relatedModules": [
+        "documents",
+        "doctor_questions",
+        "ai_guardian"
+      ]
+    },
+    {
+      "id": "plde_kindergeld_explained_pl",
+      "countryGroup": "PL_IN_DE",
+      "category": "cross_border_guidance",
+      "priority": "medium",
+      "titlePl": "Kindergeld wyjaśniony po polsku",
+      "titleDe": "Kindergeld auf Polnisch erklärt",
+      "titleEn": "Kindergeld explained in Polish",
+      "descriptionPl": "Kindergeld to niemieckie świadczenie na dziecko, dostępne zwykle dla rodzin mieszkających i pracujących w Niemczech.",
+      "descriptionDe": "Kindergeld ist die deutsche Familienleistung für Kinder, die in der Regel für in Deutschland lebende und arbeitende Familien verfügbar ist.",
+      "descriptionEn": "Kindergeld is the German child benefit, generally available to families living and working in Germany.",
+      "whenNeededPl": "Wniosek można złożyć po urodzeniu dziecka.",
+      "whenNeededDe": "Der Antrag kann nach der Geburt des Kindes gestellt werden.",
+      "whenNeededEn": "The application can be submitted after the child's birth.",
+      "whereToGetPl": "Familienkasse właściwa dla miejsca zamieszkania w Niemczech.",
+      "whereToGetDe": "Die für den Wohnort in Deutschland zuständige Familienkasse.",
+      "whereToGetEn": "The Familienkasse responsible for your place of residence in Germany.",
+      "whatToPreparePl": [
+        "Akt urodzenia dziecka",
+        "Dokumenty potwierdzające miejsce zamieszkania/pracy w Niemczech"
+      ],
+      "whatToPrepareDe": [
+        "Geburtsurkunde des Kindes",
+        "Nachweise über Wohnsitz/Beschäftigung in Deutschland"
+      ],
+      "whatToPrepareEn": [
+        "The child's birth certificate",
+        "Proof of residence/employment in Germany"
+      ],
+      "importantNotesPl": [
+        "Rodziny z sytuacją transgraniczną (np. jeden rodzic pracuje w Polsce) mogą mieć dodatkowe wymagania — warto zapytać Familienkasse.",
+        "Kindergeld i polskie świadczenia rodzinne to różne systemy — zasady nie nakładają się automatycznie."
+      ],
+      "importantNotesDe": [
+        "Familien mit grenzüberschreitender Situation (z. B. ein Elternteil arbeitet in Polen) können zusätzliche Anforderungen haben — dies sollte bei der Familienkasse erfragt werden.",
+        "Kindergeld und polnische Familienleistungen sind unterschiedliche Systeme — die Regeln überlappen sich nicht automatisch."
+      ],
+      "importantNotesEn": [
+        "Families in a cross-border situation (e.g., one parent working in Poland) may have additional requirements — it's worth asking the Familienkasse.",
+        "Kindergeld and Polish family benefits are different systems and don't automatically overlap."
+      ],
+      "relatedModules": [
+        "documents",
+        "doctor_questions",
+        "ai_guardian"
+      ]
+    },
+    {
+      "id": "plde_polish_vs_german_documents",
+      "countryGroup": "PL_IN_DE",
+      "category": "comparison",
+      "priority": "medium",
+      "titlePl": "Polskie dokumenty a niemieckie dokumenty",
+      "titleDe": "Polnische und deutsche Dokumente im Vergleich",
+      "titleEn": "Polish documents versus German documents",
+      "descriptionPl": "Ten wpis porównuje ogólnie polskie i niemieckie dokumenty związane z ciążą i porodem, np. kartę ciąży i Mutterpass.",
+      "descriptionDe": "Dieser Eintrag vergleicht allgemein polnische und deutsche Dokumente im Zusammenhang mit Schwangerschaft und Geburt, z. B. die Schwangerschaftskarte und den Mutterpass.",
+      "descriptionEn": "This entry provides a general comparison of Polish and German pregnancy and birth-related documents, such as the pregnancy record card and the Mutterpass.",
+      "whenNeededPl": "Przydatne na początku ciąży w Niemczech, zwłaszcza po przeprowadzce z Polski.",
+      "whenNeededDe": "Hilfreich am Anfang der Schwangerschaft in Deutschland, besonders nach einem Umzug aus Polen.",
+      "whenNeededEn": "Helpful at the beginning of pregnancy in Germany, especially after moving from Poland.",
+      "whereToGetPl": "Ogólne informacje — nie zastępują porady urzędu ani lekarza.",
+      "whereToGetDe": "Allgemeine Informationen — ersetzen keine Beratung durch Behörde oder Arzt.",
+      "whereToGetEn": "General information — does not replace advice from an office or doctor.",
+      "whatToPreparePl": [
+        "Brak dodatkowych dokumentów na ten krok"
+      ],
+      "whatToPrepareDe": [
+        "Keine zusätzlichen Unterlagen für diesen Schritt erforderlich"
+      ],
+      "whatToPrepareEn": [
+        "No additional documents needed for this step"
+      ],
+      "importantNotesPl": [
+        "Dokumenty z dwóch krajów nie zawsze są równoważne — w razie wątpliwości warto zapytać właściwą instytucję.",
+        "Niektóre polskie dokumenty mogą wymagać tłumaczenia w Niemczech, w zależności od sytuacji."
+      ],
+      "importantNotesDe": [
+        "Dokumente aus beiden Ländern sind nicht immer gleichwertig — im Zweifel sollte die zuständige Stelle gefragt werden.",
+        "Manche polnischen Dokumente können in Deutschland je nach Situation eine Übersetzung erfordern."
+      ],
+      "importantNotesEn": [
+        "Documents from the two countries are not always equivalent — when in doubt, ask the relevant institution.",
+        "Some Polish documents may require translation in Germany, depending on the situation."
+      ],
+      "relatedModules": [
+        "documents",
+        "doctor_questions",
+        "ai_guardian"
+      ]
+    },
+    {
+      "id": "plde_questions_for_krankenkasse",
+      "countryGroup": "PL_IN_DE",
+      "category": "preparation_checklist",
+      "priority": "medium",
+      "titlePl": "Pytania do kasy chorych (Krankenkasse)",
+      "titleDe": "Fragen an die Krankenkasse",
+      "titleEn": "Questions to ask your Krankenkasse",
+      "descriptionPl": "Lista przykładowych pytań, które warto zadać swojej Krankenkasse jako osoba przyzwyczajona do systemu NFZ.",
+      "descriptionDe": "Eine Liste beispielhafter Fragen, die es sich lohnt, der eigenen Krankenkasse als an das NFZ-System gewöhnte Person zu stellen.",
+      "descriptionEn": "A list of sample questions worth asking your Krankenkasse, as someone used to the NFZ system.",
+      "whenNeededPl": "Najlepiej na początku ciąży, a także po wyborze szpitala i położnej.",
+      "whenNeededDe": "Am besten am Anfang der Schwangerschaft sowie nach der Wahl von Krankenhaus und Hebamme.",
+      "whenNeededEn": "Best asked early in pregnancy, and again after choosing a hospital and midwife.",
+      "whereToGetPl": "Twoja Krankenkasse — telefonicznie, online lub osobiście.",
+      "whereToGetDe": "Ihre Krankenkasse — telefonisch, online oder persönlich.",
+      "whereToGetEn": "Your Krankenkasse — by phone, online, or in person.",
+      "whatToPreparePl": [
+        "Lista pytań, np. o zakres świadczeń, kursy przygotowujące do porodu, wsparcie położnej"
+      ],
+      "whatToPrepareDe": [
+        "Fragenliste, z. B. zum Leistungsumfang, zu Geburtsvorbereitungskursen, zur Unterstützung durch eine Hebamme"
+      ],
+      "whatToPrepareEn": [
+        "A list of questions, e.g. about scope of benefits, birth preparation courses, midwife support"
+      ],
+      "importantNotesPl": [
+        "Zakres świadczeń Krankenkasse może różnić się od tego, czego można się spodziewać w NFZ.",
+        "Warto zapytać konkretnie o sytuacje transgraniczne, jeśli mają zastosowanie."
+      ],
+      "importantNotesDe": [
+        "Der Leistungsumfang der Krankenkasse kann von den Erwartungen aus dem NFZ-System abweichen.",
+        "Es lohnt sich, gezielt nach grenzüberschreitenden Situationen zu fragen, falls relevant."
+      ],
+      "importantNotesEn": [
+        "The scope of Krankenkasse benefits can differ from what you might expect from the NFZ system.",
+        "It's worth specifically asking about cross-border situations if relevant."
+      ],
+      "relatedModules": [
+        "documents",
+        "doctor_questions",
+        "ai_guardian"
+      ]
+    },
+    {
+      "id": "plde_questions_for_doctor_midwife",
+      "countryGroup": "PL_IN_DE",
+      "category": "preparation_checklist",
+      "priority": "medium",
+      "titlePl": "Pytania do lekarza/położnej w Niemczech",
+      "titleDe": "Fragen an Arzt/Hebamme in Deutschland",
+      "titleEn": "Questions to ask your doctor/midwife in Germany",
+      "descriptionPl": "Lista przykładowych pytań pomocnych w rozmowie z niemieckim lekarzem lub położną, szczególnie przy różnicach językowych lub systemowych.",
+      "descriptionDe": "Eine Liste beispielhafter Fragen, die im Gespräch mit einem deutschen Arzt oder einer Hebamme hilfreich sind, besonders bei sprachlichen oder systembedingten Unterschieden.",
+      "descriptionEn": "A list of sample questions helpful when talking with a German doctor or midwife, especially given language or system differences.",
+      "whenNeededPl": "Przydatne na każdą wizytę, zwłaszcza pierwszą w Niemczech.",
+      "whenNeededDe": "Hilfreich für jeden Termin, besonders den ersten in Deutschland.",
+      "whenNeededEn": "Helpful for any appointment, especially the first one in Germany.",
+      "whereToGetPl": "Praktyka ginekologiczna lub położna w Niemczech.",
+      "whereToGetDe": "Frauenarztpraxis oder Hebamme in Deutschland.",
+      "whereToGetEn": "Your gynecology practice or midwife in Germany.",
+      "whatToPreparePl": [
+        "Lista pytań, np. o tłumaczenie wyników badań, dostępność opieki w języku polskim"
+      ],
+      "whatToPrepareDe": [
+        "Fragenliste, z. B. zur Übersetzung von Befunden, zur Verfügbarkeit polnischsprachiger Betreuung"
+      ],
+      "whatToPrepareEn": [
+        "A list of questions, e.g. about translation of results, availability of Polish-speaking care"
+      ],
+      "importantNotesPl": [
+        "Niektóre praktyki oferują wsparcie w innych językach — warto zapytać na początku.",
+        "W razie trudności językowych pomocne bywa poproszenie o pisemne podsumowanie wizyty."
+      ],
+      "importantNotesDe": [
+        "Manche Praxen bieten Unterstützung in anderen Sprachen an — dies sollte frühzeitig erfragt werden.",
+        "Bei sprachlichen Schwierigkeiten kann es hilfreich sein, um eine schriftliche Zusammenfassung des Termins zu bitten."
+      ],
+      "importantNotesEn": [
+        "Some practices offer support in other languages — it's worth asking early on.",
+        "If there are language difficulties, it can help to ask for a written summary of the appointment."
+      ],
+      "relatedModules": [
+        "documents",
+        "doctor_questions",
+        "ai_guardian"
+      ]
+    },
+    {
+      "id": "plde_documents_before_birth_in_germany",
+      "countryGroup": "PL_IN_DE",
+      "category": "preparation_checklist",
+      "priority": "high",
+      "titlePl": "Dokumenty do przygotowania przed porodem w Niemczech",
+      "titleDe": "Vor der Geburt in Deutschland vorzubereitende Unterlagen",
+      "titleEn": "Documents to prepare before giving birth in Germany",
+      "descriptionPl": "Lista ogólna dokumentów, które warto przygotować jako Polka rodząca w Niemczech, łącząca formalności niemieckie i polskie.",
+      "descriptionDe": "Eine allgemeine Liste von Unterlagen, die als in Deutschland gebärende Polin vorbereitet werden sollten, unter Berücksichtigung deutscher und polnischer Formalitäten.",
+      "descriptionEn": "A general checklist of documents worth preparing as a Polish woman giving birth in Germany, combining German and Polish formalities.",
+      "whenNeededPl": "Najlepiej zebrać te dokumenty w trzecim trymestrze.",
+      "whenNeededDe": "Am besten diese Unterlagen im dritten Trimester zusammenstellen.",
+      "whenNeededEn": "Best to gather these documents in the third trimester.",
+      "whereToGetPl": "Częściowo w Polsce (np. akt małżeństwa, jeśli potrzebny), częściowo w Niemczech (Mutterpass, Schwangerschaftsbescheinigung).",
+      "whereToGetDe": "Teilweise in Polen (z. B. Heiratsurkunde, falls benötigt), teilweise in Deutschland (Mutterpass, Schwangerschaftsbescheinigung).",
+      "whereToGetEn": "Partly in Poland (e.g. marriage certificate, if needed), partly in Germany (Mutterpass, Schwangerschaftsbescheinigung).",
+      "whatToPreparePl": [
+        "Mutterpass",
+        "Dokumenty tożsamości",
+        "Akt małżeństwa, jeśli dotyczy",
+        "Tłumaczenia dokumentów, jeśli wymagane"
+      ],
+      "whatToPrepareDe": [
+        "Mutterpass",
+        "Ausweisdokumente",
+        "Heiratsurkunde, falls zutreffend",
+        "Übersetzungen von Dokumenten, falls erforderlich"
+      ],
+      "whatToPrepareEn": [
+        "Mutterpass",
+        "Identity documents",
+        "Marriage certificate, if applicable",
+        "Document translations, if required"
+      ],
+      "importantNotesPl": [
+        "Wymagania mogą się różnić zależnie od landu i stanu cywilnego — warto potwierdzić je w Standesamt.",
+        "Tłumaczenia przysięgłe bywają potrzebne dla niektórych dokumentów polskich."
+      ],
+      "importantNotesDe": [
+        "Die Anforderungen können je nach Bundesland und Familienstand variieren — dies sollte beim Standesamt bestätigt werden.",
+        "Für manche polnischen Dokumente können beglaubigte Übersetzungen erforderlich sein."
+      ],
+      "importantNotesEn": [
+        "Requirements can vary by federal state and marital status — it's worth confirming with the Standesamt.",
+        "Certified translations may be needed for some Polish documents."
+      ],
+      "relatedModules": [
+        "documents",
+        "doctor_questions",
+        "birth_preparation",
+        "ai_guardian"
+      ]
+    }
+  ]
 }
