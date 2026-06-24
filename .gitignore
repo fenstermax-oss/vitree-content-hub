@@ -1,0 +1,11 @@
+﻿.env
+*.env
+.env.*
+secrets.json
+api_keys.json
+google-services.json
+*.keystore
+*.jks
+build/
+.DS_Store
+node_modules/

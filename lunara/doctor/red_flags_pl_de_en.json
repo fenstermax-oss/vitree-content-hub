@@ -1,0 +1,13 @@
+﻿{
+  "version": "1.0.0",
+  "updatedAt": "2026-06-24",
+  "languageSupport": ["pl", "de", "en"],
+  "source": "vitree-content-hub",
+  "contentType": "public_educational_content",
+  "disclaimer": {
+    "pl": "Treści mają charakter edukacyjny i organizacyjny. Nie zastępują lekarza, położnej, farmaceuty, prawnika ani urzędu.",
+    "de": "Die Inhalte dienen nur der Bildung und Organisation. Sie ersetzen keine Ärztin, keinen Arzt, keine Hebamme, keine Apotheke, keine Rechtsberatung und keine Behörde.",
+    "en": "This content is educational and organizational only. It does not replace a doctor, midwife, pharmacist, legal advisor or official authority."
+  },
+  "items": []
+}

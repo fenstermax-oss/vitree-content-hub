@@ -1,0 +1,23 @@
+﻿{
+  "project": "VITREE Content Hub",
+  "version": "2026.06.24.1",
+  "updatedAt": "2026-06-24",
+  "contentType": "public_educational_content",
+  "apps": {
+    "lunara": {
+      "documentsVersion": "1.0.0",
+      "medicationsVersion": "1.0.0",
+      "doctorQuestionsVersion": "1.0.0",
+      "redFlagsVersion": "1.0.0",
+      "pregnancyWeeksVersion": "1.0.0"
+    },
+    "herbora": {
+      "herbsVersion": "1.0.0"
+    },
+    "vitree": {
+      "exercisesVersion": "1.0.0",
+      "meditationsVersion": "1.0.0",
+      "mindTrainingVersion": "1.0.0"
+    }
+  }
+}
