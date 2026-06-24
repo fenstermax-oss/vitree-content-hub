@@ -27,6 +27,23 @@
         "Paracetamol-ratiopharm",
         "Ben-u-ron"
       ],
+      "aliases": [
+        "apap",
+        "apap extra",
+        "apab",
+        "panadol",
+        "panadol extra",
+        "efferalgan",
+        "paracetamol-ratiopharm",
+        "paracetamol ratiopharm",
+        "paracetamolratiopharm",
+        "ben-u-ron",
+        "benuron",
+        "ben u ron",
+        "paracetamol",
+        "acetaminophen",
+        "acetaminofen"
+      ],
       "activeIngredientPl": "Paracetamol (acetaminofen)",
       "activeIngredientDe": "Paracetamol (Acetaminophen)",
       "activeIngredientEn": "Paracetamol (acetaminophen)",
@@ -56,6 +73,21 @@
         "Ibuflam",
         "Ibuprofen-ratiopharm"
       ],
+      "aliases": [
+        "ibuprom",
+        "ibum",
+        "nurofen",
+        "nurofen forte",
+        "nurofen junior",
+        "ibuflam",
+        "ibuflam akut",
+        "ibuprofen-ratiopharm",
+        "ibuprofen ratiopharm",
+        "ibuprofenratiopharm",
+        "ibuprofen",
+        "ibu",
+        "ibuprofein"
+      ],
       "activeIngredientPl": "Ibuprofen",
       "activeIngredientDe": "Ibuprofen",
       "activeIngredientEn": "Ibuprofen",
@@ -82,6 +114,17 @@
         "Voltaren",
         "Diclofenac-ratiopharm"
       ],
+      "aliases": [
+        "voltaren",
+        "voltaren forte",
+        "voltaren dolo",
+        "diclofenac-ratiopharm",
+        "diclofenac ratiopharm",
+        "diclofenacratiopharm",
+        "diclofenac",
+        "diklofenak",
+        "diclo"
+      ],
       "activeIngredientPl": "Diklofenak",
       "activeIngredientDe": "Diclofenac",
       "activeIngredientEn": "Diclofenac",
@@ -107,6 +150,11 @@
       "brandNames": [
         "Naproxen"
       ],
+      "aliases": [
+        "naproxen",
+        "naproksen",
+        "naproxene"
+      ],
       "activeIngredientPl": "Naproksen",
       "activeIngredientDe": "Naproxen",
       "activeIngredientEn": "Naproxen",
@@ -130,6 +178,11 @@
       ],
       "brandNames": [
         "Ketonal"
+      ],
+      "aliases": [
+        "ketonal",
+        "ketoprofen",
+        "ketoprofen gel"
       ],
       "activeIngredientPl": "Ketoprofen",
       "activeIngredientDe": "Ketoprofen",
@@ -158,6 +211,17 @@
         "Aspirin",
         "ASS"
       ],
+      "aliases": [
+        "aspirin",
+        "aspiryna",
+        "ass",
+        "asa",
+        "polopiryna",
+        "polopiryna s",
+        "kwas acetylosalicylowy",
+        "acetylsalicylsäure",
+        "acetylsalicylic acid"
+      ],
       "activeIngredientPl": "Kwas acetylosalicylowy (aspiryna)",
       "activeIngredientDe": "Acetylsalicylsäure (ASS)",
       "activeIngredientEn": "Acetylsalicylic acid (aspirin)",
@@ -184,6 +248,14 @@
         "Pyralgina",
         "Novalgin"
       ],
+      "aliases": [
+        "pyralgina",
+        "pyralgin",
+        "novalgin",
+        "nowalgin",
+        "metamizol",
+        "metamizole"
+      ],
       "activeIngredientPl": "Metamizol",
       "activeIngredientDe": "Metamizol",
       "activeIngredientEn": "Metamizole",
@@ -208,6 +280,14 @@
       "brandNames": [
         "No-Spa"
       ],
+      "aliases": [
+        "no-spa",
+        "nospa",
+        "no spa",
+        "drotaweryna",
+        "drotaverine",
+        "drotaverin"
+      ],
       "activeIngredientPl": "Drotaweryna",
       "activeIngredientDe": "Drotaverin",
       "activeIngredientEn": "Drotaverine",
@@ -231,6 +311,13 @@
       ],
       "brandNames": [
         "Buscopan"
+      ],
+      "aliases": [
+        "buscopan",
+        "buscopan ibs",
+        "butylscopolamin",
+        "hyoscine butylbromide",
+        "butylobromek hioscyny"
       ],
       "activeIngredientPl": "Butylobromek hioscyny",
       "activeIngredientDe": "Butylscopolamin (Hyoscinbutylbromid)",
@@ -258,6 +345,18 @@
         "Theraflu",
         "Fervex"
       ],
+      "aliases": [
+        "gripex",
+        "gripex max",
+        "gripex hot",
+        "theraflu",
+        "thera flu",
+        "fervex",
+        "przeziębienie",
+        "grypa",
+        "lek na przeziębienie",
+        "lek na grypę"
+      ],
       "activeIngredientPl": "Złożone preparaty przeciwprzeziębieniowe (skład zmienny, np. paracetamol w połączeniu z innymi substancjami)",
       "activeIngredientDe": "Kombinationspräparate gegen Erkältung/Grippe (variable Zusammensetzung, z. B. Paracetamol in Kombination mit weiteren Wirkstoffen)",
       "activeIngredientEn": "Combination cold and flu products (variable composition, e.g. paracetamol combined with other active ingredients)",
@@ -283,6 +382,18 @@
         "Grippostad",
         "Wick"
       ],
+      "aliases": [
+        "grippostad",
+        "grippostad c",
+        "wick",
+        "wicks",
+        "vicks",
+        "wick medinait",
+        "wick daymed",
+        "erkältung",
+        "grippe",
+        "erkältungsmittel"
+      ],
       "activeIngredientPl": "Złożone preparaty przeciwprzeziębieniowe (skład zmienny, np. paracetamol w połączeniu z innymi substancjami)",
       "activeIngredientDe": "Kombinationspräparate gegen Erkältung/Grippe (variable Zusammensetzung, z. B. Paracetamol in Kombination mit weiteren Wirkstoffen)",
       "activeIngredientEn": "Combination cold and flu products (variable composition, e.g. paracetamol combined with other active ingredients)",
@@ -307,6 +418,15 @@
       "brandNames": [
         "Dobendan",
         "Lemocin"
+      ],
+      "aliases": [
+        "dobendan",
+        "dobendan direkt",
+        "lemocin",
+        "halstabletten",
+        "pastylki do gardła",
+        "ból gardła",
+        "halsschmerzen"
       ],
       "activeIngredientPl": "Miejscowe pastylki do gardła (skład zmienny, np. substancje przeciwbólowe miejscowe, antyseptyczne lub przeciwzapalne)",
       "activeIngredientDe": "Lokal wirkende Halstabletten (variable Zusammensetzung, z. B. lokal schmerzlindernde, antiseptische oder entzündungshemmende Wirkstoffe)",
