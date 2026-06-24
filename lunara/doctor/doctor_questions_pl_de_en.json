@@ -1,13 +1,797 @@
-﻿{
+{
   "version": "1.0.0",
   "updatedAt": "2026-06-24",
-  "languageSupport": ["pl", "de", "en"],
+  "languageSupport": [
+    "pl",
+    "de",
+    "en"
+  ],
   "source": "vitree-content-hub",
   "contentType": "public_educational_content",
   "disclaimer": {
-    "pl": "Treści mają charakter edukacyjny i organizacyjny. Nie zastępują lekarza, położnej, farmaceuty, prawnika ani urzędu.",
-    "de": "Die Inhalte dienen nur der Bildung und Organisation. Sie ersetzen keine Ärztin, keinen Arzt, keine Hebamme, keine Apotheke, keine Rechtsberatung und keine Behörde.",
-    "en": "This content is educational and organizational only. It does not replace a doctor, midwife, pharmacist, legal advisor or official authority."
+    "pl": "Niniejsze treści mają charakter wyłącznie edukacyjny i informacyjny w ramach aplikacji LUNARA. Mają pomóc w przygotowaniu się do rozmowy z lekarzem lub położną i nie stanowią diagnozy, porady medycznej ani instrukcji leczenia. Nie zastępują indywidualnej konsultacji z lekarzem, położną lub innym pracownikiem medycznym.",
+    "de": "Diese Inhalte dienen ausschließlich allgemeinen Bildungs- und Informationszwecken innerhalb der LUNARA-App. Sie sollen helfen, sich auf ein Gespräch mit Arzt oder Hebamme vorzubereiten, und stellen keine Diagnose, keine medizinische Beratung und keine Behandlungsanweisung dar. Sie ersetzen nicht die individuelle Beratung durch Arzt, Hebamme oder eine andere medizinische Fachperson.",
+    "en": "This content is provided for general educational and informational purposes only within the LUNARA app. It is meant to help you prepare for a conversation with your doctor or midwife and does not constitute a diagnosis, medical advice, or treatment instructions. It does not replace individual consultation with a doctor, midwife, or other healthcare professional."
   },
-  "items": []
+  "categories": [
+    {
+      "id": "medications",
+      "namePl": "Leki",
+      "nameDe": "Medikamente",
+      "nameEn": "Medications"
+    },
+    {
+      "id": "red_flags",
+      "namePl": "Sygnały ostrzegawcze",
+      "nameDe": "Warnzeichen",
+      "nameEn": "Red flags"
+    },
+    {
+      "id": "baby_movements",
+      "namePl": "Ruchy dziecka",
+      "nameDe": "Kindsbewegungen",
+      "nameEn": "Baby movements"
+    },
+    {
+      "id": "pregnancy_week",
+      "namePl": "Tydzień ciąży",
+      "nameDe": "Schwangerschaftswoche",
+      "nameEn": "Pregnancy week"
+    },
+    {
+      "id": "documents_formalities",
+      "namePl": "Dokumenty i formalności",
+      "nameDe": "Unterlagen und Formalitäten",
+      "nameEn": "Documents and formalities"
+    },
+    {
+      "id": "tests_appointments",
+      "namePl": "Badania i wizyty",
+      "nameDe": "Untersuchungen und Termine",
+      "nameEn": "Tests and appointments"
+    },
+    {
+      "id": "nutrition_supplements",
+      "namePl": "Odżywianie i suplementy",
+      "nameDe": "Ernährung und Nahrungsergänzungsmittel",
+      "nameEn": "Nutrition and supplements"
+    },
+    {
+      "id": "movement_exercise",
+      "namePl": "Ruch i ćwiczenia",
+      "nameDe": "Bewegung und Sport",
+      "nameEn": "Movement and exercise"
+    },
+    {
+      "id": "birth_preparation",
+      "namePl": "Przygotowanie do porodu",
+      "nameDe": "Geburtsvorbereitung",
+      "nameEn": "Birth preparation"
+    },
+    {
+      "id": "mental_wellbeing",
+      "namePl": "Samopoczucie psychiczne",
+      "nameDe": "Seelisches Wohlbefinden",
+      "nameEn": "Mental wellbeing"
+    }
+  ],
+  "items": [
+    {
+      "id": "med_is_this_safe_for_my_week",
+      "category": "medications",
+      "priority": "high",
+      "titlePl": "Bezpieczeństwo leku w moim tygodniu ciąży",
+      "titleDe": "Sicherheit eines Medikaments in meiner Schwangerschaftswoche",
+      "titleEn": "Medication safety for my stage of pregnancy",
+      "questionPl": "Czy ten lek jest bezpieczny w moim tygodniu ciąży?",
+      "questionDe": "Ist dieses Medikament in meiner aktuellen Schwangerschaftswoche sicher?",
+      "questionEn": "Is this medicine safe at my current stage of pregnancy?",
+      "contextPl": "Bezpieczeństwo wielu leków zależy od tygodnia ciąży i indywidualnej sytuacji zdrowotnej. To pytanie pomaga lekarzowi lub farmaceutowi ocenić, czy dany lek jest odpowiedni właśnie teraz.",
+      "contextDe": "Die Sicherheit vieler Medikamente hängt von der Schwangerschaftswoche und der individuellen Gesundheitssituation ab. Diese Frage hilft Arzt oder Apotheke einzuschätzen, ob das Medikament jetzt geeignet ist.",
+      "contextEn": "The safety of many medicines depends on the stage of pregnancy and individual health circumstances. This question helps a doctor or pharmacist assess whether a medicine is suitable right now.",
+      "whenToAskPl": "Zadaj to pytanie zawsze przed zastosowaniem nowego leku, również dostępnego bez recepty.",
+      "whenToAskDe": "Stellen Sie diese Frage immer, bevor Sie ein neues Medikament anwenden, auch frei verkäufliche.",
+      "whenToAskEn": "Ask this before using any new medicine, including over-the-counter products.",
+      "relatedModules": [
+        "ai_guardian",
+        "medications",
+        "doctor"
+      ]
+    },
+    {
+      "id": "med_interactions_with_other_medicines",
+      "category": "medications",
+      "priority": "medium",
+      "titlePl": "Interakcje z innymi lekami",
+      "titleDe": "Wechselwirkungen mit anderen Medikamenten",
+      "titleEn": "Interactions with other medicines",
+      "questionPl": "Czy mogę rozważyć ten lek, jeśli już przyjmuję inne leki lub suplementy?",
+      "questionDe": "Kann ich dieses Medikament in Betracht ziehen, wenn ich bereits andere Medikamente oder Nahrungsergänzungsmittel einnehme?",
+      "questionEn": "Can I consider this medicine if I'm already taking other medicines or supplements?",
+      "contextPl": "Niektóre leki i suplementy mogą wpływać na siebie wzajemnie. Lekarz lub farmaceut może ocenić, czy dana kombinacja jest bezpieczna w Twojej sytuacji.",
+      "contextDe": "Manche Medikamente und Nahrungsergänzungsmittel können sich gegenseitig beeinflussen. Arzt oder Apotheke können beurteilen, ob eine bestimmte Kombination in Ihrer Situation sicher ist.",
+      "contextEn": "Some medicines and supplements can interact with one another. A doctor or pharmacist can assess whether a particular combination is safe in your situation.",
+      "whenToAskPl": "Zadaj to pytanie, gdy przyjmujesz już regularnie inny lek lub suplement i rozważasz dodanie kolejnego preparatu.",
+      "whenToAskDe": "Stellen Sie diese Frage, wenn Sie bereits regelmäßig ein anderes Medikament oder Nahrungsergänzungsmittel einnehmen und ein weiteres Präparat in Erwägung ziehen.",
+      "whenToAskEn": "Ask this when you're already regularly taking another medicine or supplement and considering adding another product.",
+      "relatedModules": [
+        "ai_guardian",
+        "medications",
+        "nutrition_supplements",
+        "doctor"
+      ]
+    },
+    {
+      "id": "med_otc_options_after_consultation",
+      "category": "medications",
+      "priority": "medium",
+      "titlePl": "Opcje leków bez recepty po konsultacji",
+      "titleDe": "Frei verkäufliche Optionen nach Rücksprache",
+      "titleEn": "Over-the-counter options after consultation",
+      "questionPl": "Jakie leki dostępne bez recepty mogłabym rozważyć po konsultacji z Tobą, jeśli zajdzie taka potrzeba?",
+      "questionDe": "Welche frei verkäuflichen Medikamente könnte ich nach Rücksprache mit Ihnen bei Bedarf in Betracht ziehen?",
+      "questionEn": "Which over-the-counter medicines could I consider after checking with you, if the need arises?",
+      "contextPl": "Przygotowanie się na typowe sytuacje (np. ból głowy, przeziębienie) razem z lekarzem lub farmaceutą pomaga uniknąć niepewności w nagłej potrzebie.",
+      "contextDe": "Sich gemeinsam mit Arzt oder Apotheke auf typische Situationen (z. B. Kopfschmerzen, Erkältung) vorzubereiten, hilft, Unsicherheit im Bedarfsfall zu vermeiden.",
+      "contextEn": "Preparing for common situations (such as headache or a cold) together with a doctor or pharmacist helps avoid uncertainty if the need arises suddenly.",
+      "whenToAskPl": "Dobry moment to rutynowa wizyta, zanim wystąpi potrzeba zastosowania leku.",
+      "whenToAskDe": "Ein guter Zeitpunkt ist ein Routinetermin, bevor die Notwendigkeit einer Medikamenteneinnahme entsteht.",
+      "whenToAskEn": "A good time is a routine appointment, before the need for medicine actually arises.",
+      "relatedModules": [
+        "ai_guardian",
+        "medications",
+        "doctor"
+      ]
+    },
+    {
+      "id": "med_taken_before_confirming_pregnancy",
+      "category": "medications",
+      "priority": "medium",
+      "titlePl": "Lek zażyty przed potwierdzeniem ciąży",
+      "titleDe": "Medikament vor Feststellung der Schwangerschaft eingenommen",
+      "titleEn": "Medicine taken before confirming pregnancy",
+      "questionPl": "Co powinnam zrobić, jeśli zażyłam lek, zanim wiedziałam, że jestem w ciąży?",
+      "questionDe": "Was sollte ich tun, wenn ich ein Medikament eingenommen habe, bevor ich von meiner Schwangerschaft wusste?",
+      "questionEn": "What should I do if I took a medicine before I knew I was pregnant?",
+      "contextPl": "Wiele osób przyjmuje leki, zanim dowie się o ciąży. Rozmowa z lekarzem pomaga ocenić sytuację spokojnie i bez obwiniania się.",
+      "contextDe": "Viele Menschen nehmen Medikamente ein, bevor sie von ihrer Schwangerschaft wissen. Ein Gespräch mit dem Arzt hilft, die Situation ruhig und ohne Selbstvorwürfe einzuordnen.",
+      "contextEn": "Many people take medicines before they know they are pregnant. Talking with your doctor helps you understand the situation calmly and without self-blame.",
+      "whenToAskPl": "Zgłoś to przy najbliższym kontakcie z lekarzem lub położną, najlepiej jak najszybciej po potwierdzeniu ciąży.",
+      "whenToAskDe": "Sprechen Sie dies beim nächsten Kontakt mit Arzt oder Hebamme an, möglichst bald nach Feststellung der Schwangerschaft.",
+      "whenToAskEn": "Bring this up at your next contact with your doctor or midwife, ideally soon after confirming the pregnancy.",
+      "relatedModules": [
+        "ai_guardian",
+        "medications",
+        "doctor"
+      ]
+    },
+    {
+      "id": "rf_does_my_symptom_need_urgent_check",
+      "category": "red_flags",
+      "priority": "high",
+      "titlePl": "Czy mój objaw wymaga pilnej kontroli",
+      "titleDe": "Erfordert mein Symptom eine dringende Kontrolle",
+      "titleEn": "Does my symptom need urgent review",
+      "questionPl": "Czy moje objawy wymagają pilnej kontroli?",
+      "questionDe": "Erfordern meine Symptome eine dringende Kontrolle?",
+      "questionEn": "Do my symptoms need urgent review?",
+      "contextPl": "Niektóre objawy w ciąży wymagają szybkiej oceny, a inne mogą być omówione przy najbliższej wizycie. Lekarz lub położna pomoże rozróżnić te sytuacje.",
+      "contextDe": "Manche Symptome in der Schwangerschaft erfordern eine schnelle Abklärung, andere können beim nächsten Termin besprochen werden. Arzt oder Hebamme helfen, dies einzuschätzen.",
+      "contextEn": "Some symptoms in pregnancy need quick assessment, while others can wait for your next appointment. A doctor or midwife can help you tell the difference.",
+      "whenToAskPl": "Zadaj to pytanie, gdy zauważysz nowy lub niepokojący objaw i nie jesteś pewna, jak szybko zareagować.",
+      "whenToAskDe": "Stellen Sie diese Frage, wenn Sie ein neues oder beunruhigendes Symptom bemerken und unsicher sind, wie schnell Sie reagieren sollten.",
+      "whenToAskEn": "Ask this when you notice a new or concerning symptom and you're not sure how quickly to act.",
+      "relatedModules": [
+        "ai_guardian",
+        "red_flags",
+        "doctor"
+      ]
+    },
+    {
+      "id": "rf_which_symptoms_to_report_immediately",
+      "category": "red_flags",
+      "priority": "high",
+      "titlePl": "Które objawy zgłosić natychmiast",
+      "titleDe": "Welche Symptome sofort gemeldet werden sollten",
+      "titleEn": "Which symptoms to report immediately",
+      "questionPl": "Jakie objawy powinnam zgłosić natychmiast, a jakie mogą czekać do najbliższej wizyty?",
+      "questionDe": "Welche Symptome sollte ich sofort melden und welche können bis zum nächsten Termin warten?",
+      "questionEn": "Which symptoms should I report right away, and which can wait until my next appointment?",
+      "contextPl": "Ustalenie wcześniej, na co reagować od razu, a co omówić później, daje większe poczucie spokoju w codziennej ciąży.",
+      "contextDe": "Im Voraus zu klären, worauf sofort reagiert werden sollte und was später besprochen werden kann, gibt mehr Sicherheit im Alltag der Schwangerschaft.",
+      "contextEn": "Clarifying in advance what needs an immediate reaction and what can be discussed later brings more peace of mind in everyday pregnancy.",
+      "whenToAskPl": "Dobry temat na jedną z pierwszych wizyt prowadzących ciążę.",
+      "whenToAskDe": "Ein guter Punkt für einen der ersten Schwangerschaftsvorsorgetermine.",
+      "whenToAskEn": "A good topic for one of your earlier prenatal appointments.",
+      "relatedModules": [
+        "ai_guardian",
+        "red_flags",
+        "doctor"
+      ]
+    },
+    {
+      "id": "rf_unsure_if_symptom_is_serious",
+      "category": "red_flags",
+      "priority": "medium",
+      "titlePl": "Niepewność, czy objaw jest poważny",
+      "titleDe": "Unsicherheit, ob ein Symptom ernst ist",
+      "titleEn": "Unsure whether a symptom is serious",
+      "questionPl": "Co zrobić, jeśli nie jestem pewna, czy mój objaw jest poważny?",
+      "questionDe": "Was soll ich tun, wenn ich nicht sicher bin, ob mein Symptom ernst ist?",
+      "questionEn": "What should I do if I'm not sure whether my symptom is serious?",
+      "contextPl": "Zapytanie o sposób postępowania w sytuacjach niejasnych pomaga czuć się bardziej przygotowaną, bez konieczności samodzielnej oceny stanu zdrowia.",
+      "contextDe": "Zu fragen, wie in unklaren Situationen vorzugehen ist, hilft, sich besser vorbereitet zu fühlen, ohne den eigenen Gesundheitszustand selbst beurteilen zu müssen.",
+      "contextEn": "Asking how to handle unclear situations helps you feel more prepared, without needing to judge your own health status on your own.",
+      "whenToAskPl": "Możesz zapytać o to przy każdej wizycie, szczególnie jeśli wcześniej czułaś niepewność.",
+      "whenToAskDe": "Sie können dies bei jedem Termin ansprechen, besonders wenn Sie sich zuvor unsicher gefühlt haben.",
+      "whenToAskEn": "You can ask this at any appointment, especially if you've felt unsure before.",
+      "relatedModules": [
+        "ai_guardian",
+        "red_flags",
+        "doctor"
+      ]
+    },
+    {
+      "id": "rf_who_to_contact_outside_office_hours",
+      "category": "red_flags",
+      "priority": "medium",
+      "titlePl": "Kontakt poza godzinami pracy przychodni",
+      "titleDe": "Kontakt außerhalb der Sprechstundenzeiten",
+      "titleEn": "Contact outside regular office hours",
+      "questionPl": "Z kim powinnam się skontaktować poza godzinami pracy przychodni, jeśli czuję się niedobrze?",
+      "questionDe": "An wen sollte ich mich außerhalb der Sprechstundenzeiten wenden, wenn ich mich nicht gut fühle?",
+      "questionEn": "Who should I contact outside regular office hours if I'm not feeling well?",
+      "contextPl": "Objawy mogą wystąpić w nocy lub w weekend. Warto wcześniej znać dostępne opcje kontaktu w Twojej okolicy.",
+      "contextDe": "Symptome können nachts oder am Wochenende auftreten. Es lohnt sich, die verfügbaren Kontaktmöglichkeiten in Ihrer Umgebung vorher zu kennen.",
+      "contextEn": "Symptoms can appear at night or on a weekend. It helps to know the available contact options in your area ahead of time.",
+      "whenToAskPl": "Zapytaj o to wcześnie w ciąży, aby mieć te informacje zapisane na wszelki wypadek.",
+      "whenToAskDe": "Fragen Sie dies früh in der Schwangerschaft, um die Informationen für alle Fälle bereit zu haben.",
+      "whenToAskEn": "Ask this early in pregnancy so you have the information on hand just in case.",
+      "relatedModules": [
+        "ai_guardian",
+        "red_flags",
+        "doctor"
+      ]
+    },
+    {
+      "id": "bm_when_to_report_reduced_movements",
+      "category": "baby_movements",
+      "priority": "high",
+      "titlePl": "Kiedy zgłosić zmniejszone ruchy dziecka",
+      "titleDe": "Wann verringerte Kindsbewegungen gemeldet werden sollten",
+      "titleEn": "When to report reduced baby movements",
+      "questionPl": "Kiedy powinnam zgłosić zmniejszone ruchy dziecka?",
+      "questionDe": "Wann sollte ich verringerte Kindsbewegungen melden?",
+      "questionEn": "When should I report reduced baby movements?",
+      "contextPl": "Ruchy dziecka mogą się zmieniać, ale zauważalna zmiana warta jest rozmowy z położną lub lekarzem bez odkładania na później.",
+      "contextDe": "Kindsbewegungen können sich verändern, aber eine auffällige Veränderung ist es wert, ohne Aufschub mit Hebamme oder Arzt besprochen zu werden.",
+      "contextEn": "Baby movements can change, but a noticeable change is worth discussing with your midwife or doctor without delay.",
+      "whenToAskPl": "Zapytaj o to wcześnie w trzecim trymestrze, abyś wiedziała, na co zwracać uwagę.",
+      "whenToAskDe": "Fragen Sie dies früh im dritten Trimester, damit Sie wissen, worauf Sie achten sollten.",
+      "whenToAskEn": "Ask this early in the third trimester so you know what to watch for.",
+      "relatedModules": [
+        "ai_guardian",
+        "baby_movements",
+        "movement",
+        "red_flags",
+        "doctor"
+      ]
+    },
+    {
+      "id": "bm_from_which_week_to_track",
+      "category": "baby_movements",
+      "priority": "medium",
+      "titlePl": "Od którego tygodnia śledzić ruchy dziecka",
+      "titleDe": "Ab welcher Woche Kindsbewegungen beobachtet werden sollten",
+      "titleEn": "From which week to track baby movements",
+      "questionPl": "Od którego tygodnia ciąży powinnam zwracać szczególną uwagę na ruchy dziecka?",
+      "questionDe": "Ab welcher Schwangerschaftswoche sollte ich besonders auf die Kindsbewegungen achten?",
+      "questionEn": "From which week of pregnancy should I pay particular attention to my baby's movements?",
+      "contextPl": "Świadomość ruchów dziecka rośnie z czasem. Lekarz lub położna może wskazać, kiedy zacząć zwracać na nie szczególną uwagę w Twojej sytuacji.",
+      "contextDe": "Das Bewusstsein für Kindsbewegungen nimmt mit der Zeit zu. Arzt oder Hebamme können angeben, wann Sie in Ihrer Situation besonders darauf achten sollten.",
+      "contextEn": "Awareness of baby movements increases over time. Your doctor or midwife can advise when to start paying particular attention in your situation.",
+      "whenToAskPl": "Dobry temat na wizytę w drugim trymestrze.",
+      "whenToAskDe": "Ein guter Punkt für einen Termin im zweiten Trimester.",
+      "whenToAskEn": "A good topic for a second-trimester appointment.",
+      "relatedModules": [
+        "ai_guardian",
+        "baby_movements",
+        "movement",
+        "doctor"
+      ]
+    },
+    {
+      "id": "bm_what_is_a_normal_pattern_for_me",
+      "category": "baby_movements",
+      "priority": "low",
+      "titlePl": "Jak wygląda normalny wzorzec ruchów w mojej sytuacji",
+      "titleDe": "Wie sieht ein normales Bewegungsmuster in meiner Situation aus",
+      "titleEn": "What a normal movement pattern looks like for me",
+      "questionPl": "Jak wygląda normalny wzorzec ruchów dziecka w mojej sytuacji?",
+      "questionDe": "Wie sieht ein normales Bewegungsmuster meines Kindes in meiner Situation aus?",
+      "questionEn": "What does a normal baby movement pattern look like for my situation?",
+      "contextPl": "Wzorce ruchów różnią się między ciążami. Rozmowa o tym, co jest typowe dla Ciebie, pomaga lepiej zauważyć rzeczywiste zmiany.",
+      "contextDe": "Bewegungsmuster unterscheiden sich von Schwangerschaft zu Schwangerschaft. Ein Gespräch darüber, was für Sie typisch ist, hilft, echte Veränderungen besser zu erkennen.",
+      "contextEn": "Movement patterns differ between pregnancies. Talking about what's typical for you helps you notice real changes more easily.",
+      "whenToAskPl": "Możesz zapytać o to, gdy zaczynasz regularnie czuć ruchy dziecka.",
+      "whenToAskDe": "Sie können dies fragen, sobald Sie regelmäßig Kindsbewegungen spüren.",
+      "whenToAskEn": "You can ask this once you start feeling your baby's movements regularly.",
+      "relatedModules": [
+        "ai_guardian",
+        "baby_movements",
+        "movement"
+      ]
+    },
+    {
+      "id": "pw_what_is_typical_for_my_week",
+      "category": "pregnancy_week",
+      "priority": "low",
+      "titlePl": "Co jest typowe dla mojego tygodnia ciąży",
+      "titleDe": "Was ist typisch für meine Schwangerschaftswoche",
+      "titleEn": "What's typical for my week of pregnancy",
+      "questionPl": "Co jest typowe dla mojego aktualnego tygodnia ciąży?",
+      "questionDe": "Was ist typisch für meine aktuelle Schwangerschaftswoche?",
+      "questionEn": "What's typical for my current week of pregnancy?",
+      "contextPl": "Każdy etap ciąży ma swoje charakterystyczne zmiany. Rozmowa o tym pomaga zorientować się, czego można się spodziewać.",
+      "contextDe": "Jeder Abschnitt der Schwangerschaft bringt charakteristische Veränderungen mit sich. Ein Gespräch darüber hilft einzuordnen, was zu erwarten ist.",
+      "contextEn": "Each stage of pregnancy brings its own characteristic changes. Talking about this helps you understand what to expect.",
+      "whenToAskPl": "Możesz zadać to pytanie przy każdej rutynowej wizycie.",
+      "whenToAskDe": "Sie können diese Frage bei jedem Routinetermin stellen.",
+      "whenToAskEn": "You can ask this at any routine appointment.",
+      "relatedModules": [
+        "ai_guardian",
+        "pregnancy",
+        "doctor"
+      ]
+    },
+    {
+      "id": "pw_what_to_watch_for_in_coming_weeks",
+      "category": "pregnancy_week",
+      "priority": "medium",
+      "titlePl": "Na co zwrócić uwagę w nadchodzących tygodniach",
+      "titleDe": "Worauf in den kommenden Wochen geachtet werden sollte",
+      "titleEn": "What to watch for in the coming weeks",
+      "questionPl": "Na co powinnam zwrócić uwagę w nadchodzących tygodniach ciąży?",
+      "questionDe": "Worauf sollte ich in den kommenden Schwangerschaftswochen achten?",
+      "questionEn": "What should I watch for in the coming weeks of pregnancy?",
+      "contextPl": "Niektóre zmiany są częstsze w określonych etapach ciąży. Wiedza o tym pomaga rozpoznać, co warto obserwować.",
+      "contextDe": "Manche Veränderungen treten häufiger in bestimmten Phasen der Schwangerschaft auf. Dieses Wissen hilft zu erkennen, was beobachtet werden sollte.",
+      "contextEn": "Certain changes are more common at particular stages of pregnancy. Knowing this helps you recognize what's worth keeping an eye on.",
+      "whenToAskPl": "Zapytaj o to pod koniec każdej wizyty kontrolnej.",
+      "whenToAskDe": "Fragen Sie dies gegen Ende jedes Vorsorgetermins.",
+      "whenToAskEn": "Ask this toward the end of each check-up.",
+      "relatedModules": [
+        "ai_guardian",
+        "pregnancy",
+        "doctor"
+      ]
+    },
+    {
+      "id": "pw_is_my_wellbeing_in_line_with_my_week",
+      "category": "pregnancy_week",
+      "priority": "medium",
+      "titlePl": "Czy moje samopoczucie jest zgodne z tygodniem ciąży",
+      "titleDe": "Stimmt mein Befinden mit meiner Schwangerschaftswoche überein",
+      "titleEn": "Does how I feel match my week of pregnancy",
+      "questionPl": "Czy moje samopoczucie jest zgodne z tygodniem ciąży, w którym jestem?",
+      "questionDe": "Stimmt mein Befinden mit der Schwangerschaftswoche überein, in der ich mich befinde?",
+      "questionEn": "Does how I'm feeling match the week of pregnancy I'm currently in?",
+      "contextPl": "To pytanie pomaga lekarzowi lub położnej ocenić Twoje samopoczucie w kontekście całej ciąży, a nie tylko jednego objawu.",
+      "contextDe": "Diese Frage hilft Arzt oder Hebamme, Ihr Befinden im Kontext der gesamten Schwangerschaft einzuordnen, nicht nur anhand eines einzelnen Symptoms.",
+      "contextEn": "This question helps your doctor or midwife look at how you're feeling in the context of your whole pregnancy, not just one symptom.",
+      "whenToAskPl": "Dobry temat na każdą rutynową wizytę, jeśli masz wątpliwości.",
+      "whenToAskDe": "Ein guter Punkt für jeden Routinetermin, wenn Sie unsicher sind.",
+      "whenToAskEn": "A good topic for any routine visit if you have doubts.",
+      "relatedModules": [
+        "ai_guardian",
+        "pregnancy",
+        "doctor"
+      ]
+    },
+    {
+      "id": "doc_documents_to_prepare_for_birth",
+      "category": "documents_formalities",
+      "priority": "medium",
+      "titlePl": "Dokumenty do przygotowania na poród",
+      "titleDe": "Für die Geburt vorzubereitende Unterlagen",
+      "titleEn": "Documents to prepare for the birth",
+      "questionPl": "Jakie dokumenty muszę przygotować do porodu?",
+      "questionDe": "Welche Unterlagen muss ich für die Geburt vorbereiten?",
+      "questionEn": "What documents do I need to prepare for the birth?",
+      "contextPl": "Przygotowanie dokumentów z wyprzedzeniem pomaga zmniejszyć stres organizacyjny w okresie porodu.",
+      "contextDe": "Unterlagen frühzeitig vorzubereiten hilft, organisatorischen Stress rund um die Geburt zu verringern.",
+      "contextEn": "Preparing documents in advance helps reduce organizational stress around the time of birth.",
+      "whenToAskPl": "Zapytaj o to w trzecim trymestrze, z odpowiednim wyprzedzeniem przed terminem porodu.",
+      "whenToAskDe": "Fragen Sie dies im dritten Trimester, mit ausreichendem Vorlauf vor dem errechneten Termin.",
+      "whenToAskEn": "Ask this in the third trimester, with enough time before your due date.",
+      "relatedModules": [
+        "documents_formalities",
+        "birth_preparation",
+        "doctor"
+      ]
+    },
+    {
+      "id": "doc_mutterschutz_timeline",
+      "category": "documents_formalities",
+      "priority": "medium",
+      "titlePl": "Formalności związane z Mutterschutz",
+      "titleDe": "Formalitäten rund um den Mutterschutz",
+      "titleEn": "Formalities around Mutterschutz (maternity protection)",
+      "questionPl": "Jakie formalności związane z Mutterschutz powinnam załatwić i kiedy?",
+      "questionDe": "Welche Formalitäten rund um den Mutterschutz sollte ich erledigen und wann?",
+      "questionEn": "What Mutterschutz (maternity protection) formalities should I take care of, and when?",
+      "contextPl": "Mutterschutz to niemiecka ochrona prawna dla pracujących kobiet w ciąży. Terminy i wymagane dokumenty mogą zależeć od pracodawcy i Twojej sytuacji.",
+      "contextDe": "Der Mutterschutz ist der gesetzliche Schutz für berufstätige Schwangere in Deutschland. Termine und erforderliche Unterlagen können je nach Arbeitgeber und Situation variieren.",
+      "contextEn": "Mutterschutz is the legal maternity protection for working pregnant women in Germany. Deadlines and required documents can vary depending on your employer and situation.",
+      "whenToAskPl": "Zapytaj o to wcześnie w ciąży, jeśli pracujesz w Niemczech, aby mieć czas na formalności.",
+      "whenToAskDe": "Fragen Sie dies früh in der Schwangerschaft, wenn Sie in Deutschland arbeiten, um Zeit für die Formalitäten zu haben.",
+      "whenToAskEn": "Ask this early in pregnancy if you work in Germany, to leave time for the paperwork.",
+      "relatedModules": [
+        "documents_formalities",
+        "doctor"
+      ]
+    },
+    {
+      "id": "doc_elterngeld_application",
+      "category": "documents_formalities",
+      "priority": "low",
+      "titlePl": "Wniosek o Elterngeld",
+      "titleDe": "Antrag auf Elterngeld",
+      "titleEn": "Applying for Elterngeld (parental allowance)",
+      "questionPl": "Jak i kiedy powinnam złożyć wniosek o Elterngeld?",
+      "questionDe": "Wie und wann sollte ich den Antrag auf Elterngeld stellen?",
+      "questionEn": "How and when should I apply for Elterngeld (parental allowance)?",
+      "contextPl": "Elterngeld to niemieckie świadczenie rodzicielskie. Procedura i terminy zgłoszeń mogą się różnić w zależności od sytuacji rodzinnej.",
+      "contextDe": "Elterngeld ist die deutsche Familienleistung für Eltern. Verfahren und Fristen können je nach familiärer Situation unterschiedlich sein.",
+      "contextEn": "Elterngeld is the German parental benefit. The procedure and deadlines can vary depending on family circumstances.",
+      "whenToAskPl": "To temat do omówienia z odpowiednim urzędem lub doradcą, najlepiej jeszcze przed porodem.",
+      "whenToAskDe": "Dies ist ein Thema für die zuständige Behörde oder Beratungsstelle, am besten schon vor der Geburt.",
+      "whenToAskEn": "This is a topic for the relevant office or advisor, ideally before the birth.",
+      "relatedModules": [
+        "documents_formalities"
+      ]
+    },
+    {
+      "id": "doc_kindergeld_after_birth",
+      "category": "documents_formalities",
+      "priority": "low",
+      "titlePl": "Dokumenty do Kindergeld po porodzie",
+      "titleDe": "Unterlagen für das Kindergeld nach der Geburt",
+      "titleEn": "Documents for Kindergeld (child benefit) after birth",
+      "questionPl": "Jakie dokumenty są potrzebne do złożenia wniosku o Kindergeld po porodzie?",
+      "questionDe": "Welche Unterlagen werden für den Antrag auf Kindergeld nach der Geburt benötigt?",
+      "questionEn": "What documents are needed to apply for Kindergeld (child benefit) after the birth?",
+      "contextPl": "Kindergeld to niemieckie świadczenie na dziecko. Wniosek zwykle wymaga aktu urodzenia i innych dokumentów rodzinnych.",
+      "contextDe": "Kindergeld ist die deutsche Familienleistung für Kinder. Der Antrag erfordert in der Regel die Geburtsurkunde und weitere familiäre Unterlagen.",
+      "contextEn": "Kindergeld is the German child benefit. The application usually requires the birth certificate and other family documents.",
+      "whenToAskPl": "Dobry moment, by to zaplanować, to ostatnie tygodnie ciąży lub krótko po porodzie.",
+      "whenToAskDe": "Ein guter Zeitpunkt zur Planung sind die letzten Schwangerschaftswochen oder die Zeit kurz nach der Geburt.",
+      "whenToAskEn": "A good time to plan this is the last weeks of pregnancy or shortly after birth.",
+      "relatedModules": [
+        "documents_formalities"
+      ]
+    },
+    {
+      "id": "ta_which_tests_in_coming_weeks",
+      "category": "tests_appointments",
+      "priority": "medium",
+      "titlePl": "Badania w najbliższych tygodniach",
+      "titleDe": "Untersuchungen in den kommenden Wochen",
+      "titleEn": "Tests in the coming weeks",
+      "questionPl": "Jakie badania powinnam mieć w najbliższych tygodniach?",
+      "questionDe": "Welche Untersuchungen sollte ich in den kommenden Wochen haben?",
+      "questionEn": "What tests should I have in the coming weeks?",
+      "contextPl": "Harmonogram badań różni się w zależności od etapu ciąży i indywidualnej sytuacji zdrowotnej.",
+      "contextDe": "Der Untersuchungsplan unterscheidet sich je nach Schwangerschaftsphase und individueller Gesundheitssituation.",
+      "contextEn": "The schedule of tests varies depending on the stage of pregnancy and individual health circumstances.",
+      "whenToAskPl": "Zapytaj o to na koniec każdej wizyty kontrolnej, planując kolejne kroki.",
+      "whenToAskDe": "Fragen Sie dies am Ende jedes Vorsorgetermins, um die nächsten Schritte zu planen.",
+      "whenToAskEn": "Ask this at the end of each check-up, when planning next steps.",
+      "relatedModules": [
+        "tests_appointments",
+        "pregnancy",
+        "doctor"
+      ]
+    },
+    {
+      "id": "ta_how_often_should_i_have_checkups",
+      "category": "tests_appointments",
+      "priority": "low",
+      "titlePl": "Częstotliwość wizyt kontrolnych",
+      "titleDe": "Häufigkeit der Vorsorgetermine",
+      "titleEn": "Frequency of check-up appointments",
+      "questionPl": "Jak często powinnam mieć wizyty kontrolne w mojej sytuacji?",
+      "questionDe": "Wie oft sollte ich in meiner Situation Vorsorgetermine haben?",
+      "questionEn": "How often should I have check-up appointments in my situation?",
+      "contextPl": "Częstotliwość wizyt może zależeć od etapu ciąży oraz indywidualnych czynników zdrowotnych.",
+      "contextDe": "Die Häufigkeit der Termine kann von der Schwangerschaftsphase und individuellen gesundheitlichen Faktoren abhängen.",
+      "contextEn": "How often you're seen can depend on the stage of pregnancy and individual health factors.",
+      "whenToAskPl": "Dobry temat na pierwszą wizytę prowadzącą ciążę.",
+      "whenToAskDe": "Ein guter Punkt für den ersten Schwangerschaftsvorsorgetermin.",
+      "whenToAskEn": "A good topic for your first prenatal appointment.",
+      "relatedModules": [
+        "tests_appointments",
+        "doctor"
+      ]
+    },
+    {
+      "id": "ta_what_do_my_recent_results_mean",
+      "category": "tests_appointments",
+      "priority": "medium",
+      "titlePl": "Znaczenie ostatnich wyników badań",
+      "titleDe": "Bedeutung der letzten Untersuchungsergebnisse",
+      "titleEn": "What my recent test results mean",
+      "questionPl": "Co oznaczają wyniki moich ostatnich badań?",
+      "questionDe": "Was bedeuten die Ergebnisse meiner letzten Untersuchungen?",
+      "questionEn": "What do my recent test results mean?",
+      "contextPl": "Wyniki badań najlepiej rozumieć w rozmowie z lekarzem, który znajduje pełny obraz Twojej sytuacji zdrowotnej.",
+      "contextDe": "Untersuchungsergebnisse lassen sich am besten im Gespräch mit dem Arzt verstehen, der den vollständigen Überblick über Ihre Gesundheitssituation hat.",
+      "contextEn": "Test results are best understood through a conversation with your doctor, who has the full picture of your health situation.",
+      "whenToAskPl": "Zapytaj o to na wizycie następującej po otrzymaniu wyników.",
+      "whenToAskDe": "Fragen Sie dies beim Termin nach Erhalt der Ergebnisse.",
+      "whenToAskEn": "Ask this at the appointment after you receive your results.",
+      "relatedModules": [
+        "tests_appointments",
+        "doctor"
+      ]
+    },
+    {
+      "id": "ns_which_supplements_do_i_need",
+      "category": "nutrition_supplements",
+      "priority": "medium",
+      "titlePl": "Potrzebne suplementy",
+      "titleDe": "Benötigte Nahrungsergänzungsmittel",
+      "titleEn": "Supplements I may need",
+      "questionPl": "Jakie suplementy są dla mnie potrzebne, a czego nie powinnam brać bez konsultacji?",
+      "questionDe": "Welche Nahrungsergänzungsmittel benötige ich und welche sollte ich nicht ohne Rücksprache einnehmen?",
+      "questionEn": "Which supplements do I need, and which should I avoid taking without checking first?",
+      "contextPl": "Potrzeby w zakresie suplementacji są indywidualne. Lekarz lub położna mogą pomóc ustalić, co jest odpowiednie w Twojej sytuacji.",
+      "contextDe": "Der Bedarf an Nahrungsergänzungsmitteln ist individuell. Arzt oder Hebamme können helfen festzustellen, was in Ihrer Situation geeignet ist.",
+      "contextEn": "Supplement needs are individual. A doctor or midwife can help determine what's appropriate for your situation.",
+      "whenToAskPl": "Zapytaj o to na początku ciąży i ponownie, jeśli planujesz zmianę suplementów.",
+      "whenToAskDe": "Fragen Sie dies am Anfang der Schwangerschaft und erneut, wenn Sie eine Änderung der Nahrungsergänzungsmittel planen.",
+      "whenToAskEn": "Ask this early in pregnancy, and again if you're considering changing your supplements.",
+      "relatedModules": [
+        "nutrition_supplements",
+        "medications",
+        "doctor"
+      ]
+    },
+    {
+      "id": "ns_does_my_diet_meet_my_needs",
+      "category": "nutrition_supplements",
+      "priority": "low",
+      "titlePl": "Czy moja dieta pokrywa potrzeby ciąży",
+      "titleDe": "Deckt meine Ernährung den Bedarf der Schwangerschaft",
+      "titleEn": "Does my diet meet the needs of pregnancy",
+      "questionPl": "Czy moja dieta pokrywa potrzeby w mojej ciąży?",
+      "questionDe": "Deckt meine Ernährung den Bedarf in meiner Schwangerschaft?",
+      "questionEn": "Does my diet meet the needs of my pregnancy?",
+      "contextPl": "Potrzeby odżywcze zmieniają się w czasie ciąży. Rozmowa o codziennej diecie pomaga dostrzec, co warto omówić z lekarzem lub dietetykiem.",
+      "contextDe": "Der Nährstoffbedarf verändert sich im Verlauf der Schwangerschaft. Ein Gespräch über die tägliche Ernährung hilft zu erkennen, was mit Arzt oder Ernährungsberatung besprochen werden sollte.",
+      "contextEn": "Nutritional needs change over the course of pregnancy. Talking about your everyday diet helps identify what's worth discussing with a doctor or dietitian.",
+      "whenToAskPl": "Dobry temat na wizytę w każdym trymestrze.",
+      "whenToAskDe": "Ein guter Punkt für einen Termin in jedem Trimester.",
+      "whenToAskEn": "A good topic for an appointment in any trimester.",
+      "relatedModules": [
+        "nutrition_supplements",
+        "doctor"
+      ]
+    },
+    {
+      "id": "ns_what_to_avoid_eating_drinking",
+      "category": "nutrition_supplements",
+      "priority": "medium",
+      "titlePl": "Czego unikać w jedzeniu i piciu",
+      "titleDe": "Was bei Essen und Trinken vermieden werden sollte",
+      "titleEn": "What to avoid eating and drinking",
+      "questionPl": "Czego powinnam unikać w jedzeniu i piciu w mojej sytuacji?",
+      "questionDe": "Was sollte ich in meiner Situation bei Essen und Trinken vermeiden?",
+      "questionEn": "What should I avoid eating and drinking in my situation?",
+      "contextPl": "Niektóre produkty spożywcze wymagają większej ostrożności w ciąży. Lekarz lub dietetyk może dopasować wskazówki do Twojej sytuacji.",
+      "contextDe": "Manche Lebensmittel erfordern in der Schwangerschaft besondere Vorsicht. Arzt oder Ernährungsberatung können Hinweise an Ihre Situation anpassen.",
+      "contextEn": "Some foods call for extra caution during pregnancy. A doctor or dietitian can tailor advice to your situation.",
+      "whenToAskPl": "Zapytaj o to wcześnie w ciąży, aby mieć jasność na co dzień.",
+      "whenToAskDe": "Fragen Sie dies früh in der Schwangerschaft, um im Alltag Klarheit zu haben.",
+      "whenToAskEn": "Ask this early in pregnancy so you have clarity for everyday choices.",
+      "relatedModules": [
+        "nutrition_supplements",
+        "doctor"
+      ]
+    },
+    {
+      "id": "me_can_i_exercise_stretch_pilates",
+      "category": "movement_exercise",
+      "priority": "medium",
+      "titlePl": "Ćwiczenia, rozciąganie i pilates",
+      "titleDe": "Sport, Dehnübungen und Pilates",
+      "titleEn": "Exercise, stretching, and pilates",
+      "questionPl": "Czy mogę wykonywać ćwiczenia, rozciąganie lub pilates w mojej sytuacji?",
+      "questionDe": "Kann ich in meiner Situation Sport, Dehnübungen oder Pilates machen?",
+      "questionEn": "Can I do exercise, stretching, or pilates in my situation?",
+      "contextPl": "Aktywność fizyczna w ciąży jest często korzystna, ale jej rodzaj i intensywność warto dopasować do indywidualnej sytuacji zdrowotnej.",
+      "contextDe": "Körperliche Aktivität in der Schwangerschaft ist oft vorteilhaft, Art und Intensität sollten jedoch an die individuelle Gesundheitssituation angepasst werden.",
+      "contextEn": "Physical activity in pregnancy is often beneficial, but the type and intensity are worth tailoring to your individual health situation.",
+      "whenToAskPl": "Zapytaj o to przed rozpoczęciem nowej formy aktywności fizycznej.",
+      "whenToAskDe": "Fragen Sie dies, bevor Sie eine neue Form körperlicher Aktivität beginnen.",
+      "whenToAskEn": "Ask this before starting a new form of physical activity.",
+      "relatedModules": [
+        "movement_exercise",
+        "movement",
+        "doctor"
+      ]
+    },
+    {
+      "id": "me_warning_signs_during_exercise",
+      "category": "movement_exercise",
+      "priority": "high",
+      "titlePl": "Objawy podczas ćwiczeń wymagające przerwania",
+      "titleDe": "Warnzeichen während des Sports, bei denen abgebrochen werden sollte",
+      "titleEn": "Warning signs during exercise that mean stopping",
+      "questionPl": "Jakie objawy podczas ćwiczeń oznaczają, że mam przerwać i skontaktować się z lekarzem?",
+      "questionDe": "Welche Symptome während des Sports bedeuten, dass ich abbrechen und den Arzt kontaktieren sollte?",
+      "questionEn": "What symptoms during exercise mean I should stop and contact my doctor?",
+      "contextPl": "Znajomość sygnałów ostrzegawczych pomaga aktywnie i bezpiecznie korzystać z ruchu w ciąży.",
+      "contextDe": "Warnzeichen zu kennen, hilft, sich in der Schwangerschaft aktiv und sicher zu bewegen.",
+      "contextEn": "Knowing the warning signs helps you stay active and safe during pregnancy.",
+      "whenToAskPl": "Zapytaj o to razem z pytaniem o dozwolone formy aktywności fizycznej.",
+      "whenToAskDe": "Fragen Sie dies zusammen mit der Frage nach geeigneten Formen körperlicher Aktivität.",
+      "whenToAskEn": "Ask this alongside the question about suitable forms of physical activity.",
+      "relatedModules": [
+        "movement_exercise",
+        "movement",
+        "red_flags",
+        "doctor"
+      ]
+    },
+    {
+      "id": "me_what_activity_can_i_safely_continue",
+      "category": "movement_exercise",
+      "priority": "low",
+      "titlePl": "Jaką aktywność mogę bezpiecznie kontynuować",
+      "titleDe": "Welche Aktivität kann ich sicher fortsetzen",
+      "titleEn": "What activity can I safely continue",
+      "questionPl": "Jaką aktywność fizyczną, którą wykonywałam wcześniej, mogę bezpiecznie kontynuować?",
+      "questionDe": "Welche körperliche Aktivität, die ich vorher ausgeübt habe, kann ich sicher fortsetzen?",
+      "questionEn": "What physical activity I did before can I safely continue?",
+      "contextPl": "Wiele osób kontynuuje wcześniejszą aktywność fizyczną w ciąży z pewnymi modyfikacjami. Lekarz może pomóc ocenić, co jest odpowiednie.",
+      "contextDe": "Viele Menschen setzen ihre bisherige körperliche Aktivität in der Schwangerschaft mit gewissen Anpassungen fort. Der Arzt kann helfen einzuschätzen, was geeignet ist.",
+      "contextEn": "Many people continue their previous physical activity during pregnancy with some adjustments. Your doctor can help assess what's suitable.",
+      "whenToAskPl": "Dobry temat na pierwszą wizytę, jeśli regularnie ćwiczyłaś przed ciążą.",
+      "whenToAskDe": "Ein guter Punkt für den ersten Termin, wenn Sie vor der Schwangerschaft regelmäßig Sport getrieben haben.",
+      "whenToAskEn": "A good topic for your first appointment if you exercised regularly before pregnancy.",
+      "relatedModules": [
+        "movement_exercise",
+        "movement",
+        "doctor"
+      ]
+    },
+    {
+      "id": "bp_what_to_ask_before_birth",
+      "category": "birth_preparation",
+      "priority": "medium",
+      "titlePl": "O co zapytać przed porodem",
+      "titleDe": "Was vor der Geburt gefragt werden sollte",
+      "titleEn": "What to ask before the birth",
+      "questionPl": "O co powinnam zapytać przed porodem?",
+      "questionDe": "Was sollte ich vor der Geburt fragen?",
+      "questionEn": "What should I ask before the birth?",
+      "contextPl": "Przygotowanie listy pytań do lekarza lub położnej pomaga poczuć się spokojniej przed porodem.",
+      "contextDe": "Eine Liste von Fragen für Arzt oder Hebamme vorzubereiten, hilft, sich vor der Geburt ruhiger zu fühlen.",
+      "contextEn": "Preparing a list of questions for your doctor or midwife helps you feel calmer ahead of the birth.",
+      "whenToAskPl": "Zapytaj o to na jednej z wizyt w trzecim trymestrze.",
+      "whenToAskDe": "Fragen Sie dies bei einem der Termine im dritten Trimester.",
+      "whenToAskEn": "Ask this at one of your third-trimester appointments.",
+      "relatedModules": [
+        "birth_preparation",
+        "doctor"
+      ]
+    },
+    {
+      "id": "bp_what_to_bring_to_appointment_or_hospital",
+      "category": "birth_preparation",
+      "priority": "low",
+      "titlePl": "Co zabrać na wizytę lub do szpitala",
+      "titleDe": "Was zum Termin oder ins Krankenhaus mitgebracht werden sollte",
+      "titleEn": "What to bring to the appointment or hospital",
+      "questionPl": "Co powinnam zabrać na wizytę / do szpitala?",
+      "questionDe": "Was sollte ich zum Termin / ins Krankenhaus mitbringen?",
+      "questionEn": "What should I bring to the appointment / to the hospital?",
+      "contextPl": "Lista potrzebnych rzeczy i dokumentów ułatwia przygotowanie się na wizyty oraz na pobyt w szpitalu.",
+      "contextDe": "Eine Liste benötigter Dinge und Unterlagen erleichtert die Vorbereitung auf Termine und den Krankenhausaufenthalt.",
+      "contextEn": "A list of needed items and documents makes it easier to prepare for appointments and a hospital stay.",
+      "whenToAskPl": "Zapytaj o to z wyprzedzeniem przed planowaną wizytą lub terminem porodu.",
+      "whenToAskDe": "Fragen Sie dies im Voraus vor dem geplanten Termin oder dem errechneten Geburtstermin.",
+      "whenToAskEn": "Ask this ahead of a planned appointment or your expected due date.",
+      "relatedModules": [
+        "birth_preparation",
+        "documents_formalities",
+        "doctor"
+      ]
+    },
+    {
+      "id": "bp_how_to_prepare_birth_plan",
+      "category": "birth_preparation",
+      "priority": "low",
+      "titlePl": "Przygotowanie planu porodu",
+      "titleDe": "Vorbereitung eines Geburtsplans",
+      "titleEn": "Preparing a birth plan",
+      "questionPl": "Jak mogę przygotować plan porodu wspólnie z lekarzem lub położną?",
+      "questionDe": "Wie kann ich gemeinsam mit Arzt oder Hebamme einen Geburtsplan vorbereiten?",
+      "questionEn": "How can I prepare a birth plan together with my doctor or midwife?",
+      "contextPl": "Plan porodu pomaga uporządkować preferencje i pytania, które chcesz omówić przed porodem.",
+      "contextDe": "Ein Geburtsplan hilft, Wünsche und Fragen zu ordnen, die vor der Geburt besprochen werden sollen.",
+      "contextEn": "A birth plan helps organize the preferences and questions you want to discuss before the birth.",
+      "whenToAskPl": "Dobry temat na wizyty w trzecim trymestrze.",
+      "whenToAskDe": "Ein guter Punkt für Termine im dritten Trimester.",
+      "whenToAskEn": "A good topic for appointments in the third trimester.",
+      "relatedModules": [
+        "birth_preparation",
+        "doctor"
+      ]
+    },
+    {
+      "id": "mw_who_to_talk_to_when_overwhelmed",
+      "category": "mental_wellbeing",
+      "priority": "medium",
+      "titlePl": "Z kim rozmawiać, gdy czuję się przytłoczona",
+      "titleDe": "Mit wem sprechen, wenn ich mich überfordert fühle",
+      "titleEn": "Who to talk to when feeling overwhelmed",
+      "questionPl": "Z kim mogę porozmawiać, jeśli czuję się przytłoczona lub mam niepokój związany z ciążą?",
+      "questionDe": "Mit wem kann ich sprechen, wenn ich mich überfordert fühle oder Sorgen wegen der Schwangerschaft habe?",
+      "questionEn": "Who can I talk to if I feel overwhelmed or anxious about my pregnancy?",
+      "contextPl": "Wsparcie emocjonalne jest częścią opieki w ciąży. Lekarz lub położna mogą wskazać dostępne formy pomocy.",
+      "contextDe": "Emotionale Unterstützung ist Teil der Schwangerschaftsbetreuung. Arzt oder Hebamme können auf verfügbare Hilfsangebote hinweisen.",
+      "contextEn": "Emotional support is part of pregnancy care. A doctor or midwife can point you to the support options available.",
+      "whenToAskPl": "Zapytaj o to w każdej chwili, gdy czujesz taką potrzebę.",
+      "whenToAskDe": "Fragen Sie dies jederzeit, wenn Sie das Bedürfnis dazu verspüren.",
+      "whenToAskEn": "Ask this any time you feel the need.",
+      "relatedModules": [
+        "mental_wellbeing",
+        "doctor"
+      ]
+    },
+    {
+      "id": "mw_which_mood_changes_to_report",
+      "category": "mental_wellbeing",
+      "priority": "medium",
+      "titlePl": "Jakie zmiany nastroju zgłosić",
+      "titleDe": "Welche Stimmungsveränderungen gemeldet werden sollten",
+      "titleEn": "Which mood changes to report",
+      "questionPl": "Jakie zmiany samopoczucia psychicznego powinnam zgłosić lekarzowi lub położnej?",
+      "questionDe": "Welche Veränderungen meines seelischen Wohlbefindens sollte ich Arzt oder Hebamme melden?",
+      "questionEn": "What changes in my mental wellbeing should I mention to my doctor or midwife?",
+      "contextPl": "Samopoczucie psychiczne jest ważną częścią zdrowia w ciąży, podobnie jak zdrowie fizyczne.",
+      "contextDe": "Das seelische Wohlbefinden ist ein wichtiger Teil der Gesundheit in der Schwangerschaft, ebenso wie die körperliche Gesundheit.",
+      "contextEn": "Mental wellbeing is an important part of health in pregnancy, just like physical health.",
+      "whenToAskPl": "Zapytaj o to na każdej wizycie, jeśli zauważasz zmiany w swoim samopoczuciu.",
+      "whenToAskDe": "Fragen Sie dies bei jedem Termin, wenn Sie Veränderungen Ihres Befindens bemerken.",
+      "whenToAskEn": "Ask this at any appointment if you notice changes in how you're feeling.",
+      "relatedModules": [
+        "mental_wellbeing",
+        "doctor"
+      ]
+    },
+    {
+      "id": "mw_normal_stress_vs_needing_support",
+      "category": "mental_wellbeing",
+      "priority": "low",
+      "titlePl": "Normalny stres a potrzeba wsparcia specjalisty",
+      "titleDe": "Normaler Stress oder Bedarf an fachlicher Unterstützung",
+      "titleEn": "Normal stress versus needing professional support",
+      "questionPl": "Jak rozróżnić normalny stres związany z ciążą od czegoś, co wymaga wsparcia specjalisty?",
+      "questionDe": "Wie kann ich normalen schwangerschaftsbedingten Stress von etwas unterscheiden, das fachliche Unterstützung erfordert?",
+      "questionEn": "How can I tell the difference between normal pregnancy-related stress and something that needs professional support?",
+      "contextPl": "Granica między codziennym stresem a potrzebą dodatkowego wsparcia bywa niejasna. Rozmowa z lekarzem lub położną pomaga to lepiej zrozumieć.",
+      "contextDe": "Die Grenze zwischen alltäglichem Stress und dem Bedarf an zusätzlicher Unterstützung ist manchmal unklar. Ein Gespräch mit Arzt oder Hebamme hilft, dies besser zu verstehen.",
+      "contextEn": "The line between everyday stress and needing extra support can be unclear. Talking with your doctor or midwife helps you understand this better.",
+      "whenToAskPl": "Możesz zapytać o to w każdej chwili, gdy czujesz, że potrzebujesz takiej rozmowy.",
+      "whenToAskDe": "Sie können dies jederzeit fragen, wenn Sie das Bedürfnis nach einem solchen Gespräch verspüren.",
+      "whenToAskEn": "You can ask this any time you feel you need that conversation.",
+      "relatedModules": [
+        "mental_wellbeing",
+        "doctor"
+      ]
+    }
+  ]
 }
